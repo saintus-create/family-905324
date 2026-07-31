@@ -1,0 +1,87 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
+
+instances:
+  - url: california-state-603082.docs.buildwithfern.com
+    edit-this-page:
+      github:
+        owner: fern-starter
+        repo: family-905324
+        branch: main
+      launch: dashboard
+title: California State | Documentation
+layout:
+  searchbar-placement: header
+  page-width: full
+  tabs-placement: header
+tabs:
+  home:
+    display-name: Home
+    icon: home
+  docs:
+    display-name: Docs
+    icon: book
+  changelog:
+    display-name: Changelog
+    icon: clock
+navigation:
+  - tab: home
+    layout:
+      - page: Home
+        path: docs/pages/welcome.mdx
+        slug: welcome
+  - tab: docs
+    layout:
+      - section: Get started
+        contents:
+          - page: Edit your docs
+            path: docs/pages/editing-your-docs.mdx
+            icon: fa-duotone fa-pen-to-square
+          - page: Write content
+            path: docs/pages/writing-content.mdx
+            icon: fa-duotone fa-file-lines
+          - page: Set up navigation
+            path: docs/pages/navigation.mdx
+            icon: fa-duotone fa-sitemap
+          - page: Customize your docs
+            path: docs/pages/customization.mdx
+            icon: fa-duotone fa-palette
+          - page: Support
+            path: docs/pages/support.mdx
+            icon: fa-duotone fa-headset
+  - tab: changelog
+    layout:
+      - changelog: docs/changelog
+navbar-links:
+  - type: filled
+    text: Edit
+    url: https://dashboard.buildwithfern.com
+colors:
+  accent-primary:
+    light: "#FFFFFF"
+    dark: "#323A45"
+  background:
+    light: "#FFFFFF"
+    dark: "#323A45"
+  border:
+    light: "#FFFFFF"
+    dark: "#323A45"
+theme:
+  page-actions: toolbar
+  footer-nav: minimal
+  tabs: bubble
+logo:
+  dark: docs/assets/logo-dark.png
+  light: docs/assets/logo-light.png
+  height: 20
+  href: https://buildwithfern.com
+favicon: docs/assets/favicon.svg
+css:
+  - styles.css
+  - docs/assets/onboarding-theme.css
+js: custom.js
+typography:
+  headingsFont:
+    name: Inter
+  bodyFont:
+    name: Inter
+ai-search: {}

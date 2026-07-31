@@ -1,0 +1,57 @@
+name: preview-docs
+
+on: pull_request
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      - name: Setup Fern CLI
+        uses: fern-api/setup-fern-cli@v1
+
+      - name: Generate preview URL
+        id: generate-docs
+        env:
+          FERN_TOKEN: ${{ secrets.FERN_TOKEN }}
+        run: |
+          OUTPUT=$(fern generate --docs --preview 2>&1) || true
+          echo "$OUTPUT"
+          URL=$(echo "$OUTPUT" | grep -oP 'Published docs to \K.*(?= \()')
+          echo "Preview URL: $URL"
+          echo "🌿 Preview your docs: $URL" > preview_url.txt
+
+      - name: Comment URL in PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          MARKER="<!-- fern-preview-docs -->"
+          {
+            cat preview_url.txt
+            printf '\n%s\n' "$MARKER"
+          } > comment-with-marker.md
+
+          # Upsert by looking up an existing comment that carries our hidden marker.
+          EXISTING_ID=$(gh api --paginate \
+            "repos/$REPO/issues/$PR_NUMBER/comments" \
+            --jq "[.[] | select(.body | contains(\"$MARKER\"))][0].id // empty")
+
+          jq -Rn --rawfile body comment-with-marker.md '{body: $body}' > payload.json
+
+          if [ -n "$EXISTING_ID" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$EXISTING_ID" --input payload.json
+          else
+            gh api -X POST "repos/$REPO/issues/$PR_NUMBER/comments" --input payload.json
+          fi
