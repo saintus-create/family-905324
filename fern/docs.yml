@@ -31,22 +31,28 @@ navigation:
         slug: welcome
   - tab: family-code
     layout:
+      - page: Family Code Overview
+        path: docs/pages/family-code-overview.mdx
+        icon: fa-regular fa-scale-balanced
       - section: Division 1
         contents:
-          - page: Part 1
-            path: docs/pages/editing-your-docs.mdx
+          - page: Division 1 Overview
+            path: docs/pages/family-code-division-1.mdx
+            icon: fa-regular fa-landmark
+          - page: Part 1 — Preliminary Provisions
+            path: docs/pages/family-code-division-1.mdx
             icon: fa-regular fa-book
-          - page: Part 2
-            path: docs/pages/writing-content.mdx
+          - page: Part 2 — Definitions
+            path: docs/pages/family-code-division-1.mdx
             icon: fa-regular fa-book
-      - section: Division 2
+      - section: Division 20
         contents:
-          - page: Part 1
-            path: docs/pages/navigation.mdx
-            icon: fa-regular fa-book
-          - page: Part 2
-            path: docs/pages/customization.mdx
-            icon: fa-regular fa-book
+          - page: Division 20 Overview
+            path: docs/pages/family-code-division-20.mdx
+            icon: fa-regular fa-landmark
+          - page: Family Court Services
+            path: docs/pages/family-code-division-20.mdx
+            icon: fa-regular fa-briefcase
       - section: Reference
         contents:
           - page: Search and citations

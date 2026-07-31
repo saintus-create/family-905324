@@ -10,6 +10,37 @@
     "Preserve official statutory citations and links for each section and subsection.",
     "Treat the JSON as a searchable navigational index for legal research and AI retrieval, not as a standalone legal opinion or replacement for the enacted code."
   ],
+  "legal_index": [
+    {
+      "division": "Division 1",
+      "title": "Preliminary Provisions and Definitions",
+      "range": "1-185",
+      "parts": [
+        {
+          "part": "Part 1",
+          "title": "Preliminary Provisions",
+          "range": "1-13"
+        },
+        {
+          "part": "Part 2",
+          "title": "Definitions",
+          "range": "50-155"
+        }
+      ]
+    },
+    {
+      "division": "Division 20",
+      "title": "Family Court Services",
+      "range": "20000-20043",
+      "parts": [
+        {
+          "part": "Part 1",
+          "title": "Family Court Services",
+          "range": "20000-20043"
+        }
+      ]
+    }
+  ],
   "california_family_code_structure": [
     {
       "division_number": "Division 1",
