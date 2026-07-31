@@ -516,10 +516,6 @@ logo:
   height: 20
   href: https://buildwithfern.com
 favicon: docs/assets/favicon.svg
-css:
-  - styles.css
-  - docs/assets/onboarding-theme.css
-js: custom.js
 typography:
   headingsFont:
     name: Inter
