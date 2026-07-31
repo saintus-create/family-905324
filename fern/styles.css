@@ -1,95 +1,170 @@
-/* Custom styles for Fern Docs Starter */
-
-/* Subtle linear gradient background */
-.fern-background-image {
-  background-image: linear-gradient(180deg, color-mix(in srgb, var(--accent) 10%, transparent) 0%, transparent 50%);
+:root {
+  --legal-bg: #f7f5f1;
+  --legal-surface: #ffffff;
+  --legal-border: #e7e1d7;
+  --legal-text: #1d1d1b;
+  --legal-muted: #5f5b54;
+  --legal-accent: #191919;
+  --legal-indent: 12px;
 }
 
-/* WebGL mesh gradient canvas */
-.mesh-gradient-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 0;
+body {
+  background: var(--legal-bg);
+  color: var(--legal-text);
 }
 
-/* Animated film grain overlay */
-.fern-background-image::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.95' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-repeat: repeat;
-  opacity: 0.1;
-  pointer-events: none;
-  animation: grain 3s steps(10) infinite;
+.fern-page,
+.fern-layout,
+main,
+article,
+aside,
+nav {
+  background: transparent;
 }
 
-@keyframes grain {
-  0%, 100% { background-position: 0 0; }
-  10% { background-position: -50px -100px; }
-  20% { background-position: -150px 50px; }
-  30% { background-position: 70px -250px; }
-  40% { background-position: -50px 250px; }
-  50% { background-position: -150px 100px; }
-  60% { background-position: 150px 0; }
-  70% { background-position: 0 150px; }
-  80% { background-position: 30px 350px; }
-  90% { background-position: -100px 100px; }
+.fern-sidebar,
+.fern-navigation,
+aside nav,
+nav[aria-label="Sidebar"],
+nav[role="navigation"] {
+  background: transparent;
+  border-right: 1px solid var(--legal-border);
 }
 
-/* Nebula WebGL background */
-.background-graphic-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 0;
+.fern-sidebar a,
+.fern-navigation a,
+aside nav a,
+nav a {
+  color: var(--legal-text);
+  border-radius: 0;
+  transition: opacity 120ms ease;
 }
 
-.background-graphic-wrapper canvas {
-  display: block;
-  width: 100%;
-  height: 100%;
+.fern-sidebar a:hover,
+.fern-navigation a:hover,
+aside nav a:hover,
+nav a:hover {
+  opacity: 0.8;
+  background: transparent;
 }
 
-/* Center header tabs (replaces the Ledger-rejected theme.tabs.alignment: center) */
-.fern-header-tabs {
-  justify-content: center;
+.fern-sidebar .fern-nav-item,
+.fern-navigation .fern-nav-item,
+aside nav > ul > li,
+nav li {
+  margin: 0;
+  padding: 0;
 }
 
-/* Welcome page: extra spacing around header and action buttons */
+.fern-sidebar .fern-nav-item > a,
+.fern-navigation .fern-nav-item > a,
+aside nav a {
+  padding: 0.5rem 0.75rem 0.5rem 0.5rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.fern-sidebar .fern-nav-item:nth-child(2) > a,
+.fern-navigation .fern-nav-item:nth-child(2) > a,
+aside nav a {
+  font-weight: 500;
+}
+
+.fern-sidebar .fern-nav-item .icon,
+.fern-navigation .fern-nav-item .icon,
+aside nav .icon {
+  color: var(--legal-muted);
+  min-width: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.fern-sidebar .fern-nav-item,
+.fern-navigation .fern-nav-item,
+aside nav li {
+  border-left: 1px solid transparent;
+}
+
+.fern-sidebar .fern-nav-item > ul,
+.fern-navigation .fern-nav-item > ul,
+aside nav ul ul {
+  margin-left: var(--legal-indent);
+  padding-left: 0.5rem;
+  border-left: 1px solid var(--legal-border);
+}
+
+.fern-sidebar .fern-nav-item > ul > li,
+.fern-navigation .fern-nav-item > ul > li,
+aside nav ul ul li {
+  padding-left: 0.25rem;
+}
+
+.fern-sidebar .fern-nav-item > ul > li > a,
+.fern-navigation .fern-nav-item > ul > li > a,
+aside nav ul ul a {
+  font-size: 0.92rem;
+  color: var(--legal-muted);
+}
+
 .fern-layout-overview article > header {
-  padding-top: 4rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.fern-layout-overview article > header > div:first-child {
-  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  text-align: left;
 }
 
 .fern-layout-overview article > header h1 {
-  font-size: 3rem;
+  font-size: clamp(2.25rem, 3vw, 3.2rem);
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.fern-layout-overview article > header p {
+  color: var(--legal-muted);
+  max-width: 62ch;
 }
 
 .welcome-help {
-  text-align: center;
+  border-top: 1px solid var(--legal-border);
+  padding-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .welcome-buttons {
   display: flex;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.fern-header-tabs {
   justify-content: center;
-  gap: 0.5rem;
-  margin-top: -1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 4rem;
+}
+
+.fern-header-tabs button,
+.fern-header-tabs a {
+  letter-spacing: 0.02em;
+}
+
+.fern-page-header,
+.fern-page-title,
+article h1,
+article h2,
+article h3 {
+  letter-spacing: -0.03em;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --legal-indent: 8px;
+  }
+
+  .fern-sidebar,
+  .fern-navigation,
+  aside nav,
+  nav[aria-label="Sidebar"],
+  nav[role="navigation"] {
+    border-right: none;
+    border-bottom: 1px solid var(--legal-border);
+  }
 }

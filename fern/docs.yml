@@ -8,7 +8,7 @@ instances:
         repo: family-905324
         branch: main
       launch: dashboard
-title: California State | Documentation
+title: California Family Code | Legal Research
 layout:
   searchbar-placement: header
   page-width: full
@@ -17,9 +17,9 @@ tabs:
   home:
     display-name: Home
     icon: home
-  docs:
-    display-name: Docs
-    icon: book
+  family-code:
+    display-name: Family Code
+    icon: scale
   changelog:
     display-name: Changelog
     icon: clock
@@ -29,25 +29,29 @@ navigation:
       - page: Home
         path: docs/pages/welcome.mdx
         slug: welcome
-  - tab: docs
+  - tab: family-code
     layout:
-      - section: Get started
+      - section: Division 1
         contents:
-          - page: Edit your docs
+          - page: Part 1
             path: docs/pages/editing-your-docs.mdx
-            icon: fa-duotone fa-pen-to-square
-          - page: Write content
+            icon: fa-regular fa-book
+          - page: Part 2
             path: docs/pages/writing-content.mdx
-            icon: fa-duotone fa-file-lines
-          - page: Set up navigation
+            icon: fa-regular fa-book
+      - section: Division 2
+        contents:
+          - page: Part 1
             path: docs/pages/navigation.mdx
-            icon: fa-duotone fa-sitemap
-          - page: Customize your docs
+            icon: fa-regular fa-book
+          - page: Part 2
             path: docs/pages/customization.mdx
-            icon: fa-duotone fa-palette
-          - page: Support
+            icon: fa-regular fa-book
+      - section: Reference
+        contents:
+          - page: Search and citations
             path: docs/pages/support.mdx
-            icon: fa-duotone fa-headset
+            icon: fa-regular fa-file-lines
   - tab: changelog
     layout:
       - changelog: docs/changelog

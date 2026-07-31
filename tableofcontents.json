@@ -1,4 +1,15 @@
 {
+  "document_title": "California Family Code",
+  "jurisdiction": "California",
+  "organization_model": "Division > Part > Chapter > Article > Section > Subsection",
+  "source": "California Legislative Information and official Family Code TOC",
+  "purpose": "This website exists to make the California Family Code easy to search, browse, and query with AI-assisted legal help while preserving the official statutory structure and citation trail.",
+  "best_practice_notes": [
+    "Use a stable hierarchical sequence from broad to narrow: Division, Part, Chapter, Article, Section.",
+    "Keep each node labeled with both a number and a descriptive title.",
+    "Preserve official statutory citations and links for each section and subsection.",
+    "Treat the JSON as a searchable navigational index for legal research and AI retrieval, not as a standalone legal opinion or replacement for the enacted code."
+  ],
   "california_family_code_structure": [
     {
       "division_number": "Division 1",
