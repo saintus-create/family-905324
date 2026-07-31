@@ -53,16 +53,18 @@ def build_division_page(division: dict) -> str:
     lines = [
         '---',
         f'title: {division_number}',
-        f'subtitle: {division_title}',
+        f'subtitle: {division_title or division_number}',
         f'slug: {slugify(division_number)}',
         '---',
         '',
-        f'## {division_number}',
-        '',
-        f'Title: {division_title}',
-        f'Range: {division_range}',
+        f'# {division_number}',
         '',
     ]
+    if division_title:
+        lines.append(division_title)
+    if division_range:
+        lines.append(f'Range: {division_range}')
+    lines.append('')
     for part in division.get('parts', []):
         part_number = part.get('part_number', 'Part')
         part_title = sanitize_text(part.get('part_title', '').replace(part_number, '').strip())
@@ -70,10 +72,12 @@ def build_division_page(division: dict) -> str:
         lines.extend([
             f'## {part_number}',
             '',
-            f'Title: {part_title}',
-            f'Range: {part_range}',
-            '',
         ])
+        if part_title:
+            lines.append(part_title)
+        if part_range:
+            lines.append(f'Range: {part_range}')
+        lines.append('')
     return '\n'.join(lines).rstrip() + '\n'
 
 
@@ -85,59 +89,86 @@ def build_part_page(division: dict, part: dict) -> str:
     lines = [
         '---',
         f'title: {division_number} {part_number}',
-        f'subtitle: {part_title}',
+        f'subtitle: {part_title or f"{division_number} {part_number}"}',
         f'slug: {slugify(f"{division_number} {part_number}")}',
         '---',
         '',
-        f'## {division_number}',
-        '',
-        f'Title: {sanitize_text(division.get("division_title", "").replace(division_number, "").strip())}',
-        f'Range: {parse_range(division.get("division_title", ""))}',
-        '',
-        f'## {part_number}',
-        '',
-        f'Title: {part_title}',
-        f'Range: {part_range}',
+        f'# {division_number} {part_number}',
         '',
     ]
+    if part_title:
+        lines.append(part_title)
+    if part_range:
+        lines.append(f'Range: {part_range}')
+    lines.append('')
     for chapter in part.get('chapters', []):
-        chapter_number = chapter.get('chapter_number', 'Chapter')
-        chapter_title = sanitize_text(chapter.get('chapter_title', '').replace(chapter_number, '').strip())
-        chapter_range = parse_range(chapter.get('chapter_title', ''))
-        lines.extend([
-            f'### {chapter_number}',
-            '',
-            f'Title: {chapter_title}',
-            f'Range: {chapter_range}',
-            '',
-        ])
+        chapter_number = chapter.get('chapter_number')
+        chapter_title = sanitize_text(chapter.get('chapter_title', '').replace(chapter_number or '', '').strip())
+        if chapter_number:
+            lines.extend([
+                f'## {chapter_number}',
+                '',
+            ])
+            if chapter_title:
+                lines.append(chapter_title)
+                lines.append('')
         for section in chapter.get('sections', []):
             section_number = section.get('section_number', 'Section')
-            lines.append(f'#### {section_number}')
-            lines.append('')
+            lines.extend([
+                f'### {section_number}',
+                '',
+            ])
             for subsection in section.get('subsections', []):
                 value = sanitize_text(subsection.get('value', ''))
                 if value:
                     lines.append(value)
                     lines.append('')
+    if not part.get('chapters'):
+        lines.append('No chapter entries are available for this part in the source index.')
+        lines.append('')
     return '\n'.join(lines).rstrip() + '\n'
 
 
-def build_overview_page() -> str:
-    return '''---
-title: Family Code Overview
-subtitle: California Family Code
-slug: family-code-overview
----
-
-## Family Code Overview
-
-'''
+def build_overview_page(structure) -> str:
+    lines = [
+        '---',
+        'title: Family Code Overview',
+        'subtitle: California Family Code',
+        'slug: family-code-overview',
+        '---',
+        '',
+        '# Family Code Overview',
+        '',
+    ]
+    for division in structure:
+        division_number = division.get('division_number', 'Division')
+        division_title = sanitize_text(division.get('division_title', '').replace(division_number, '').strip())
+        division_range = parse_range(division.get('division_title', ''))
+        lines.extend([
+            f'## {division_number}',
+            '',
+        ])
+        if division_title:
+            lines.append(division_title)
+        if division_range:
+            lines.append(f'Range: {division_range}')
+        lines.append('')
+        for part in division.get('parts', []):
+            part_number = part.get('part_number', 'Part')
+            part_title = sanitize_text(part.get('part_title', '').replace(part_number, '').strip())
+            part_range = parse_range(part.get('part_title', ''))
+            lines.extend([
+                f'- {part_number}: {part_title}',
+            ])
+            if part_range:
+                lines.append(f'  Range: {part_range}')
+        lines.append('')
+    return '\n'.join(lines).rstrip() + '\n'
 
 
 def write_pages(structure):
     PAGES_DIR.mkdir(parents=True, exist_ok=True)
-    overview = build_overview_page()
+    overview = build_overview_page(structure)
     (PAGES_DIR / 'family-code-overview.mdx').write_text(overview)
     generated = []
     for division in structure:
@@ -248,10 +279,6 @@ def build_docs_yaml(generated):
         '  height: 20',
         '  href: https://buildwithfern.com',
         'favicon: docs/assets/favicon.svg',
-        'css:',
-        '  - styles.css',
-        '  - docs/assets/onboarding-theme.css',
-        'js: custom.js',
         'typography:',
         '  headingsFont:',
         '    name: Inter',
