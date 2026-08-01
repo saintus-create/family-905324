@@ -317,20 +317,20 @@ colors:
     light: '#005EA2'
     dark: '#4FA8E0'
   background:
-    light: '#F7F8F6'
-    dark: '#0F1B2E'
+    light: '#FFFFFF'
+    dark: '#000000'
   border:
     light: '#D5D9DD'
     dark: '#2A3B52'
   sidebar-background:
-    light: '#F7F8F6'
-    dark: '#0F1B2E'
+    light: '#FFFFFF'
+    dark: '#000000'
   header-background:
     light: '#123B6D'
     dark: '#123B6D'
   card-background:
     light: '#FFFFFF'
-    dark: '#172638'
+    dark: '#141414'
   accent-1:
     light: '#C69214'
     dark: '#D9A93A'
