@@ -331,6 +331,9 @@ colors:
   card-background:
     light: '#FFFFFF'
     dark: '#172638'
+  accent-1:
+    light: '#C69214'
+    dark: '#D9A93A'
 theme:
   page-actions: toolbar
   footer-nav: minimal
