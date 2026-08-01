@@ -312,20 +312,25 @@ navigation:
 - tab: changelog
   layout:
   - changelog: docs/changelog
-navbar-links:
-- type: filled
-  text: Edit
-  url: https://dashboard.buildwithfern.com
 colors:
   accent-primary:
     light: '#1A5276'
-    dark: '#7FB3D5'
+    dark: '#A9D6F5'
   background:
     light: '#FFFFFF'
-    dark: '#323A45'
+    dark: '#1B222C'
   border:
-    light: '#D5D8DC'
-    dark: '#4A5568'
+    light: '#B8BFC7'
+    dark: '#6B7F98'
+  sidebar-background:
+    light: '#F7F8FA'
+    dark: '#161C24'
+  header-background:
+    light: '#FFFFFF'
+    dark: '#12171F'
+  card-background:
+    light: '#FFFFFF'
+    dark: '#2E3A48'
 theme:
   page-actions: toolbar
   footer-nav: minimal
