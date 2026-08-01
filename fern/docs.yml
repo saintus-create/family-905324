@@ -360,3 +360,5 @@ ai-search:
     and Section when applicable.
 
     '
+css:
+- docs/assets/onboarding-theme.css
