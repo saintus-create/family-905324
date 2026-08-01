@@ -314,23 +314,23 @@ navigation:
   - changelog: docs/changelog
 colors:
   accent-primary:
-    light: '#1A5276'
-    dark: '#A9D6F5'
+    light: '#005EA2'
+    dark: '#4FA8E0'
   background:
-    light: '#FFFFFF'
-    dark: '#1B222C'
+    light: '#F7F8F6'
+    dark: '#0F1B2E'
   border:
-    light: '#B8BFC7'
-    dark: '#6B7F98'
+    light: '#D5D9DD'
+    dark: '#2A3B52'
   sidebar-background:
-    light: '#F7F8FA'
-    dark: '#161C24'
+    light: '#F7F8F6'
+    dark: '#0F1B2E'
   header-background:
-    light: '#FFFFFF'
-    dark: '#12171F'
+    light: '#123B6D'
+    dark: '#123B6D'
   card-background:
     light: '#FFFFFF'
-    dark: '#2E3A48'
+    dark: '#172638'
 theme:
   page-actions: toolbar
   footer-nav: minimal
@@ -343,9 +343,9 @@ logo:
 favicon: docs/assets/favicon.svg
 typography:
   headingsFont:
-    name: Inter
+    name: Public Sans
   bodyFont:
-    name: Inter
+    name: Public Sans
 ai-search:
   location:
   - docs
