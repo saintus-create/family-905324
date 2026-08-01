@@ -29,6 +29,10 @@ navigation:
       - page: Home
         path: docs/pages/welcome.mdx
         slug: welcome
+      - page: Research Help
+        path: docs/pages/support.mdx
+        icon: fa-regular fa-circle-question
+        slug: support
   - tab: family-code
     layout:
       - page: Family Code Overview
@@ -522,6 +526,8 @@ typography:
   bodyFont:
     name: Inter
 ai-search:
+  location:
+    - docs
   system-prompt: |
     You are answering questions about the California Family Code for legal
     research purposes. Answer directly and substantively, including general
