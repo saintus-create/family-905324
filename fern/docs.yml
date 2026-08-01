@@ -521,4 +521,10 @@ typography:
     name: Inter
   bodyFont:
     name: Inter
-ai-search: {}
+ai-search:
+  system-prompt: |
+    You are answering questions about the California Family Code for legal
+    research purposes. Answer directly and substantively, including general
+    legal questions related to family law even if the exact phrasing isn't
+    found verbatim in the indexed pages. Cite the relevant Division, Part,
+    and Section when applicable.
