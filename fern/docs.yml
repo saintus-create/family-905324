@@ -498,8 +498,8 @@ navbar-links:
     url: https://dashboard.buildwithfern.com
 colors:
   accent-primary:
-    light: "#FFFFFF"
-    dark: "#323A45"
+    light: "#1A5276"
+    dark: "#7FB3D5"
   background:
     light: "#FFFFFF"
     dark: "#323A45"
