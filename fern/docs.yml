@@ -309,6 +309,9 @@ navigation:
   - page: Division 20 Part 1
     path: docs/pages/division-20-part-1.mdx
     icon: fa-regular fa-file-lines
+  - page: Case Law
+    path: docs/pages/case-law.mdx
+    icon: fa-regular fa-gavel
 - tab: changelog
   layout:
   - changelog: docs/changelog
