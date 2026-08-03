@@ -311,29 +311,29 @@ navigation:
     icon: fa-regular fa-file-lines
   - page: Case Law
     path: docs/pages/case-law.mdx
-    icon: fa-regular fa-gavel
+    icon: fa-regular fa-bookmark
 - tab: changelog
   layout:
   - changelog: docs/changelog
 colors:
   accent-primary:
-    light: '#000000'
-    dark: '#FFFFFF'
+    light: '#0B5FA5'
+    dark: '#4FA8E0'
   background:
     light: '#FFFFFF'
-    dark: '#000000'
+    dark: '#1A1D21'
   border:
     light: '#000000'
     dark: '#FFFFFF'
   sidebar-background:
     light: '#FFFFFF'
-    dark: '#000000'
+    dark: '#1A1D21'
   header-background:
     light: '#000000'
-    dark: '#000000'
+    dark: '#1A1D21'
   card-background:
     light: '#000000'
-    dark: '#000000'
+    dark: '#1A1D21'
 theme:
   page-actions: toolbar
   footer-nav: minimal

@@ -27,3 +27,10 @@ body, p {
     font-size: 1.0625rem !important;
     line-height: 1.65 !important;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-image: radial-gradient(ellipse at top left, #22262b 0%, #1A1D21 55%) !important;
+        background-attachment: fixed !important;
+    }
+}
