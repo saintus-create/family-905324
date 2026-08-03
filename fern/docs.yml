@@ -329,10 +329,10 @@ colors:
     light: '#FFFFFF'
     dark: '#1A1D21'
   header-background:
-    light: '#000000'
+    light: '#1A1D21'
     dark: '#1A1D21'
   card-background:
-    light: '#000000'
+    light: '#1A1D21'
     dark: '#1A1D21'
 theme:
   page-actions: toolbar
