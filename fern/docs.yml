@@ -317,26 +317,23 @@ navigation:
   - changelog: docs/changelog
 colors:
   accent-primary:
-    light: '#005EA2'
-    dark: '#4FA8E0'
+    light: '#000000'
+    dark: '#FFFFFF'
   background:
     light: '#FFFFFF'
     dark: '#000000'
   border:
-    light: '#D5D9DD'
-    dark: '#2A3B52'
+    light: '#000000'
+    dark: '#FFFFFF'
   sidebar-background:
     light: '#FFFFFF'
     dark: '#000000'
   header-background:
-    light: '#123B6D'
-    dark: '#123B6D'
+    light: '#000000'
+    dark: '#000000'
   card-background:
-    light: '#FFFFFF'
-    dark: '#141414'
-  accent-1:
-    light: '#C69214'
-    dark: '#D9A93A'
+    light: '#000000'
+    dark: '#000000'
 theme:
   page-actions: toolbar
   footer-nav: minimal
