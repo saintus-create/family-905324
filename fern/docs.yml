@@ -1,17 +1,8 @@
-Here is the fixed and perfected version of your configuration.
-
-**Key Fixes Applied:**
-1.  **Added Missing Slugs:** Generated slugs for all pages in the `family-code` tab based on the `page` names and file paths to ensure navigation works.
-2.  **Standardized Navigation Syntax:** Updated the Changelog navigation item to use the standard `page:` key format instead of a raw map key, matching the structure of other items.
-3.  **Fixed Colors/Contrast:** Adjusted the `card-background` colors to provide better visual contrast against the `background` colors (changed light card to a soft gray and dark card to a slightly lighter dark gray).
-4.  **Corrected Indentation:** Ensured consistent 2-space indentation throughout the YAML for validity.
-5.  **Preserved Icons:** Ensured all navigation items retained their icons where they were present in the source.
-
 ```yaml
 url: california-state-603082.docs.buildwithfern.com
 edit-this-page:
   github:
-    owner: fern-starter
+    owner: saintus-create
     repo: family-905324
     branch: main
   launch: dashboard
