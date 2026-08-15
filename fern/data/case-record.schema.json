@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Family Law Case Record",
+  "type": "object",
+  "required": ["id", "name", "court", "date", "jurisdiction", "sources"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "citation": {"type": "string"},
+    "court": {"type": "string"},
+    "date": {"type": "string"},
+    "jurisdiction": {"type": "string"},
+    "case_type": {"type": "string"},
+    "procedural_posture": {"type": "string"},
+    "subjects": {"type": "array", "items": {"type": "string"}},
+    "statutes": {"type": "array", "items": {"type": "string"}},
+    "rules": {"type": "array", "items": {"type": "string"}},
+    "holding": {"type": "string"},
+    "reasoning": {"type": "string"},
+    "dissents": {"type": "array", "items": {"type": "object", "properties": {"judge": {"type": "string"}, "issue": {"type": "string"}, "summary": {"type": "string"}}}},
+    "cites": {"type": "array", "items": {"type": "string"}},
+    "cited_by": {"type": "array", "items": {"type": "string"}},
+    "related_bills": {"type": "array", "items": {"type": "string"}},
+    "subsequent_treatment": {"type": "array", "items": {"type": "object", "properties": {"case": {"type": "string"}, "treatment": {"type": "string"}}}},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["title", "url"], "properties": {"title": {"type": "string"}, "url": {"type": "string", "format": "uri"}, "accessed": {"type": "string"}}}}
+  }
+}
