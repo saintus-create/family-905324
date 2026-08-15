@@ -1,0 +1,31 @@
+{
+  "version": "0.1",
+  "principles": [
+    "AI output is analysis, not authority.",
+    "Every substantive proposition should retain source provenance.",
+    "The system must distinguish quoted source material, extracted facts, researcher interpretation, empirical findings, and model-generated analysis.",
+    "Unknown or disputed facts must remain unknown or disputed rather than being completed by inference.",
+    "Legal conclusions should identify the governing jurisdiction and date-sensitive authority.",
+    "The system should expose citations and supporting passages where technically possible.",
+    "Models should not fabricate cases, statutes, legislative history, statistics, procedural events, or quotations.",
+    "Comparative analysis must preserve jurisdictional differences rather than treating similar labels as equivalent law."
+  ],
+  "analysis_modes": [
+    "case-summary",
+    "case-comparison",
+    "citation-analysis",
+    "legislative-history",
+    "argument-mapping",
+    "rhetorical-analysis",
+    "dialectical-analysis",
+    "empirical-analysis",
+    "cross-jurisdictional-comparison"
+  ],
+  "output_requirements": [
+    "sources",
+    "jurisdiction",
+    "temporal-scope",
+    "confidence-or-limitations",
+    "distinction-between-source-and-inference"
+  ]
+}
