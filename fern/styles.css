@@ -1,0 +1,104 @@
+:root {
+  --research-content-width: 78rem;
+}
+
+/* The legal-research palette is intentionally neutral. Color identifies meaning, not decoration. */
+.fern-layout-page {
+  background: var(--background);
+}
+
+.fern-page-content {
+  max-width: var(--research-content-width);
+}
+
+/* Compact navigation: labels identify destinations; pages carry the full title. */
+.fern-sidebar-item,
+.fern-sidebar-item > a {
+  min-width: 0;
+}
+
+.fern-sidebar-item > a,
+.fern-sidebar-item a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Quiet, editorial surfaces. */
+.fern-card {
+  border-color: var(--border);
+  background: var(--card-background);
+  box-shadow: 0 1px 2px var(--grayscale-a3);
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.fern-card:hover {
+  border-color: var(--accent-a6);
+  box-shadow: 0 8px 24px var(--grayscale-a4);
+  transform: translateY(-1px);
+}
+
+/* A restrained research-grid texture for pages that opt into it. */
+.research-canvas {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-3);
+  background:
+    linear-gradient(var(--grayscale-a2) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grayscale-a2) 1px, transparent 1px),
+    var(--background);
+  background-size: 24px 24px;
+}
+
+.research-canvas::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 15% 10%, var(--accent-a3), transparent 35%);
+}
+
+/* Semantic research markers. */
+.research-marker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--grayscale-a11);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-marker::before {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 999px;
+  background: var(--accent-9);
+  box-shadow: 0 0 0 3px var(--accent-a3);
+}
+
+/* Dark mode should feel like ink on paper, not a neon nightclub. */
+.dark .fern-card {
+  box-shadow: 0 2px 8px var(--grayscale-a4);
+}
+
+.dark .research-canvas {
+  background:
+    linear-gradient(var(--grayscale-a2) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grayscale-a2) 1px, transparent 1px),
+    var(--background);
+  background-size: 24px 24px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fern-card {
+    transition: none;
+  }
+
+  .fern-card:hover {
+    transform: none;
+  }
+}
