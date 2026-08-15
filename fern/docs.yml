@@ -11,6 +11,26 @@ layout:
   searchbar-placement: header
   page-width: full
   tabs-placement: header
+css: ./styles.css
+colors:
+  accent-primary:
+    light: "#3B5F7A"
+    dark: "#8FB6D2"
+  background:
+    light: "#F8F7F4"
+    dark: "#17191C"
+  border:
+    light: "#D9D7D2"
+    dark: "#34383D"
+  sidebar-background:
+    light: "#F1F0EC"
+    dark: "#1D2024"
+  header-background:
+    light: "#F8F7F4"
+    dark: "#17191C"
+  card-background:
+    light: "#FFFFFF"
+    dark: "#202328"
 tabs:
   home:
     display-name: Home
@@ -43,6 +63,9 @@ navigation:
     path: docs/pages/welcome.mdx
     slug: welcome
     icon: home
+  - page: Explore the Legal Landscape
+    path: docs/pages/visual-research-guide.mdx
+    icon: fa-regular fa-compass
   - page: Research Workbench
     path: docs/pages/research-workbench.mdx
     icon: fa-regular fa-magnifying-glass
@@ -55,6 +78,12 @@ navigation:
   - page: Research Workbench
     path: docs/pages/research-workbench.mdx
     icon: fa-regular fa-magnifying-glass
+  - page: Explore the Legal Landscape
+    path: docs/pages/visual-research-guide.mdx
+    icon: fa-regular fa-compass
+  - page: Research Data Model
+    path: docs/pages/research-data-model.mdx
+    icon: fa-regular fa-diagram-project
   - section: Research foundations
     collapsed: false
     contents:
