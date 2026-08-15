@@ -1,0 +1,71 @@
+{
+  "version": "0.1",
+  "description": "Structured index for California family-law case records. Records should be source-verified before publication as substantive legal data.",
+  "records": [
+    {
+      "id": "ashby-v-ashby-2021",
+      "name": "Ashby v. Ashby",
+      "citation": "68 Cal.App.5th 491 (2021)",
+      "court": "California Court of Appeal, Fourth District, Division 3",
+      "date": "2021",
+      "jurisdiction": "California",
+      "case_type": "Domestic violence restraining order",
+      "subjects": ["DVRO", "renewal", "support", "custody", "litigation conduct"],
+      "sources": [
+        {"title": "Existing case-law index", "path": "../docs/pages/case-law.mdx", "status": "secondary-index-entry"}
+      ]
+    },
+    {
+      "id": "burquet-v-brumbaugh-2014",
+      "name": "Burquet v. Brumbaugh",
+      "citation": "223 Cal.App.4th 1140 (2014)",
+      "court": "California Court of Appeal",
+      "date": "2014",
+      "jurisdiction": "California",
+      "case_type": "Domestic violence restraining order",
+      "subjects": ["DVPA", "disturbing the peace"],
+      "sources": [
+        {"title": "Existing case-law index", "path": "../docs/pages/case-law.mdx", "status": "secondary-index-entry"}
+      ]
+    },
+    {
+      "id": "celia-s-v-hugo-h-2016",
+      "name": "Celia S. v. Hugo H.",
+      "citation": "3 Cal.App.5th 655 (2016)",
+      "court": "California Court of Appeal",
+      "date": "2016",
+      "jurisdiction": "California",
+      "case_type": "Custody",
+      "subjects": ["Family Code § 3044", "domestic violence", "custody"],
+      "sources": [
+        {"title": "Existing case-law index", "path": "../docs/pages/case-law.mdx", "status": "secondary-index-entry"}
+      ]
+    },
+    {
+      "id": "jameson-v-desta-2018",
+      "name": "Jameson v. Desta",
+      "citation": "5 Cal.5th 594 (2018)",
+      "court": "California Supreme Court",
+      "date": "2018",
+      "jurisdiction": "California",
+      "case_type": "Access to court reporter",
+      "subjects": ["fee waiver", "court reporter", "access to justice"],
+      "sources": [
+        {"title": "Existing case-law index", "path": "../docs/pages/case-law.mdx", "status": "secondary-index-entry"}
+      ]
+    },
+    {
+      "id": "jaime-g-v-hl-2018",
+      "name": "Jaime G. v. H.L.",
+      "citation": "25 Cal.App.5th 794 (2018)",
+      "court": "California Court of Appeal",
+      "date": "2018",
+      "jurisdiction": "California",
+      "case_type": "Custody",
+      "subjects": ["Family Code § 3044", "domestic violence", "custody findings"],
+      "sources": [
+        {"title": "Existing case-law index", "path": "../docs/pages/case-law.mdx", "status": "secondary-index-entry"}
+      ]
+    }
+  ]
+}
