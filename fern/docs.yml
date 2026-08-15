@@ -6,7 +6,7 @@ instances:
       repo: family-905324
       branch: main
     launch: dashboard
-title: California Family Code & Rules of Court | Legal Research
+title: California Family Law Research | Code, Cases, Legislation & Analysis
 layout:
   searchbar-placement: header
   page-width: full
@@ -38,21 +38,18 @@ tabs:
   research:
     display-name: Research
     icon: fa-regular fa-magnifying-glass
+  law:
+    display-name: Law
+    icon: fa-regular fa-scale-balanced
   legislation:
     display-name: Legislation
     icon: fa-regular fa-landmark
-  family-code:
-    display-name: Family Code
-    icon: fa-regular fa-book-open
-  rules:
-    display-name: Court Rules
-    icon: fa-regular fa-scale-balanced
+  people:
+    display-name: People & Institutions
+    icon: fa-regular fa-users
   analysis:
     display-name: Analysis
     icon: fa-regular fa-diagram-project
-  abuse:
-    display-name: Abusive Personality
-    icon: fa-regular fa-user
   changelog:
     display-name: Changelog
     icon: fa-regular fa-clock
@@ -87,12 +84,12 @@ navigation:
   - section: Research foundations
     collapsed: false
     contents:
-    - page: Legal hierarchy
-      path: docs/pages/family-code-overview.mdx
-      icon: fa-regular fa-list
     - page: Case law
       path: docs/pages/case-law.mdx
       icon: fa-regular fa-gavel
+    - page: Civil rights & legal change
+      path: docs/pages/civil-rights-history.mdx
+      icon: fa-regular fa-landmark
     - page: Research Help
       path: docs/pages/support.mdx
       icon: fa-regular fa-circle-question
@@ -108,6 +105,74 @@ navigation:
     - page: Empirical methods
       path: docs/pages/research-workbench.mdx
       icon: fa-regular fa-chart-line
+- tab: law
+  layout:
+  - page: Family Code Overview
+    path: docs/pages/family-code-overview.mdx
+    icon: fa-regular fa-book-open
+  - page: Court Rules Overview
+    path: docs/pages/court-rules-overview.mdx
+    icon: fa-regular fa-scale-balanced
+  - section: Family Code
+    collapsed: true
+    contents:
+    - page: Division 1
+      path: docs/pages/division-1.mdx
+    - page: Division 2
+      path: docs/pages/division-2.mdx
+    - page: Division 2.5
+      path: docs/pages/division-2-5.mdx
+    - page: Division 3
+      path: docs/pages/division-3.mdx
+    - page: Division 4
+      path: docs/pages/division-4.mdx
+    - page: Division 5
+      path: docs/pages/division-5.mdx
+    - page: Division 6
+      path: docs/pages/division-6.mdx
+    - page: Division 7
+      path: docs/pages/division-7.mdx
+    - page: Division 8
+      path: docs/pages/division-8.mdx
+    - page: Division 9
+      path: docs/pages/division-9.mdx
+    - page: Division 10
+      path: docs/pages/division-10.mdx
+    - page: Division 11
+      path: docs/pages/division-11.mdx
+    - page: Division 12
+      path: docs/pages/division-12.mdx
+    - page: Division 13
+      path: docs/pages/division-13.mdx
+    - page: Division 14
+      path: docs/pages/division-14.mdx
+    - page: Division 17
+      path: docs/pages/division-17.mdx
+    - page: Division 20
+      path: docs/pages/division-20.mdx
+  - section: California Rules of Court
+    collapsed: true
+    contents:
+    - page: Title One
+      path: docs/pages/title-1.mdx
+    - page: Title Two
+      path: docs/pages/title-2.mdx
+    - page: Title Three
+      path: docs/pages/title-3.mdx
+    - page: Title Four
+      path: docs/pages/title-4.mdx
+    - page: Title Five
+      path: docs/pages/title-5.mdx
+    - page: Title Six
+      path: docs/pages/title-6.mdx
+    - page: Title Seven
+      path: docs/pages/title-7.mdx
+    - page: Title Eight
+      path: docs/pages/title-8.mdx
+    - page: Title Nine
+      path: docs/pages/title-9.mdx
+    - page: Title Ten
+      path: docs/pages/title-10.mdx
 - tab: legislation
   layout:
   - page: Legislation & Legislative History
@@ -134,106 +199,26 @@ navigation:
     - page: Statutory lineage
       path: docs/pages/legislation.mdx
       icon: fa-regular fa-diagram-project
-- tab: family-code
+- tab: people
   layout:
-  - page: Family Code Overview
-    path: docs/pages/family-code-overview.mdx
-    icon: fa-regular fa-book-open
-  - section: Family Code
+  - page: People & Institutions
+    path: docs/pages/people-institutions.mdx
+    icon: fa-regular fa-users
+  - section: Directory
     collapsed: false
     contents:
-    - page: Division 1
-      path: docs/pages/division-1.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 2
-      path: docs/pages/division-2.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 2.5
-      path: docs/pages/division-2-5.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 3
-      path: docs/pages/division-3.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 4
-      path: docs/pages/division-4.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 5
-      path: docs/pages/division-5.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 6
-      path: docs/pages/division-6.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 7
-      path: docs/pages/division-7.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 8
-      path: docs/pages/division-8.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 9
-      path: docs/pages/division-9.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 10
-      path: docs/pages/division-10.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 11
-      path: docs/pages/division-11.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 12
-      path: docs/pages/division-12.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 13
-      path: docs/pages/division-13.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 14
-      path: docs/pages/division-14.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 17
-      path: docs/pages/division-17.mdx
-      icon: fa-regular fa-file-lines
-    - page: Division 20
-      path: docs/pages/division-20.mdx
-      icon: fa-regular fa-file-lines
-  - page: Case Law
-    path: docs/pages/case-law.mdx
-    icon: fa-regular fa-gavel
-- tab: rules
-  layout:
-  - page: Court Rules Overview
-    path: docs/pages/court-rules-overview.mdx
-    icon: fa-regular fa-scale-balanced
-  - section: California Rules of Court
-    collapsed: false
-    contents:
-    - page: Title One
-      path: docs/pages/title-1.mdx
-      icon: fa-regular fa-book
-    - page: Title Two
-      path: docs/pages/title-2.mdx
-      icon: fa-regular fa-book
-    - page: Title Three
-      path: docs/pages/title-3.mdx
-      icon: fa-regular fa-book
-    - page: Title Four
-      path: docs/pages/title-4.mdx
-      icon: fa-regular fa-book
-    - page: Title Five
-      path: docs/pages/title-5.mdx
-      icon: fa-regular fa-book
-    - page: Title Six
-      path: docs/pages/title-6.mdx
-      icon: fa-regular fa-book
-    - page: Title Seven
-      path: docs/pages/title-7.mdx
-      icon: fa-regular fa-book
-    - page: Title Eight
-      path: docs/pages/title-8.mdx
-      icon: fa-regular fa-book
-    - page: Title Nine
-      path: docs/pages/title-9.mdx
-      icon: fa-regular fa-book
-    - page: Title Ten
-      path: docs/pages/title-10.mdx
-      icon: fa-regular fa-book
+    - page: Attorneys
+      path: docs/pages/people-institutions.mdx
+    - page: Courts & judges
+      path: docs/pages/people-institutions.mdx
+    - page: Universities & scholars
+      path: docs/pages/people-institutions.mdx
+    - page: Legal aid & clinics
+      path: docs/pages/people-institutions.mdx
+    - page: Agencies
+      path: docs/pages/people-institutions.mdx
+    - page: Organizations
+      path: docs/pages/people-institutions.mdx
 - tab: analysis
   layout:
   - page: Research Workbench
@@ -254,11 +239,6 @@ navigation:
     - page: AI-assisted analysis
       path: docs/pages/research-workbench.mdx
       icon: fa-regular fa-sparkles
-- tab: abuse
-  layout:
-  - page: The Abusive Personality
-    path: docs/pages/abusive-personality.mdx
-    icon: fa-regular fa-book
 - tab: changelog
   layout:
   - changelog: docs/changelog
