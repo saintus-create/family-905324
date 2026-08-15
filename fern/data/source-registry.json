@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "purpose": "Canonical provenance registry for legal research records.",
+  "source_classes": [
+    {"id":"primary-government","label":"Primary government source","examples":["California Legislative Information","California Courts","California Code","California Rules of Court","Federal courts","Congress"]},
+    {"id":"judicial","label":"Judicial source","examples":["Official opinions","court-hosted opinions","authorized reporters"]},
+    {"id":"legislative","label":"Legislative record","examples":["Bill text","committee analyses","votes","chaptered legislation"]},
+    {"id":"academic","label":"Academic source","examples":["Peer-reviewed article","university research","scholarly book"]},
+    {"id":"empirical","label":"Empirical source","examples":["Dataset","survey","administrative data","statistical report"]},
+    {"id":"secondary","label":"Secondary source","examples":["Treatise","practice guide","legal commentary"]}
+  ],
+  "verification_states": ["verified","indexed","unresolved","analytical"],
+  "required_provenance": ["source_class","title","publisher_or_author","publication_or_effective_date","retrieval_date","locator"],
+  "rules": [
+    "Primary legal propositions require a primary or authoritative source whenever one is available.",
+    "Secondary summaries must not silently become holdings or statutory text.",
+    "Analytical relationships must be labeled as analytical unless a source documents the relationship.",
+    "Historical and cross-jurisdictional claims require jurisdiction and temporal scope.",
+    "AI-generated propositions must retain links to the records and sources supporting them."
+  ]
+}
