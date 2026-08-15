@@ -1,0 +1,40 @@
+{
+  "version": "0.1",
+  "description": "Canonical cross-reference contract for connecting legal authorities, cases, legislation, people, institutions, evidence, history, and analysis.",
+  "relationship_types": [
+    "cites",
+    "interprets",
+    "applies",
+    "amends",
+    "repeals",
+    "implements",
+    "relates-to",
+    "parallel-to",
+    "historical-precursor",
+    "argued-in",
+    "authored-by",
+    "affiliated-with",
+    "supported-by",
+    "contradicted-by",
+    "criticized-by",
+    "discussed-in"
+  ],
+  "required_fields": ["source", "target", "relationship", "provenance", "verification_status"],
+  "verification_status": ["verified", "indexed", "unresolved", "analytical"],
+  "coverage_targets": {
+    "authority": ["case", "legislation", "rule", "evidence", "history"],
+    "case": ["authority", "case", "legislation", "person", "evidence", "argument", "history"],
+    "legislation": ["authority", "case", "legislation", "person", "evidence", "history", "parallel-act"],
+    "person": ["case", "legislation", "institution", "evidence", "publication"],
+    "institution": ["person", "evidence", "case", "publication"],
+    "evidence": ["case", "authority", "legislation", "argument", "person", "institution", "history"],
+    "argument": ["case", "authority", "evidence", "argument", "legislation", "history"]
+  },
+  "rules": [
+    "Never infer a substantive legal relationship solely from shared keywords.",
+    "Preserve the source that establishes each relationship.",
+    "Do not upgrade indexed or analytical relationships to verified without review.",
+    "Allow one record to have multiple relationships to the same target when each has independent provenance.",
+    "Keep legal authority, empirical evidence, historical context, and analytical interpretation distinguishable in presentation."
+  ]
+}
