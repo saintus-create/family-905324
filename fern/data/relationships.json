@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "relationship_types": {
+    "case-cites-case": {"from":"case","to":"case","evidence_required":true},
+    "case-interprets-authority": {"from":"case","to":"authority","evidence_required":true},
+    "case-applies-rule": {"from":"case","to":"authority","evidence_required":true},
+    "case-relates-legislation": {"from":"case","to":"legislation","evidence_required":true},
+    "legislation-amends-authority": {"from":"legislation","to":"authority","evidence_required":true},
+    "legislation-related-legislation": {"from":"legislation","to":"legislation","evidence_required":true},
+    "legislation-parallel-legislation": {"from":"legislation","to":"legislation","evidence_required":true},
+    "person-argued-case": {"from":"person","to":"case","evidence_required":true},
+    "person-authored-publication": {"from":"person","to":"evidence","evidence_required":true},
+    "institution-hosts-research": {"from":"institution","to":"evidence","evidence_required":true},
+    "claim-supported-by-evidence": {"from":"argument","to":"evidence","evidence_required":true},
+    "argument-attacks-argument": {"from":"argument","to":"argument","evidence_required":true}
+  },
+  "relationship_statuses": ["documented","inferred","analytical","unresolved"]
+}
