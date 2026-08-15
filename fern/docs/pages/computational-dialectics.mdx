@@ -1,0 +1,44 @@
+---
+title: Computational Dialectics
+subtitle: Modeling competing legal positions as structured arguments and responses
+---
+
+<Callout intent="info">
+Computational dialectics is intended to expose the structure of disagreement. It does not decide which party is correct merely because one position can be represented more neatly.
+</Callout>
+
+## Core objects
+
+`POSITION` — a party, court, legislature, or analyst's stated position.
+
+`CLAIM` — a proposition within that position.
+
+`SUPPORT` — authority, evidence, or reasoning offered for a claim.
+
+`ATTACK` — a contradiction, exception, evidentiary challenge, or competing reason.
+
+`DEFENSE` — a response preserving or narrowing a challenged claim.
+
+`CONCESSION` — an expressly accepted proposition or limitation.
+
+`STATUS` — supported, challenged, defended, unresolved, withdrawn, or superseded.
+
+## Example structure
+
+`CLAIM A`
+
+→ supported by `AUTHORITY 1`
+
+→ attacked by `CLAIM B`
+
+→ defended by `AUTHORITY 2`
+
+→ remains `CONTESTED`
+
+The eventual graph can connect each node to the exact source material from which it was derived.
+
+## Why this matters for case analysis
+
+A judicial opinion often contains multiple layers of reasoning: competing factual propositions, alternative legal tests, responses to arguments, and reasons for rejecting or limiting a position. Flattening those relationships into a summary can erase the actual dialectical structure.
+
+The system should therefore preserve disagreement instead of prematurely resolving it.
