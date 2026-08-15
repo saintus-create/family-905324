@@ -18,6 +18,9 @@ tabs:
   research:
     display-name: Research
     icon: fa-regular fa-magnifying-glass
+  legislation:
+    display-name: Legislation
+    icon: fa-regular fa-landmark
   family-code:
     display-name: Family Code
     icon: fa-regular fa-book-open
@@ -76,6 +79,32 @@ navigation:
     - page: Empirical methods
       path: docs/pages/research-workbench.mdx
       icon: fa-regular fa-chart-line
+- tab: legislation
+  layout:
+  - page: Legislation & Legislative History
+    path: docs/pages/legislation.mdx
+    icon: fa-regular fa-landmark
+  - section: Legislative research
+    collapsed: false
+    contents:
+    - page: Bills
+      path: docs/pages/legislation.mdx
+      icon: fa-regular fa-file-lines
+    - page: Bill history
+      path: docs/pages/legislation.mdx
+      icon: fa-regular fa-timeline
+    - page: Related bills
+      path: docs/pages/legislation.mdx
+      icon: fa-regular fa-code-compare
+    - page: Parallel acts
+      path: docs/pages/legislation.mdx
+      icon: fa-regular fa-earth-americas
+    - page: Historical premises
+      path: docs/pages/legislation.mdx
+      icon: fa-regular fa-landmark
+    - page: Statutory lineage
+      path: docs/pages/legislation.mdx
+      icon: fa-regular fa-diagram-project
 - tab: family-code
   layout:
   - page: Family Code Overview
