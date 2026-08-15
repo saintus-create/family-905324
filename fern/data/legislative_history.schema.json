@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legislative History Record",
+  "type": "object",
+  "required": ["id", "jurisdiction", "bill_number", "session", "status", "timeline", "relationships"],
+  "properties": {
+    "id": {"type": "string"},
+    "jurisdiction": {"type": "string"},
+    "bill_number": {"type": "string"},
+    "session": {"type": "string"},
+    "title": {"type": "string"},
+    "status": {"type": "string", "enum": ["introduced", "pending", "passed", "enacted", "vetoed", "failed", "withdrawn", "chaptered"]},
+    "subject_tags": {"type": "array", "items": {"type": "string"}},
+    "timeline": {"type": "array", "items": {"type": "object", "required": ["date", "event"], "properties": {"date": {"type": "string"}, "event": {"type": "string"}, "source": {"type": "string"}}}},
+    "relationships": {"type": "array", "items": {"type": "object", "required": ["type", "target"], "properties": {"type": {"type": "string", "enum": ["amends", "repeals", "extends", "supersedes", "related", "parallel", "precedent", "historical-precursor"]}, "target": {"type": "string"}, "jurisdiction": {"type": "string"}}}},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["title", "url"], "properties": {"title": {"type": "string"}, "url": {"type": "string", "format": "uri"}}}}
+  }
+}
