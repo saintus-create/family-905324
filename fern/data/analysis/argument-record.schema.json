@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Argument Record",
+  "type": "object",
+  "required": ["id", "claim", "status", "sources", "relations"],
+  "properties": {
+    "id": {"type": "string"},
+    "claim": {"type": "string"},
+    "speaker": {"type": "string"},
+    "context": {"type": "string"},
+    "status": {"type": "string", "enum": ["asserted", "supported", "contested", "rebutted", "conceded", "resolved", "unresolved"]},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "relations": {"type": "array", "items": {"type": "object", "required": ["type", "target"], "properties": {"type": {"type": "string", "enum": ["supports", "attacks", "defends", "qualifies", "contradicts", "depends-on"]}, "target": {"type": "string"}}}},
+    "rhetorical_features": {"type": "array", "items": {"type": "string"}},
+    "empirical_premises": {"type": "array", "items": {"type": "string"}},
+    "ai_analysis": {"type": "object", "properties": {"model": {"type": "string"}, "analysis": {"type": "string"}, "confidence": {"type": "string"}, "generated_at": {"type": "string"}}}
+  }
+}
