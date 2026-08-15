@@ -1,0 +1,20 @@
+{
+  "version": "0.1",
+  "status": "planned-and-ready",
+  "pipelines": [
+    {"id":"california-authorities","priority":1,"targets":["Family Code","Rules of Court","regulations","official forms"],"verification":"primary-government"},
+    {"id":"california-cases","priority":1,"targets":["California Supreme Court","California Courts of Appeal","relevant federal decisions"],"verification":"judicial"},
+    {"id":"legislation","priority":1,"targets":["bills","bill versions","committee analyses","votes","chaptered acts","amendments"],"verification":"legislative"},
+    {"id":"civil-rights-history","priority":2,"targets":["LGBTQ family-law legislation","civil-rights cases","dissents","historical developments"],"verification":"primary-government"},
+    {"id":"parallel-jurisdictions","priority":2,"targets":["state family-law acts","parallel civil-rights legislation","model acts"],"verification":"primary-government"},
+    {"id":"people-and-institutions","priority":3,"targets":["attorneys","courts","judges","universities","researchers","clinics","legal aid","agencies"],"verification":"primary-government"},
+    {"id":"empirical-research","priority":3,"targets":["peer-reviewed studies","datasets","government statistics","reports"],"verification":"academic"}
+  ],
+  "import_rules": [
+    "Never overwrite a verified record with an unverified import.",
+    "Preserve source URLs or official locators and retrieval dates.",
+    "Deduplicate by stable identifiers before creating new records.",
+    "Keep source text separate from generated summaries.",
+    "Flag ambiguous matches for human review."
+  ]
+}
