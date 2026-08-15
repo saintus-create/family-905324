@@ -97,13 +97,13 @@ navigation:
     collapsed: true
     contents:
     - page: Computational dialectics
-      path: docs/pages/research-workbench.mdx
+      path: docs/pages/computational-dialectics.mdx
       icon: fa-regular fa-diagram-project
-    - page: Rhetorical analysis
-      path: docs/pages/research-workbench.mdx
+    - page: Argument & rhetoric
+      path: docs/pages/argument-analysis.mdx
       icon: fa-regular fa-comment-dots
-    - page: Empirical methods
-      path: docs/pages/research-workbench.mdx
+    - page: Empirical research
+      path: docs/pages/empirical-analysis.mdx
       icon: fa-regular fa-chart-line
 - tab: law
   layout:
@@ -179,7 +179,7 @@ navigation:
     path: docs/pages/legislation.mdx
     icon: fa-regular fa-landmark
   - section: Legislative research
-    collapsed: false
+    collapsed: true
     contents:
     - page: Bills
       path: docs/pages/legislation.mdx
@@ -205,7 +205,7 @@ navigation:
     path: docs/pages/people-institutions.mdx
     icon: fa-regular fa-users
   - section: Directory
-    collapsed: false
+    collapsed: true
     contents:
     - page: Attorneys
       path: docs/pages/people-institutions.mdx
@@ -224,18 +224,18 @@ navigation:
   - page: Research Workbench
     path: docs/pages/research-workbench.mdx
     icon: fa-regular fa-diagram-project
-  - section: Analysis layers
-    collapsed: false
+  - page: Computational Dialectics
+    path: docs/pages/computational-dialectics.mdx
+    icon: fa-regular fa-diagram-project
+  - page: Argument & Rhetorical Analysis
+    path: docs/pages/argument-analysis.mdx
+    icon: fa-regular fa-comment-dots
+  - page: Empirical Research & Statistics
+    path: docs/pages/empirical-analysis.mdx
+    icon: fa-regular fa-chart-line
+  - section: Future analysis
+    collapsed: true
     contents:
-    - page: Computational dialectics
-      path: docs/pages/research-workbench.mdx
-      icon: fa-regular fa-diagram-project
-    - page: Rhetoric
-      path: docs/pages/research-workbench.mdx
-      icon: fa-regular fa-comment-dots
-    - page: Empirical analysis
-      path: docs/pages/research-workbench.mdx
-      icon: fa-regular fa-chart-line
     - page: AI-assisted analysis
       path: docs/pages/research-workbench.mdx
       icon: fa-regular fa-sparkles
