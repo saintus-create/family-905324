@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Legal Authority Relationship",
+  "type":"object",
+  "required":["source","target","relationship"],
+  "properties":{
+    "source":{"type":"string"},
+    "target":{"type":"string"},
+    "relationship":{"type":"string","enum":["supports","contradicts","distinguishes","limits","follows","criticizes","amends","implements","interprets","cites","procedurally-requires","evidences","related-to"]},
+    "proposition":{"type":"string"},
+    "status":{"type":"string","enum":["unreviewed","reviewed","current","historical","uncertain"]},
+    "source_note":{"type":"string"}
+  }
+}
