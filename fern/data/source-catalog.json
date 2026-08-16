@@ -1,0 +1,21 @@
+{
+  "version":"0.1",
+  "purpose":"Authoritative source map for the California family-law corpus.",
+  "sources":[
+    {"id":"ca-leginfo","name":"California Legislative Information","type":"primary-government","domains":["codes","bills","chaptered-laws"],"url":"https://leginfo.legislature.ca.gov/","status":"verified"},
+    {"id":"ca-courts-rules","name":"California Rules of Court","type":"primary-government","domains":["rules","forms","judicial-administration"],"url":"https://courts.ca.gov/forms-rules/rules-court","status":"verified"},
+    {"id":"ca-courts-forms","name":"California Judicial Council Forms","type":"primary-government","domains":["forms","instructions"],"url":"https://courts.ca.gov/forms-rules","status":"verified"},
+    {"id":"ca-courts-selfhelp","name":"California Courts Self-Help Guide","type":"government-guidance","domains":["forms","procedures","public-guidance"],"url":"https://selfhelp.courts.ca.gov/","status":"verified"},
+    {"id":"ca-appellate-opinions","name":"California appellate opinions","type":"judicial","domains":["cases","opinions","precedent"],"url":"https://courts.ca.gov/courts","status":"verified"},
+    {"id":"uscode","name":"United States Code","type":"primary-government","domains":["federal-statutes"],"url":"https://uscode.house.gov/","status":"cataloged"},
+    {"id":"congress","name":"Congress.gov","type":"primary-government","domains":["federal-bills","legislative-history"],"url":"https://www.congress.gov/","status":"cataloged"},
+    {"id":"regulations","name":"California Code of Regulations","type":"primary-government","domains":["regulations"],"url":"https://govt.westlaw.com/calregs","status":"cataloged"}
+  ],
+  "ingestion_policy":[
+    "Prefer official primary sources for legal propositions.",
+    "Record the source URL and retrieval date for every imported record.",
+    "Preserve effective dates and version history where available.",
+    "Do not overwrite a verified record with an unverified import.",
+    "Flag conflicts between sources for review instead of silently resolving them."
+  ]
+}
