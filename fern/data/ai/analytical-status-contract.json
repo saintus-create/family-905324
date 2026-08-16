@@ -1,0 +1,18 @@
+{
+  "version":"0.1",
+  "purpose":"Separate what an authority establishes from inference, critique, empirical claims, and normative judgment.",
+  "statuses":["textually-established","judicially-established","procedurally-established","empirically-established","reasonable-inference","contestable-inference","normative-judgment","unverified"],
+  "record_fields":["claim_id","claim","status","supporting_sources","counter_sources","reasoning_note","confidence","limitations"],
+  "analysis_rules":[
+    "A critique of judicial reasoning must not be represented as a judicial holding.",
+    "Institutional-bias claims require evidence beyond the mere existence of a protective outcome.",
+    "Policy preferences must be distinguished from statutory purpose expressly identified by the Legislature or court.",
+    "Calling an argument a fallacy requires identifying the inference and explaining why its form is defective in context.",
+    "Purposive statutory interpretation is not itself an appeal-to-consequences fallacy; analyze the authorized interpretive methodology first.",
+    "Procedural absence, such as a nonappearing party, may limit the adversarial record but does not by itself establish judicial bias.",
+    "Broad doctrinal claims require comparison across authorities rather than extrapolation from one case.",
+    "When evidence is insufficient, classify the proposition as unresolved rather than increasing rhetorical certainty."
+  ],
+  "lenses":["statutory-interpretation","precedent","procedure","due-process","institutional-analysis","rhetoric","logic","empirical-evidence","policy","counterargument","comparative-doctrine"],
+  "rendering":{"show_status":true,"show_support":true,"show_counterargument":true,"show_confidence":true,"show_limitations":true}
+}
