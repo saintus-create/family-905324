@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Family Law Defense Toolkit Record",
+  "type":"object",
+  "required":["strategy_category","specific_defense_name","legal_basis","required_forms","procedural_steps","evidentiary_toolkit","source_status"],
+  "properties":{
+    "strategy_category":{"type":"string"},
+    "specific_defense_name":{"type":"string"},
+    "legal_basis":{"type":"object","required":["description","authorities"],"properties":{"description":{"type":"string"},"authorities":{"type":"array","items":{"$ref":"#/$defs/authority"}}}},
+    "required_forms":{"type":"array","items":{"$ref":"#/$defs/resource"}},
+    "procedural_steps":{"type":"array","items":{"$ref":"#/$defs/resource"}},
+    "evidentiary_toolkit":{"type":"array","items":{"$ref":"#/$defs/resource"}},
+    "source_status":{"type":"string","enum":["unreviewed","partially-reviewed","verified","needs-current-law-review"]},
+    "counterauthority":{"type":"array","items":{"$ref":"#/$defs/authority"}},
+    "limitations":{"type":"array","items":{"type":"string"}}
+  },
+  "$defs":{
+    "authority":{"type":"object","required":["citation","authority_type","status"],"properties":{"citation":{"type":"string"},"authority_type":{"type":"string","enum":["statute","regulation","case","constitution","court-rule","legislative-history","government-guidance","secondary-source","practitioner-source"]},"status":{"type":"string","enum":["current","historical","distinguished","limited","superseded","unverified"]},"url":{"type":"string","format":"uri"},"pinpoint":{"type":"string"}}},
+    "resource":{"type":"object","required":["value","source_type"],"properties":{"value":{"type":"string"},"source_type":{"type":"string","enum":["primary","government","secondary","practitioner","unverified"]},"url":{"type":"string","format":"uri"}}}
+  }
+}
