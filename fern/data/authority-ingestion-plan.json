@@ -1,0 +1,33 @@
+{
+  "version":"0.2",
+  "status":"active",
+  "branch_policy":"main-only",
+  "sources":[
+    {"id":"cal-leginfo-family","type":"primary","scope":"California Family Code","canonical":"https://leginfo.legislature.ca.gov/faces/codes.xhtml?lawCode=FAM"},
+    {"id":"cal-courts-rules","type":"primary","scope":"California Rules of Court","canonical":"https://courts.ca.gov/rules-forms/rules-court"},
+    {"id":"cal-courts-forms","type":"primary","scope":"Judicial Council forms","canonical":"https://courts.ca.gov/rules-forms/find-your-court-forms"}
+  ],
+  "ingestion_layers":[
+    {"id":"family-code","priority":1,"records":"division, part, chapter, article, section","required":["identifier","title","hierarchy","source","effective_status","verification_status"]},
+    {"id":"family-rules","priority":1,"records":"title, division, chapter, rule","required":["rule","title","hierarchy","source","effective_status","verification_status"]},
+    {"id":"forms","priority":1,"records":"form number, title, category, mandatory/optional, revision/effective date","required":["form_id","title","category","source","status","verification_status"]},
+    {"id":"cases","priority":2,"records":"case identity, citation, court, posture, holdings, authorities, relationships","required":["id","name","citation","court","source","verification_status"]},
+    {"id":"legislation","priority":2,"records":"bill, version, committee analysis, vote, chaptered act, amendments","required":["bill_id","session","title","source","verification_status"]}
+  ],
+  "normalization_rules":[
+    "Preserve the official identifier exactly.",
+    "Preserve hierarchy so section/rule context is never lost.",
+    "Store source locator and retrieval date for every substantive record.",
+    "Do not infer legal effect from a title alone.",
+    "Do not mark a record verified merely because it was imported automatically.",
+    "Never overwrite a verified record with an unverified import without an explicit review event.",
+    "Generate relationships only when the source establishes the relationship or when the relationship is explicitly marked analytical."
+  ],
+  "next_operations":[
+    "Expand every Family Code hierarchy node to section-level records.",
+    "Expand Title 5 Family and Juvenile Rules to rule-level records.",
+    "Expand the Judicial Council family-law form inventory and effective dates.",
+    "Attach existing case records to verified authorities.",
+    "Add California legislative records and legislative-history relationships."
+  ]
+}
