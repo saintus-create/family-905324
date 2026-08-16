@@ -1,0 +1,16 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Primary legal text detail</title>
+<desc id="desc">An abstract editorial rendering of a statute page with section numbers and highlighted provisions.</desc>
+<rect width="1200" height="520" rx="28" fill="#F3F1EC"/>
+<rect x="82" y="58" width="1036" height="404" rx="12" fill="#FCFBF8" stroke="#D7D4CC"/>
+<rect x="128" y="104" width="170" height="12" rx="6" fill="#315C7D" opacity=".82"/>
+<rect x="128" y="136" width="420" height="8" rx="4" fill="#B9B6AE"/>
+<rect x="128" y="182" width="64" height="18" rx="5" fill="#315C7D" opacity=".16"/>
+<rect x="214" y="182" width="760" height="18" rx="5" fill="#D7D4CC"/>
+<rect x="128" y="226" width="842" height="9" rx="4" fill="#C8C5BD"/>
+<rect x="128" y="252" width="760" height="9" rx="4" fill="#D7D4CC"/>
+<rect x="128" y="278" width="810" height="9" rx="4" fill="#C8C5BD"/>
+<rect x="128" y="320" width="64" height="18" rx="5" fill="#B18A58" opacity=".24"/>
+<rect x="214" y="320" width="660" height="18" rx="5" fill="#E7DFC9"/>
+<rect x="128" y="364" width="790" height="9" rx="4" fill="#C8C5BD"/>
+</svg>
