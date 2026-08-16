@@ -1,0 +1,31 @@
+{
+  "source": {"class":"primary-government","title":"California Family Code","publisher":"California Legislative Information","code":"FAM","url":"https://leginfo.legislature.ca.gov/faces/codesTOCSelected.xhtml?tocCode=FAM&tocTitle=+Family+Code+-+FAM","verification_status":"verified"},
+  "divisions": [
+    {"id":1,"title":"Preliminary Provisions and Definitions","sections":"1-185"},
+    {"id":2,"title":"General Provisions","sections":"200-295"},
+    {"id":"2.5","title":"Domestic Partner Registration","sections":"297-299.6"},
+    {"id":3,"title":"Marriage","sections":"300-560"},
+    {"id":4,"title":"Rights and Obligations During Marriage","sections":"700-1620"},
+    {"id":5,"title":"Conciliation Proceedings","sections":"1800-1852"},
+    {"id":6,"title":"Nullity, Dissolution, and Legal Separation","sections":"2000-2452"},
+    {"id":7,"title":"Division of Property","sections":"2500-2660"},
+    {"id":8,"title":"Custody of Children","sections":"3000-3465"},
+    {"id":9,"title":"Support","sections":"3500-5700.905"},
+    {"id":10,"title":"Prevention of Domestic Violence","sections":"6200-6460"},
+    {"id":11,"title":"Minors","sections":"6500-7143"},
+    {"id":12,"title":"Parent and Child Relationship","sections":"7500-7962"},
+    {"id":13,"title":"Adoption","sections":"8500-9340"},
+    {"id":14,"title":"Family Law Facilitator Act","sections":"10000-10015"},
+    {"id":17,"title":"Support Services","sections":"17000-17804"},
+    {"id":20,"title":"Pilot Projects","sections":"20000-20043"}
+  ],
+  "priority_relationships": [
+    {"from":"FAM 3020","to":"FAM 3011","relationship":"relates-to"},
+    {"from":"FAM 3044","to":"FAM 3011","relationship":"relates-to"},
+    {"from":"FAM 3044","to":"FAM 3020","relationship":"relates-to"},
+    {"from":"FAM 3400-3465","to":"UCCJEA","relationship":"implements"},
+    {"from":"FAM 6200-6460","to":"DVPA","relationship":"defines"},
+    {"from":"FAM 7500-7962","to":"parentage","relationship":"governs"},
+    {"from":"FAM 8500-9340","to":"adoption","relationship":"governs"}
+  ]
+}
