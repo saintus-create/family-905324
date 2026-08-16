@@ -1,0 +1,18 @@
+{
+  "version":"2026-08-15",
+  "source_class":"primary-government",
+  "publisher":"Judicial Branch of California",
+  "records":[
+    {"id":"FL-100","form":"FL-100","title":"Petition—Marriage/Domestic Partnership","category":"dissolution","status":"mandatory-use","source_url":"https://courts.ca.gov/forms-rules/forms"},
+    {"id":"FL-105","form":"FL-105/GC-120","title":"Declaration Under Uniform Child Custody Jurisdiction and Enforcement Act","category":"custody","status":"mandatory-use","related_rules":["crc-5-52"],"source_url":"https://courts.ca.gov/forms-rules/forms"},
+    {"id":"FL-110","form":"FL-110","title":"Summons","category":"dissolution","status":"mandatory-use","source_url":"https://courts.ca.gov/forms-rules/forms"},
+    {"id":"FL-300","form":"FL-300","title":"Request for Order","category":"orders","status":"mandatory-use","effective_date":"2025-07-01","source_url":"https://selfhelp.courts.ca.gov/jcc-form/FL-300"},
+    {"id":"FL-300-INFO","form":"FL-300-INFO","title":"Information Sheet for Request for Order","category":"orders","status":"information","effective_date":"2026-01-01","source_url":"https://selfhelp.courts.ca.gov/jcc-form/FL-300-INFO"},
+    {"id":"FL-311-INFO","form":"FL-311-INFO","title":"What Are Visitation or Parenting Time Orders?","category":"custody","status":"information","effective_date":"2026-01-01","source_url":"https://selfhelp.courts.ca.gov/jcc-form/FL-311-INFO"},
+    {"id":"FL-260","form":"FL-260","title":"Petition for Custody and Support of Minor Children","category":"custody-parentage","status":"mandatory-use","effective_date":"2021-09-01","source_url":"https://selfhelp.courts.ca.gov/jcc-form/FL-260"},
+    {"id":"FL-355","form":"FL-355","title":"Stipulation and Order for Custody and/or Visitation (Parenting Time)","category":"custody","status":"mandatory-use","effective_date":"2026-07-01","source_url":"https://selfhelp.courts.ca.gov/jcc-form/FL-355"},
+    {"id":"FL-700","form":"FL-700","title":"Joint Petition—Marriage or Domestic Partnership","category":"dissolution","status":"mandatory-use","effective_date":"2026-01-01","source_url":"https://selfhelp.courts.ca.gov/jcc-form/FL-700"},
+    {"id":"FL-710","form":"FL-710","title":"Summons—Joint Petition","category":"dissolution","status":"mandatory-use","effective_date":"2026-01-01","source_url":"https://selfhelp.courts.ca.gov/jcc-form/FL-710"}
+  ],
+  "note":"This is the verified core form set. The complete Judicial Council publisher appendix should be ingested next so the registry includes all family-law forms, language variants, revisions, and supersession history."
+}
