@@ -1,0 +1,28 @@
+{
+  "version":"0.1",
+  "purpose":"Represent legal procedures as navigable conditional graphs.",
+  "node_types":["trigger","question","requirement","form","notice","hearing","temporary_order","final_order","service","expiration","exception","authority"],
+  "edge_types":["requires","permits","depends_on","exception_to","governs","implements","followed_by","interpreted_by","modified_by"],
+  "node_requirements":["id","label","description","authority_ids","verification_status"],
+  "rules":[
+    "A procedural path must preserve conditional branches rather than flattening them into prose.",
+    "Each procedural requirement must point to the authority establishing it.",
+    "Forms are linked to the procedural node they implement, not merely listed by topic.",
+    "Exceptions must remain visible in the main path.",
+    "A procedure graph may contain unresolved branches when the source corpus is incomplete."
+  ],
+  "example_seed":{
+    "id":"juvenile-restraining-order",
+    "trigger":"juvenile proceeding within the scope of Rule 5.630",
+    "branches":[
+      "petition_type",
+      "domestic_violence_related",
+      "written_or_oral_application",
+      "temporary_relief_requested",
+      "restrained_person_is_601_or_602_subject"
+    ],
+    "forms":["JV-245","JV-258","CLETS-001","JV-250","JV-260","JV-255","JV-265"],
+    "authority_ids":["cal-rules-5-630","welfare-institutions-300","welfare-institutions-601","welfare-institutions-602","family-6306","ccp-527"],
+    "verification_status":"needs_primary_source_ingestion"
+  }
+}
