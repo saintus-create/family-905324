@@ -1,0 +1,22 @@
+{
+  "source": {"class":"primary-government","title":"California Rules of Court","publisher":"Judicial Branch of California","url":"https://courts.ca.gov/forms-rules/rules-court","verification_status":"verified"},
+  "titles": [
+    {"id":1,"title":"Rules Applicable to All Courts","range":"1.1-1.300","priority":"core"},
+    {"id":2,"title":"Trial Court Rules","range":"2.1-2.1100","priority":"core"},
+    {"id":3,"title":"Civil Rules","range":"3.1-3.2237","priority":"related"},
+    {"id":4,"title":"Criminal Rules","range":"4.1-4.700","priority":"context"},
+    {"id":5,"title":"Family and Juvenile Rules","range":"5.1-5.906","priority":"core"},
+    {"id":6,"title":"Reserved","range":null,"priority":"context"},
+    {"id":7,"title":"Probate and Mental Health Rules","range":"7.1-7.1105","priority":"related"},
+    {"id":8,"title":"Appellate Rules","range":"8.1-8.1125","priority":"core"},
+    {"id":9,"title":"Rules on Law Practice, Attorneys, and Judges","range":"9.1-9.90","priority":"core"},
+    {"id":10,"title":"Judicial Administration Rules","range":"10.1-10.1108","priority":"core"}
+  ],
+  "additional_sources": [
+    "Standards of Judicial Administration",
+    "Code of Judicial Ethics",
+    "Ethics Standards for Neutral Arbitrators",
+    "Appendix A: Judicial Council Legal Forms List",
+    "Appendix C: Guidelines for Family Law Information Centers and Family Law Facilitator Offices"
+  ]
+}
