@@ -1,0 +1,20 @@
+{
+  "version":"0.1",
+  "purpose":"Require proposition-level citation grounding for legal research answers.",
+  "pipeline":["segment_answer_into_propositions","classify_proposition","retrieve_support","verify_source","check_treatment","check_contrary_authority","attach_pinpoint","assign_grounding_status","render"],
+  "proposition_types":["statutory-text","rule-text","regulation","holding","dicta","procedural-fact","party-argument","empirical-evidence","analytical-synthesis"],
+  "grounding_statuses":["directly-supported","partially-supported","analytical-connection","unsupported","conflicted","unverified"],
+  "required_fields":["proposition_id","text","type","sources","grounding_status","confidence","limitations"],
+  "source_fields":["authority_id","citation","court_or_issuer","date","locator","source_url","verification_status","treatment_status"],
+  "rules":[
+    "Every substantive legal proposition must have one or more source records unless explicitly labeled analytical synthesis.",
+    "A citation must support the proposition it is attached to, not merely the surrounding topic.",
+    "Pinpoint locators are required whenever the source permits them.",
+    "Multiple propositions must not share a citation solely because they concern the same legal topic.",
+    "Quoted material must remain tied to its source locator and applicable quotation limits.",
+    "Contrary, limiting, superseding, or unresolved authority must remain visible when material.",
+    "The renderer must distinguish source-derived statements from model synthesis.",
+    "If support cannot be verified, the system must not manufacture a citation or silently lower the evidentiary standard."
+  ],
+  "ui":{"inline_citation":true,"expandable_source_card":true,"show_pinpoint":true,"show_grounding_status":true,"show_treatment":true,"show_limitations":true}
+}
