@@ -1,0 +1,12 @@
+{
+  "version":"0.1",
+  "status":"indexed",
+  "records":[
+    {"id":"case-ashby-v-ashby","name":"Ashby v. Ashby","verification_status":"indexed","source_type":"secondary-index-entry","next_action":"verify against primary opinion and extract authorities"},
+    {"id":"case-burquet-v-brumbaugh","name":"Burquet v. Brumbaugh","verification_status":"indexed","source_type":"secondary-index-entry","next_action":"verify against primary opinion and extract authorities"},
+    {"id":"case-celia-s-v-hugo-h","name":"Celia S. v. Hugo H.","verification_status":"indexed","source_type":"secondary-index-entry","next_action":"verify against primary opinion and extract authorities"},
+    {"id":"case-jameson-v-desta","name":"Jameson v. Desta","verification_status":"indexed","source_type":"secondary-index-entry","next_action":"verify against primary opinion and extract authorities"},
+    {"id":"case-jaime-g-v-h-l","name":"Jaime G. v. H.L.","verification_status":"indexed","source_type":"secondary-index-entry","next_action":"verify against primary opinion and extract authorities"}
+  ],
+  "ingestion_state":{"primary_opinions_verified":0,"records_indexed":5,"authority_links_verified":0,"dissent_records":0,"evidence_links":0}
+}
