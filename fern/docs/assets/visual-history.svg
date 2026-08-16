@@ -1,0 +1,15 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Legal history timeline visual</title>
+<desc id="desc">An abstract editorial timeline connecting historical legal developments.</desc>
+<rect width="1200" height="520" rx="28" fill="#F5F2EC"/>
+<path d="M132 280H1068" stroke="#315C7D" stroke-width="5" stroke-linecap="round"/>
+<g fill="#FCFBF8" stroke="#315C7D" stroke-width="5">
+<circle cx="180" cy="280" r="28"/><circle cx="390" cy="280" r="28"/><circle cx="610" cy="280" r="28"/><circle cx="830" cy="280" r="28"/><circle cx="1030" cy="280" r="28"/>
+</g>
+<g stroke="#B18A58" stroke-width="4">
+<path d="M180 252V170M390 308V390M610 252V145M830 308V395M1030 252V165"/>
+</g>
+<g fill="#6E6B65">
+<rect x="112" y="116" width="136" height="14" rx="7"/><rect x="322" y="404" width="136" height="14" rx="7"/><rect x="542" y="91" width="136" height="14" rx="7"/><rect x="762" y="409" width="136" height="14" rx="7"/><rect x="962" y="111" width="136" height="14" rx="7"/>
+</g>
+</svg>
