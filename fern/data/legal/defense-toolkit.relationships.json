@@ -1,0 +1,20 @@
+{
+  "version":"0.1",
+  "relationships":[
+    {"source":"defense-factual-denial-or-insufficient-evidence","target":"Family Code § 6300","relationship":"interprets","status":"unreviewed"},
+    {"source":"defense-factual-denial-or-insufficient-evidence","target":"Family Code § 6320","relationship":"interprets","status":"unreviewed"},
+    {"source":"defense-factual-denial-or-insufficient-evidence","target":"DV-120","relationship":"procedurally-requires","status":"reviewed"},
+    {"source":"defense-procedural-relationship","target":"Family Code § 6211","relationship":"interprets","status":"unreviewed"},
+    {"source":"defense-procedural-relationship","target":"DV-120","relationship":"procedurally-requires","status":"reviewed"},
+    {"source":"defense-renewal-reasonable-apprehension","target":"Family Code § 6345","relationship":"interprets","status":"unreviewed"},
+    {"source":"defense-renewal-reasonable-apprehension","target":"Ritchie v. Konrad","relationship":"cites","status":"unreviewed"},
+    {"source":"defense-renewal-reasonable-apprehension","target":"DV-720","relationship":"procedurally-requires","status":"reviewed"},
+    {"source":"defense-modify-or-terminate","target":"Family Code § 6345","relationship":"interprets","status":"unreviewed"},
+    {"source":"defense-modify-or-terminate","target":"DV-300","relationship":"procedurally-requires","status":"reviewed"},
+    {"source":"defense-modify-or-terminate","target":"DV-400","relationship":"implements","status":"reviewed"},
+    {"source":"defense-due-process-notice","target":"Fourteenth Amendment","relationship":"interprets","status":"reviewed"},
+    {"source":"defense-due-process-notice","target":"California Code of Civil Procedure § 473(b)","relationship":"interprets","status":"unreviewed"},
+    {"source":"defense-firearm-ban-scope","target":"United States v. Rahimi","relationship":"cites","status":"reviewed"},
+    {"source":"defense-firearm-ban-scope","target":"Family Code § 6389","relationship":"interprets","status":"unreviewed"}
+  ]
+}
