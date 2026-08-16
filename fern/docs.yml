@@ -7,11 +7,16 @@ instances:
       branch: main
     launch: dashboard
 title: California Family Law Research | Code, Cases, Legislation & Analysis
+landing-page:
+  page: Family Law, Mapped
+  path: docs/pages/welcome.mdx
+  slug: /
 layout:
   searchbar-placement: header
   page-width: full
   tabs-placement: header
 css: ./styles.css
+js: ./custom.js
 colors:
   accent-primary:
     light: "#3B5F7A"
