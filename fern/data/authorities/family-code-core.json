@@ -1,0 +1,26 @@
+{
+  "version":"2026-08-15",
+  "source":{"name":"California Family Code","publisher":"California Legislative Information","url":"https://leginfo.legislature.ca.gov/faces/codesTOCSelected.xhtml?tocCode=FAM&tocTitle=+Family+Code+-+FAM","verification_status":"verified"},
+  "coverage":"division-index",
+  "divisions":[
+    {"id":"fam-div-1","number":1,"title":"Preliminary Provisions","topics":["definitions","general provisions"]},
+    {"id":"fam-div-2","number":2,"title":"Marriage","topics":["marriage","domestic partnership"]},
+    {"id":"fam-div-3","number":3,"title":"Rights and Obligations During Marriage","topics":["marital rights","obligations"]},
+    {"id":"fam-div-4","number":4,"title":"Family Law Actions","topics":["dissolution","legal separation","nullity"]},
+    {"id":"fam-div-5","number":5,"title":"Division of Property","topics":["community property","separate property","property division"]},
+    {"id":"fam-div-6","number":6,"title":"Custody of Children","topics":["legal custody","physical custody","parenting time","domestic violence"]},
+    {"id":"fam-div-7","number":7,"title":"Support","topics":["child support","spousal support","support enforcement"]},
+    {"id":"fam-div-8","number":8,"title":"Child Support Services","topics":["local child support agency","enforcement"]},
+    {"id":"fam-div-9","number":9,"title":"Minors","topics":["minor marriage","emancipation"]},
+    {"id":"fam-div-10","number":10,"title":"Domestic Violence Prevention Act","topics":["DVPA","restraining orders","protective orders"]},
+    {"id":"fam-div-11","number":11,"title":"Parent and Child Relationship","topics":["parentage","parental rights","assisted reproduction"]},
+    {"id":"fam-div-12","number":12,"title":"Adoption","topics":["adoption","stepparent adoption","agency adoption"]},
+    {"id":"fam-div-13","number":13,"title":"Family Law Facilitator Act","topics":["facilitator","self-help","support services"]},
+    {"id":"fam-div-14","number":14,"title":"Support Services","topics":["support services","enforcement"]},
+    {"id":"fam-div-15","number":15,"title":"Pilot Projects","topics":["pilot programs","court innovation"]},
+    {"id":"fam-div-16","number":16,"title":"Uniform Interstate Family Support Act","topics":["UIFSA","interstate support"]},
+    {"id":"fam-div-17","number":17,"title":"Uniform Child Custody Jurisdiction and Enforcement Act","topics":["UCCJEA","interstate custody","jurisdiction"]}
+  ],
+  "priority_sections":["3044","3011","3020","6320","6340","7630","7962","3420","4320","4322"],
+  "note":"This file is the verified division-level corpus and priority-section index. Individual section records are to be imported from the official code source with section text, effective-date history, and source locator before being marked fully verified."
+}
