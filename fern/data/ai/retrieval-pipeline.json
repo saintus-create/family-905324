@@ -1,0 +1,15 @@
+{
+  "version":"0.1",
+  "status":"design-ready",
+  "stages":[
+    {"id":"intent","description":"Classify whether the user needs authority, case analysis, evidence, legislative history, comparison, or research planning."},
+    {"id":"retrieve","description":"Retrieve verified primary authorities first, then indexed and secondary material as supporting context."},
+    {"id":"rerank","description":"Rank by jurisdiction, court, temporal relevance, authority type, verification status, and direct relationship to the question."},
+    {"id":"ground","description":"Attach each substantive proposition to a source record and pinpoint locator where available."},
+    {"id":"contrast","description":"Search for contrary, limiting, superseding, or distinguishable authority before drafting a conclusion."},
+    {"id":"compose","description":"Produce a concise answer with separated law, facts, evidence, and analysis."},
+    {"id":"audit","description":"Check citation coverage, unsupported assertions, temporal validity, jurisdiction, and unresolved relationships."}
+  ],
+  "ranking_principles":["primary authority","jurisdictional fit","recency where legally relevant","direct textual support","verified provenance","relationship strength"],
+  "failure_behavior":"If sufficient verified material is unavailable, say so and identify exactly what remains unresolved rather than filling the gap with model inference."
+}
