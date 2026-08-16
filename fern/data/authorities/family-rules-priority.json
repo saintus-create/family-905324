@@ -1,0 +1,16 @@
+{
+  "version":"2026-08-15",
+  "source_class":"primary-government",
+  "source":"Judicial Branch of California",
+  "source_url":"https://courts.ca.gov/cms/rules/index/five",
+  "records":[
+    {"id":"crc-5-2","citation":"Cal. Rules of Court, rule 5.2","title":"Definitions; application of Family Rules","topics":["family rules","scope","definitions"],"effective_context":"amended effective July 1, 2026","verification_status":"verified","source_url":"https://courts.ca.gov/cms/rules/index/five/rule5_2"},
+    {"id":"crc-5-4","citation":"Cal. Rules of Court, rule 5.4","title":"Preemption; local rules and forms","topics":["local rules","forms","preemption","access to justice"],"verification_status":"verified","source_url":"https://courts.ca.gov/cms/rules/index/five/rule5_4"},
+    {"id":"crc-5-7","citation":"Cal. Rules of Court, rule 5.7","title":"Use of forms","topics":["forms","filing","family law procedure"],"verification_status":"verified","source_url":"https://courts.ca.gov/cms/rules/index/five"},
+    {"id":"crc-5-14","citation":"Cal. Rules of Court, rule 5.14","title":"Sanctions for violations of rules in family law cases","topics":["sanctions","procedure","family law"],"verification_status":"verified","source_url":"https://courts.ca.gov/cms/rules/index/five"},
+    {"id":"crc-5-52","citation":"Cal. Rules of Court, rule 5.52","title":"Declaration under UCCJEA","topics":["UCCJEA","custody","jurisdiction","FL-105/GC-120"],"effective_context":"amended effective July 1, 2026","verification_status":"verified","source_url":"https://courts.ca.gov/cms/rules/index/five/rule5_52"},
+    {"id":"crc-5-430","citation":"Cal. Rules of Court, rule 5.430","title":"Minimum standards for Office of Family Law Facilitator","topics":["family law facilitator","self-help","support"],"verification_status":"verified","source_url":"https://courts.ca.gov/cms/rules/index/five"},
+    {"id":"crc-5-440","citation":"Cal. Rules of Court, rule 5.440","title":"Related cases","topics":["related cases","court coordination"],"verification_status":"verified","source_url":"https://courts.ca.gov/cms/rules/index/five"},
+    {"id":"crc-5-445","citation":"Cal. Rules of Court, rule 5.445","title":"Court communication protocol for domestic violence and child custody orders","topics":["domestic violence","custody","court coordination"],"verification_status":"verified","source_url":"https://courts.ca.gov/cms/rules/index/five"}
+  ]
+}
