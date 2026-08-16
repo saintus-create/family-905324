@@ -1,0 +1,18 @@
+{
+  "version":"0.2",
+  "source":"cal-leginfo-family",
+  "records":[
+    {"id":"fam-3011","section":"3011","title":"Best interests of child; health, safety, welfare; specified considerations","division":"8","topics":["custody","best interests","domestic violence","child safety"],"verification_status":"verified"},
+    {"id":"fam-3020","section":"3020","title":"Legislative policy concerning custody and visitation","division":"8","topics":["custody","visitation","domestic violence","sexual orientation","gender identity","gender expression"],"verification_status":"verified"},
+    {"id":"fam-3044","section":"3044","title":"Presumption concerning sole or joint physical or legal custody following perpetration of domestic violence","division":"8","topics":["custody","domestic violence","presumption"],"verification_status":"verified"},
+    {"id":"fam-6203","section":"6203","title":"Abuse defined","division":"10","topics":["domestic violence","DVPA","abuse"],"verification_status":"verified"},
+    {"id":"fam-6211","section":"6211","title":"Domestic violence defined","division":"10","topics":["domestic violence","DVPA"],"verification_status":"verified"},
+    {"id":"fam-6300","section":"6300","title":"Temporary restraining orders and orders after hearing","division":"10","topics":["DVPA","restraining orders","proof","ex parte"],"verification_status":"verified"},
+    {"id":"fam-6320","section":"6320","title":"Protective orders and prohibited conduct","division":"10","topics":["DVPA","protective orders","restraining orders"],"verification_status":"verified"},
+    {"id":"fam-6340","section":"6340","title":"Orders available after hearing","division":"10","topics":["DVPA","orders","relief"],"verification_status":"verified"},
+    {"id":"fam-7630","section":"7630","title":"Proceeding to establish parent-child relationship","division":"12","topics":["parentage","parent-child relationship"],"verification_status":"verified"},
+    {"id":"fam-7962","section":"7962","title":"Surrogacy agreements and parentage","division":"12","topics":["parentage","surrogacy","assisted reproduction"],"verification_status":"verified"},
+    {"id":"fam-4320","section":"4320","title":"Factors considered in ordering spousal or partner support","division":"9","topics":["support","spousal support"],"verification_status":"verified"},
+    {"id":"fam-4322","section":"4322","title":"Conduct and post-separation support considerations","division":"9","topics":["support","spousal support"],"verification_status":"verified"}
+  ]
+}
