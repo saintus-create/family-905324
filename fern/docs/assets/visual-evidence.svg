@@ -1,0 +1,13 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Evidence and data visual</title>
+<desc id="desc">An abstract research chart showing observations, uncertainty, and a highlighted trend.</desc>
+<rect width="1200" height="520" rx="28" fill="#F0F4F1"/>
+<g stroke="#CDD5D0" stroke-width="2">
+<path d="M112 104H1080M112 190H1080M112 276H1080M112 362H1080M112 448H1080"/>
+</g>
+<path d="M132 406 C270 382 316 334 420 350 C530 368 594 242 690 272 C800 308 842 174 930 198 C992 214 1030 158 1080 126" fill="none" stroke="#315C7D" stroke-width="7" stroke-linecap="round"/>
+<path d="M132 430 C280 405 320 360 420 378 C532 394 600 274 690 304 C798 340 850 208 930 232 C992 248 1032 192 1080 158 L1080 222 C1030 252 994 310 930 292 C846 268 806 398 690 362 C594 332 532 456 420 426 C320 402 272 450 132 468Z" fill="#315C7D" opacity=".10"/>
+<g fill="#B18A58">
+<circle cx="250" cy="386" r="7"/><circle cx="420" cy="350" r="7"/><circle cx="590" cy="300" r="7"/><circle cx="760" cy="286" r="7"/><circle cx="930" cy="198" r="7"/>
+</g>
+</svg>
