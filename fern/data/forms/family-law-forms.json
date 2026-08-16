@@ -1,0 +1,23 @@
+{
+  "source": {"class":"primary-government","title":"California Judicial Council Legal Forms","publisher":"Judicial Branch of California","url":"https://courts.ca.gov/forms-rules","verification_status":"verified"},
+  "categories": [
+    {"id":"marriage-divorce","label":"Marriage, divorce, and legal separation","examples":["FL-100","FL-110","FL-115","FL-120","FL-700","FL-107-INFO"]},
+    {"id":"custody-parentage","label":"Custody and parentage","examples":["FL-105/GC-120","FL-300","FL-311"]},
+    {"id":"support","label":"Child and spousal support","examples":["FL-150","FL-160","FL-342","FL-343"]},
+    {"id":"domestic-violence","label":"Domestic violence","examples":["DV-100","DV-109","DV-110","DV-130"]},
+    {"id":"property","label":"Property and financial disclosure","examples":["FL-140","FL-141","FL-142"]},
+    {"id":"service-filing","label":"Service and filing","examples":["FL-117","FL-335","FL-330"]}
+  ],
+  "status_rules": {
+    "mandatory": "Adopted by the Judicial Council for mandatory use where applicable.",
+    "optional": "Approved by the Judicial Council but not generally mandatory unless another authority, including local rules, requires use.",
+    "source_note": "Check the current Judicial Council form and applicable local rules before filing."
+  },
+  "initial_records": [
+    {"id":"FL-100","title":"Petition—Marriage/Domestic Partnership (Family Law)","effective":"2020-01-01","status":"mandatory"},
+    {"id":"FL-105","title":"Declaration Under Uniform Child Custody Jurisdiction and Enforcement Act (UCCJEA)","effective":"2025-01-01","status":"mandatory"},
+    {"id":"FL-300","title":"Request for Order","effective":"2025-07-01","status":"mandatory"},
+    {"id":"FL-300-INFO","title":"Information Sheet for Request for Order (Family Law)","effective":"2026-01-01","status":"informational"},
+    {"id":"FL-700","title":"Joint Petition—Marriage or Domestic Partnership (Family Law)","effective":"2026-01-01","status":"mandatory"}
+  ]
+}
