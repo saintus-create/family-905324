@@ -1,0 +1,31 @@
+{
+  "version":"0.1",
+  "purpose":"Define the user-facing research result produced by the Family Law AI assistant.",
+  "result":{
+    "title":"Case or authority name",
+    "treatment_action":"Check Treatment",
+    "metadata":["relevance","citation","court","date","citing_count","verification_status"],
+    "why_relevant":"Source-grounded explanation of why the result matches the research question.",
+    "supporting_passage":{"text":"verbatim source passage when legally permissible","locator":"page|paragraph|section|pinpoint"},
+    "connection":"Explicitly labeled analytical connection between source and question.",
+    "limitations":"What the source does not establish or what remains uncertain.",
+    "related_authorities":[],
+    "contrary_authorities":[],
+    "treatment_summary":null
+  },
+  "research_trace":{
+    "queries":[],
+    "documents_retrieved":0,
+    "documents_processed":0,
+    "search_count":0,
+    "elapsed_ms":null,
+    "estimated_reading_time":null
+  },
+  "display_rules":[
+    "Never display a relevance score without defining or exposing its contributing factors.",
+    "Never present model inference as quoted source material.",
+    "Keep supporting passages tied to a source locator.",
+    "Display contrary or limiting authority when material.",
+    "Treat primary-source verification as a first-class result attribute."
+  ]
+}
