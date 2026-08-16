@@ -1,0 +1,44 @@
+{
+  "version":"0.2",
+  "purpose":"Canonical schema for ingesting California and federal family-law cases with source-grounded provenance.",
+  "required":["id","name","citation","court","date","jurisdiction","source","verification_status"],
+  "fields":{
+    "id":"stable internal identifier",
+    "name":"official case name",
+    "citation":"reporter or neutral citation",
+    "court":"deciding court",
+    "date":"decision date",
+    "jurisdiction":"state or federal jurisdiction",
+    "procedural_posture":"procedural history at decision",
+    "issues":["legal issue identifiers"],
+    "holdings":["holding records with source locators"],
+    "reasoning":["reasoning propositions with source locators"],
+    "concurrences":["separate opinions"],
+    "dissents":["dissent records"],
+    "authorities":["statutes, rules, regulations, and cases actually relied upon"],
+    "legislation":["bills or acts materially discussed"],
+    "people":["judges, counsel, parties, experts where appropriate"],
+    "evidence":["empirical or documentary evidence discussed"],
+    "relationships":["typed graph edges"],
+    "sources":["primary and secondary source records"],
+    "verification_status":"verified|indexed|unresolved|analytical"
+  },
+  "ingestion_rules":[
+    "Preserve the full primary-source locator before extracting propositions.",
+    "Separate procedural facts from holdings and dicta.",
+    "Separate majority reasoning from concurrence and dissent.",
+    "Record pinpoint locators for extracted propositions whenever available.",
+    "Do not infer that a cited authority was adopted merely because it appears in a citation list.",
+    "Do not infer a relationship from name similarity or keyword overlap alone.",
+    "Keep generated summaries subordinate to the underlying decision.",
+    "Mark unresolved metadata instead of fabricating missing fields."
+  ],
+  "priority_queue":[
+    "existing five indexed cases",
+    "California Supreme Court family-law decisions",
+    "California Courts of Appeal family-law decisions",
+    "California DVPA and custody decisions",
+    "California parentage and support decisions",
+    "federal decisions materially affecting California family-law rights"
+  ]
+}
