@@ -1,0 +1,53 @@
+{
+  "version":"0.1",
+  "purpose":"Generate actionable, source-grounded legal research answers rather than document summaries.",
+  "answer_pipeline":[
+    "identify_proceeding",
+    "identify_jurisdiction_and_posture",
+    "extract_user_facts_and_unknowns",
+    "build_procedural_path",
+    "retrieve_primary_authorities",
+    "retrieve_related_statutes_rules_forms",
+    "retrieve_interpreting_cases",
+    "retrieve_contrary_limiting_and_superseding_authority",
+    "assemble_source_relationships",
+    "draft_actionable_answer",
+    "audit_every_substantive_proposition",
+    "state_limits_and_unresolved_questions"
+  ],
+  "required_sections":[
+    "direct_answer",
+    "procedural_path",
+    "authority_stack",
+    "required_or_relevant_forms",
+    "what_the_court_must_or_may_consider",
+    "cases_and_interpretation",
+    "exceptions_and_branching_conditions",
+    "source_grounded_application",
+    "limitations"
+  ],
+  "proposition_types":[
+    "statutory_text",
+    "rule_text",
+    "regulatory_text",
+    "holding",
+    "dicta",
+    "procedural_fact",
+    "party_argument",
+    "empirical_evidence",
+    "analytical_synthesis"
+  ],
+  "display_rules":[
+    "Label source-derived law separately from model analysis.",
+    "Attach a source locator to each substantive legal proposition where available.",
+    "Link every referenced authority to its corpus record.",
+    "Surface material contrary, limiting, or superseding authority.",
+    "Do not collapse multiple legal regimes merely because they concern the same conduct.",
+    "If the answer depends on facts not supplied by the user, identify those facts explicitly.",
+    "Prefer an actionable decision tree when the governing procedure branches by facts.",
+    "Do not imply that a form is mandatory unless the governing source establishes that status.",
+    "Do not provide a legal conclusion as certain when the retrieved authorities conflict or the corpus is incomplete."
+  ],
+  "navigation_targets":["statute","rule","regulation","case","form","bill","committee_analysis","court","institution","evidence","concept"],
+  "safety":"Provide legal information and source-grounded research assistance, not individualized legal representation. For consequential decisions, direct the user to the controlling source and appropriate professional or court resources."
+}
