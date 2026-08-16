@@ -1,0 +1,13 @@
+{
+  "version":"0.1",
+  "purpose":"Track subsequent treatment of authorities without collapsing citation into legal validity.",
+  "statuses":["followed","distinguished","criticized","questioned","limited","overruled","superseded","cited-without-treatment","unknown"],
+  "record_fields":["source_case","treating_case","date","court","treatment_status","proposition","source_locator","verification_status"],
+  "rules":[
+    "A citation alone is not negative or positive treatment.",
+    "Treatment status requires source-grounded evidence.",
+    "Later statutory amendment must be distinguished from judicial overruling.",
+    "Jurisdiction and court hierarchy must be considered when assessing treatment significance.",
+    "Unknown treatment must remain visible when the corpus is incomplete."
+  ]
+}
