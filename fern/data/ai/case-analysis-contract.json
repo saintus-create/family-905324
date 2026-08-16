@@ -1,0 +1,35 @@
+{
+  "version":"0.1",
+  "purpose":"Provide a rigorous, source-grounded framework for multi-lens case analysis.",
+  "sections":[
+    "case_identity",
+    "procedural_history",
+    "questions_presented",
+    "holding",
+    "reasoning",
+    "statutory_interpretation",
+    "precedent_and_treatment",
+    "evidence_and_record",
+    "due_process_and_procedure",
+    "institutional_implications",
+    "rhetorical_analysis",
+    "logical_analysis",
+    "counterarguments",
+    "policy_consequences",
+    "comparative_doctrine",
+    "overall_assessment"
+  ],
+  "required_distinctions":["holding_vs_dicta","record_vs_inference","party_argument_vs_court_reasoning","legal_rule_vs_policy","fact_vs_characterization","source_claim_vs_analytical_critique"],
+  "critique_protocol":[
+    "Quote or pinpoint the authority before characterizing the reasoning.",
+    "Identify the interpretive methodology actually used.",
+    "Test the strongest opposing interpretation before calling the reasoning defective.",
+    "Do not label an argument a logical fallacy merely because it reaches an unfavorable policy result.",
+    "Search later cases before asserting a doctrinal trend.",
+    "Search empirical sources before making institutional or behavioral claims.",
+    "Separate legally relevant asymmetry from unsupported claims of bias.",
+    "State what the opinion leaves unresolved."
+  ],
+  "output_modes":["concise","full-critical","comparative","doctrinal-map","rhetorical","dialectical","evidence-audit"],
+  "default_mode":"full-critical"
+}
