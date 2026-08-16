@@ -1,0 +1,19 @@
+{
+  "version":"2026-08-15",
+  "source_class":"primary-government",
+  "source":"California Legislative Information",
+  "records":[
+    {"id":"fam-3011","citation":"Fam. Code § 3011","title":"Best interest of child; factors","division":8,"topics":["custody","best interests","domestic violence"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=3011.","verification_status":"verified"},
+    {"id":"fam-3020","citation":"Fam. Code § 3020","title":"Health, safety, and welfare; frequent and continuing contact","division":8,"topics":["custody","best interests","domestic violence","LGBTQ rights"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=3020.","verification_status":"verified"},
+    {"id":"fam-3044","citation":"Fam. Code § 3044","title":"Domestic violence and custody; rebuttable presumption","division":8,"topics":["custody","domestic violence","presumption"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=3044.","verification_status":"verified"},
+    {"id":"fam-6203","citation":"Fam. Code § 6203","title":"Definition of abuse","division":10,"topics":["domestic violence","abuse"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6203.","verification_status":"verified"},
+    {"id":"fam-6211","citation":"Fam. Code § 6211","title":"Definition of domestic violence","division":10,"topics":["domestic violence","protected persons"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6211.","verification_status":"verified"},
+    {"id":"fam-6300","citation":"Fam. Code § 6300","title":"Protective orders; reasonable proof; affidavit or testimony","division":10,"topics":["DVRO","ex parte","evidence","protective orders"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6300.","verification_status":"verified"},
+    {"id":"fam-6320","citation":"Fam. Code § 6320","title":"Acts that may be enjoined","division":10,"topics":["DVRO","restraining orders","abuse","conduct"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6320.","verification_status":"verified"},
+    {"id":"fam-6340","citation":"Fam. Code § 6340","title":"Orders after hearing; relief","division":10,"topics":["DVRO","protective orders","relief"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6340.","verification_status":"verified"},
+    {"id":"fam-7630","citation":"Fam. Code § 7630","title":"Proceedings to establish parentage","division":12,"topics":["parentage","paternity","parent-child relationship"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=7630.","verification_status":"verified"},
+    {"id":"fam-7962","citation":"Fam. Code § 7962","title":"Gestational carrier agreements","division":12,"topics":["assisted reproduction","gestational carrier","parentage"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=7962.","verification_status":"verified"},
+    {"id":"fam-4320","citation":"Fam. Code § 4320","title":"Spousal support factors","division":9,"topics":["spousal support","support factors"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=4320.","verification_status":"verified"},
+    {"id":"fam-4322","citation":"Fam. Code § 4322","title":"Factors affecting support","division":9,"topics":["spousal support","support"],"source_url":"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=4322.","verification_status":"verified"}
+  ]
+}
