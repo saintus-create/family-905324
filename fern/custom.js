@@ -58,16 +58,23 @@
     const sizeLoc = gl.getAttribLocation(program, 'a_size');
     const alphaLoc = gl.getAttribLocation(program, 'a_alpha');
 
-    const count = isSmall ? 70 : 150;
+    const count = isSmall ? 58 : 118;
     const nodes = Array.from({ length: count }, (_, i) => ({
       x: Math.random() * 2 - 1,
       y: Math.random() * 2 - 1,
-      r: 0.0008 + Math.random() * 0.002,
       phase: Math.random() * Math.PI * 2,
-      speed: 0.00015 + Math.random() * 0.00035,
-      size: 1.2 + Math.random() * 3.5,
-      alpha: 0.12 + Math.random() * 0.55,
+      speed: 0.00012 + Math.random() * 0.00022,
+      size: 1.1 + Math.random() * 2.8,
+      alpha: 0.07 + Math.random() * 0.34,
       band: i % 6
+    }));
+
+    // A handful of slow-moving points act as tiny wireline "sparks".
+    const sparks = Array.from({ length: isSmall ? 3 : 6 }, (_, i) => ({
+      lane: i % 4,
+      phase: Math.random() * Math.PI * 2,
+      speed: 0.000035 + Math.random() * 0.000025,
+      length: 0.15 + Math.random() * 0.18
     }));
 
     const resize = () => {
@@ -81,19 +88,30 @@
     const draw = (time) => {
       const t = reduceMotion ? 0 : time;
       resize();
-      const positions = new Float32Array(count * 2);
-      const sizes = new Float32Array(count);
-      const alphas = new Float32Array(count);
-      const mx = (window.__familyMouseX || 0) * 0.08;
-      const my = (window.__familyMouseY || 0) * 0.05;
+      const positions = new Float32Array((count + sparks.length) * 2);
+      const sizes = new Float32Array(count + sparks.length);
+      const alphas = new Float32Array(count + sparks.length);
+      const mx = (window.__familyMouseX || 0) * 0.055;
+      const my = (window.__familyMouseY || 0) * 0.04;
 
       nodes.forEach((n, i) => {
-        const wobble = Math.sin(t * n.speed + n.phase) * 0.035;
-        const drift = Math.cos(t * n.speed * 0.7 + n.phase) * 0.025;
-        positions[i * 2] = n.x + wobble + mx * (0.4 + n.band / 10);
-        positions[i * 2 + 1] = n.y + drift + my * (0.3 + n.band / 12);
+        const wobble = Math.sin(t * n.speed + n.phase) * 0.028;
+        const drift = Math.cos(t * n.speed * 0.72 + n.phase) * 0.021;
+        positions[i * 2] = n.x + wobble + mx * (0.35 + n.band / 12);
+        positions[i * 2 + 1] = n.y + drift + my * (0.25 + n.band / 14);
         sizes[i] = n.size * Math.min(window.devicePixelRatio || 1, 2);
         alphas[i] = n.alpha;
+      });
+
+      sparks.forEach((s, j) => {
+        const i = count + j;
+        const progress = (Math.sin(t * s.speed + s.phase) + 1) / 2;
+        const lane = s.lane - 1.5;
+        positions[i * 2] = -0.95 + progress * 1.9;
+        positions[i * 2 + 1] = lane * 0.22 + Math.sin(progress * Math.PI * 2 + s.phase) * 0.035;
+        sizes[i] = (1.8 + Math.sin(progress * Math.PI) * 2.2) * Math.min(window.devicePixelRatio || 1, 2);
+        // Sparks spend most of their cycle almost invisible.
+        alphas[i] = Math.pow(Math.sin(progress * Math.PI), 7) * 0.52;
       });
 
       gl.clearColor(0, 0, 0, 0);
@@ -116,7 +134,7 @@
       gl.enableVertexAttribArray(alphaLoc);
       gl.vertexAttribPointer(alphaLoc, 1, gl.FLOAT, false, 0, 0);
 
-      gl.drawArrays(gl.POINTS, 0, count);
+      gl.drawArrays(gl.POINTS, 0, count + sparks.length);
       if (!reduceMotion) requestAnimationFrame(draw);
     };
 
