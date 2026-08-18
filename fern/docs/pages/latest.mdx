@@ -9,12 +9,50 @@ hide-feedback: true
 <div className="legal-feed">
   <div className="legal-feed__top">
     <h1>Latest</h1>
-    <a href="https://newsroom.courts.ca.gov/rss">Live source feeds</a>
+    <a href="https://newsroom.courts.ca.gov/news" target="_blank" rel="noreferrer">California Courts</a>
   </div>
 
-  <div className="legal-feed__live">
-    <iframe title="California Courts live news" src="https://newsroom.courts.ca.gov/rss" loading="eager"></iframe>
+  <div className="legal-feed__grid">
+    <article className="legal-feed__card">
+      <a href="https://newsroom.courts.ca.gov/news/judicial-council-approves-trial-court-funding-will-help-ensure-access-court-users" target="_blank" rel="noreferrer">
+        <div className="legal-feed__image--empty" aria-hidden="true"></div>
+        <div className="legal-feed__body">
+          <div className="legal-feed__source">Judicial Council</div>
+          <h2>Judicial Council Approves Trial Court Funding That Will Help Ensure Access for Court Users</h2>
+        </div>
+      </a>
+    </article>
+
+    <article className="legal-feed__card">
+      <a href="https://newsroom.courts.ca.gov/news/solano-county-superior-court-rolls-out-new-statewide-call-center" target="_blank" rel="noreferrer">
+        <div className="legal-feed__image--empty" aria-hidden="true"></div>
+        <div className="legal-feed__body">
+          <div className="legal-feed__source">California Courts</div>
+          <h2>Solano County Superior Court Rolls Out New Statewide Call Center</h2>
+        </div>
+      </a>
+    </article>
+
+    <article className="legal-feed__card">
+      <a href="https://newsroom.courts.ca.gov/news/california-supreme-court-approves-adoption-nextgen-uniform-bar-exam" target="_blank" rel="noreferrer">
+        <div className="legal-feed__image--empty" aria-hidden="true"></div>
+        <div className="legal-feed__body">
+          <div className="legal-feed__source">California Courts</div>
+          <h2>California Supreme Court Approves Adoption of NextGen Uniform Bar Exam</h2>
+        </div>
+      </a>
+    </article>
+
+    <article className="legal-feed__card">
+      <a href="https://newsroom.courts.ca.gov/news/contra-costa-superior-court-resumes-its-juvenile-dependency-mediation-program" target="_blank" rel="noreferrer">
+        <div className="legal-feed__image--empty" aria-hidden="true"></div>
+        <div className="legal-feed__body">
+          <div className="legal-feed__source">California Courts</div>
+          <h2>Contra Costa Superior Court Resumes Its Juvenile Dependency Mediation Program</h2>
+        </div>
+      </a>
+    </article>
   </div>
 
-  <p className="legal-feed__source-note">Live material is provided by the California Courts newsroom. Open an item to read the original article and view its source photography.</p>
+  <p className="legal-feed__source-note">This page is refreshed from official California legal sources by the repository's scheduled feed job.</p>
 </div>
