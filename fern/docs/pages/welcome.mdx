@@ -1,5 +1,5 @@
 ---
-title: California Legislative Materials
+title: California Family Law Research
 slug: welcome
 layout: custom
 hide-page-actions: true
@@ -7,34 +7,77 @@ hide-feedback: true
 hide-nav-links: true
 ---
 
-<div className="family-landing" data-family-landing>
-  <div className="family-landing__background" data-live-background aria-hidden="true"></div>
-  <div className="family-landing__background-overlay" aria-hidden="true"></div>
+<div className="family-home">
+  <section className="family-home__hero" aria-labelledby="home-title">
+    <div className="family-home__hero-grid">
+      <div className="family-home__hero-copy">
+        <p className="family-home__eyebrow">California Family Law Research</p>
+        <h1 id="home-title">Find the law.<br /><em>Follow the record.</em></h1>
+        <p className="family-home__lede">A structured research portal for California statutes, court rules, cases, legislation, institutions, and evidence-driven legal analysis.</p>
+        <div className="family-home__actions">
+          <a className="family-home__button family-home__button--primary" href="/research-workbench">Open Research Workbench <span>→</span></a>
+          <a className="family-home__button" href="/family-code-overview">Browse Family Code <span>→</span></a>
+        </div>
+        <p className="family-home__note">Research-first · Source-aware · Cross-referenced</p>
+      </div>
 
-  <main className="family-landing__content">
-    <section className="family-landing__hero" aria-labelledby="family-title">
-      <p className="family-landing__eyebrow">California legal research portal</p>
-      <h1 id="family-title">California Legislative Materials</h1>
-      <p className="family-landing__subtitle">A research index for California family law, legislation, cases, institutions, and legal analysis.</p>
-      <div className="family-landing__domain" aria-label="Research areas">
-        <a href="/family-code-overview"><strong>Family Code</strong><span>Statutes & rules</span></a>
-        <a href="/case-law"><strong>Case Law</strong><span>Opinions & decisions</span></a>
-        <a href="/legislation"><strong>Legislation</strong><span>Bills & history</span></a>
-        <a href="/defense-toolkit"><strong>Resources</strong><span>Practical tools</span></a>
+      <div className="family-home__signal" aria-label="Research map">
+        <div className="family-home__signal-label">RESEARCH MAP</div>
+        <div className="family-home__orbit family-home__orbit--outer"></div>
+        <div className="family-home__orbit family-home__orbit--inner"></div>
+        <div className="family-home__signal-center"><span>CA</span><small>LAW</small></div>
+        <a className="family-home__node family-home__node--one" href="/family-code-overview">01 <strong>Statutes</strong></a>
+        <a className="family-home__node family-home__node--two" href="/case-law">02 <strong>Cases</strong></a>
+        <a className="family-home__node family-home__node--three" href="/legislation">03 <strong>Legislation</strong></a>
+        <a className="family-home__node family-home__node--four" href="/people-institutions">04 <strong>Institutions</strong></a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section className="family-landing__news" data-live-news aria-labelledby="live-news-title">
-      <div className="family-landing__news-heading">
-        <div><span className="family-landing__news-kicker">LIVE</span><span id="live-news-title">Legal intelligence</span></div>
-        <span className="family-landing__news-status" data-live-news-status>Loading</span>
-      </div>
-      <div className="family-landing__news-viewport">
-        <div className="family-landing__news-track" data-live-news-list></div>
-        <button className="family-landing__news-control family-landing__news-control--prev" type="button" data-news-prev aria-label="Previous stories">‹</button>
-        <button className="family-landing__news-control family-landing__news-control--next" type="button" data-news-next aria-label="Next stories">›</button>
-      </div>
-      <div className="family-landing__news-footer"><span>Courts · family law · legislation · policy</span><a href="/latest">View all stories →</a></div>
-    </section>
-  </main>
+  <section className="family-home__quick" aria-labelledby="quick-title">
+    <div className="family-home__section-head">
+      <div><span className="family-home__section-index">01</span><h2 id="quick-title">Start with the source</h2></div>
+      <span>Primary research paths</span>
+    </div>
+    <div className="family-home__cards">
+      <a className="family-home__card" href="/family-code-overview"><span className="family-home__card-number">A</span><span><strong>Family Code</strong><small>Statutes, divisions, and related provisions</small></span><b>↗</b></a>
+      <a className="family-home__card" href="/case-law"><span className="family-home__card-number">B</span><span><strong>Case Law</strong><small>Opinions, decisions, and precedent</small></span><b>↗</b></a>
+      <a className="family-home__card" href="/legislation"><span className="family-home__card-number">C</span><span><strong>Legislation</strong><small>Bills, history, lineage, and change</small></span><b>↗</b></a>
+      <a className="family-home__card" href="/court-rules-overview"><span className="family-home__card-number">D</span><span><strong>Court Rules</strong><small>California Rules of Court and procedure</small></span><b>↗</b></a>
+    </div>
+  </section>
+
+  <section className="family-home__workspace" aria-labelledby="workspace-title">
+    <div className="family-home__workspace-copy">
+      <span className="family-home__section-index">02</span>
+      <h2 id="workspace-title">A workspace, not a wall of links.</h2>
+      <p>Move from a question to the underlying authority, then across related cases, legislation, institutions, and analysis without losing the thread.</p>
+      <a className="family-home__text-link" href="/research-workbench">Enter the workbench <span>→</span></a>
+    </div>
+    <div className="family-home__workflow">
+      <div><span>01</span><strong>Locate</strong><small>Find the authority</small></div>
+      <i>→</i>
+      <div><span>02</span><strong>Connect</strong><small>Trace relationships</small></div>
+      <i>→</i>
+      <div><span>03</span><strong>Analyze</strong><small>Test the argument</small></div>
+    </div>
+  </section>
+
+  <section className="family-home__intelligence" data-live-news aria-labelledby="intelligence-title">
+    <div className="family-home__section-head">
+      <div><span className="family-home__section-index">03</span><h2 id="intelligence-title">Legal intelligence</h2></div>
+      <span data-live-news-status>Loading</span>
+    </div>
+    <div className="family-home__news-viewport">
+      <div className="family-home__news-track" data-live-news-list></div>
+      <button type="button" data-news-prev aria-label="Previous stories">←</button>
+      <button type="button" data-news-next aria-label="Next stories">→</button>
+    </div>
+    <div className="family-home__intelligence-footer"><span>Courts · family law · legislation · policy</span><a href="/latest">View all stories →</a></div>
+  </section>
+
+  <section className="family-home__footer-cta">
+    <div><span className="family-home__eyebrow">Research infrastructure</span><h2>Built to make the legal record easier to navigate.</h2></div>
+    <a className="family-home__button" href="/visual-research-guide">Explore the research map <span>→</span></a>
+  </section>
 </div>
