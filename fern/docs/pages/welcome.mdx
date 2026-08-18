@@ -1,6 +1,5 @@
 ---
-title: Family Law, Mapped
-subtitle: California family-law research, organized so you can actually find the thing you came for
+title: California Family Law
 slug: welcome
 layout: custom
 hide-page-actions: true
@@ -8,56 +7,23 @@ hide-feedback: true
 hide-nav-links: true
 ---
 
-<div className="family-landing" data-family-landing>
-  <canvas className="family-landing__field" data-research-canvas aria-hidden="true"></canvas>
-  <div className="family-landing__grid" aria-hidden="true"></div>
-
-  <header className="family-landing__header">
-    <span className="research-marker">California family law research</span>
-    <nav className="family-landing__nav" aria-label="Primary">
-      <a className="family-landing__quiet-link" href="/research-workbench">Research</a>
-      <a className="family-landing__quiet-link" href="/family-code-overview">Family Code</a>
-      <a className="family-landing__quiet-link" href="/case-law">Cases</a>
-      <a className="family-landing__quiet-link" href="/defense-toolkit">Defense Toolkit</a>
-    </nav>
-  </header>
-
+<div className="family-landing">
   <main className="family-landing__hero">
     <div className="family-landing__copy">
       <p className="family-landing__eyebrow">California family law</p>
       <h2>Family law,<br/><em>mapped.</em></h2>
-      <p className="family-landing__lede">A research library for California statutes, court rules, cases, legislation, forms, evidence, and analysis. Start with a question and follow the sources.</p>
-      <div className="family-landing__actions">
-        <a className="family-landing__button family-landing__button--primary" href="/research-workbench">Start researching</a>
-        <a className="family-landing__button family-landing__button--quiet" href="/visual-research-guide">How it works</a>
-      </div>
-      <div className="family-landing__search-hint">
-        <span>Research example</span>
-        <a href="/research-workbench">Find the law, then trace the cases and procedure behind it.</a>
-      </div>
+      <p className="family-landing__lede">Cases, statutes, rules, forms, and evidence, connected.</p>
+      <a className="family-landing__button family-landing__button--primary" href="/research-workbench">Research</a>
     </div>
 
-    <div className="family-landing__diagram">
-      <div className="family-landing__orbit family-landing__orbit--one" aria-hidden="true"></div>
-      <div className="family-landing__orbit family-landing__orbit--two" aria-hidden="true"></div>
-      <a className="family-landing__core" href="/research-workbench">YOUR<br/>QUESTION</a>
-      <a className="family-landing__node family-landing__node--cases" href="/case-law">CASES</a>
-      <a className="family-landing__node family-landing__node--law" href="/family-code-overview">STATUTES</a>
-      <a className="family-landing__node family-landing__node--history" href="/legislation">HISTORY</a>
-      <a className="family-landing__node family-landing__node--evidence" href="/research-workbench">EVIDENCE</a>
-      <a className="family-landing__node family-landing__node--procedure" href="/defense-toolkit">PROCEDURE</a>
+    <div className="family-landing__diagram" aria-hidden="true">
+      <div className="family-landing__orbit family-landing__orbit--one"></div>
+      <div className="family-landing__orbit family-landing__orbit--two"></div>
+      <a className="family-landing__core" href="/research-workbench" aria-label="Open research">RESEARCH</a>
+      <a className="family-landing__node family-landing__node--cases" href="/case-law" aria-label="Case law">CASES</a>
+      <a className="family-landing__node family-landing__node--law" href="/family-code-overview" aria-label="Family Code">STATUTES</a>
+      <a className="family-landing__node family-landing__node--history" href="/legislation" aria-label="Legislation">HISTORY</a>
+      <a className="family-landing__node family-landing__node--evidence" href="/research-workbench" aria-label="Evidence">EVIDENCE</a>
     </div>
   </main>
-
-  <section className="family-landing__capabilities">
-    <a href="/research-workbench"><span>01</span><strong>Research</strong><small>Cases · statutes · rules · forms</small></a>
-    <a href="/legislation"><span>02</span><strong>Trace</strong><small>Amendments · history · treatment</small></a>
-    <a href="/computational-dialectics"><span>03</span><strong>Analyze</strong><small>Arguments · rhetoric · evidence</small></a>
-    <a href="/defense-toolkit"><span>04</span><strong>Defend</strong><small>Defenses · procedure · evidence · authority</small></a>
-  </section>
-
-  <footer className="family-landing__footer">
-    <span>Free public research resource</span>
-    <span>Primary sources remain distinguishable from analysis.</span>
-  </footer>
 </div>
