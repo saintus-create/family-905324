@@ -10,21 +10,37 @@ hide-nav-links: true
 <div className="family-landing" data-family-landing>
   <div className="family-landing__background" data-live-background aria-hidden="true"></div>
   <div className="family-landing__background-overlay" aria-hidden="true"></div>
-  <main className="family-landing__center">
-    <div className="family-landing__panel">
-      <h1>California Legislative Materials</h1>
-      <a className="family-landing__button" href="/legislation">Enter</a>
-      <div className="family-landing__cards">
-        <a href="/family-code-overview"><strong>Family Code</strong></a>
-        <a href="/legislation"><strong>Legislation</strong></a>
-        <a href="/case-law"><strong>Case Law</strong></a>
-        <a href="/defense-toolkit"><strong>Defense Toolkit</strong></a>
+
+  <main className="family-landing__content">
+    <nav className="family-landing__nav" aria-label="Primary">
+      <a href="/" className="is-active">Home</a>
+      <a href="/research">Research</a>
+      <a href="/law">Law</a>
+      <a href="/legislation">Legislation</a>
+      <a href="/people">People & Institutions</a>
+      <a href="/analysis">Analysis</a>
+    </nav>
+
+    <section className="family-landing__hero" aria-labelledby="family-title">
+      <p className="family-landing__eyebrow">California legal research</p>
+      <h1 id="family-title">California Legislative Materials</h1>
+      <p className="family-landing__subtitle">Cases, codes, legislation, institutions, and analysis in one research workspace.</p>
+      <form className="family-landing__search" action="/search" method="get">
+        <span className="family-landing__search-icon" aria-hidden="true">⌕</span>
+        <input name="q" type="search" placeholder="Search California law, cases, codes, legislation…" aria-label="Search California legal materials" autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+      <div className="family-landing__quicklinks" aria-label="Explore">
+        <a href="/family-code-overview">Family Code</a>
+        <a href="/case-law">Case Law</a>
+        <a href="/legislation">Legislation</a>
+        <a href="/defense-toolkit">Defense Toolkit</a>
       </div>
-    </div>
+    </section>
 
     <section className="family-landing__news" data-live-news aria-labelledby="live-news-title">
       <div className="family-landing__news-heading">
-        <span id="live-news-title">Live legal news</span>
+        <div><span className="family-landing__news-kicker">LIVE</span><span id="live-news-title">Latest legal stories</span></div>
         <span className="family-landing__news-status" data-live-news-status>Loading</span>
       </div>
       <div className="family-landing__news-viewport">
@@ -32,7 +48,7 @@ hide-nav-links: true
         <button className="family-landing__news-control family-landing__news-control--prev" type="button" data-news-prev aria-label="Previous stories">‹</button>
         <button className="family-landing__news-control family-landing__news-control--next" type="button" data-news-next aria-label="Next stories">›</button>
       </div>
-      <div className="family-landing__news-footer"><span>California family law · courts · legislation · policy</span><a href="/latest">View all</a></div>
+      <div className="family-landing__news-footer"><span>Courts · family law · legislation · policy</span><a href="/latest">View all stories →</a></div>
     </section>
   </main>
 </div>
