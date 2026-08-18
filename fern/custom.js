@@ -1,27 +1,45 @@
 (() => {
   const initNews = () => {
-    const list = document.querySelector('[data-live-news-list]');
+    const track = document.querySelector('[data-live-news-list]');
     const status = document.querySelector('[data-live-news-status]');
-    if (!list || list.dataset.initialized === 'true') return;
-    list.dataset.initialized = 'true';
+    const viewport = document.querySelector('.family-landing__news-viewport');
+    const prev = document.querySelector('[data-news-prev]');
+    const next = document.querySelector('[data-news-next]');
+    if (!track || track.dataset.initialized === 'true') return;
+    track.dataset.initialized = 'true';
 
-    const endpoint = 'https://api.gdeltproject.org/api/v2/doc/doc?query=%28California%20AND%20%28family%20law%20OR%20domestic%20violence%20OR%20restraining%20order%20OR%20family%20court%29%29&mode=artlist&format=json&maxrecords=6&sort=datedesc';
+    const endpoint = 'https://api.gdeltproject.org/api/v2/doc/doc?query=%28California%20AND%20%28family%20law%20OR%20domestic%20violence%20OR%20restraining%20order%20OR%20family%20court%29%29&mode=artlist&format=json&maxrecords=8&sort=datedesc';
     const escapeHtml = (value) => String(value || '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const imageFor = (article) => article.socialimage || article.socialImage || article.image || '';
     const render = (articles) => {
       if (!articles.length) throw new Error('No articles');
-      list.innerHTML = articles.map((article) => {
-        const title = escapeHtml(article.title || 'Untitled');
+      track.innerHTML = articles.map((article) => {
+        const title = escapeHtml(article.title || 'Untitled story');
         const url = escapeHtml(article.url || '#');
-        const domain = escapeHtml(article.domain || 'source');
-        const seen = article.seendate ? new Date(article.seendate).toLocaleString([], {month:'short', day:'numeric', hour:'numeric', minute:'2-digit'}) : '';
-        return `<a class="family-landing__news-item" href="${url}" target="_blank" rel="noopener noreferrer"><strong>${title}</strong><small>${domain}${seen ? ` · ${seen}` : ''}</small></a>`;
+        const domain = escapeHtml(article.domain || 'Source');
+        const image = escapeHtml(imageFor(article));
+        return `<a class="family-landing__news-item" href="${url}" target="_blank" rel="noopener noreferrer">${image ? `<img class="family-landing__news-image" src="${image}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="family-landing__news-image--empty" aria-hidden="true"></span>'}<span class="family-landing__news-body"><small class="family-landing__news-source">${domain}</small><strong class="family-landing__news-title">${title}</strong></span></a>`;
       }).join('');
       if (status) status.textContent = 'Live';
+      let index = 0;
+      const step = () => Math.min(3, Math.max(1, Math.floor(viewport.clientWidth / 245)));
+      const move = (direction) => {
+        const max = Math.max(0, articles.length - step());
+        index = Math.max(0, Math.min(max, index + direction));
+        const first = track.querySelector('.family-landing__news-item');
+        if (first) track.style.transform = `translateX(-${index * (first.getBoundingClientRect().width + 10)}px)`;
+      };
+      prev?.addEventListener('click', () => move(-1));
+      next?.addEventListener('click', () => move(1));
+      let timer = null;
+      const start = () => { if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return; timer = window.setInterval(() => { const max = Math.max(0, articles.length - step()); if (index >= max) index = -1; move(1); }, 5000); };
+      const stop = () => { if (timer) window.clearInterval(timer); timer = null; };
+      viewport?.addEventListener('mouseenter', stop); viewport?.addEventListener('mouseleave', start); viewport?.addEventListener('focusin', stop); viewport?.addEventListener('focusout', start); start();
     };
     fetch(endpoint, { headers: { Accept: 'application/json' } })
       .then((response) => { if (!response.ok) throw new Error('News request failed'); return response.json(); })
-      .then((data) => render((data.articles || []).slice(0, 6)))
-      .catch(() => { if (status) status.textContent = 'Feed unavailable'; });
+      .then((data) => render((data.articles || []).slice(0, 8)))
+      .catch(() => { if (status) status.textContent = 'Unavailable'; });
   };
 
   const start = () => {
@@ -29,15 +47,12 @@
     const root = document.querySelector('[data-family-landing]');
     if (!root || root.dataset.initialized === 'true') return;
     root.dataset.initialized = 'true';
-
     const canvas = root.querySelector('[data-research-canvas]');
     if (!canvas) return;
-
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const isSmall = window.matchMedia('(max-width: 760px)').matches;
     const gl = canvas.getContext('webgl', { alpha: true, antialias: true });
     if (!gl) return;
-
     const vertex = `attribute vec2 a_position; attribute float a_size; attribute float a_alpha; varying float v_alpha; void main(){gl_Position=vec4(a_position,0.0,1.0);gl_PointSize=a_size;v_alpha=a_alpha;}`;
     const fragment = `precision mediump float; varying float v_alpha; void main(){vec2 p=gl_PointCoord-vec2(0.5);float d=length(p);float glow=smoothstep(0.5,0.0,d);gl_FragColor=vec4(0.56,0.71,0.82,glow*v_alpha);}`;
     const compile = (type, source) => { const shader=gl.createShader(type); gl.shaderSource(shader,source); gl.compileShader(shader); return gl.getShaderParameter(shader,gl.COMPILE_STATUS)?shader:null; };
