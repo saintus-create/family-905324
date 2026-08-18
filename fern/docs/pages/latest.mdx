@@ -2,17 +2,45 @@
 title: Latest California Legal News
 slug: latest
 layout: custom
+hide-page-actions: true
+hide-feedback: true
 ---
 
-<div className="live-news">
-  <div className="live-news__heading">
+<div className="legal-feed">
+  <div className="legal-feed__top">
     <h1>Latest</h1>
-    <a href="https://newsroom.courts.ca.gov/newslinks">Open source</a>
+    <a href="https://newsroom.courts.ca.gov/news">California Courts</a>
   </div>
-  <iframe
-    className="live-news__frame"
-    src="https://newsroom.courts.ca.gov/newslinks"
-    title="California Courts News Feed"
-    loading="lazy"
-  ></iframe>
+
+  <div className="legal-feed__grid">
+    <article className="legal-feed__card">
+      <a href="https://newsroom.courts.ca.gov/news/california-supreme-court-approves-adoption-nextgen-uniform-bar-exam" target="_blank" rel="noreferrer">
+        <div className="legal-feed__image legal-feed__image--court" aria-hidden="true"></div>
+        <div className="legal-feed__body">
+          <div className="legal-feed__source">California Courts · Jul. 15, 2026</div>
+          <h2>California Supreme Court Approves Adoption of NextGen Uniform Bar Exam</h2>
+        </div>
+      </a>
+    </article>
+
+    <article className="legal-feed__card">
+      <a href="https://newsroom.courts.ca.gov/news/chief-justice-appoints-8-new-judicial-council-members-0" target="_blank" rel="noreferrer">
+        <div className="legal-feed__image legal-feed__image--council" aria-hidden="true"></div>
+        <div className="legal-feed__body">
+          <div className="legal-feed__source">California Courts · Jun. 18, 2026</div>
+          <h2>Chief Justice Appoints 8 New Judicial Council Members</h2>
+        </div>
+      </a>
+    </article>
+
+    <article className="legal-feed__card">
+      <a href="https://newsroom.courts.ca.gov/news/numbers-show-benefits-when-children-adopted-extended-family-members" target="_blank" rel="noreferrer">
+        <div className="legal-feed__image legal-feed__image--family" aria-hidden="true"></div>
+        <div className="legal-feed__body">
+          <div className="legal-feed__source">California Courts · Oct. 24, 2025</div>
+          <h2>Numbers Show the Benefits When Children Adopted by Extended Family Members</h2>
+        </div>
+      </a>
+    </article>
+  </div>
 </div>
