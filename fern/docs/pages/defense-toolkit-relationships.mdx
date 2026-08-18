@@ -1,0 +1,72 @@
+---
+title: Defense Toolkit Relationships
+subtitle: Follow propositions through authority, counterauthority, procedure, forms, and evidence
+---
+
+The Defense Toolkit is modeled as a relationship graph rather than a flat list of defenses. The underlying corpus contains structured records for six research pathways and explicit authority relationships. fileciteturn55file0
+
+## The research path
+
+**Question → Proposition → Authority → Counterauthority → Procedure → Form → Evidence**
+
+A relationship is not itself proof that a proposition is correct. It records how the corpus currently connects two research objects and preserves the source-review status of the proposition.
+
+## Relationship types
+
+| Relationship | Meaning |
+| --- | --- |
+| `supports` | The linked authority or evidence supports the proposition being researched. |
+| `contradicts` | The linked material points against the proposition. |
+| `distinguishes` | The linked authority may be materially different on facts, posture, or rule. |
+| `limits` | The linked authority narrows the proposition. |
+| `amends` | The linked source changes the legal text or rule being researched. |
+| `interprets` | The linked authority supplies an interpretation of the proposition or source. |
+| `implements` | A procedural rule or form operationalizes the legal requirement. |
+
+## Current Defense Toolkit graph
+
+### 1. Denial / insufficient evidence
+
+**Proposition → Family Code §§ 6300, 6320 → *S.M. v. E.P.* → response/hearing procedure → DV-120 / DV-125 → communications, timelines, witnesses, and records**
+
+**Status:** Needs current-law review.
+
+### 2. Qualifying relationship
+
+**Proposition → Family Code §§ 6211, 6209 → relationship facts → response procedure → DV-120 → evidence concerning the nature and history of the relationship**
+
+**Status:** Needs current-law review.
+
+### 3. Renewal challenge
+
+**Proposition → Family Code § 6345 → *Ritchie v. Konrad* → subsequent treatment/counterauthority → renewal procedure → DV-720 → evidence relevant to the renewal question**
+
+The *Ritchie* characterization is retained as source-derived research material until current-law review is completed. The graph therefore does not present it as an uncontested statement of current law.
+
+### 4. Modification / termination
+
+**Proposition → Family Code § 6345 → *Loeffler v. Medina* → subsequent treatment → modification/termination procedure → DV-300 / DV-400 → supporting factual record**
+
+**Status:** Needs current-law review.
+
+### 5. Notice / due process
+
+**Proposition → Fourteenth Amendment → service/notice authority → procedural remedy → applicable filing/service materials → service record and prejudice evidence**
+
+**Status:** Needs current-law review.
+
+### 6. Firearm restriction scope
+
+**Proposition → Family Code § 6389 → *United States v. Rahimi* → current constitutional/statutory treatment → applicable procedure → relevant forms/orders → firearm-related evidence**
+
+**Status:** Needs current-law review.
+
+## Why the graph preserves uncertainty
+
+The corpus intentionally distinguishes **verified**, **source-derived**, **needs-current-law-review**, **disputed**, **superseded**, and **historical** material. A source can therefore be connected to a proposition without the connection being represented as an endorsement of the proposition's legal accuracy.
+
+That distinction is essential for the Defense Toolkit because a research page should not silently transform an inherited characterization of a case into authoritative current California law.
+
+## Underlying data
+
+The structured records are stored in `fern/data/legal/defense-toolkit.records.json`; the relationship definitions are stored in `fern/data/legal/defense-toolkit.relationships.json`; and their structures are constrained by the corresponding schemas. fileciteturn55file0
