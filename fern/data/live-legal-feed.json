@@ -1,110 +1,45 @@
 {
-  "updated": "2026-08-18T08:55:11.498591+00:00",
+  "updated": "2026-08-18T09:50:27.594510+00:00",
   "items": [
     {
       "source": "California Courts",
-      "kind": "courts",
-      "title": "Skip to main content",
-      "url": "https://newsroom.courts.ca.gov/news#main-content",
-      "image": null
+      "title": "Leadership Perspectives: Judge Steven Jahr on 100 Years of the Judicial Council",
+      "url": "https://newsroom.courts.ca.gov/news/leadership-perspectives-judge-steven-jahr-100-years-judicial-council"
     },
     {
       "source": "California Courts",
-      "kind": "courts",
-      "title": "Judicial Branch of California",
-      "url": "https://www.courts.ca.gov",
-      "image": "https://newsroom.courts.ca.gov/images/logos/jcc-logo-branch-text-white.svg"
+      "title": "Judicial Ethics Committee Issues Formal Opinion on Appointing Attorney Spouse of Judicial Colleague as Minor’s Counsel",
+      "url": "https://newsroom.courts.ca.gov/news/judicial-ethics-committee-issues-formal-opinion-appointing-attorney-spouse-judicial-colleague"
     },
     {
       "source": "California Courts",
-      "kind": "courts",
-      "title": "California Courts Newsroom",
-      "url": "https://newsroom.courts.ca.gov/",
-      "image": "https://newsroom.courts.ca.gov/sites/newsroom/logo.png"
+      "title": "In Memoriam: Justice Marsha Slough",
+      "url": "https://newsroom.courts.ca.gov/news/memoriam-justice-marsha-slough"
     },
     {
       "source": "California Courts",
-      "kind": "courts",
-      "title": "Cameras in the Courtroom",
-      "url": "https://newsroom.courts.ca.gov/cameras-courtroom",
-      "image": null
+      "title": "Commission to Consider Appointments to Courts of Appeal",
+      "url": "https://newsroom.courts.ca.gov/news/commission-consider-appointments-courts-appeal-12"
     },
     {
       "source": "California Courts",
-      "kind": "courts",
-      "title": "Public Records Requests",
-      "url": "https://newsroom.courts.ca.gov/public-records-requests",
-      "image": null
+      "title": "Commission Confirms Four Appointments to Courts of Appeal",
+      "url": "https://newsroom.courts.ca.gov/news/commission-confirms-four-appointments-courts-appeal"
     },
     {
       "source": "California Courts",
-      "kind": "courts",
-      "title": "Webcast Information",
-      "url": "https://newsroom.courts.ca.gov/webcasts",
-      "image": null
-    },
-    {
-      "source": "Judicial Council",
-      "kind": "judicial-council",
-      "title": "Skip to main content",
-      "url": "https://courts.ca.gov/policy-administration/governmental-affairs/court-related-legislation#main-content",
-      "image": null
-    },
-    {
-      "source": "Judicial Council",
-      "kind": "judicial-council",
-      "title": "California Courts Judicial Branch of California",
-      "url": "https://courts.ca.gov/",
-      "image": null
-    },
-    {
-      "source": "Judicial Council",
-      "kind": "judicial-council",
-      "title": "Published/Citable Opinions",
-      "url": "https://courts.ca.gov/opinions/publishedcitable-opinions",
-      "image": null
-    },
-    {
-      "source": "Judicial Council",
-      "kind": "judicial-council",
-      "title": "Unpublished/Non-Citable Opinions",
-      "url": "https://courts.ca.gov/opinions/unpublishednon-citable-opinions",
-      "image": null
-    },
-    {
-      "source": "Judicial Council",
-      "kind": "judicial-council",
-      "title": "Online Sources Cited in Opinions",
-      "url": "https://courts.ca.gov/opinions/cited-supreme-court-opinions",
-      "image": null
-    },
-    {
-      "source": "Judicial Council",
-      "kind": "judicial-council",
-      "title": "Published Opinions: Review Granted",
-      "url": "https://courts.ca.gov/opinions/published-opinions-review-granted",
-      "image": null
+      "title": "Judges From Sixth District Courts Convene for Power of Democracy Workshop",
+      "url": "https://newsroom.courts.ca.gov/news/judges-sixth-district-courts-convene-power-democracy-workshop"
     },
     {
       "source": "California Legislature",
-      "kind": "legislature",
-      "title": "Today's Schedule >>",
-      "url": "https://leginfo.legislature.ca.gov/",
-      "image": null
-    },
-    {
-      "source": "California Legislature",
-      "kind": "legislature",
       "title": "Assembly Floor Session",
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F18%2F2026&description=Assembly+Floor+Session",
-      "image": null
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F18%2F2026&description=Assembly+Floor+Session"
     },
     {
       "source": "California Legislature",
-      "kind": "legislature",
       "title": "Senate Floor Session",
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=SFLOOR&agendadate=08%2F18%2F2026&description=Senate+Floor+Session",
-      "image": null
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=SFLOOR&agendadate=08%2F18%2F2026&description=Senate+Floor+Session"
     }
   ]
 }
