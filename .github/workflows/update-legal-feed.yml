@@ -2,7 +2,7 @@ name: Update California legal feed
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
   push:
     paths:
@@ -61,7 +61,7 @@ jobs:
                       return
                   if href.rstrip("/") == self.base.rstrip("/"):
                       return
-                  self.current = {"url": href, "title": "", "image": None}
+                  self.current = {"url": href, "title": ""}
 
               def handle_startendtag(self, tag, attrs):
                   self.handle_starttag(tag, attrs)
@@ -105,9 +105,23 @@ jobs:
                   print(f"feed warning: {source}: {exc}")
 
           feed = feed[:18]
+          feed_path = Path("fern/data/live-legal-feed.json")
+          page_path = Path("fern/docs/pages/latest.mdx")
+          previous = {}
+          if feed_path.exists():
+              try:
+                  previous = json.loads(feed_path.read_text())
+              except Exception:
+                  previous = {}
+
+          previous_items = previous.get("items", [])
+          if feed == previous_items and page_path.exists():
+              print("feed unchanged; no commit required")
+              raise SystemExit(0)
+
           updated = datetime.now(timezone.utc).isoformat()
-          Path("fern/data").mkdir(parents=True, exist_ok=True)
-          Path("fern/data/live-legal-feed.json").write_text(json.dumps({"updated": updated, "items": feed}, indent=2, ensure_ascii=False) + "\n")
+          feed_path.parent.mkdir(parents=True, exist_ok=True)
+          feed_path.write_text(json.dumps({"updated": updated, "items": feed}, indent=2, ensure_ascii=False) + "\n")
 
           lines = [
               "---", "title: Latest California Legal News", "slug: latest", "layout: custom", "hide-page-actions: true", "hide-feedback: true", "---", "",
@@ -122,8 +136,8 @@ jobs:
                   '</article>'
               ])
           lines.extend(['</div>', f'<p className="legal-feed__updated">Updated {updated}</p>', '</div>', ''])
-          Path("fern/docs/pages/latest.mdx").write_text("\n".join(lines))
-          print(f"wrote {len(feed)} live items")
+          page_path.write_text("\n".join(lines))
+          print(f"wrote {len(feed)} feed items")
           PY
 
       - name: Commit updated feed
