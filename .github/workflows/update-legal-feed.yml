@@ -15,8 +15,6 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build feed from official California sources
-        env:
-          PYTHONUNBUFFERED: "1"
         run: |
           python - <<'PY'
           import html
@@ -40,20 +38,15 @@ jobs:
                   self.base = base
                   self.items = []
                   self.current = None
-                  self.depth = 0
 
               def handle_starttag(self, tag, attrs):
                   attrs = dict(attrs)
-                  href = attrs.get("href")
-                  src = attrs.get("src")
-                  if tag == "a" and href:
-                      href = urllib.parse.urljoin(self.base, href)
+                  if tag == "a" and attrs.get("href"):
+                      href = urllib.parse.urljoin(self.base, attrs["href"])
                       if href.startswith("https://"):
                           self.current = {"url": href, "title": "", "image": None}
-                          self.depth = 1
-                  elif self.current and tag in ("img",):
-                      if src:
-                          self.current["image"] = urllib.parse.urljoin(self.base, src)
+                  elif self.current and tag == "img" and attrs.get("src"):
+                      self.current["image"] = urllib.parse.urljoin(self.base, attrs["src"])
 
               def handle_data(self, data):
                   if self.current:
@@ -77,38 +70,39 @@ jobs:
               try:
                   parser = Parser(url)
                   parser.feed(fetch(url))
+                  count = 0
                   for item in parser.items:
-                      key = item["url"]
-                      if key in seen:
+                      if item["url"] in seen:
                           continue
-                      seen.add(key)
-                      feed.append({
-                          "source": source,
-                          "kind": kind,
-                          "title": item["title"],
-                          "url": item["url"],
-                          "image": item["image"],
-                      })
-                      if sum(1 for x in feed if x["source"] == source) >= 6:
+                      seen.add(item["url"])
+                      feed.append({"source": source, "kind": kind, "title": item["title"], "url": item["url"], "image": item["image"]})
+                      count += 1
+                      if count >= 6:
                           break
               except Exception as exc:
                   print(f"feed warning: {source}: {exc}")
 
-          payload = {
-              "updated": datetime.now(timezone.utc).isoformat(),
-              "items": feed[:18],
-          }
-          out = Path("fern/data/live-legal-feed.json")
-          out.parent.mkdir(parents=True, exist_ok=True)
-          out.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
-          print(f"wrote {len(feed[:18])} feed items")
+          feed = feed[:18]
+          updated = datetime.now(timezone.utc).isoformat()
+          Path("fern/data").mkdir(parents=True, exist_ok=True)
+          Path("fern/data/live-legal-feed.json").write_text(json.dumps({"updated": updated, "items": feed}, indent=2, ensure_ascii=False) + "\n")
+
+          lines = ["---", "title: Latest California Legal News", "slug: latest", "layout: custom", "---", "", "# Latest", ""]
+          for item in feed:
+              lines.append(f"### [{item['title']}]({item['url']})")
+              lines.append(f"{item['source']}")
+              if item.get("image"):
+                  lines.append(f"\n![{item['source']}]({item['image']})")
+              lines.append("")
+          Path("fern/docs/pages/latest.mdx").write_text("\n".join(lines) + "\n")
+          print(f"wrote {len(feed)} live items")
           PY
 
       - name: Commit updated feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add fern/data/live-legal-feed.json
+          git add fern/data/live-legal-feed.json fern/docs/pages/latest.mdx
           git diff --cached --quiet && exit 0
           git commit -m "chore: update California legal feed"
           git push
