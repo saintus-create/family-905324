@@ -1,0 +1,114 @@
+name: Update California legal feed
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build feed from official California sources
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python - <<'PY'
+          import html
+          import json
+          import re
+          import urllib.parse
+          import urllib.request
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          SOURCES = [
+              ("California Courts", "https://newsroom.courts.ca.gov/", "courts"),
+              ("Judicial Council", "https://courts.ca.gov/policy-administration/governmental-affairs/court-related-legislation", "judicial-council"),
+              ("California Legislature", "https://leginfo.legislature.ca.gov/", "legislature"),
+          ]
+
+          class Parser(HTMLParser):
+              def __init__(self, base):
+                  super().__init__(convert_charrefs=True)
+                  self.base = base
+                  self.items = []
+                  self.current = None
+                  self.depth = 0
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  href = attrs.get("href")
+                  src = attrs.get("src")
+                  if tag == "a" and href:
+                      href = urllib.parse.urljoin(self.base, href)
+                      if href.startswith("https://"):
+                          self.current = {"url": href, "title": "", "image": None}
+                          self.depth = 1
+                  elif self.current and tag in ("img",):
+                      if src:
+                          self.current["image"] = urllib.parse.urljoin(self.base, src)
+
+              def handle_data(self, data):
+                  if self.current:
+                      self.current["title"] += " " + data.strip()
+
+              def handle_endtag(self, tag):
+                  if tag == "a" and self.current:
+                      title = re.sub(r"\s+", " ", self.current["title"]).strip()
+                      if 18 <= len(title) <= 180 and not any(x in title.lower() for x in ("subscribe", "contact", "search", "home", "more news")):
+                          self.items.append({**self.current, "title": html.unescape(title)})
+                      self.current = None
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "family-law-site-feed/1.0"})
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  return r.read().decode("utf-8", "replace")
+
+          feed = []
+          seen = set()
+          for source, url, kind in SOURCES:
+              try:
+                  parser = Parser(url)
+                  parser.feed(fetch(url))
+                  for item in parser.items:
+                      key = item["url"]
+                      if key in seen:
+                          continue
+                      seen.add(key)
+                      feed.append({
+                          "source": source,
+                          "kind": kind,
+                          "title": item["title"],
+                          "url": item["url"],
+                          "image": item["image"],
+                      })
+                      if sum(1 for x in feed if x["source"] == source) >= 6:
+                          break
+              except Exception as exc:
+                  print(f"feed warning: {source}: {exc}")
+
+          payload = {
+              "updated": datetime.now(timezone.utc).isoformat(),
+              "items": feed[:18],
+          }
+          out = Path("fern/data/live-legal-feed.json")
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+          print(f"wrote {len(feed[:18])} feed items")
+          PY
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fern/data/live-legal-feed.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update California legal feed"
+          git push
