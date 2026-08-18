@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-legal-feed.yml"
 
 permissions:
   contents: write
@@ -27,7 +30,7 @@ jobs:
           from datetime import datetime, timezone
 
           SOURCES = [
-              ("California Courts", "https://newsroom.courts.ca.gov/", "courts"),
+              ("California Courts", "https://newsroom.courts.ca.gov/news", "courts"),
               ("Judicial Council", "https://courts.ca.gov/policy-administration/governmental-affairs/court-related-legislation", "judicial-council"),
               ("California Legislature", "https://leginfo.legislature.ca.gov/", "legislature"),
           ]
@@ -38,6 +41,7 @@ jobs:
                   self.base = base
                   self.items = []
                   self.current = None
+                  self.in_image = False
 
               def handle_starttag(self, tag, attrs):
                   attrs = dict(attrs)
@@ -45,8 +49,10 @@ jobs:
                       href = urllib.parse.urljoin(self.base, attrs["href"])
                       if href.startswith("https://"):
                           self.current = {"url": href, "title": "", "image": None}
-                  elif self.current and tag == "img" and attrs.get("src"):
-                      self.current["image"] = urllib.parse.urljoin(self.base, attrs["src"])
+                  elif self.current and tag == "img":
+                      src = attrs.get("src") or attrs.get("data-src") or attrs.get("data-lazy-src")
+                      if src:
+                          self.current["image"] = urllib.parse.urljoin(self.base, src)
 
               def handle_data(self, data):
                   if self.current:
@@ -55,7 +61,8 @@ jobs:
               def handle_endtag(self, tag):
                   if tag == "a" and self.current:
                       title = re.sub(r"\s+", " ", self.current["title"]).strip()
-                      if 18 <= len(title) <= 180 and not any(x in title.lower() for x in ("subscribe", "contact", "search", "home", "more news")):
+                      ignored = ("subscribe", "contact", "search", "home", "more news", "news and features", "resources")
+                      if 18 <= len(title) <= 180 and not any(x in title.lower() for x in ignored):
                           self.items.append({**self.current, "title": html.unescape(title)})
                       self.current = None
 
@@ -87,14 +94,22 @@ jobs:
           Path("fern/data").mkdir(parents=True, exist_ok=True)
           Path("fern/data/live-legal-feed.json").write_text(json.dumps({"updated": updated, "items": feed}, indent=2, ensure_ascii=False) + "\n")
 
-          lines = ["---", "title: Latest California Legal News", "slug: latest", "layout: custom", "---", "", "# Latest", ""]
+          lines = [
+              "---", "title: Latest California Legal News", "slug: latest", "layout: custom", "hide-page-actions: true", "hide-feedback: true", "---", "",
+              '<div className="legal-feed">',
+              '<div className="legal-feed__top"><h1>Latest</h1><a href="https://newsroom.courts.ca.gov/news">California Courts</a></div>',
+              '<div className="legal-feed__grid">'
+          ]
           for item in feed:
-              lines.append(f"### [{item['title']}]({item['url']})")
-              lines.append(f"{item['source']}")
-              if item.get("image"):
-                  lines.append(f"\n![{item['source']}]({item['image']})")
-              lines.append("")
-          Path("fern/docs/pages/latest.mdx").write_text("\n".join(lines) + "\n")
+              image = item.get("image")
+              image_markup = f'<img src="{html.escape(image, quote=True)}" alt="" loading="lazy" />' if image else '<div className="legal-feed__image--empty" aria-hidden="true"></div>'
+              lines.extend([
+                  '<article className="legal-feed__card">',
+                  f'<a href="{html.escape(item["url"], quote=True)}" target="_blank" rel="noreferrer">{image_markup}<div className="legal-feed__body"><div className="legal-feed__source">{html.escape(item["source"])}</div><h2>{html.escape(item["title"])}</h2></div></a>',
+                  '</article>'
+              ])
+          lines.extend(['</div>', '</div>', ''])
+          Path("fern/docs/pages/latest.mdx").write_text("\n".join(lines))
           print(f"wrote {len(feed)} live items")
           PY
 
