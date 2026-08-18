@@ -23,12 +23,14 @@ hide-nav-links: true
     <section className="family-landing__news" data-live-news aria-labelledby="live-news-title">
       <div className="family-landing__news-heading">
         <span id="live-news-title">Live legal news</span>
-        <span data-live-news-status>Updating…</span>
+        <span className="family-landing__news-status" data-live-news-status>Loading</span>
       </div>
-      <div className="family-landing__news-list" data-live-news-list>
-        <a href="/latest">Open the latest California legal news</a>
+      <div className="family-landing__news-viewport">
+        <div className="family-landing__news-track" data-live-news-list></div>
+        <button className="family-landing__news-control family-landing__news-control--prev" type="button" data-news-prev aria-label="Previous stories">‹</button>
+        <button className="family-landing__news-control family-landing__news-control--next" type="button" data-news-next aria-label="Next stories">›</button>
       </div>
-      <div className="family-landing__news-meta">California family law · courts · legislation · policy</div>
+      <div className="family-landing__news-footer"><span>California family law · courts · legislation · policy</span><a href="/latest">View all</a></div>
     </section>
   </main>
 </div>
