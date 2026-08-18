@@ -118,6 +118,12 @@ navigation:
   - page: Court Rules Overview
     path: docs/pages/court-rules-overview.mdx
     icon: fa-regular fa-scale-balanced
+  - page: Defense Toolkit
+    path: docs/pages/defense-toolkit.mdx
+    icon: fa-regular fa-shield-halved
+  - page: Defense Authority Graph
+    path: docs/pages/defense-toolkit-relationships.mdx
+    icon: fa-regular fa-diagram-project
   - section: Family Code
     collapsed: true
     contents:
