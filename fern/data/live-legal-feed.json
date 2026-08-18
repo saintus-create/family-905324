@@ -1,45 +1,53 @@
 {
-  "updated": "2026-08-18T09:50:27.594510+00:00",
+  "updated": "2026-08-18T09:52:27.596869+00:00",
   "items": [
     {
-      "source": "California Courts",
+      "url": "https://newsroom.courts.ca.gov/news/leadership-perspectives-judge-steven-jahr-100-years-judicial-council",
       "title": "Leadership Perspectives: Judge Steven Jahr on 100 Years of the Judicial Council",
-      "url": "https://newsroom.courts.ca.gov/news/leadership-perspectives-judge-steven-jahr-100-years-judicial-council"
+      "source": "California Courts",
+      "image": "https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-08/Judge_Steven_Jahr_Judicial_Council_100th_anniverary_banner.png?itok=dtpXaTr9"
     },
     {
-      "source": "California Courts",
+      "url": "https://newsroom.courts.ca.gov/news/judicial-ethics-committee-issues-formal-opinion-appointing-attorney-spouse-judicial-colleague",
       "title": "Judicial Ethics Committee Issues Formal Opinion on Appointing Attorney Spouse of Judicial Colleague as Minor’s Counsel",
-      "url": "https://newsroom.courts.ca.gov/news/judicial-ethics-committee-issues-formal-opinion-appointing-attorney-spouse-judicial-colleague"
+      "source": "California Courts",
+      "image": "https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-06/CJEO%20Logo%202026%20Greyscale.png?itok=2b5ca5mG"
     },
     {
-      "source": "California Courts",
+      "url": "https://newsroom.courts.ca.gov/news/memoriam-justice-marsha-slough",
       "title": "In Memoriam: Justice Marsha Slough",
-      "url": "https://newsroom.courts.ca.gov/news/memoriam-justice-marsha-slough"
+      "source": "California Courts",
+      "image": "https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-08/JC%20mtg%20Slough.jpg?itok=dd8buj5z"
     },
     {
-      "source": "California Courts",
+      "url": "https://newsroom.courts.ca.gov/news/commission-consider-appointments-courts-appeal-12",
       "title": "Commission to Consider Appointments to Courts of Appeal",
-      "url": "https://newsroom.courts.ca.gov/news/commission-consider-appointments-courts-appeal-12"
+      "source": "California Courts",
+      "image": "https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-08/8.19.26-%20COJA%20to%20Consider%20Four%20Appointments%20to%20Courts%20of%20Appeal.png?itok=BlQHyvke"
     },
     {
-      "source": "California Courts",
+      "url": "https://newsroom.courts.ca.gov/news/commission-confirms-four-appointments-courts-appeal",
       "title": "Commission Confirms Four Appointments to Courts of Appeal",
-      "url": "https://newsroom.courts.ca.gov/news/commission-confirms-four-appointments-courts-appeal"
-    },
-    {
       "source": "California Courts",
+      "image": "https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-08/CODY.JPG?itok=aRniRT9K"
+    },
+    {
+      "url": "https://newsroom.courts.ca.gov/news/judges-sixth-district-courts-convene-power-democracy-workshop",
       "title": "Judges From Sixth District Courts Convene for Power of Democracy Workshop",
-      "url": "https://newsroom.courts.ca.gov/news/judges-sixth-district-courts-convene-power-democracy-workshop"
+      "source": "California Courts",
+      "image": "https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-07/Image%20%284%29.jpg?itok=21mt2vE0"
     },
     {
-      "source": "California Legislature",
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F18%2F2026&description=Assembly+Floor+Session",
       "title": "Assembly Floor Session",
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F18%2F2026&description=Assembly+Floor+Session"
+      "source": "California Legislature",
+      "image": "https://leginfo.legislature.ca.gov/resources/images/header_img.png"
     },
     {
-      "source": "California Legislature",
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=SFLOOR&agendadate=08%2F18%2F2026&description=Senate+Floor+Session",
       "title": "Senate Floor Session",
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=SFLOOR&agendadate=08%2F18%2F2026&description=Senate+Floor+Session"
+      "source": "California Legislature",
+      "image": "https://leginfo.legislature.ca.gov/resources/images/header_img.png"
     }
   ]
 }
