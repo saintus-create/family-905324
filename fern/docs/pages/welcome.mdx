@@ -1,6 +1,6 @@
 ---
 title: Family Law, Mapped
-subtitle: Free, source-grounded research across California family law
+subtitle: California family-law research, organized so you can actually find the thing you came for
 slug: welcome
 layout: custom
 hide-page-actions: true
@@ -14,25 +14,26 @@ hide-nav-links: true
 
   <header className="family-landing__header">
     <span className="research-marker">California family law research</span>
-    <a className="family-landing__quiet-link" href="/research-workbench">Open research</a>
+    <nav className="family-landing__nav" aria-label="Primary">
+      <a className="family-landing__quiet-link" href="/research-workbench">Research</a>
+      <a className="family-landing__quiet-link" href="/family-code-overview">Family Code</a>
+      <a className="family-landing__quiet-link" href="/case-law">Cases</a>
+      <a className="family-landing__quiet-link" href="/defense-toolkit">Defense Toolkit</a>
+    </nav>
   </header>
 
   <main className="family-landing__hero">
     <div className="family-landing__copy">
-      <p className="family-landing__eyebrow">Law is connected.</p>
+      <p className="family-landing__eyebrow">California family law</p>
       <h2>Family law,<br/><em>mapped.</em></h2>
-      <p className="family-landing__lede">
-        Find California statutes, rules, cases, forms, legislation, evidence, and analysis, then follow the relationships between them.
-      </p>
-
+      <p className="family-landing__lede">A research library for California statutes, court rules, cases, legislation, forms, evidence, and analysis. Start with a question and follow the sources.</p>
       <div className="family-landing__actions">
-        <a className="family-landing__button family-landing__button--primary" href="/research-workbench">Enter research</a>
-        <a className="family-landing__button family-landing__button--quiet" href="/visual-research-guide">Explore the map</a>
+        <a className="family-landing__button family-landing__button--primary" href="/research-workbench">Start researching</a>
+        <a className="family-landing__button family-landing__button--quiet" href="/visual-research-guide">How it works</a>
       </div>
-
       <div className="family-landing__search-hint">
-        <span>Try asking</span>
-        <a href="/research-workbench">How do I get a juvenile restraining order?</a>
+        <span>Research example</span>
+        <a href="/research-workbench">Find the law, then trace the cases and procedure behind it.</a>
       </div>
     </div>
 
@@ -49,26 +50,10 @@ hide-nav-links: true
   </main>
 
   <section className="family-landing__capabilities">
-    <a href="/research-workbench">
-      <span>01</span>
-      <strong>Research</strong>
-      <small>Cases · statutes · rules · forms</small>
-    </a>
-    <a href="/legislation">
-      <span>02</span>
-      <strong>Trace</strong>
-      <small>Amendments · history · treatment</small>
-    </a>
-    <a href="/computational-dialectics">
-      <span>03</span>
-      <strong>Analyze</strong>
-      <small>Arguments · rhetoric · evidence</small>
-    </a>
-    <a href="/defense-toolkit">
-      <span>04</span>
-      <strong>Defend</strong>
-      <small>Defenses · procedure · evidence · authority</small>
-    </a>
+    <a href="/research-workbench"><span>01</span><strong>Research</strong><small>Cases · statutes · rules · forms</small></a>
+    <a href="/legislation"><span>02</span><strong>Trace</strong><small>Amendments · history · treatment</small></a>
+    <a href="/computational-dialectics"><span>03</span><strong>Analyze</strong><small>Arguments · rhetoric · evidence</small></a>
+    <a href="/defense-toolkit"><span>04</span><strong>Defend</strong><small>Defenses · procedure · evidence · authority</small></a>
   </section>
 
   <footer className="family-landing__footer">
