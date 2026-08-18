@@ -120,9 +120,11 @@ navigation:
     icon: fa-regular fa-scale-balanced
   - page: Defense Toolkit
     path: docs/pages/defense-toolkit.mdx
+    slug: defense-toolkit
     icon: fa-regular fa-shield-halved
   - page: Defense Authority Graph
     path: docs/pages/defense-toolkit-relationships.mdx
+    slug: defense-toolkit-relationships
     icon: fa-regular fa-diagram-project
   - section: Family Code
     collapsed: true
