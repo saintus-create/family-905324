@@ -1,4 +1,39 @@
 (() => {
+  const initLiveBackground = () => {
+    const background = document.querySelector('[data-live-background]');
+    if (!background || background.dataset.initialized === 'true') return;
+    background.dataset.initialized = 'true';
+
+    // Bing publishes a new homepage image daily and exposes a UHD endpoint.
+    // The endpoint returns the current image at 3840x2160 when resolution=UHD.
+    // A date key prevents the browser from holding yesterday's background.
+    const dayKey = new Date().toISOString().slice(0, 10);
+    const imageUrl = `https://bing.biturl.top/?resolution=UHD&format=image&index=0&mkt=en-US&v=${dayKey}`;
+    const image = new Image();
+    image.decoding = 'async';
+    image.onload = () => {
+      background.style.backgroundImage = `url("${imageUrl}")`;
+      background.classList.add('is-loaded');
+      background.setAttribute('data-background-date', dayKey);
+    };
+    image.src = imageUrl;
+
+    // Re-check after midnight for visitors who keep the homepage open.
+    const refresh = () => {
+      const nextDayKey = new Date().toISOString().slice(0, 10);
+      if (nextDayKey === background.getAttribute('data-background-date')) return;
+      const nextImageUrl = `https://bing.biturl.top/?resolution=UHD&format=image&index=0&mkt=en-US&v=${nextDayKey}`;
+      const nextImage = new Image();
+      nextImage.decoding = 'async';
+      nextImage.onload = () => {
+        background.style.backgroundImage = `url("${nextImageUrl}")`;
+        background.setAttribute('data-background-date', nextDayKey);
+      };
+      nextImage.src = nextImageUrl;
+    };
+    window.setInterval(refresh, 15 * 60 * 1000);
+  };
+
   const initNews = () => {
     const track = document.querySelector('[data-live-news-list]');
     const status = document.querySelector('[data-live-news-status]');
@@ -57,6 +92,7 @@
   };
 
   const start = () => {
+    initLiveBackground();
     initNews();
     const root = document.querySelector('[data-family-landing]');
     if (!root || root.dataset.initialized === 'true') return;
