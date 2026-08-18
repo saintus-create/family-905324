@@ -30,41 +30,56 @@ jobs:
           from datetime import datetime, timezone
 
           SOURCES = [
-              ("California Courts", "https://newsroom.courts.ca.gov/news", "courts"),
-              ("Judicial Council", "https://courts.ca.gov/policy-administration/governmental-affairs/court-related-legislation", "judicial-council"),
-              ("California Legislature", "https://leginfo.legislature.ca.gov/", "legislature"),
+              ("California Courts", "https://newsroom.courts.ca.gov/news", ("/news/", "/news/releases/")),
+              ("Judicial Council", "https://courts.ca.gov/policy-administration/governmental-affairs/court-related-legislation", ("/news/",)),
+              ("California Legislature", "https://leginfo.legislature.ca.gov/", ("/faces/billInfo/", "/faces/billResultsClient.xhtml")),
           ]
 
+          BAD_TITLES = {
+              "home", "search", "subscribe", "contact", "resources", "calendar",
+              "news", "news and features", "all news", "more news", "skip to main content",
+              "public records request", "branch facts", "judicial branch of california",
+          }
+
           class Parser(HTMLParser):
-              def __init__(self, base):
+              def __init__(self, base, allowed_paths):
                   super().__init__(convert_charrefs=True)
                   self.base = base
+                  self.allowed_paths = allowed_paths
                   self.items = []
                   self.current = None
-                  self.in_image = False
 
               def handle_starttag(self, tag, attrs):
                   attrs = dict(attrs)
-                  if tag == "a" and attrs.get("href"):
-                      href = urllib.parse.urljoin(self.base, attrs["href"])
-                      if href.startswith("https://"):
-                          self.current = {"url": href, "title": "", "image": None}
-                  elif self.current and tag == "img":
-                      src = attrs.get("src") or attrs.get("data-src") or attrs.get("data-lazy-src")
-                      if src:
-                          self.current["image"] = urllib.parse.urljoin(self.base, src)
+                  if tag != "a" or not attrs.get("href"):
+                      return
+                  href = urllib.parse.urljoin(self.base, attrs["href"])
+                  parsed = urllib.parse.urlparse(href)
+                  if parsed.scheme != "https" or not parsed.netloc:
+                      return
+                  if self.allowed_paths and not any(parsed.path.startswith(path) for path in self.allowed_paths):
+                      return
+                  if href.rstrip("/") == self.base.rstrip("/"):
+                      return
+                  self.current = {"url": href, "title": "", "image": None}
+
+              def handle_startendtag(self, tag, attrs):
+                  self.handle_starttag(tag, attrs)
 
               def handle_data(self, data):
                   if self.current:
-                      self.current["title"] += " " + data.strip()
+                      text = data.strip()
+                      if text:
+                          self.current["title"] += " " + text
 
               def handle_endtag(self, tag):
-                  if tag == "a" and self.current:
-                      title = re.sub(r"\s+", " ", self.current["title"]).strip()
-                      ignored = ("subscribe", "contact", "search", "home", "more news", "news and features", "resources")
-                      if 18 <= len(title) <= 180 and not any(x in title.lower() for x in ignored):
-                          self.items.append({**self.current, "title": html.unescape(title)})
-                      self.current = None
+                  if tag != "a" or not self.current:
+                      return
+                  title = re.sub(r"\s+", " ", self.current["title"]).strip()
+                  normalized = title.lower().strip(" .:")
+                  if 18 <= len(title) <= 180 and normalized not in BAD_TITLES:
+                      self.items.append({"url": self.current["url"], "title": html.unescape(title)})
+                  self.current = None
 
           def fetch(url):
               req = urllib.request.Request(url, headers={"User-Agent": "family-law-site-feed/1.0"})
@@ -73,16 +88,16 @@ jobs:
 
           feed = []
           seen = set()
-          for source, url, kind in SOURCES:
+          for source, url, allowed_paths in SOURCES:
               try:
-                  parser = Parser(url)
+                  parser = Parser(url, allowed_paths)
                   parser.feed(fetch(url))
                   count = 0
                   for item in parser.items:
                       if item["url"] in seen:
                           continue
                       seen.add(item["url"])
-                      feed.append({"source": source, "kind": kind, "title": item["title"], "url": item["url"], "image": item["image"]})
+                      feed.append({"source": source, "title": item["title"], "url": item["url"]})
                       count += 1
                       if count >= 6:
                           break
@@ -97,18 +112,16 @@ jobs:
           lines = [
               "---", "title: Latest California Legal News", "slug: latest", "layout: custom", "hide-page-actions: true", "hide-feedback: true", "---", "",
               '<div className="legal-feed">',
-              '<div className="legal-feed__top"><h1>Latest</h1><a href="https://newsroom.courts.ca.gov/news">California Courts</a></div>',
+              '<div className="legal-feed__top"><h1>Latest</h1><a href="https://newsroom.courts.ca.gov/news" target="_blank" rel="noreferrer">California Courts</a></div>',
               '<div className="legal-feed__grid">'
           ]
           for item in feed:
-              image = item.get("image")
-              image_markup = f'<img src="{html.escape(image, quote=True)}" alt="" loading="lazy" />' if image else '<div className="legal-feed__image--empty" aria-hidden="true"></div>'
               lines.extend([
                   '<article className="legal-feed__card">',
-                  f'<a href="{html.escape(item["url"], quote=True)}" target="_blank" rel="noreferrer">{image_markup}<div className="legal-feed__body"><div className="legal-feed__source">{html.escape(item["source"])}</div><h2>{html.escape(item["title"])}</h2></div></a>',
+                  f'<a href="{html.escape(item["url"], quote=True)}" target="_blank" rel="noreferrer"><div className="legal-feed__image--empty" aria-hidden="true"></div><div className="legal-feed__body"><div className="legal-feed__source">{html.escape(item["source"])}</div><h2>{html.escape(item["title"])}</h2></div></a>',
                   '</article>'
               ])
-          lines.extend(['</div>', '</div>', ''])
+          lines.extend(['</div>', f'<p className="legal-feed__updated">Updated {updated}</p>', '</div>', ''])
           Path("fern/docs/pages/latest.mdx").write_text("\n".join(lines))
           print(f"wrote {len(feed)} live items")
           PY
