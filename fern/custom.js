@@ -8,23 +8,33 @@
     if (!track || track.dataset.initialized === 'true') return;
     track.dataset.initialized = 'true';
 
-    const endpoint = 'https://api.gdeltproject.org/api/v2/doc/doc?query=%28California%20AND%20%28family%20law%20OR%20domestic%20violence%20OR%20restraining%20order%20OR%20family%20court%29%29&mode=artlist&format=json&maxrecords=8&sort=datedesc';
-    const escapeHtml = (value) => String(value || '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-    const imageFor = (article) => article.socialimage || article.socialImage || article.image || '';
+    // The GitHub Actions feed is refreshed independently every 15 minutes.
+    // Reading the generated JSON avoids browser-side news scraping and gives
+    // the homepage a deterministic fallback when an external feed is slow.
+    const feedUrl = 'https://raw.githubusercontent.com/saintus-create/family-905324/main/fern/data/live-legal-feed.json';
+    const fallback = [
+      { title: 'Leadership Perspectives: Judge Steven Jahr on 100 Years of the Judicial Council', source: 'California Courts', url: 'https://newsroom.courts.ca.gov/news/leadership-perspectives-judge-steven-jahr-100-years-judicial-council', image: 'https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-08/Judge_Steven_Jahr_Judicial_Council_100th_anniverary_banner.png' },
+      { title: 'Judicial Ethics Committee Issues Formal Opinion on Appointing Attorney Spouse of Judicial Colleague as Minor’s Counsel', source: 'California Courts', url: 'https://newsroom.courts.ca.gov/news/judicial-ethics-committee-issues-formal-opinion-appointing-attorney-spouse-judicial-colleague', image: 'https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-06/CJEO%20Logo%202026%20Greyscale.png' },
+      { title: 'Commission Confirms Four Appointments to Courts of Appeal', source: 'California Courts', url: 'https://newsroom.courts.ca.gov/news/commission-confirms-four-appointments-courts-appeal', image: 'https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-08/CODY.JPG' },
+      { title: 'Assembly Floor Session', source: 'California Legislature', url: 'https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F18%2F2026&description=Assembly+Floor+Session', image: 'https://leginfo.legislature.ca.gov/resources/images/header_img.png' }
+    ];
+
+    const escapeHtml = (value) => String(value || '').replace(/[&<>"']/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
     const render = (articles) => {
-      if (!articles.length) throw new Error('No articles');
-      track.innerHTML = articles.map((article) => {
-        const title = escapeHtml(article.title || 'Untitled story');
-        const url = escapeHtml(article.url || '#');
-        const domain = escapeHtml(article.domain || 'Source');
-        const image = escapeHtml(imageFor(article));
+      const stories = articles.filter((article) => article && article.title && article.url).slice(0, 8);
+      if (!stories.length) throw new Error('No stories');
+      track.innerHTML = stories.map((article) => {
+        const title = escapeHtml(article.title);
+        const url = escapeHtml(article.url);
+        const domain = escapeHtml(article.source || article.domain || 'Source');
+        const image = escapeHtml(article.image || article.socialimage || article.socialImage || '');
         return `<a class="family-landing__news-item" href="${url}" target="_blank" rel="noopener noreferrer">${image ? `<img class="family-landing__news-image" src="${image}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="family-landing__news-image--empty" aria-hidden="true"></span>'}<span class="family-landing__news-body"><small class="family-landing__news-source">${domain}</small><strong class="family-landing__news-title">${title}</strong></span></a>`;
       }).join('');
       if (status) status.textContent = 'Live';
       let index = 0;
       const step = () => Math.min(3, Math.max(1, Math.floor(viewport.clientWidth / 245)));
       const move = (direction) => {
-        const max = Math.max(0, articles.length - step());
+        const max = Math.max(0, stories.length - step());
         index = Math.max(0, Math.min(max, index + direction));
         const first = track.querySelector('.family-landing__news-item');
         if (first) track.style.transform = `translateX(-${index * (first.getBoundingClientRect().width + 10)}px)`;
@@ -32,14 +42,18 @@
       prev?.addEventListener('click', () => move(-1));
       next?.addEventListener('click', () => move(1));
       let timer = null;
-      const start = () => { if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return; timer = window.setInterval(() => { const max = Math.max(0, articles.length - step()); if (index >= max) index = -1; move(1); }, 5000); };
+      const start = () => {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || stories.length <= step()) return;
+        timer = window.setInterval(() => { const max = Math.max(0, stories.length - step()); if (index >= max) index = -1; move(1); }, 5000);
+      };
       const stop = () => { if (timer) window.clearInterval(timer); timer = null; };
       viewport?.addEventListener('mouseenter', stop); viewport?.addEventListener('mouseleave', start); viewport?.addEventListener('focusin', stop); viewport?.addEventListener('focusout', start); start();
     };
-    fetch(endpoint, { headers: { Accept: 'application/json' } })
-      .then((response) => { if (!response.ok) throw new Error('News request failed'); return response.json(); })
-      .then((data) => render((data.articles || []).slice(0, 8)))
-      .catch(() => { if (status) status.textContent = 'Unavailable'; });
+
+    fetch(feedUrl, { cache: 'no-store', headers: { Accept: 'application/json' } })
+      .then((response) => { if (!response.ok) throw new Error('Feed request failed'); return response.json(); })
+      .then((data) => render(data.items || []))
+      .catch(() => render(fallback));
   };
 
   const start = () => {
