@@ -7,7 +7,7 @@ hide-feedback: true
 hide-nav-links: true
 ---
 
-<div className="family-landing">
+<div className="family-landing" data-family-landing>
   <main className="family-landing__center">
     <div className="family-landing__panel">
       <h1>California Legislative Materials</h1>
@@ -16,11 +16,19 @@ hide-nav-links: true
         <a href="/family-code-overview"><strong>Family Code</strong></a>
         <a href="/legislation"><strong>Legislation</strong></a>
         <a href="/case-law"><strong>Case Law</strong></a>
+        <a href="/defense-toolkit"><strong>Defense Toolkit</strong></a>
       </div>
     </div>
-    <section className="family-landing__news" aria-label="California legal news">
-      <div className="family-landing__news-heading">Latest</div>
-      <a href="/latest">Live California legal news</a>
+
+    <section className="family-landing__news" data-live-news aria-labelledby="live-news-title">
+      <div className="family-landing__news-heading">
+        <span id="live-news-title">Live legal news</span>
+        <span data-live-news-status>Updating…</span>
+      </div>
+      <div className="family-landing__news-list" data-live-news-list>
+        <a href="/latest">Open the latest California legal news</a>
+      </div>
+      <div className="family-landing__news-meta">California family law · courts · legislation · policy</div>
     </section>
   </main>
 </div>
