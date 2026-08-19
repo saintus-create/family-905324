@@ -4,16 +4,15 @@
 .fern-card { border-color: var(--border); background: var(--card-background); box-shadow: none; }
 .fern-card:hover { border-color: var(--border); background: var(--card-background); box-shadow: none; transform: none; }
 
-/* Homepage is an embedded external app. Target the actual embed, not the old .saas-starter-home markup. */
+/* Keep Fern's real header and navigation above the embedded SaaS homepage. */
 body:has(.saas-starter-embed) { background:#fff; }
-body:has(.saas-starter-embed) header { display:none!important; }
 body:has(.saas-starter-embed) .fern-page-content,
 body:has(.saas-starter-embed) .fern-content,
 body:has(.saas-starter-embed) .fern-layout-page,
 body:has(.saas-starter-embed) .fern-layout-content,
 body:has(.saas-starter-embed) main { width:100%!important; max-width:none!important; margin:0!important; padding:0!important; }
-.saas-starter-embed { display:block; width:100%; height:100vh; min-height:100vh; margin:0; padding:0; overflow:hidden; }
-.saas-starter-embed iframe { display:block; width:100%; height:100vh; min-height:100vh; margin:0; padding:0; border:0; }
+.saas-starter-embed { display:block; width:100%; height:calc(100vh - var(--header-height, 0px)); min-height:calc(100vh - var(--header-height, 0px)); margin:0; padding:0; overflow:hidden; }
+.saas-starter-embed iframe { display:block; width:100%; height:100%; min-height:100%; margin:0; padding:0; border:0; }
 
 /* Persistent research dialogue: sits above the template rather than inside it. */
 .research-assistant { position:fixed; z-index:2147483000; right:24px; bottom:24px; width:min(390px,calc(100vw - 32px)); height:520px; display:flex; flex-direction:column; overflow:hidden; border:1px solid rgba(20,20,24,.14); border-radius:18px; background:rgba(255,255,255,.94); color:#171717; box-shadow:0 24px 80px rgba(0,0,0,.18),0 4px 18px rgba(0,0,0,.08); backdrop-filter:blur(22px); -webkit-backdrop-filter:blur(22px); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; transition:height .22s ease, transform .22s ease, opacity .22s ease; }
@@ -48,7 +47,7 @@ body:has(.saas-starter-embed) main { width:100%!important; max-width:none!import
 .research-assistant.is-dark .research-assistant__message--assistant { background:#333338; color:#eee; }
 .research-assistant.is-dark .research-assistant__composer { border-color:rgba(255,255,255,.08); }
 .research-assistant.is-dark .research-assistant__composer input { border-color:#414149; background:#29292d; color:#f5f5f6; }
-@media(max-width:760px){ .saas-starter-embed,.saas-starter-embed iframe { min-height:100dvh; height:100dvh; } .research-assistant { right:8px; bottom:8px; width:calc(100vw - 16px); height:min(70vh,520px); border-radius:16px; } }
+@media(max-width:760px){ .saas-starter-embed { min-height:calc(100dvh - var(--header-height, 0px)); height:calc(100dvh - var(--header-height, 0px)); } .saas-starter-embed iframe { min-height:100%; height:100%; } .research-assistant { right:8px; bottom:8px; width:calc(100vw - 16px); height:min(70vh,520px); border-radius:16px; } }
 
 /* Invitations to Comment entry remains outside the cross-origin homepage iframe. */
 .itc-home-link { position:fixed; z-index:2147482999; left:24px; bottom:24px; width:min(340px,calc(100vw - 32px)); min-height:64px; box-sizing:border-box; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:12px; padding:12px 14px; border:1px solid rgba(20,20,24,.14); border-radius:14px; background:rgba(255,255,255,.95); color:#171717; box-shadow:0 18px 55px rgba(0,0,0,.16); backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; text-decoration:none; }
@@ -62,7 +61,7 @@ body:has(.saas-starter-embed) main { width:100%!important; max-width:none!import
 .dark .itc-home-link small { color:#a6a6ad; }
 .dark .itc-home-link__status { background:#8fb6d2; box-shadow:0 0 0 4px rgba(143,182,210,.12); }
 .dark .itc-home-link b { color:#8fb6d2; }
-@media(max-width:760px){ .itc-home-link { left:8px; top:8px; bottom:auto; width:min(320px,calc(100vw - 16px)); } }
+@media(max-width:760px){ .itc-home-link { left:8px; top:calc(var(--header-height, 64px) + 8px); bottom:auto; width:min(320px,calc(100vw - 16px)); } }
 
 /* Searchable California legislation catalog. */
 .bill-catalog { width:min(1120px,100%); margin:0 auto; padding:34px 0 60px; color:var(--grayscale-a12); }
