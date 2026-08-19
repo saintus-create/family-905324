@@ -1,0 +1,48 @@
+{
+  "version": "1.1",
+  "retrieved_at": "2026-08-19T10:09:28.566655+00:00",
+  "source": {
+    "title": "Judicial Branch of California — Invitations to Comment",
+    "url": "https://courts.ca.gov/policy-administration/invitations-comment"
+  },
+  "records": [
+    {
+      "id": "SP26-05",
+      "slug": "sp26-05",
+      "category": "Court Interpreters",
+      "title": "Court Interpreters: Revisions to Payment Policies for Independent Contractor Interpreters",
+      "deadline": "2026-08-24",
+      "deadline_label": "August 24, 2026",
+      "summary": "The annual Budget Act instructs the Judicial Council to set policies and compensation rates for contract court interpreters, not to exceed the rates paid to certified court interpreters in the federal court system. In response to increasing interpreter expenditures and challenges in managing interpreter resources, the Court Executives Advisory Committee (CEAC) recommends revising the Payment Policies for Independent Contractor Interpreters to promote short- and long-term cost containment measures. These include implementing non-negotiable rates, establishing uniform travel compensation, standardizing contractual obligations for services rendered, and additional revisions to clarify and standardize administrative procedures across the state. To implement the required rate structure, CEAC proposes raising the maximum daily compensation rate for independent contractor interpreters, not to exceed the rate paid to federally certified interpreters, as required by the annual Budget Act.",
+      "pdf_url": "https://courts.ca.gov/system/files/itc/sp26-05.pdf",
+      "comment_url": "https://courts.ca.gov/itc-webform?invitation_id=61513",
+      "comment_email": "invitations@jud.ca.gov",
+      "source_url": "https://courts.ca.gov/policy-administration/invitations-comment",
+      "detail_path": "/invitations-to-comment/sp26-05",
+      "status": "active",
+      "local_pdf": "/assets/invitations-to-comment/sp26-05.pdf",
+      "page_count": 11,
+      "text_characters": 24746,
+      "pdf_sha256": "ba9ca35e27da2d7acead8d20fb01b38786a7a49b705283e9c3a43fe8d797a06b"
+    },
+    {
+      "id": "CACI26-02",
+      "slug": "caci26-02",
+      "category": "Civil Jury Instructions (CACI)",
+      "title": "Civil Jury Instructions: Revisions to Judicial Council of California Civil Jury Instructions",
+      "deadline": "2026-09-11",
+      "deadline_label": "September 11, 2026",
+      "summary": "The Advisory Committee on Civil Jury Instructions seeks public comment on proposed revisions and additions to the Judicial Council of California Civil Jury Instructions (CACI). Under California Rules of Court, rule 10.58, the advisory committee is responsible for regularly reviewing case law and statutes affecting jury instructions and making recommendations to the Judicial Council for updating, revising, and adding topics to the council’s civil jury instructions. On approval by the Judicial Council, all changes will be published in the 2027 edition of the official CACI publication.",
+      "pdf_url": "https://courts.ca.gov/system/files/file/caci-26-02.pdf",
+      "comment_url": "https://courts.ca.gov/itc-webform?invitation_id=61196",
+      "comment_email": "invitations@jud.ca.gov",
+      "source_url": "https://courts.ca.gov/policy-administration/invitations-comment",
+      "detail_path": "/invitations-to-comment/caci26-02",
+      "status": "active",
+      "local_pdf": "/assets/invitations-to-comment/caci26-02.pdf",
+      "page_count": 36,
+      "text_characters": 87982,
+      "pdf_sha256": "030021112e8b743ecf07dd7df17e5ee7f2c53093441d28010e39f6ff6b6ae489"
+    }
+  ]
+}

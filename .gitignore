@@ -1,2 +1,6 @@
 # Materialized layout previews (scripts/dev-layout.sh, publish-layouts.yml)
 .preview/
+
+# Python cache files
+__pycache__/
+*.py[cod]

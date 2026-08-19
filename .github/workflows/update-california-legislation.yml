@@ -1,0 +1,36 @@
+name: Update California legislation catalog
+
+on:
+  schedule:
+    - cron: "37 14 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-california-legislation.yml"
+      - "scripts/update_california_legislation.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-california-legislation
+  cancel-in-progress: false
+
+jobs:
+  update-measures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh measures from California Legislative Information
+        run: python scripts/update_california_legislation.py
+
+      - name: Commit updated catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fern/docs/assets/legislation/california-measures-20252026.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update California legislation catalog"
+          git pull --rebase
+          git push

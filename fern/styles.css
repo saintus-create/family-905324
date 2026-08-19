@@ -49,3 +49,65 @@ body:has(.saas-starter-embed) main { width:100%!important; max-width:none!import
 .research-assistant.is-dark .research-assistant__composer { border-color:rgba(255,255,255,.08); }
 .research-assistant.is-dark .research-assistant__composer input { border-color:#414149; background:#29292d; color:#f5f5f6; }
 @media(max-width:760px){ .saas-starter-embed,.saas-starter-embed iframe { min-height:100dvh; height:100dvh; } .research-assistant { right:8px; bottom:8px; width:calc(100vw - 16px); height:min(70vh,520px); border-radius:16px; } }
+
+/* Invitations to Comment entry remains outside the cross-origin homepage iframe. */
+.itc-home-link { position:fixed; z-index:2147482999; left:24px; bottom:24px; width:min(340px,calc(100vw - 32px)); min-height:64px; box-sizing:border-box; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:12px; padding:12px 14px; border:1px solid rgba(20,20,24,.14); border-radius:14px; background:rgba(255,255,255,.95); color:#171717; box-shadow:0 18px 55px rgba(0,0,0,.16); backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; text-decoration:none; }
+.itc-home-link:hover { border-color:rgba(59,95,122,.45); transform:translateY(-1px); }
+.itc-home-link__status { width:8px; height:8px; border-radius:50%; background:#3b5f7a; box-shadow:0 0 0 4px rgba(59,95,122,.12); }
+.itc-home-link strong,.itc-home-link small { display:block; }
+.itc-home-link strong { font-size:12px; font-weight:700; }
+.itc-home-link small { margin-top:3px; color:#73737a; font-size:9px; line-height:1.35; }
+.itc-home-link b { color:#3b5f7a; font-size:15px; font-weight:500; }
+.dark .itc-home-link { border-color:rgba(255,255,255,.12); background:rgba(31,33,37,.95); color:#f5f5f6; box-shadow:0 18px 55px rgba(0,0,0,.4); }
+.dark .itc-home-link small { color:#a6a6ad; }
+.dark .itc-home-link__status { background:#8fb6d2; box-shadow:0 0 0 4px rgba(143,182,210,.12); }
+.dark .itc-home-link b { color:#8fb6d2; }
+@media(max-width:760px){ .itc-home-link { left:8px; top:8px; bottom:auto; width:min(320px,calc(100vw - 16px)); } }
+
+/* Searchable California legislation catalog. */
+.bill-catalog { width:min(1120px,100%); margin:0 auto; padding:34px 0 60px; color:var(--grayscale-a12); }
+.bill-catalog * { box-sizing:border-box; }
+.bill-catalog__header { display:flex; justify-content:space-between; align-items:flex-start; gap:32px; padding:10px 0 32px; border-bottom:1px solid var(--border); }
+.bill-catalog__header > div { max-width:760px; }
+.bill-catalog__header span { color:var(--accent-11); font-size:.76rem; font-weight:650; }
+.bill-catalog__header h1 { margin:10px 0 0; font-size:clamp(2.3rem,5vw,4.5rem); line-height:1; letter-spacing:-.055em; }
+.bill-catalog__header p { max-width:670px; margin:18px 0 0; color:var(--grayscale-a10); font-size:.96rem; line-height:1.65; }
+.bill-catalog__header > a { flex:0 0 auto; margin-top:5px; padding:10px 13px; border:1px solid var(--border); border-radius:9px; color:var(--grayscale-a11); font-size:.72rem; font-weight:620; text-decoration:none; }
+.bill-catalog__header > a:hover { border-color:var(--accent-a7); color:var(--accent-11); }
+.bill-catalog__stats { display:grid; grid-template-columns:repeat(4,1fr); border-bottom:1px solid var(--border); }
+.bill-catalog__stats div { padding:25px 20px 25px 0; }
+.bill-catalog__stats strong,.bill-catalog__stats span { display:block; }
+.bill-catalog__stats strong { font-size:1.45rem; letter-spacing:-.035em; }
+.bill-catalog__stats span { margin-top:5px; color:var(--grayscale-a9); font-size:.68rem; }
+.bill-catalog__controls { display:grid; grid-template-columns:2fr repeat(4,1fr); gap:12px; padding:28px 0 18px; }
+.bill-catalog__controls label { min-width:0; display:block; }
+.bill-catalog__controls label > span { display:block; margin:0 0 7px 2px; color:var(--grayscale-a9); font-size:.66rem; font-weight:620; }
+.bill-catalog__controls input[type="search"],.bill-catalog__controls select { width:100%; height:42px; padding:0 11px; border:1px solid var(--border); border-radius:9px; outline:none; background:var(--card-background); color:var(--grayscale-a12); font:inherit; font-size:.74rem; }
+.bill-catalog__controls input:focus,.bill-catalog__controls select:focus { border-color:var(--accent-a8); box-shadow:0 0 0 3px var(--accent-a3); }
+.bill-catalog__controls .bill-catalog__check { grid-column:1/-1; display:flex; align-items:center; gap:8px; width:fit-content; margin-top:2px; cursor:pointer; }
+.bill-catalog__controls .bill-catalog__check span { margin:0; color:var(--grayscale-a10); font-size:.72rem; }
+.bill-catalog__check input { accent-color:var(--accent-9); }
+.bill-catalog__toolbar { min-height:48px; display:flex; align-items:center; justify-content:space-between; gap:20px; border-bottom:1px solid var(--border); }
+.bill-catalog__toolbar p { margin:0; color:var(--grayscale-a10); font-size:.74rem; }
+.bill-catalog__toolbar button { border:0; background:transparent; color:var(--accent-11); font:inherit; font-size:.7rem; cursor:pointer; }
+.bill-catalog__error { margin:20px 0; padding:14px; border:1px solid var(--border); border-radius:10px; color:var(--grayscale-a10); font-size:.78rem; }
+.bill-catalog__results { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; padding-top:18px; }
+.bill-catalog__item { position:relative; min-height:164px; display:flex; flex-direction:column; padding:20px 44px 18px 20px; border:1px solid var(--border); border-radius:12px; background:var(--card-background); color:inherit; text-decoration:none; transition:border-color 150ms ease,transform 150ms ease,box-shadow 150ms ease; }
+.bill-catalog__item:hover { border-color:var(--accent-a7); transform:translateY(-1px); box-shadow:0 10px 28px var(--grayscale-a3); }
+.bill-catalog__item-top { display:flex; align-items:center; flex-wrap:wrap; gap:7px; }
+.bill-catalog__item-top strong { color:var(--accent-11); font-size:.76rem; }
+.bill-catalog__item-top span,.bill-catalog__item-top em { padding:3px 6px; border-radius:5px; background:var(--grayscale-a3); color:var(--grayscale-a10); font-size:.59rem; font-style:normal; }
+.bill-catalog__item-top em { background:var(--accent-a3); color:var(--accent-11); }
+.bill-catalog__item h2 { margin:16px 0 20px; font-size:.94rem; line-height:1.35; letter-spacing:-.015em; }
+.bill-catalog__item-meta { margin-top:auto; display:flex; justify-content:space-between; gap:12px; color:var(--grayscale-a8); font-size:.65rem; }
+.bill-catalog__item-meta span:last-child { text-align:right; }
+.bill-catalog__item > b { position:absolute; right:18px; top:20px; color:var(--grayscale-a7); font-size:.76rem; font-weight:500; }
+.bill-catalog__item:hover > b { color:var(--accent-11); }
+.bill-catalog__more { width:100%; min-height:44px; margin-top:16px; border:1px solid var(--border); border-radius:9px; background:var(--card-background); color:var(--grayscale-a10); font:inherit; font-size:.73rem; cursor:pointer; }
+.bill-catalog__more:hover { border-color:var(--accent-a7); color:var(--accent-11); }
+.bill-catalog__source { margin-top:28px; padding-top:20px; border-top:1px solid var(--border); color:var(--grayscale-a8); font-size:.66rem; line-height:1.55; }
+.bill-catalog__source p { margin:0; max-width:800px; }
+.bill-catalog__source span { display:block; margin-top:7px; }
+@media(max-width:900px){ .bill-catalog__controls { grid-template-columns:repeat(2,1fr); } .bill-catalog__search { grid-column:1/-1; } }
+@media(max-width:680px){ .bill-catalog { padding-top:16px; } .bill-catalog__header { flex-direction:column; } .bill-catalog__stats { grid-template-columns:repeat(2,1fr); } .bill-catalog__controls { grid-template-columns:1fr; } .bill-catalog__search,.bill-catalog__controls .bill-catalog__check { grid-column:auto; } .bill-catalog__results { grid-template-columns:1fr; } .bill-catalog__item { min-height:150px; } }
+@media(prefers-reduced-motion:reduce){ .bill-catalog__item { transition:none; } }

@@ -191,6 +191,21 @@ navigation:
   - page: Legislation & Legislative History
     path: docs/pages/legislation.mdx
     icon: fa-regular fa-landmark
+  - page: California Bills and Measures
+    path: docs/pages/bills-and-measures.mdx
+    icon: fa-regular fa-file-lines
+  - section: Invitations to Comment
+    collapsed: false
+    contents:
+    - page: Active proposals
+      path: docs/pages/invitations-to-comment.mdx
+      icon: fa-regular fa-comments
+    - page: SP26-05 — Court interpreters
+      path: docs/pages/invitations-to-comment/sp26-05.mdx
+      icon: fa-regular fa-file-lines
+    - page: CACI26-02 — Civil jury instructions
+      path: docs/pages/invitations-to-comment/caci26-02.mdx
+      icon: fa-regular fa-file-lines
   - section: Legislative research
     collapsed: true
     contents:
