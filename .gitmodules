@@ -1,0 +1,3 @@
+[submodule "svelte-saas-starter"]
+	path = svelte-saas-starter
+	url = https://github.com/Jeffreyyvdb/svelte-saas-starter.git
