@@ -1,12 +1,72 @@
 ---
-title: SaaS Starter
-slug: welcome
+title: California Family Law Research
+slug: /
 layout: custom
 hide-page-actions: true
 hide-feedback: true
 hide-nav-links: true
 ---
 
-<div className="saas-starter-embed">
-  <iframe src="https://svelte-saas-starter.vercel.app/" title="SaaS Starter template preview" loading="eager"></iframe>
+<div className="saas-starter-page">
+  <header className="saas-starter-nav">
+    <a className="saas-starter-logo" href="/">California Family Law Research</a>
+    <nav aria-label="Primary">
+      <a href="/research-workbench">Research</a>
+      <a href="/family-code-overview">Law</a>
+      <a href="/legislation">Legislation</a>
+      <details className="saas-starter-nav-dropdown">
+        <summary>Explore</summary>
+        <div className="saas-starter-nav-menu" role="menu">
+          <a href="/people-institutions" role="menuitem">People & Institutions</a>
+          <a href="/research-workbench" role="menuitem">Analysis</a>
+          <a href="/visual-research-guide" role="menuitem">Legal Landscape</a>
+          <a href="/invitations-to-comment" role="menuitem">Invitations to Comment</a>
+          <a href="/support" role="menuitem">Research Help</a>
+        </div>
+      </details>
+    </nav>
+    <div className="saas-starter-nav-actions">
+      <a href="/support">Research Help</a>
+      <a className="saas-starter-nav-cta" href="/research-workbench">Get Started</a>
+    </div>
+  </header>
+
+  <main>
+    <section className="saas-starter-hero">
+      <a className="saas-starter-pill" href="/research-workbench">Research workspace</a>
+      <h1>Kick off your research with <span>California Family Law Research</span></h1>
+      <p>Explore California family law, case law, legislation, people, institutions, and research tools in one place.</p>
+      <div className="saas-starter-actions">
+        <a className="saas-starter-primary" href="/research-workbench">Start Research →</a>
+        <a className="saas-starter-secondary" href="/visual-research-guide">Explore the Legal Landscape</a>
+      </div>
+    </section>
+
+    <section className="saas-starter-search" aria-label="Research search">
+      <label for="research-search">Search the research library</label>
+      <a id="research-search" href="/research-workbench">Search cases, statutes, legislation, people, and institutions →</a>
+    </section>
+
+    <section className="saas-starter-links">
+      <a href="/research-workbench"><strong>01</strong><span><b>Research</b>Research Workbench and research methods.</span></a>
+      <a href="/family-code-overview"><strong>02</strong><span><b>Law</b>Family Code and California Rules of Court.</span></a>
+      <a href="/legislation"><strong>03</strong><span><b>Legislation</b>Bills, measures, history, and statutory lineage.</span></a>
+      <a href="/people-institutions"><strong>04</strong><span><b>People & Institutions</b>Attorneys, courts, judges, scholars, agencies, and organizations.</span></a>
+    </section>
+
+    <section className="saas-starter-powered">
+      <p>BUILT FOR RESEARCH</p>
+      <div><span>California Law</span><span>Case Law</span><span>Legislation</span><span>Research</span></div>
+    </section>
+  </main>
+
+  <footer className="saas-starter-footer">
+    <span>California Family Law Research</span>
+    <nav aria-label="Footer">
+      <a href="/">Home</a>
+      <a href="/visual-research-guide">Explore</a>
+      <a href="/invitations-to-comment">Invitations to Comment</a>
+      <a href="/support">Research Help</a>
+    </nav>
+  </footer>
 </div>
