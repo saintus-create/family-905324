@@ -9,6 +9,27 @@ hide-nav-links: true
 
 <div className="family-home" data-family-landing>
   <canvas className="family-home__ambient" data-research-canvas aria-hidden="true"></canvas>
-  <div className="family-home__mark" aria-hidden="true"><span>CA</span><span>26</span></div>
-  <div className="family-home__search-slot" data-home-search></div>
+  <header className="family-home__topbar">
+    <div className="family-home__rule"></div>
+    <div className="family-home__utilities" aria-label="Site controls">
+      <button type="button" className="family-home__utility" data-language aria-label="Language">Aa</button>
+      <button type="button" className="family-home__utility" data-theme aria-label="Appearance">◐</button>
+    </div>
+  </header>
+
+  <main className="family-home__main">
+    <div className="family-home__mark" aria-hidden="true"><span>Cal.</span><span>26</span></div>
+    <div className="family-home__search-slot" data-home-search></div>
+  </main>
+
+  <section className="family-home__feed" aria-label="Live legal intelligence">
+    <div className="family-home__feed-line"></div>
+    <div className="family-home__feed-head"><span>Live</span><span>California legal record</span></div>
+    <div className="family-home__feed-viewport"><div className="family-home__news-track" data-live-news-list></div><button type="button" data-news-prev aria-label="Previous stories">←</button><button type="button" data-news-next aria-label="Next stories">→</button></div>
+  </section>
+
+  <footer className="family-home__footer">
+    <span>California Family Law Research</span>
+    <nav aria-label="Footer"><a href="/about">About</a><a href="/sources">Sources</a><a href="/methodology">Methodology</a><a href="/privacy">Privacy</a></nav>
+  </footer>
 </div>
