@@ -1,8 +1,7 @@
 (() => {
   const initNews = () => {
     const track = document.querySelector('[data-live-news-list]');
-    const viewport = document.querySelector('.family-home__news-viewport');
-    const status = document.querySelector('[data-live-news-status]');
+    const viewport = document.querySelector('.family-home__feed-viewport');
     if (!track || !viewport || track.dataset.initialized === 'true') return;
     track.dataset.initialized = 'true';
 
@@ -14,33 +13,56 @@
       { title: 'Research Workbench', source: 'Research', url: '/research-workbench' }
     ];
 
-    const escapeHtml = (value) => String(value || '').replace(/[&<>"']/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+    const escapeHtml = (value) => String(value || '').replace(/[&<>\"']/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '\"':'&quot;', "'":'&#39;' }[c]));
     const render = (items) => {
       const stories = items.filter((x) => x && x.title && x.url).slice(0, 8);
       track.innerHTML = stories.map((x) => {
         const external = !String(x.url).startsWith('/');
         return `<a class="family-home__news-item" href="${escapeHtml(x.url)}" ${external ? 'target="_blank" rel="noopener noreferrer"' : ''}><span class="family-home__news-body"><small class="family-home__news-source">${escapeHtml(x.source || 'Source')}</small><strong class="family-home__news-title">${escapeHtml(x.title)}</strong></span></a>`;
       }).join('');
-      if (status) status.textContent = 'Live';
 
       let index = 0;
       const move = (direction) => {
         const card = track.querySelector('.family-home__news-item');
         if (!card) return;
-        const step = card.getBoundingClientRect().width + 10;
-        const visible = Math.max(1, Math.floor(viewport.clientWidth / 260));
+        const step = card.getBoundingClientRect().width + 28;
+        const visible = Math.max(1, Math.floor(viewport.clientWidth / Math.max(card.getBoundingClientRect().width, 1)));
         const max = Math.max(0, stories.length - visible);
         index = Math.max(0, Math.min(max, index + direction));
         track.style.transform = `translateX(-${index * step}px)`;
       };
-      viewport.querySelector('[data-news-prev]')?.addEventListener('click', () => move(-1));
-      viewport.querySelector('[data-news-next]')?.addEventListener('click', () => move(1));
+      viewport.closest('.family-home__feed')?.querySelector('[data-news-prev]')?.addEventListener('click', () => move(-1));
+      viewport.closest('.family-home__feed')?.querySelector('[data-news-next]')?.addEventListener('click', () => move(1));
     };
 
     fetch(feed, { cache: 'no-store', headers: { Accept: 'application/json' } })
       .then((response) => response.ok ? response.json() : Promise.reject(new Error('feed failed')))
       .then((data) => render(data.items || []))
       .catch(() => render(fallback));
+  };
+
+  const initInteractions = () => {
+    const root = document.querySelector('[data-family-landing]');
+    const input = root?.querySelector('[data-home-search-input]');
+    const menu = root?.querySelector('[data-home-menu]');
+    const nav = root?.querySelector('.family-home__nav');
+    if (!root) return;
+
+    input?.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') input.blur();
+    });
+
+    window.addEventListener('keydown', (event) => {
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
+        event.preventDefault();
+        input?.focus();
+      }
+    });
+
+    menu?.addEventListener('click', () => {
+      const open = nav?.classList.toggle('is-open');
+      menu.setAttribute('aria-expanded', String(Boolean(open)));
+    });
   };
 
   const initAmbient = () => {
@@ -110,6 +132,6 @@
     requestAnimationFrame(draw);
   };
 
-  const start = () => { initNews(); initAmbient(); };
+  const start = () => { initNews(); initInteractions(); initAmbient(); };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true }); else start();
 })();
