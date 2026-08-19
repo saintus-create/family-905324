@@ -8,7 +8,7 @@ instances:
     launch: dashboard
 title: California Family Law Research | Code, Cases, Legislation & Analysis
 landing-page:
-  page: Family Law, Mapped
+  page: SaaS Starter
   path: docs/pages/welcome.mdx
   slug: /
 layout:
