@@ -7,9 +7,6 @@ instances:
       branch: main
     launch: dashboard
 title: California Family Law Research | Code, Cases, Legislation & Analysis
-redirects:
-- source: /welcome
-  destination: /
 landing-page:
   page: California Family Law Research
   path: docs/pages/welcome.mdx
