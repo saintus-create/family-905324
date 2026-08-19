@@ -9,7 +9,7 @@ instances:
 title: California Family Law Research | Code, Cases, Legislation & Analysis
 landing-page:
   page: Home
-  path: ./pages/welcome.mdx
+  path: ./docs/pages/welcome.mdx
   slug: /
 layout:
   searchbar-placement: header
@@ -62,209 +62,209 @@ navigation:
 - tab: home
   layout:
   - page: Home
-    path: ./pages/welcome.mdx
+    path: ./docs/pages/welcome.mdx
     icon: home
   - page: Explore the Legal Landscape
-    path: ./pages/visual-research-guide.mdx
+    path: ./docs/pages/visual-research-guide.mdx
     icon: fa-regular fa-compass
   - page: Research Workbench
-    path: ./pages/research-workbench.mdx
+    path: ./docs/pages/research-workbench.mdx
     icon: fa-regular fa-magnifying-glass
   - page: Research Help
-    path: ./pages/support.mdx
+    path: ./docs/pages/support.mdx
     icon: fa-regular fa-circle-question
     slug: support
 - tab: research
   layout:
   - page: Research Workbench
-    path: ./pages/research-workbench.mdx
+    path: ./docs/pages/research-workbench.mdx
     icon: fa-regular fa-magnifying-glass
   - page: Explore the Legal Landscape
-    path: ./pages/visual-research-guide.mdx
+    path: ./docs/pages/visual-research-guide.mdx
     icon: fa-regular fa-compass
   - page: Research Data Model
-    path: ./pages/research-data-model.mdx
+    path: ./docs/pages/research-data-model.mdx
     icon: fa-regular fa-diagram-project
   - section: Research foundations
     collapsed: false
     contents:
     - page: Case law
-      path: ./pages/case-law.mdx
+      path: ./docs/pages/case-law.mdx
       icon: fa-regular fa-gavel
     - page: Civil rights & legal change
-      path: ./pages/civil-rights-history.mdx
+      path: ./docs/pages/civil-rights-history.mdx
       icon: fa-regular fa-landmark
     - page: Research Help
-      path: ./pages/support.mdx
+      path: ./docs/pages/support.mdx
       icon: fa-regular fa-circle-question
   - section: Research methods
     collapsed: true
     contents:
     - page: Computational dialectics
-      path: ./pages/computational-dialectics.mdx
+      path: ./docs/pages/computational-dialectics.mdx
       icon: fa-regular fa-diagram-project
     - page: Argument & rhetoric
-      path: ./pages/argument-analysis.mdx
+      path: ./docs/pages/argument-analysis.mdx
       icon: fa-regular fa-comment-dots
     - page: Empirical research
-      path: ./pages/empirical-analysis.mdx
+      path: ./docs/pages/empirical-analysis.mdx
       icon: fa-regular fa-chart-line
 - tab: law
   layout:
   - page: Family Code Overview
-    path: ./pages/family-code-overview.mdx
+    path: ./docs/pages/family-code-overview.mdx
     icon: fa-regular fa-book-open
   - page: Court Rules Overview
-    path: ./pages/court-rules-overview.mdx
+    path: ./docs/pages/court-rules-overview.mdx
     icon: fa-regular fa-scale-balanced
   - page: Defense Toolkit
-    path: ./pages/defense-toolkit.mdx
+    path: ./docs/pages/defense-toolkit.mdx
     slug: defense-toolkit
     icon: fa-regular fa-shield-halved
   - page: Defense Authority Graph
-    path: ./pages/defense-toolkit-relationships.mdx
+    path: ./docs/pages/defense-toolkit-relationships.mdx
     slug: defense-toolkit-relationships
     icon: fa-regular fa-diagram-project
   - section: Family Code
     collapsed: true
     contents:
     - page: Division 1
-      path: ./pages/division-1.mdx
+      path: ./docs/pages/division-1.mdx
     - page: Division 2
-      path: ./pages/division-2.mdx
+      path: ./docs/pages/division-2.mdx
     - page: Division 2.5
-      path: ./pages/division-2-5.mdx
+      path: ./docs/pages/division-2-5.mdx
     - page: Division 3
-      path: ./pages/division-3.mdx
+      path: ./docs/pages/division-3.mdx
     - page: Division 4
-      path: ./pages/division-4.mdx
+      path: ./docs/pages/division-4.mdx
     - page: Division 5
-      path: ./pages/division-5.mdx
+      path: ./docs/pages/division-5.mdx
     - page: Division 6
-      path: ./pages/division-6.mdx
+      path: ./docs/pages/division-6.mdx
     - page: Division 7
-      path: ./pages/division-7.mdx
+      path: ./docs/pages/division-7.mdx
     - page: Division 8
-      path: ./pages/division-8.mdx
+      path: ./docs/pages/division-8.mdx
     - page: Division 9
-      path: ./pages/division-9.mdx
+      path: ./docs/pages/division-9.mdx
     - page: Division 10
-      path: ./pages/division-10.mdx
+      path: ./docs/pages/division-10.mdx
     - page: Division 11
-      path: ./pages/division-11.mdx
+      path: ./docs/pages/division-11.mdx
     - page: Division 12
-      path: ./pages/division-12.mdx
+      path: ./docs/pages/division-12.mdx
     - page: Division 13
-      path: ./pages/division-13.mdx
+      path: ./docs/pages/division-13.mdx
     - page: Division 14
-      path: ./pages/division-14.mdx
+      path: ./docs/pages/division-14.mdx
     - page: Division 17
-      path: ./pages/division-17.mdx
+      path: ./docs/pages/division-17.mdx
     - page: Division 20
-      path: ./pages/division-20.mdx
+      path: ./docs/pages/division-20.mdx
   - section: California Rules of Court
     collapsed: true
     contents:
     - page: Title One
-      path: ./pages/title-1.mdx
+      path: ./docs/pages/title-1.mdx
     - page: Title Two
-      path: ./pages/title-2.mdx
+      path: ./docs/pages/title-2.mdx
     - page: Title Three
-      path: ./pages/title-3.mdx
+      path: ./docs/pages/title-3.mdx
     - page: Title Four
-      path: ./pages/title-4.mdx
+      path: ./docs/pages/title-4.mdx
     - page: Title Five
-      path: ./pages/title-5.mdx
+      path: ./docs/pages/title-5.mdx
     - page: Title Six
-      path: ./pages/title-6.mdx
+      path: ./docs/pages/title-6.mdx
     - page: Title Seven
-      path: ./pages/title-7.mdx
+      path: ./docs/pages/title-7.mdx
     - page: Title Eight
-      path: ./pages/title-8.mdx
+      path: ./docs/pages/title-8.mdx
     - page: Title Nine
-      path: ./pages/title-9.mdx
+      path: ./docs/pages/title-9.mdx
     - page: Title Ten
-      path: ./pages/title-10.mdx
+      path: ./docs/pages/title-10.mdx
 - tab: legislation
   layout:
   - page: Legislation & Legislative History
-    path: ./pages/legislation.mdx
+    path: ./docs/pages/legislation.mdx
     icon: fa-regular fa-landmark
   - page: California Bills and Measures
-    path: ./pages/bills-and-measures.mdx
+    path: ./docs/pages/bills-and-measures.mdx
     icon: fa-regular fa-file-lines
   - section: Invitations to Comment
     collapsed: false
     contents:
     - page: Active proposals
-      path: ./pages/invitations-to-comment.mdx
+      path: ./docs/pages/invitations-to-comment.mdx
       icon: fa-regular fa-comments
     - page: SP26-05 — Court interpreters
-      path: ./pages/invitations-to-comment/sp26-05.mdx
+      path: ./docs/pages/invitations-to-comment/sp26-05.mdx
       icon: fa-regular fa-file-lines
     - page: CACI26-02 — Civil jury instructions
-      path: ./pages/invitations-to-comment/caci26-02.mdx
+      path: ./docs/pages/invitations-to-comment/caci26-02.mdx
       icon: fa-regular fa-file-lines
   - section: Legislative research
     collapsed: true
     contents:
     - page: Bills
-      path: ./pages/legislation.mdx
+      path: ./docs/pages/legislation.mdx
       icon: fa-regular fa-file-lines
     - page: Bill history
-      path: ./pages/legislation.mdx
+      path: ./docs/pages/legislation.mdx
       icon: fa-regular fa-timeline
     - page: Related bills
-      path: ./pages/legislation.mdx
+      path: ./docs/pages/legislation.mdx
       icon: fa-regular fa-code-compare
     - page: Parallel acts
-      path: ./pages/legislation.mdx
+      path: ./docs/pages/legislation.mdx
       icon: fa-regular fa-earth-americas
     - page: Historical premises
-      path: ./pages/legislation.mdx
+      path: ./docs/pages/legislation.mdx
       icon: fa-regular fa-landmark
     - page: Statutory lineage
-      path: ./pages/legislation.mdx
+      path: ./docs/pages/legislation.mdx
       icon: fa-regular fa-diagram-project
 - tab: people
   layout:
   - page: People & Institutions
-    path: ./pages/people-institutions.mdx
+    path: ./docs/pages/people-institutions.mdx
     icon: fa-regular fa-users
   - section: Directory
     collapsed: true
     contents:
     - page: Attorneys
-      path: ./pages/people-institutions.mdx
+      path: ./docs/pages/people-institutions.mdx
     - page: Courts & judges
-      path: ./pages/people-institutions.mdx
+      path: ./docs/pages/people-institutions.mdx
     - page: Universities & scholars
-      path: ./pages/people-institutions.mdx
+      path: ./docs/pages/people-institutions.mdx
     - page: Legal aid & clinics
-      path: ./pages/people-institutions.mdx
+      path: ./docs/pages/people-institutions.mdx
     - page: Agencies
-      path: ./pages/people-institutions.mdx
+      path: ./docs/pages/people-institutions.mdx
     - page: Organizations
-      path: ./pages/people-institutions.mdx
+      path: ./docs/pages/people-institutions.mdx
 - tab: analysis
   layout:
   - page: Research Workbench
-    path: ./pages/research-workbench.mdx
+    path: ./docs/pages/research-workbench.mdx
     icon: fa-regular fa-diagram-project
   - page: Computational Dialectics
-    path: ./pages/computational-dialectics.mdx
+    path: ./docs/pages/computational-dialectics.mdx
     icon: fa-regular fa-diagram-project
   - page: Argument & Rhetorical Analysis
-    path: ./pages/argument-analysis.mdx
+    path: ./docs/pages/argument-analysis.mdx
     icon: fa-regular fa-comment-dots
   - page: Empirical Research & Statistics
-    path: ./pages/empirical-analysis.mdx
+    path: ./docs/pages/empirical-analysis.mdx
     icon: fa-regular fa-chart-line
   - section: Future analysis
     collapsed: true
     contents:
     - page: AI-assisted analysis
-      path: ./pages/research-workbench.mdx
+      path: ./docs/pages/research-workbench.mdx
       icon: fa-regular fa-sparkles
 - tab: changelog
   layout:
