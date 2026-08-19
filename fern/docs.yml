@@ -63,7 +63,6 @@ navigation:
   layout:
   - page: Home
     path: docs/pages/welcome.mdx
-    slug: welcome
     icon: home
   - page: Explore the Legal Landscape
     path: docs/pages/visual-research-guide.mdx
