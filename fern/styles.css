@@ -8,7 +8,6 @@
 body:has([data-family-landing]) { background:#070707; color:#f4f1eb; }
 body:has([data-family-landing]) header { display:none!important; }
 body:has([data-family-landing]) .fern-page-content { max-width:none; padding:0!important; }
-
 .family-home { --paper:#f4f1eb; --muted:#8d8b86; --dim:#5f5d58; --line:#292929; --panel:#111; position:relative; min-height:100svh; overflow:hidden; background:#070707; color:var(--paper); font-family:Arial, Helvetica, sans-serif; }
 .family-home__ambient { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; opacity:.055; z-index:0; }
 .family-home__topbar { position:relative; z-index:5; display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:32px; padding:27px 52px; border-bottom:1px solid rgba(255,255,255,.07); }
@@ -22,7 +21,6 @@ body:has([data-family-landing]) .fern-page-content { max-width:none; padding:0!i
 .family-home__language span { margin-left:5px; color:#666; }
 .family-home__menu { display:none; width:30px; height:24px; border:0; background:none; padding:3px 0; cursor:pointer; }
 .family-home__menu span { display:block; width:100%; height:1px; margin:6px 0; background:#ddd; }
-
 .family-home__main { position:relative; z-index:1; max-width:1180px; margin:0 auto; padding:104px 52px 64px; }
 .family-home__eyebrow { display:flex; align-items:center; gap:10px; margin-bottom:24px; color:#77756f; font-size:9px; text-transform:uppercase; letter-spacing:.16em; }
 .family-home__eyebrow span { width:6px; height:6px; border-radius:50%; background:#8fb6d2; box-shadow:0 0 14px rgba(143,182,210,.55); }
@@ -41,14 +39,12 @@ body:has([data-family-landing]) .fern-page-content { max-width:none; padding:0!i
 .family-home__quicklinks a:hover { color:#fff; }
 .family-home__quicklinks span { color:#555; font-size:8px; }
 .family-home__quicklinks b { color:#555; font-size:13px; font-weight:400; }
-
 .family-home__capabilities { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:72px; }
 .family-home__capabilities article { min-height:170px; padding:23px; border:1px solid #242424; background:linear-gradient(145deg,#101010,#0b0b0b); }
 .family-home__capabilities article:hover { border-color:#3b3b3b; }
 .family-home__card-index { display:block; margin-bottom:36px; color:#555; font-size:9px; letter-spacing:.1em; }
 .family-home__capabilities h2 { margin:0 0 9px; font-size:21px; font-weight:400; letter-spacing:-.045em; }
 .family-home__capabilities p { max-width:310px; margin:0; color:#777; font-size:11px; line-height:1.55; }
-
 .family-home__feed { position:relative; z-index:2; max-width:1180px; margin:0 auto; padding:0 52px 36px; }
 .family-home__feed-head { display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-top:1px solid var(--line); color:#696762; font-size:9px; text-transform:uppercase; letter-spacing:.1em; }
 .family-home__feed-head > div:first-child { display:flex; align-items:center; gap:9px; }
@@ -64,16 +60,15 @@ body:has([data-family-landing]) .fern-page-content { max-width:none; padding:0!i
 .family-home__news-body { display:block; min-height:48px; }
 .family-home__news-source { display:block; margin-bottom:7px; color:#5d5b57; font-size:8px; font-weight:400; letter-spacing:.12em; text-transform:uppercase; }
 .family-home__news-title { display:block; max-width:360px; color:#b7b5b0; font-size:11px; line-height:1.45; font-weight:400; transition:color .18s; }
-
 .family-home__footer { position:relative; z-index:3; display:flex; justify-content:space-between; align-items:center; gap:30px; max-width:1180px; margin:0 auto; padding:20px 52px 26px; border-top:1px solid #1a1a1a; color:#51504c; font-size:9px; }
 .family-home__footer small { color:#3e3d39; }
 .family-home__footer nav { display:flex; gap:20px; }
 .family-home__footer a { color:inherit; text-decoration:none; }
 .family-home__footer a:hover { color:#aaa; }
-
 @media(max-width:800px){
   .family-home__topbar { grid-template-columns:1fr auto; padding:22px 22px; }
-  .family-home__nav { display:none; }
+  .family-home__nav { display:none; position:absolute; top:69px; left:22px; right:22px; padding:16px; flex-direction:column; align-items:flex-start; gap:16px; border:1px solid #292929; background:#0b0b0b; }
+  .family-home__nav.is-open { display:flex; }
   .family-home__actions { gap:13px; }
   .family-home__menu { display:block; }
   .family-home__main { padding:72px 22px 50px; }
