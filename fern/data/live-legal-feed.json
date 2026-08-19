@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T15:28:47.965488+00:00",
+  "updated": "2026-08-19T07:35:45.811922+00:00",
   "items": [
     {
       "url": "https://newsroom.courts.ca.gov/news/photos-groundbreaking-ceremony-new-appellate-courthouse-sunnyvale",
@@ -38,14 +38,20 @@
       "image": "https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-08/CODY.JPG?itok=aRniRT9K"
     },
     {
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F18%2F2026&description=Assembly+Floor+Session",
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F19%2F2026&description=Assembly+Floor+Session",
       "title": "Assembly Floor Session",
       "source": "California Legislature",
       "image": "https://leginfo.legislature.ca.gov/resources/images/header_img.png"
     },
     {
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=SFLOOR&agendadate=08%2F18%2F2026&description=Senate+Floor+Session",
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=SFLOOR&agendadate=08%2F19%2F2026&description=Senate+Floor+Session",
       "title": "Senate Floor Session",
+      "source": "California Legislature",
+      "image": "https://leginfo.legislature.ca.gov/resources/images/header_img.png"
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=CS82&agendadate=08%2F19%2F2026&description=Sen+Local+Government&hid=12011",
+      "title": "Sen Local Government",
       "source": "California Legislature",
       "image": "https://leginfo.legislature.ca.gov/resources/images/header_img.png"
     }
