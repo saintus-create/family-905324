@@ -9,24 +9,70 @@ hide-nav-links: true
 
 <div className="family-home" data-family-landing>
   <canvas className="family-home__ambient" data-research-canvas aria-hidden="true"></canvas>
+
   <header className="family-home__topbar">
-    <div className="family-home__brand">Law</div>
-    <button type="button" className="family-home__menu" aria-label="Open menu"><span>⋮</span></button>
+    <a className="family-home__brand" href="/welcome" aria-label="California Family Law Research home">
+      <span>CAL.</span><em>26</em>
+    </a>
+    <nav className="family-home__nav" aria-label="Primary navigation">
+      <a href="/research-workbench">Research</a>
+      <a href="/family-code-overview">Law</a>
+      <a href="/legislation">Legislation</a>
+      <a href="/people-institutions">People</a>
+    </nav>
+    <div className="family-home__actions">
+      <button type="button" className="family-home__language" data-language-toggle aria-label="Choose language">EN <span>⌄</span></button>
+      <button type="button" className="family-home__menu" data-home-menu aria-label="Open menu"><span></span><span></span></button>
+    </div>
   </header>
 
   <main className="family-home__main">
-    <div className="family-home__mark" aria-label="Cal. 26"><span>Cal.</span><span>26</span></div>
-    <div className="family-home__search-slot" data-home-search></div>
+    <div className="family-home__eyebrow"><span></span> California legal research · 2026</div>
+    <h1>California Family Law,<br /><span>mapped to the record.</span></h1>
+    <p className="family-home__lede">A research system for finding the law, tracing its history, connecting cases, and seeing how the pieces fit together.</p>
+
+    <div className="family-home__search" role="search">
+      <span className="family-home__search-icon" aria-hidden="true">⌕</span>
+      <input data-home-search-input type="search" placeholder="Search the Family Code, cases, legislation…" aria-label="Search California family law" />
+      <kbd>⌘ K</kbd>
+    </div>
+
+    <div className="family-home__quicklinks" aria-label="Quick research links">
+      <a href="/research-workbench"><span>01</span> Research Workbench <b>↗</b></a>
+      <a href="/family-code-overview"><span>02</span> Family Code <b>↗</b></a>
+      <a href="/legislation"><span>03</span> Legislation <b>↗</b></a>
+      <a href="/case-law"><span>04</span> Case Law <b>↗</b></a>
+    </div>
+
+    <section className="family-home__capabilities" aria-label="Research capabilities">
+      <article>
+        <span className="family-home__card-index">01</span>
+        <h2>Find</h2>
+        <p>Search across statutes, rules, cases, legislation, authorities, and research records.</p>
+      </article>
+      <article>
+        <span className="family-home__card-index">02</span>
+        <h2>Connect</h2>
+        <p>Follow relationships between authorities, people, institutions, arguments, and legal history.</p>
+      </article>
+      <article>
+        <span className="family-home__card-index">03</span>
+        <h2>Analyze</h2>
+        <p>Move from a source to context, evidence, competing arguments, and the larger record.</p>
+      </article>
+    </section>
   </main>
 
-  <section className="family-home__feed" aria-label="Live legal intelligence">
-    <div className="family-home__feed-line"></div>
-    <div className="family-home__feed-head"><span>Live</span><span>California legal record</span></div>
-    <div className="family-home__feed-viewport"><div className="family-home__news-track" data-live-news-list></div><button type="button" data-news-prev aria-label="Previous stories">←</button><button type="button" data-news-next aria-label="Next stories">→</button></div>
+  <section className="family-home__feed" aria-label="Live California legal record">
+    <div className="family-home__feed-head">
+      <div><span className="family-home__live-dot"></span><strong>Live</strong><span>California legal record</span></div>
+      <div className="family-home__feed-controls"><button type="button" data-news-prev aria-label="Previous stories">←</button><button type="button" data-news-next aria-label="Next stories">→</button></div>
+    </div>
+    <div className="family-home__feed-viewport"><div className="family-home__news-track" data-live-news-list></div></div>
   </section>
 
   <footer className="family-home__footer">
-    <span>California Family Law Research</span>
+    <span>California Family Law Research <small>· A living research record</small></span>
     <nav aria-label="Footer"><a href="/about">About</a><a href="/sources">Sources</a><a href="/methodology">Methodology</a><a href="/privacy">Privacy</a></nav>
   </footer>
 </div>
