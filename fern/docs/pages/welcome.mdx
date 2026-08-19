@@ -10,3 +10,18 @@ hide-nav-links: true
 <div className="saas-starter-embed">
   <iframe src="https://svelte-saas-starter.vercel.app/" title="SaaS Starter template preview" loading="eager"></iframe>
 </div>
+
+<div className="research-assistant" data-research-assistant aria-label="AI research assistant">
+  <div className="research-assistant__bar">
+    <div><span className="research-assistant__status"></span><strong>AI Research Assistant</strong><small>Context follows your research</small></div>
+    <div className="research-assistant__actions"><button type="button" data-assistant-theme aria-label="Toggle assistant theme">◐</button><button type="button" data-assistant-minimize aria-label="Minimize assistant">−</button></div>
+  </div>
+  <div className="research-assistant__body">
+    <div className="research-assistant__welcome"><span>✦</span><div><strong>What are you researching?</strong><p>Ask about a case, statute, person, court, or anything in the current research context.</p></div></div>
+    <div className="research-assistant__messages" data-assistant-messages></div>
+  </div>
+  <form className="research-assistant__composer" data-assistant-form>
+    <input data-assistant-input autocomplete="off" placeholder="Ask a research question…" aria-label="Ask a research question" />
+    <button type="submit" aria-label="Send question">↑</button>
+  </form>
+</div>
