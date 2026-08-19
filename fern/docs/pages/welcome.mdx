@@ -9,15 +9,70 @@ hide-nav-links: true
 
 <div className="family-home" data-family-landing>
   <header className="family-home__topbar">
-    <a className="family-home__brand" href="/welcome" aria-label="California Family Law Research">CAL. <em>26</em></a>
-    <nav className="family-home__nav" aria-label="Primary navigation"><a href="/research-workbench">Research</a><a href="/family-code-overview">Law</a><a href="/legislation">Legislation</a><a href="/people-institutions">People</a></nav>
-    <div className="family-home__actions"><button type="button" className="family-home__language" data-language-toggle aria-label="Choose language">EN <span>⌄</span></button><button type="button" className="family-home__menu" data-home-menu aria-label="Open menu"><span></span><span></span></button></div>
+    <a className="family-home__brand" href="/welcome" aria-label="California Family Law Research">CAL.<span>26</span></a>
+    <nav className="family-home__nav" aria-label="Primary navigation">
+      <a href="/research-workbench">Research</a>
+      <a href="/family-code-overview">Law</a>
+      <a href="/legislation">Legislation</a>
+      <a href="/people-institutions">People</a>
+    </nav>
+    <div className="family-home__actions">
+      <a className="family-home__github" href="/research-workbench">Research <span>→</span></a>
+      <button type="button" className="family-home__menu" data-home-menu aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
   </header>
+
   <main>
-    <section className="family-home__hero"><div className="family-home__hero-inner"><a className="family-home__badge" href="/research-workbench"><span>✦</span> California legal research · 2026</a><h1>California Family Law,<br /><strong>mapped to the record.</strong></h1><p>Find the law. Trace its history. Connect cases, legislation, people, and institutions in one research system.</p><div className="family-home__hero-actions"><a className="family-home__primary" href="/research-workbench">Start researching <span>→</span></a><a className="family-home__secondary" href="/family-code-overview">Explore the law</a></div></div></section>
-    <section className="family-home__preview" aria-label="Research preview"><div className="family-home__preview-frame"><div className="family-home__preview-bar"><span>CAL. 26</span><span>Research Workbench</span><span>⌘ K</span></div><div className="family-home__preview-body"><div className="family-home__preview-search">⌕ <span>Search the Family Code, cases, legislation…</span></div><div className="family-home__preview-columns"><div></div><div></div><div></div></div></div></div></section>
-    <section className="family-home__powered" aria-label="Research sources"><p>Built for the California legal record</p><div><span>CALIFORNIA COURTS</span><span>LEGISLATIVE INFORMATION</span><span>FAMILY CODE</span><span>RULES OF COURT</span></div></section>
-    <section className="family-home__feed" aria-label="Live California legal record"><div className="family-home__feed-head"><div><span className="family-home__live-dot"></span><strong>Live</strong><span>California legal record</span></div><div className="family-home__feed-controls"><button type="button" data-news-prev aria-label="Previous stories">←</button><button type="button" data-news-next aria-label="Next stories">→</button></div></div><div className="family-home__feed-viewport"><div className="family-home__news-track" data-live-news-list></div></div></section>
+    <section className="family-home__hero">
+      <div className="family-home__hero-glow"></div>
+      <div className="family-home__hero-inner">
+        <a className="family-home__badge" href="/research-workbench">✦ California legal research · 2026</a>
+        <h1>Research California family law<br /><span>without losing the record.</span></h1>
+        <p>Search the law, follow its history, and connect cases, legislation, people, and institutions in one place.</p>
+        <div className="family-home__hero-actions">
+          <a className="family-home__primary" href="/research-workbench">Start researching <span>→</span></a>
+          <a className="family-home__secondary" href="/family-code-overview">Explore the law</a>
+        </div>
+      </div>
+    </section>
+
+    <section className="family-home__preview" aria-label="Research preview">
+      <div className="family-home__preview-frame">
+        <div className="family-home__preview-window">
+          <div className="family-home__preview-top">
+            <div className="family-home__window-dots"><i></i><i></i><i></i></div>
+            <span>CAL. 26</span>
+            <span>Research Workbench</span>
+            <kbd>⌘ K</kbd>
+          </div>
+          <div className="family-home__preview-content">
+            <div className="family-home__preview-search"><span>⌕</span><input data-home-search-input aria-label="Search California family law" placeholder="Search the Family Code, cases, legislation…" /></div>
+            <div className="family-home__preview-grid">
+              <div><small>FAMILY CODE § 3020</small><strong>Best interests of the child</strong><p>Trace statutory language, amendments, and related authorities.</p></div>
+              <div><small>CASE RECORD</small><strong>California appellate decisions</strong><p>Connect decisions to the provisions and issues they interpret.</p></div>
+              <div><small>LEGISLATION</small><strong>Bill history & analysis</strong><p>Follow proposals from introduction through enactment.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="family-home__powered" aria-label="Research sources">
+      <p>Built for the California legal record</p>
+      <div><span>CALIFORNIA COURTS</span><span>LEGISLATIVE INFORMATION</span><span>FAMILY CODE</span><span>RULES OF COURT</span></div>
+    </section>
+
+    <section className="family-home__capabilities" aria-label="Research capabilities">
+      <article><small>01</small><h2>Find</h2><p>Search statutes, cases, legislation, rules, and source material without jumping between systems.</p><a href="/research-workbench">Open research →</a></article>
+      <article><small>02</small><h2>Connect</h2><p>Move from a provision to the cases, bills, people, and institutions surrounding it.</p><a href="/people-institutions">Explore the record →</a></article>
+      <article><small>03</small><h2>Trace</h2><p>See how California family law changes over time and where the record leads next.</p><a href="/legislation">Trace legislation →</a></article>
+    </section>
+
+    <section className="family-home__feed" aria-label="Live California legal record">
+      <div className="family-home__feed-head"><div><span className="family-home__live-dot"></span><strong>Live</strong><span>California legal record</span></div><div className="family-home__feed-controls"><button type="button" data-news-prev aria-label="Previous stories">←</button><button type="button" data-news-next aria-label="Next stories">→</button></div></div>
+      <div className="family-home__feed-viewport"><div className="family-home__news-track" data-live-news-list></div></div>
+    </section>
   </main>
-  <footer className="family-home__footer"><span>California Family Law Research <small>· A living research record</small></span><nav aria-label="Footer"><a href="/about">About</a><a href="/sources">Sources</a><a href="/methodology">Methodology</a><a href="/privacy">Privacy</a></nav></footer>
+
+  <footer className="family-home__footer"><span>CAL. 26 <small>· California Family Law Research</small></span><nav aria-label="Footer"><a href="/about">About</a><a href="/sources">Sources</a><a href="/methodology">Methodology</a><a href="/privacy">Privacy</a></nav></footer>
 </div>
