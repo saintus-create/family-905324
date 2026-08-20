@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T01:38:19.376332+00:00",
+  "updated": "2026-08-20T07:27:55.677028+00:00",
   "items": [
     {
       "url": "https://newsroom.courts.ca.gov/news/california-state-legislature-recognizes-100th-anniversary-judicial-council-california",
@@ -38,20 +38,14 @@
       "image": "https://newsroom.courts.ca.gov/sites/default/files/newsroom/styles/max_650x650/public/2026-08/JC%20mtg%20Slough.jpg?itok=dd8buj5z"
     },
     {
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F19%2F2026&description=Assembly+Floor+Session",
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=AFLOOR&agendadate=08%2F20%2F2026&description=Assembly+Floor+Session",
       "title": "Assembly Floor Session",
       "source": "California Legislature",
       "image": "https://leginfo.legislature.ca.gov/resources/images/header_img.png"
     },
     {
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=SFLOOR&agendadate=08%2F19%2F2026&description=Senate+Floor+Session",
+      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=SFLOOR&agendadate=08%2F20%2F2026&description=Senate+Floor+Session",
       "title": "Senate Floor Session",
-      "source": "California Legislature",
-      "image": "https://leginfo.legislature.ca.gov/resources/images/header_img.png"
-    },
-    {
-      "url": "https://leginfo.legislature.ca.gov/faces/billResultsClient.xhtml?location=CS82&agendadate=08%2F19%2F2026&description=Sen+Local+Government&hid=12011",
-      "title": "Sen Local Government",
       "source": "California Legislature",
       "image": "https://leginfo.legislature.ca.gov/resources/images/header_img.png"
     }
