@@ -1,9 +1,4 @@
 (() => {
-  if (window.location.pathname === '/') {
-    window.location.replace('https://svelte-saas-starter.vercel.app');
-    return;
-  }
-
   const initNews = () => {
     const track = document.querySelector('[data-live-news-list]');
     const viewport = document.querySelector('.family-home__feed-viewport');
