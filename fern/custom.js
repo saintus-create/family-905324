@@ -1,11 +1,4 @@
 (() => {
-  const templateHomepage = 'https://saaskit.live/';
-  const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
-  if (currentPath === '/' || currentPath === '/welcome') {
-    window.location.replace(templateHomepage);
-    return;
-  }
-
   const initNews = () => {
     const track = document.querySelector('[data-live-news-list]');
     const viewport = document.querySelector('.family-home__feed-viewport');
