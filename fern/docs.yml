@@ -211,21 +211,6 @@ navigation:
   - page: People & Institutions
     path: ./docs/pages/people-institutions.mdx
     icon: fa-regular fa-users
-  - section: Directory
-    collapsed: true
-    contents:
-    - page: Attorneys
-      path: ./docs/pages/people-institutions.mdx
-    - page: Courts & judges
-      path: ./docs/pages/people-institutions.mdx
-    - page: Universities & scholars
-      path: ./docs/pages/people-institutions.mdx
-    - page: Legal aid & clinics
-      path: ./docs/pages/people-institutions.mdx
-    - page: Agencies
-      path: ./docs/pages/people-institutions.mdx
-    - page: Organizations
-      path: ./docs/pages/people-institutions.mdx
 - tab: analysis
   layout:
   - page: Research Workbench
@@ -240,12 +225,6 @@ navigation:
   - page: Empirical Research & Statistics
     path: ./docs/pages/empirical-analysis.mdx
     icon: fa-regular fa-chart-line
-  - section: Future analysis
-    collapsed: true
-    contents:
-    - page: AI-assisted analysis
-      path: ./docs/pages/research-workbench.mdx
-      icon: fa-regular fa-sparkles
 - tab: changelog
   layout:
   - changelog: ./changelog
