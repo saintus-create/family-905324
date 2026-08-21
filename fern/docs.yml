@@ -15,7 +15,9 @@ layout:
   searchbar-placement: header
   page-width: full
   tabs-placement: header
-css: ./styles.css
+css:
+  - ./styles.css
+  - ./grid.css
 colors:
   accent-primary:
     light: "#3B5F7A"
@@ -204,7 +206,6 @@ navigation:
     - page: CACI26-02 — Civil jury instructions
       path: ./docs/pages/invitations-to-comment/caci26-02.mdx
       icon: fa-regular fa-file-lines
-    
 - tab: people
   layout:
   - page: People & Institutions
