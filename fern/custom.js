@@ -1,10 +1,5 @@
 (() => {
-  const templateHomepage = 'https://saintus-create.github.io/saas-kit/';
   const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
-  if (currentPath === '/' || currentPath === '/welcome') {
-    window.location.replace(templateHomepage);
-    return;
-  }
 
   const initNews = () => {
     const track = document.querySelector('[data-live-news-list]');
