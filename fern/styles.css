@@ -1,4 +1,24 @@
-:root { --research-content-width: 78rem; }
+@font-face {
+  font-family: "Geist Sans";
+  src: url("https://cdn.jsdelivr.net/gh/vercel/geist-font@v1.7.2/packages/next/dist/fonts/geist-sans/Geist-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --research-content-width: 78rem;
+  --font-geist-sans: "Geist Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-geist-sans);
+}
+
 .fern-layout-page { background: var(--background); }
 .fern-page-content { max-width: var(--research-content-width); }
 .fern-card { border-color: var(--border); background: var(--card-background); box-shadow: none; }
