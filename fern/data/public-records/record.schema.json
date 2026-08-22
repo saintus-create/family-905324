@@ -2,19 +2,154 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Traceable public-record research record",
   "type": "object",
-  "required": ["record_id", "record_type", "subject_entity", "jurisdiction", "source", "retrieved_at", "verification_status"],
+  "required": [
+    "record_id",
+    "record_type",
+    "subject_entity",
+    "jurisdiction",
+    "source",
+    "retrieved_at",
+    "verification_status"
+  ],
   "properties": {
-    "record_id": {"type": "string", "description": "Stable local identifier; not a claim about the source system identifier."},
-    "record_type": {"enum": ["training", "policy", "procurement", "contract", "grant_award", "subaward", "appropriation", "budget_line", "settlement", "judgment", "claim_payment", "source_index", "lead"]},
-    "subject_entity": {"type": "object", "required": ["name", "entity_type"], "properties": {"name": {"type": "string"}, "entity_type": {"type": "string"}, "government_level": {"type": "string"}}},
-    "jurisdiction": {"type": "object", "properties": {"city": {"type": "string"}, "county": {"type": "string"}, "state": {"type": "string"}, "country": {"type": "string"}}},
-    "source": {"type": "object", "required": ["publisher", "url"], "properties": {"publisher": {"type": "string"}, "url": {"type": "string", "format": "uri"}, "source_record_id": {"type": "string"}, "published_at": {"type": "string"}, "content_sha256": {"type": "string"}}},
-    "retrieved_at": {"type": "string", "format": "date-time"},
-    "verification_status": {"enum": ["primary_source_verified", "official_dataset_verified", "lead_not_verified", "superseded", "withdrawn"]},
-    "amount": {"type": "object", "properties": {"value": {"type": "number"}, "currency": {"type": "string"}, "amount_type": {"type": "string"}}},
-    "scope_notes": {"type": "string"},
-    "limitations": {"type": "array", "items": {"type": "string"}},
-    "related_record_ids": {"type": "array", "items": {"type": "string"}}
+    "record_id": {
+      "type": "string",
+      "description": "Stable local identifier; not a claim about the source system identifier."
+    },
+    "record_type": {
+      "enum": [
+        "training",
+        "policy",
+        "procurement",
+        "contract",
+        "grant_award",
+        "subaward",
+        "appropriation",
+        "budget_line",
+        "settlement",
+        "judgment",
+        "claim_payment",
+        "source_index",
+        "lead"
+      ]
+    },
+    "subject_entity": {
+      "type": "object",
+      "required": [
+        "name",
+        "entity_type"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "entity_type": {
+          "type": "string"
+        },
+        "government_level": {
+          "type": "string"
+        }
+      }
+    },
+    "jurisdiction": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "county": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "publisher",
+        "url"
+      ],
+      "properties": {
+        "publisher": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_record_id": {
+          "type": "string"
+        },
+        "published_at": {
+          "type": "string"
+        },
+        "content_sha256": {
+          "type": "string"
+        }
+      }
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verification_status": {
+      "enum": [
+        "primary_source_verified",
+        "official_dataset_verified",
+        "lead_not_verified",
+        "superseded",
+        "withdrawn"
+      ]
+    },
+    "amount": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "amount_type": {
+          "type": "string"
+        }
+      }
+    },
+    "scope_notes": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "purpose": {
+      "type": "string",
+      "description": "Verbatim or lightly normalized purpose/description from the cited primary source; absence means the source did not provide one."
+    },
+    "period": {
+      "type": "object",
+      "properties": {
+        "start_date": {
+          "type": "string"
+        },
+        "end_date": {
+          "type": "string"
+        }
+      }
+    }
   },
   "additionalProperties": false
 }
