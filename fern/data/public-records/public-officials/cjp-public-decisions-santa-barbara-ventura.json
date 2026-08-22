@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "cjp-public-decisions-santa-barbara-ventura",
+  "retrieved_at": "2026-08-22T16:35:18Z",
+  "publisher": "California Commission on Judicial Performance",
+  "index_url": "https://cjp.ca.gov/discipline-decisions-database-results/",
+  "scope": "Published CJP public-decision index entries whose county/appellate-district field is Santa Barbara or Ventura. This is not a complete judicial history, complaint log, or performance rating.",
+  "all_index_rows_observed": 268,
+  "local_record_count": 12,
+  "source_pages": [
+    {
+      "page": 1,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=1",
+      "sha256": "8d588e99fb1dbfbd5bc05ab7cd79e62d3212a2eff98f17b43896dbaff9f69dc4",
+      "bytes": 177412
+    },
+    {
+      "page": 2,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=2",
+      "sha256": "bfcb5893df5d789be9ea13a02968a5a41a8d960a1db4174b1b4f53b4366519ee",
+      "bytes": 177764
+    },
+    {
+      "page": 3,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=3",
+      "sha256": "7e246034a72aa08163f06b404cacaef74c78b18a146e2130df048cef32138b0f",
+      "bytes": 177788
+    },
+    {
+      "page": 4,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=4",
+      "sha256": "d3ce2425717cd365f9c572a886a47318a4a57c91aa62bd2bcd323a7425a7f67e",
+      "bytes": 177771
+    },
+    {
+      "page": 5,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=5",
+      "sha256": "0064bec6f7b5b969269a7327b7208f375e944726d4d217be9e38ca63436ee174",
+      "bytes": 177830
+    },
+    {
+      "page": 6,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=6",
+      "sha256": "efe8263e7bd6f5572bbba4690cb2d91e22e62b7259216f40d18c5980ee9b8674",
+      "bytes": 177714
+    },
+    {
+      "page": 7,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=7",
+      "sha256": "f696b54428ada78345dd0a6a288b3a59402f5f7b1c5c3f9f1b2999045ccb36f2",
+      "bytes": 177766
+    },
+    {
+      "page": 8,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=8",
+      "sha256": "9df7de335363f909213e6ab7727fb643a73e96334aff79741f6341cc8e801fe6",
+      "bytes": 177736
+    },
+    {
+      "page": 9,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=9",
+      "sha256": "cd09751f65faccb3e481c4f9eaddf86da47c73619aa1aa310a668ce97157be68",
+      "bytes": 177776
+    },
+    {
+      "page": 10,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=10",
+      "sha256": "665bce2b3ada48ede006fd42f1293dc148ff055180f49834d37b71045a9c5189",
+      "bytes": 177792
+    },
+    {
+      "page": 11,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=11",
+      "sha256": "47f78e909b52ee91ce62c3d21710940b7f89c0dcf5a8403a7ff72d77ae911a42",
+      "bytes": 177742
+    },
+    {
+      "page": 12,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=12",
+      "sha256": "f5106d126dc3fa02ef29dc22fe51b76928f51a4ed2da308ccfd5333a4a2a6b36",
+      "bytes": 177772
+    },
+    {
+      "page": 13,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=13",
+      "sha256": "f95ec39e4d75f44dabf7a1bedca27c7b7a07f7931cce00e43a768c915ec5d6b6",
+      "bytes": 177845
+    },
+    {
+      "page": 14,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=14",
+      "sha256": "6b6cc89a2a722db58612f9533adb070d6e66a91b6d955460ad2154fbc8f96928",
+      "bytes": 177837
+    },
+    {
+      "page": 15,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=15",
+      "sha256": "a7330a88091feeae7d69b75a444ba27a8bd46fecc5ab582278cbbbda2dbf1b6a",
+      "bytes": 177794
+    },
+    {
+      "page": 16,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=16",
+      "sha256": "499bb4b5c05c7bd56b3d470cd75a2cd2cbeaed9833be4ffb1e3a0e3721425cca",
+      "bytes": 177816
+    },
+    {
+      "page": 17,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=17",
+      "sha256": "ad4277676772910a7f981196c648a9f21b7c816168cbb5a332bd033db11b045d",
+      "bytes": 177804
+    },
+    {
+      "page": 18,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=18",
+      "sha256": "0a73d005f919b88d8a426bf6fa628b5c0129136209b5c22f47f0e112c53ed89c",
+      "bytes": 177824
+    },
+    {
+      "page": 19,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=19",
+      "sha256": "34a462c97d23ba7caca54c51e7117ab230f8392afe932462cf6cc0f44fc2d40f",
+      "bytes": 177766
+    },
+    {
+      "page": 20,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=20",
+      "sha256": "158fbbf60b0f818bd84584cb5b42dc5a4fe92fd5063ce9a797b7973925b32bcb",
+      "bytes": 177800
+    },
+    {
+      "page": 21,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=21",
+      "sha256": "d86a16ca57d826971585a19994a877dccb949f6def76b9848a11acc16d2f43e2",
+      "bytes": 177771
+    },
+    {
+      "page": 22,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=22",
+      "sha256": "505ea91591bdcb58001c5988f62c2ba18f4626572dafa938202501245c806567",
+      "bytes": 177776
+    },
+    {
+      "page": 23,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=23",
+      "sha256": "721b44cf109d32e6478c5de9b3529dda72bd46e9f5cd1fa1476fe9184684c41a",
+      "bytes": 177857
+    },
+    {
+      "page": 24,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=24",
+      "sha256": "1c76e8ddbc5b05c73bdcffe980d3b9298b6a77930a943bb21fbc878370d0fdb8",
+      "bytes": 177809
+    },
+    {
+      "page": 25,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=25",
+      "sha256": "901f2c859a4b8bd361695414eccc498bce1a0a932c6ac50fb574826230554b93",
+      "bytes": 177838
+    },
+    {
+      "page": 26,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=26",
+      "sha256": "88baf547f4e4aff6c355fbea24c15c68b2b497ee5228968d46bf3857ed8c17bf",
+      "bytes": 177755
+    },
+    {
+      "page": 27,
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/?wpv_view_count=106760&wpv_paged=27",
+      "sha256": "dfc4e12ce199871c454f47abddfab328e873889c278e3e8ed19ddce1932392c6",
+      "bytes": 176531
+    }
+  ],
+  "records": [
+    {
+      "last_name": "Adams",
+      "first_name": "Thomas R.",
+      "inquiry_number": null,
+      "court_level": "Superior Court",
+      "county_or_district": "Santa Barbara",
+      "method_of_resolution": "Decision",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Public Admonishment",
+      "date_of_decision": "12/10/2024",
+      "petition_for_review": "N/A",
+      "decision_url": "https://cjp.ca.gov/public-decisions/adams-2/",
+      "index_page": 1
+    },
+    {
+      "last_name": "Bennett",
+      "first_name": "Jeffrey G.",
+      "inquiry_number": "206",
+      "court_level": "Superior Court",
+      "county_or_district": "Ventura",
+      "method_of_resolution": "Stipulation",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Censure",
+      "date_of_decision": "03/25/2020",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/bennett/",
+      "index_page": 1
+    },
+    {
+      "last_name": "Bradley",
+      "first_name": "Robert C.",
+      "inquiry_number": "147",
+      "court_level": "Superior Court",
+      "county_or_district": "Ventura",
+      "method_of_resolution": "Decision",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Censure and bar",
+      "date_of_decision": "06/03/1999",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/bradley/",
+      "index_page": 2
+    },
+    {
+      "last_name": "Carrozzo",
+      "first_name": "Michael J.",
+      "inquiry_number": "210",
+      "court_level": "Superior Court",
+      "county_or_district": "Santa Barbara",
+      "method_of_resolution": "Stipulation",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Censure & Bar",
+      "date_of_decision": "04/17/2025",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/carrozzo-2025/",
+      "index_page": 4
+    },
+    {
+      "last_name": "Clark",
+      "first_name": "Bruce A.",
+      "inquiry_number": null,
+      "court_level": "Municipal Court",
+      "county_or_district": "Ventura",
+      "method_of_resolution": "Decision",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Public reproval",
+      "date_of_decision": "10/13/1989",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/clark/",
+      "index_page": 4
+    },
+    {
+      "last_name": "Dodds",
+      "first_name": "Bruce W.",
+      "inquiry_number": "113",
+      "court_level": "Superior Court",
+      "county_or_district": "Santa Barbara",
+      "method_of_resolution": "Decision",
+      "decision_by": "Supreme Court",
+      "discipline_or_determination": "Dismissal/reversal",
+      "date_of_decision": "12/21/1995",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/dodds/",
+      "index_page": 6
+    },
+    {
+      "last_name": "Hall",
+      "first_name": "Diana R.",
+      "inquiry_number": "175",
+      "court_level": "Superior Court",
+      "county_or_district": "Santa Barbara",
+      "method_of_resolution": "Decision",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Removal from office",
+      "date_of_decision": "12/12/2006",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/hall/",
+      "index_page": 10
+    },
+    {
+      "last_name": "Hintz",
+      "first_name": "Steven",
+      "inquiry_number": null,
+      "court_level": "Municipal Court",
+      "county_or_district": "Ventura",
+      "method_of_resolution": "Decision",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Public reproval",
+      "date_of_decision": "05/29/1992",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/hintz/",
+      "index_page": 11
+    },
+    {
+      "last_name": "Jensen",
+      "first_name": "Arden T.",
+      "inquiry_number": "35",
+      "court_level": "Superior Court",
+      "county_or_district": "Santa Barbara",
+      "method_of_resolution": "Decision",
+      "decision_by": "Supreme Court",
+      "discipline_or_determination": "Censure",
+      "date_of_decision": "11/24/1978",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/jensen/",
+      "index_page": 12
+    },
+    {
+      "last_name": "Slater",
+      "first_name": "James M.",
+      "inquiry_number": null,
+      "court_level": "Superior Court",
+      "county_or_district": "Santa Barbara",
+      "method_of_resolution": "Decision",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Public reproval",
+      "date_of_decision": "09/13/1993",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/slater/",
+      "index_page": 22
+    },
+    {
+      "last_name": "Stevens",
+      "first_name": "Charles S.",
+      "inquiry_number": "47",
+      "court_level": "Superior Court",
+      "county_or_district": "Santa Barbara",
+      "method_of_resolution": "Decision",
+      "decision_by": "Supreme Court",
+      "discipline_or_determination": "Censure",
+      "date_of_decision": "05/20/1982",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/stevens-charles-s/",
+      "index_page": 24
+    },
+    {
+      "last_name": "Walsh",
+      "first_name": "Henry J.",
+      "inquiry_number": null,
+      "court_level": "Superior Court",
+      "county_or_district": "Ventura",
+      "method_of_resolution": "Decision",
+      "decision_by": "Commission",
+      "discipline_or_determination": "Public admonishment",
+      "date_of_decision": "02/10/2016",
+      "petition_for_review": null,
+      "decision_url": "https://cjp.ca.gov/public-decisions/walsh/",
+      "index_page": 26
+    }
+  ]
+}
