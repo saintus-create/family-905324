@@ -815,3 +815,65 @@ html.dark header {
     gap: 3rem;
   }
 }
+
+/* Public-records dashboard: compact, dark project-profile treatment. */
+.accountability-page .research-landing__hero {
+  border-radius: 14px;
+  background: #050505;
+}
+
+.accountability-page .research-landing__hero-copy {
+  min-height: 31rem;
+}
+
+.accountability-page .research-landing__instrument {
+  background-color: #050505;
+  background-image: linear-gradient(rgba(255,255,255,.085) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.085) 1px, transparent 1px);
+}
+
+.accountability-page__facts {
+  margin-top: clamp(4rem, 8vw, 7rem);
+  overflow: hidden;
+  border: 1px solid var(--research-rule);
+  border-radius: 14px;
+  background: #050505;
+}
+
+.accountability-page__facts-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--research-rule);
+  color: var(--research-muted);
+  font-size: .72rem;
+}
+
+.accountability-page__facts-title span:last-child { color: var(--research-blue); }
+
+.accountability-page__facts dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+}
+
+.accountability-page__facts dl > div {
+  min-height: 7.75rem;
+  padding: 1.35rem 1.25rem;
+  border-right: 1px solid var(--research-rule);
+  border-bottom: 1px solid var(--research-rule);
+}
+
+.accountability-page__facts dl > div:nth-child(2n) { border-right: 0; }
+.accountability-page__facts dt { color: var(--research-muted); font-size: .74rem; }
+.accountability-page__facts dd { margin: .7rem 0 0; color: var(--research-ink); font-size: 1rem; letter-spacing: -.035em; }
+.accountability-page__facts > p { max-width: 42rem; margin: 0; padding: 1.35rem 1.25rem; color: var(--research-muted); font-size: .88rem; line-height: 1.55; }
+
+@media (max-width: 640px) {
+  .accountability-page .research-landing__hero { border-radius: 10px; }
+  .accountability-page .research-landing__hero-copy { min-height: 26rem; padding: 2rem 1.45rem; }
+  .accountability-page .research-landing__instrument-grid { padding-top: 6rem; }
+  .accountability-page__facts { margin-top: 4rem; border-radius: 10px; }
+  .accountability-page__facts dl { grid-template-columns: 1fr; }
+  .accountability-page__facts dl > div, .accountability-page__facts dl > div:nth-child(2n) { min-height: auto; border-right: 0; }
+}
