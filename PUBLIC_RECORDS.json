@@ -523,6 +523,304 @@
       "funding": [],
       "contracts": [],
       "settlements": []
+    },
+    {
+      "id": "agency_oakland_police_department",
+      "name": "Oakland Police Department",
+      "type": "Municipal Police",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "Subject:\tOPD Axon Body-Worn Camera Contract \r\nFrom: \t \tOakland Police Department\r\nRecommendation: Adopt The Following Pieces Of Legislation:\r\n\r\n1) A R...",
+          "amount": null,
+          "year": 2021,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=32561&GUID=BD3AAF07-16AA-4F73-B0DF-54944AD4AC86"
+        },
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "2) A Resolution: 1. Authorizing The City Administrator To Negotiate And Enter Into A Contract With Axon, Inc. To Purchase 786 Body-Worn Cameras (BWC),...",
+          "amount": 1638505,
+          "year": 2021,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=32564&GUID=15F03973-773E-4790-AD71-E0DECE212C1F"
+        },
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "Subject:\tOPD Axon Body-Worn Camera Ancillary Purchase Waiver\t\r\nFrom:\t\tOakland Police Department\t\t\r\nRecommendation: Adopt A Resolution Waiving The City...",
+          "amount": null,
+          "year": 2022,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=33119&GUID=E0787884-CC10-433A-9F36-74E7A5FEA4DB"
+        },
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "Subject: \tOPD Axon Interview Rooms Contract \r\nFrom: \t\tOakland Police Department\r\nRecommendation: Adopt A Resolution Waiving The Competitive Multiple S...",
+          "amount": 40000,
+          "year": 2024,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=35786&GUID=A4EBAF68-D212-45DD-8D1C-6BCC1664ECD9"
+        },
+        {
+          "vendor": "Flock Safety",
+          "purpose": "Subject:\tOPD License Plate Readers, State Funding For License Plate Readers, And FLOCK Contract\r\nFrom:\t\tOakland Police Department\r\nRecommendation: Ado...",
+          "amount": 1200000,
+          "year": 2023,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=34732&GUID=3A07E570-B91F-45CA-AEB1-3A41C697E949"
+        },
+        {
+          "vendor": "Flock Safety",
+          "purpose": "Subject: \tOPD License Plate Readers, FLOCK, And CHP Agreement\r\nFrom: \t\tOakland Police Department\r\nRecommendation: Adopt A Resolution (1) Approving The...",
+          "amount": 970600,
+          "year": 2024,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=35569&GUID=0835CFCE-B1B6-4B56-BA15-DC1A7C370A38"
+        },
+        {
+          "vendor": "Flock Safety",
+          "purpose": "Subject: \tOPD Community Safety Cameras Policy And FLOCK Agreement\r\nFrom: \t\tOakland Police Department \r\nRecommendation: Adopt A Resolution (1) Approvin...",
+          "amount": 2252500,
+          "year": 2025,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=36866&GUID=2B75B954-31BC-40AA-8D8B-14C1E7CD0DCD"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject:\tShot Spotter Lease Agreement\r\nFrom:\tOakland Police Department\r\nRecommendation: Adopt A Resolution Waiving The Competitive Bid Process And Loc...",
+          "amount": 288509,
+          "year": 2006,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=12672&GUID=96444B07-6D30-432D-BFEF-6EA011546EF2"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject:\tShotspotter Contract Award \r\nFrom:\t\tVice Mayor Desley Brooks\r\nRecommendation:   Receive A Report Providing An Overview Of The Shotspotter Gun...",
+          "amount": 84151,
+          "year": 2011,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=20475&GUID=64578C53-B939-478F-AC97-CDAC387FEAEB"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject:\tShotspotter, Inc., Detection System\r\nFrom:\t\tOakland Police Department\r\nRecommendation: Adopt A Resolution: 1) Authorizing The City Administra...",
+          "amount": 348000,
+          "year": 2012,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=21596&GUID=43A6C53E-7571-4584-B13D-2A7848B975B6"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject:\tOakland Housing Authority MOU - Shotspotter\r\nFrom:\t\tOakland Police Department \r\nRecommendation:  Adopt A Resolution: Authorizing The City Adm...",
+          "amount": 150000,
+          "year": 2012,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=21793&GUID=716DD2EB-9646-4499-A046-7F66C4A51571"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject:\tShotSpotter Contract Extension and System Expansion\r\nFrom:\t\tOakland Police Department\r\nRecommendation:  Adopt A Resolution Authorizing The Ci...",
+          "amount": 146600,
+          "year": 2014,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=24049&GUID=4B478F79-D491-48B2-842A-EFFE23EC4889"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject:\tShotSpotter Contract Extension\r\nFrom:\t\tOakland Police Department\r\nRecommendation:  Adopt A Resolution: 1) Authorizing The City Administrator ...",
+          "amount": 494600,
+          "year": 2016,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=25933&GUID=9B051FCB-7C9A-42E6-8112-A767CE25FC0F"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject:\tShotSpotter Contract Amendment\r\nFrom:\t\tOakland Police Department\t\r\nRecommendation: Adopt A Resolution Authorizing The City Administrator Or D...",
+          "amount": 88200,
+          "year": 2018,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=28797&GUID=BB0A6614-37A4-403C-B3DE-AEF20D71154E"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject: \tOPD ShotSpotter Privacy Policy   \r\nFrom: \t\tOakland Police Department \r\nRecommendation: Adopt A Resolution Approving The Oakland Police Depar...",
+          "amount": null,
+          "year": 2019,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=30798&GUID=C5794BB4-615C-4EDC-8CCB-715A47CF79F8"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject: \tOPD Shotspotter Contract\r\nFrom: \t\tOakland Police Department\r\nRecommendation: Adopt A Resolution Authorizing The City Administrator Or Design...",
+          "amount": 19448,
+          "year": 2020,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=31407&GUID=87B1E3F5-35F1-4655-BE39-A066F7BAA742"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject:\tOPD ShotSpotter Contract\t\r\nFrom:\t\tOakland Police Department\t\t\r\nRecommendation: Adopt A Resolution Authorizing The City Administrator Or Desig...",
+          "amount": 601186,
+          "year": 2021,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=32203&GUID=226BF423-7206-4269-AE01-29B82F17EC00"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject: \tOPD ShotSpotter Contract   \t\r\nFrom:\t\tOakland Police Department\t\r\nRecommendation: Adopt A Resolution Authorizing The City Administrator To (1...",
+          "amount": 841670,
+          "year": 2024,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=35556&GUID=8B950805-90DA-4468-A6DB-BEB11CDE3C01"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Subject: \tOPD ShotSpotter Annual Report\r\nFrom: \t\tOakland Police Department\r\nRecommendation: Adopt A Resolution Accepting The Annual Report For The Cit...",
+          "amount": null,
+          "year": 2024,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=35726&GUID=A2031402-3308-4F1F-91E9-9034B9BB5C3C"
+        },
+        {
+          "vendor": "Mark43",
+          "purpose": "Subject:\tMark43 RMS Upgrade For OPD\r\nFrom: \t\tInformation Technology Department  \r\nRecommendation: Adopt A Resolution Authorizing The City Administrato...",
+          "amount": 6171770,
+          "year": 2024,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=35470&GUID=0AC56270-C95E-408A-8141-E2668D735B1D"
+        },
+        {
+          "vendor": "Lexipol",
+          "purpose": "Subject:\tLexipol\r\nFrom:\t\tOakland Police Department\r\nRecommendation:  Adopt A Resolution Authorizing The City Administrator, Or Designee, To 1) Negotia...",
+          "amount": 217908,
+          "year": 2015,
+          "citation": "https://oakland.legistar.com/LegislationDetail.aspx?ID=24287&GUID=F9B1068B-04EC-45DC-94B1-AD0C44139DE1"
+        }
+      ],
+      "settlements": []
+    },
+    {
+      "id": "agency_sacramento_police_department",
+      "name": "Sacramento Police Department",
+      "type": "Municipal Police",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_fresno_police_department",
+      "name": "Fresno Police Department",
+      "type": "Municipal Police",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [
+        {
+          "vendor": "Northpointe Inc. (Equivant)",
+          "purpose": "RESOLUTION - Of Intention to Annex the Territory Known as Assessor\u2019s Parcel Number 330-021-40 (Parcel H of Parcel Map 96-22) as Annexation No. 55 to t...",
+          "amount": null,
+          "year": 2022,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=13970&GUID=AA61F1F5-C368-434F-831D-D9E56FD42C5C"
+        },
+        {
+          "vendor": "Northpointe Inc. (Equivant)",
+          "purpose": "HEARING to adopt resolutions and ordinance to annex territory and levy a special tax regarding CITY OF FRESNO COMMUNITY FACILITIES DISTRICT NO. 9, Ann...",
+          "amount": null,
+          "year": 2022,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=14058&GUID=B3DF8F89-1631-4B3C-BDCC-A42A0E2F2380"
+        },
+        {
+          "vendor": "Northpointe Inc. (Equivant)",
+          "purpose": "Actions pertaining to the South Fresno Community Alliance Settlement Agreement (related to the development project located at 3611 S. Northpointe Driv...",
+          "amount": null,
+          "year": 2024,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=18645&GUID=47718758-94CE-46EF-A049-4875DF7FDA95"
+        },
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "1.\tRESOLUTION - Authorizing the Chief of Police or designee to specify TASER International, Inc., without substitution, for the purchase of 100 TASER ...",
+          "amount": 159732,
+          "year": 2014,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=1528&GUID=E3FC38BE-5223-45FC-B24D-E27189C3A0B6"
+        },
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "Actions pertaining to purchasing body-worn cameras and conducted electrical weapons for the Fresno Police Department:\r\n1.   Authorize the Chief of Pol...",
+          "amount": 2586081,
+          "year": 2015,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=2368&GUID=B83EB76E-6647-4A02-A433-664C737A62A8"
+        },
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "Award an Agreement for 25 Axon Body 3 Flex Body Worn -Video Cameras, with unlimited Data Storage and related services; Authorize the Director of the A...",
+          "amount": null,
+          "year": 2022,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=14538&GUID=8606F0A9-2301-45E2-89E7-0192C2026CD9"
+        },
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "Actions pertaining to the Fresno Police Department\u2019s technology contract with Axon Enterprises, Inc.\r\n1.\t Award a sole source contract with Axon Enter...",
+          "amount": 18368264,
+          "year": 2024,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=18201&GUID=661BD3BD-2C00-431B-8B2D-EE16DE7444AE"
+        },
+        {
+          "vendor": "Axon Enterprise Inc.",
+          "purpose": "Actions pertaining to the Fresno Police Department\u2019s technology contract with Axon Enterprises, Inc.\r\n1.\tAward a sole source agreement between the Cit...",
+          "amount": 234470,
+          "year": 2025,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=20656&GUID=A2F07ED2-D2C2-4C49-83B2-0C94363198E4"
+        },
+        {
+          "vendor": "Flock Safety",
+          "purpose": "Actions pertaining to the Organized Retail Theft Prevention Grant program:\r\n1.\tAuthorize the Chief of Police to accept $23,663,194 in grant funding fo...",
+          "amount": 23663194,
+          "year": 2023,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=17191&GUID=FE5D2089-1E31-4581-9783-2553C4BF5048"
+        },
+        {
+          "vendor": "Flock Safety",
+          "purpose": "Approve the updated Agreement between the City of Fresno Police Department and Flock Safety, in an amount not to exceed $1,498,690.41 for three (3) ye...",
+          "amount": 1498690,
+          "year": 2024,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=17491&GUID=9357F913-C5F1-4FE3-9390-DDE42F0D258F"
+        },
+        {
+          "vendor": "Flock Safety",
+          "purpose": "Approve acceptance of donated funds from the Fresno Police Chief\u2019s Foundation, in the total amount of $33,500 to secure five (5) additional Automated ...",
+          "amount": 33500,
+          "year": 2024,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=18515&GUID=5F2DA24C-364B-48CD-88B9-5CA2A2B8D6DA"
+        },
+        {
+          "vendor": "Flock Safety",
+          "purpose": "Approve a Third Amendment to the Flock Safety Master Service Agreement between the City of Fresno Police Department and Flock Group Inc., increasing t...",
+          "amount": 136500,
+          "year": 2024,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=18841&GUID=3A79B37F-79EA-4A1A-A713-09AB533FF6AF"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Actions pertaining to the award of a sole source service contract to ShotSpotter, Inc. (\u201cShotSpotter\u201d):\r\n1.Authorize the Chief of Police or designee t...",
+          "amount": 450000,
+          "year": 2015,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=2284&GUID=7B9ED3FB-4707-4172-B271-3B412385864D"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Actions pertaining to the extension and expansion of area coverage in a service contract with ShotSpotter, Inc. (\u201cShotSpotter\u201d):\r\n1.\tAuthorize the Chi...",
+          "amount": 450000,
+          "year": 2017,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=6043&GUID=A17CB2B2-C983-4894-BFAA-C670A6F9A668"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Approve the Second Amendment to the City\u2019s service contract with ShotSpotter, Inc., to expand ShotSpotter Flex coverage by 2.26 square miles for three...",
+          "amount": 440700,
+          "year": 2018,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=6661&GUID=8BBA7F7A-23AC-4C0B-83C7-67E08A149BED"
+        },
+        {
+          "vendor": "ShotSpotter (SoundThinking)",
+          "purpose": "Authorize the Chief of Police to enter into a Second Amendment to Agreement with SoundThinking, Inc. (formerly ShotSpotter Inc.) for an additional thr...",
+          "amount": 3140025,
+          "year": 2024,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=18310&GUID=4B6518EF-A7D0-4DA5-BB54-F56A8A791A5E"
+        },
+        {
+          "vendor": "Lexipol",
+          "purpose": "Actions pertaining to the contract with Lexipol, LLC., for law enforcement policy manual updates:\n1.\tApprove first amendment to the agreement with Lex...",
+          "amount": 110000,
+          "year": 2017,
+          "citation": "https://fresno.legistar.com/LegislationDetail.aspx?ID=5567&GUID=8F945FED-7377-4825-B56F-20408D1CC681"
+        }
+      ],
+      "settlements": []
     }
   ],
   "vendors": [
@@ -547,7 +845,63 @@
         "Risk assessment software",
         "Case management systems"
       ],
-      "known_contracts": []
+      "known_contracts": [
+        "agency_fresno_police_department"
+      ]
+    },
+    {
+      "id": "vendor_axon_enterprise_inc",
+      "name": "Axon Enterprise Inc.",
+      "services": [
+        "Law enforcement technology and services"
+      ],
+      "known_contracts": [
+        "agency_oakland_police_department",
+        "agency_fresno_police_department"
+      ]
+    },
+    {
+      "id": "vendor_flock_safety",
+      "name": "Flock Safety",
+      "services": [
+        "Law enforcement technology and services"
+      ],
+      "known_contracts": [
+        "agency_oakland_police_department",
+        "agency_fresno_police_department"
+      ]
+    },
+    {
+      "id": "vendor_shotspotter_soundthinking",
+      "name": "ShotSpotter (SoundThinking)",
+      "services": [
+        "Law enforcement technology and services"
+      ],
+      "known_contracts": [
+        "agency_oakland_police_department",
+        "agency_fresno_police_department"
+      ]
+    },
+    {
+      "id": "vendor_mark43",
+      "name": "Mark43",
+      "services": [
+        "Law enforcement technology and services"
+      ],
+      "known_contracts": [
+        "agency_oakland_police_department"
+      ]
+    },
+    {
+      "id": "vendor_lexipol",
+      "name": "Lexipol",
+      "services": [
+        "Law enforcement technology and services"
+      ],
+      "known_contracts": [
+        "agency_oakland_police_department",
+        "agency_fresno_police_department"
+      ]
     }
   ]
 }
