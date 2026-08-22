@@ -1,61 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-22T16:25:44Z",
+  "updated_at": "2026-08-22T16:27:12Z",
   "entries": [
-    {
-      "source_id": "city_santa_maria_public_resources",
-      "url": "https://www.cityofsantamaria.org/services/departments/police-department/community-resources",
-      "retrieved_at": "2026-08-22T16:25:41Z",
-      "collection_error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "snapshot_id": "santa_barbara_county_information-landing",
-      "source_id": "santa_barbara_county_information",
-      "publisher": "County of Santa Barbara",
-      "url": "https://www.countyofsb.org/1477/Information",
-      "retrieved_at": "2026-08-22T16:25:42Z",
-      "content_type": "text/html",
-      "bytes": 281830,
-      "sha256": "1addf8d722d2366ee2261db052d389be86cbab8531c2670540a39720d7801e33",
-      "request": null,
-      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
-    },
-    {
-      "snapshot_id": "oxnard_open_data-landing",
-      "source_id": "oxnard_open_data",
-      "publisher": "City of Oxnard",
-      "url": "https://data.oxnard.org/",
-      "retrieved_at": "2026-08-22T16:25:43Z",
-      "content_type": "text/html",
-      "bytes": 60618,
-      "sha256": "f8326cb14c6890e9c951131b99385313080d127d09c73496d68e12d9e964b722",
-      "request": null,
-      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
-    },
-    {
-      "snapshot_id": "california_post_training-landing",
-      "source_id": "california_post_training",
-      "publisher": "California Commission on Peace Officer Standards and Training",
-      "url": "https://post.ca.gov/Training",
-      "retrieved_at": "2026-08-22T16:25:43Z",
-      "content_type": "text/html",
-      "bytes": 24267,
-      "sha256": "1a7e8f20eee0e2738ca68894063e10cdb88844f914120a29cd8ec311ca596eab",
-      "request": null,
-      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
-    },
-    {
-      "snapshot_id": "usaspending_api-landing",
-      "source_id": "usaspending_api",
-      "publisher": "U.S. Department of the Treasury",
-      "url": "https://api.usaspending.gov/",
-      "retrieved_at": "2026-08-22T16:25:43Z",
-      "content_type": "text/html",
-      "bytes": 5162,
-      "sha256": "1f8f746442b8794fa351759628917f8bed3bc9f85913bc8d3caead02afe5a4f0",
-      "request": null,
-      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
-    },
     {
       "snapshot_id": "usaspending-santa-barbara-grants-2020-2026",
       "source_id": "usaspending_santa_barbara_grant_discovery",
@@ -162,6 +108,120 @@
         },
         "interpretation": "Keyword discovery only. A zero result is limited to this API query and is not evidence that no VAWA-related funding exists. A nonzero result would require award-by-award primary-source verification before any VAWA classification."
       },
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "source_id": "city_santa_maria_public_resources",
+      "url": "https://www.cityofsantamaria.org/services/departments/police-department/community-resources",
+      "retrieved_at": "2026-08-22T16:27:08Z",
+      "collection_error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "snapshot_id": "santa_barbara_county_information-landing",
+      "source_id": "santa_barbara_county_information",
+      "publisher": "County of Santa Barbara",
+      "url": "https://www.countyofsb.org/1477/Information",
+      "retrieved_at": "2026-08-22T16:27:09Z",
+      "content_type": "text/html",
+      "bytes": 281830,
+      "sha256": "1addf8d722d2366ee2261db052d389be86cbab8531c2670540a39720d7801e33",
+      "request": null,
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "snapshot_id": "oxnard_open_data-landing",
+      "source_id": "oxnard_open_data",
+      "publisher": "City of Oxnard",
+      "url": "https://data.oxnard.org/",
+      "retrieved_at": "2026-08-22T16:27:10Z",
+      "content_type": "text/html",
+      "bytes": 60618,
+      "sha256": "f8326cb14c6890e9c951131b99385313080d127d09c73496d68e12d9e964b722",
+      "request": null,
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "snapshot_id": "california_post_training-landing",
+      "source_id": "california_post_training",
+      "publisher": "California Commission on Peace Officer Standards and Training",
+      "url": "https://post.ca.gov/Training",
+      "retrieved_at": "2026-08-22T16:27:11Z",
+      "content_type": "text/html",
+      "bytes": 24267,
+      "sha256": "dad90071376db1057acf925ae8c162f1c9b47288492e23ae1fcddda94df12004",
+      "request": null,
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "snapshot_id": "usaspending_api-landing",
+      "source_id": "usaspending_api",
+      "publisher": "U.S. Department of the Treasury",
+      "url": "https://api.usaspending.gov/",
+      "retrieved_at": "2026-08-22T16:27:11Z",
+      "content_type": "text/html",
+      "bytes": 5162,
+      "sha256": "1f8f746442b8794fa351759628917f8bed3bc9f85913bc8d3caead02afe5a4f0",
+      "request": null,
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "snapshot_id": "caloes_2024_jlbc_victim_services_report-landing",
+      "source_id": "caloes_2024_jlbc_victim_services_report",
+      "publisher": "California Governor's Office of Emergency Services",
+      "url": "https://www.caloes.ca.gov/wp-content/uploads/Grants/Documents/2024_JLBC_Report_Final.pdf",
+      "retrieved_at": "2026-08-22T16:27:11Z",
+      "content_type": "application/pdf",
+      "bytes": 3293065,
+      "sha256": "b4959b64a473bdff6a6c69bf9bbb967bec7b7c2a2f9847a24b50b6d56ee99077",
+      "request": null,
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "snapshot_id": "caloes_2023_jlbc_victim_services_report-landing",
+      "source_id": "caloes_2023_jlbc_victim_services_report",
+      "publisher": "California Governor's Office of Emergency Services",
+      "url": "https://www.caloes.ca.gov/wp-content/uploads/Legislative-Affiars/Documents/2023-Grants-Management-Victim-Services-Annual-Joint-Legislative-Budget-Committee-Report.pdf",
+      "retrieved_at": "2026-08-22T16:27:11Z",
+      "content_type": "application/pdf",
+      "bytes": 3329025,
+      "sha256": "cd3d5769a88d3fe841c0dc73f748e5fe4cdf08b599d994f3e06b044fc715eea2",
+      "request": null,
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "snapshot_id": "caloes_federal_fund_information_guide_2026-landing",
+      "source_id": "caloes_federal_fund_information_guide_2026",
+      "publisher": "California Governor's Office of Emergency Services",
+      "url": "https://www.caloes.ca.gov/wp-content/uploads/Grants/Documents/Victim-Services-Branch-Federal-Fund-Information-Guide.pdf",
+      "retrieved_at": "2026-08-22T16:27:11Z",
+      "content_type": "application/pdf",
+      "bytes": 256108,
+      "sha256": "5f93ec84d0af46ecfc5529bcc59492fb37a2e785da146fe0bc4c14100009b279",
+      "request": null,
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "snapshot_id": "california_post_data_warehouse-landing",
+      "source_id": "california_post_data_warehouse",
+      "publisher": "California Commission on Peace Officer Standards and Training",
+      "url": "https://post.ca.gov/Data-Warehouse",
+      "retrieved_at": "2026-08-22T16:27:12Z",
+      "content_type": "text/html",
+      "bytes": 26935,
+      "sha256": "95f0d81e6f6ab60934091d461162b7b1ae00b2465ef93f659eccfc70d7660bb7",
+      "request": null,
+      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+    },
+    {
+      "snapshot_id": "california_post_posad_2025_report-landing",
+      "source_id": "california_post_posad_2025_report",
+      "publisher": "California Commission on Peace Officer Standards and Training",
+      "url": "https://post.ca.gov/Portals/0/post_docs/publications/2025_POSAD_Report.pdf",
+      "retrieved_at": "2026-08-22T16:27:12Z",
+      "content_type": "application/pdf",
+      "bytes": 2769978,
+      "sha256": "5ef6fed6073fa037fc3779b76585d325a1e27fecda701ecbe45c8373ffa54a2f",
+      "request": null,
       "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
     }
   ]

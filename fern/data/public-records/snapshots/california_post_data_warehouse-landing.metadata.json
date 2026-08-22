@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "california_post_data_warehouse-landing",
+  "source_id": "california_post_data_warehouse",
+  "publisher": "California Commission on Peace Officer Standards and Training",
+  "url": "https://post.ca.gov/Data-Warehouse",
+  "retrieved_at": "2026-08-22T16:27:12Z",
+  "content_type": "text/html",
+  "bytes": 26935,
+  "sha256": "95f0d81e6f6ab60934091d461162b7b1ae00b2465ef93f659eccfc70d7660bb7",
+  "request": null,
+  "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+}

@@ -3,10 +3,145 @@
   "created_at": "2026-08-22",
   "purpose": "Verified starting points for public-record collection. Registry inclusion means only that the publisher or endpoint is official and relevant; it does not establish any allegation, funding relationship, payment, contract, or finding.",
   "sources": [
-    {"source_id": "city_santa_maria_public_resources", "publisher": "City of Santa Maria", "jurisdiction": "Santa Maria, California", "categories": ["public records", "budget", "bids", "police policies and training"], "url": "https://www.cityofsantamaria.org/services/departments/police-department/community-resources", "access": "public web", "status": "seed"},
-    {"source_id": "santa_barbara_county_information", "publisher": "County of Santa Barbara", "jurisdiction": "Santa Barbara County, California", "categories": ["budget documents", "annual reports", "public-record requests"], "url": "https://www.countyofsb.org/1477/Information", "access": "public web", "status": "seed"},
-    {"source_id": "oxnard_open_data", "publisher": "City of Oxnard", "jurisdiction": "Oxnard, California", "categories": ["open financial data", "budget", "grant revenue"], "url": "https://data.oxnard.org/", "access": "public open-data portal", "status": "seed"},
-    {"source_id": "california_post_training", "publisher": "California Commission on Peace Officer Standards and Training", "jurisdiction": "California", "categories": ["training", "course certification", "course catalog"], "url": "https://post.ca.gov/Training", "access": "public web", "status": "seed"},
-    {"source_id": "usaspending_api", "publisher": "U.S. Department of the Treasury", "jurisdiction": "United States", "categories": ["federal awards", "grants", "contracts", "subawards", "funding flows"], "url": "https://api.usaspending.gov/", "access": "public API", "status": "seed"}
+    {
+      "source_id": "city_santa_maria_public_resources",
+      "publisher": "City of Santa Maria",
+      "jurisdiction": "Santa Maria, California",
+      "categories": [
+        "public records",
+        "budget",
+        "bids",
+        "police policies and training"
+      ],
+      "url": "https://www.cityofsantamaria.org/services/departments/police-department/community-resources",
+      "access": "public web",
+      "status": "seed"
+    },
+    {
+      "source_id": "santa_barbara_county_information",
+      "publisher": "County of Santa Barbara",
+      "jurisdiction": "Santa Barbara County, California",
+      "categories": [
+        "budget documents",
+        "annual reports",
+        "public-record requests"
+      ],
+      "url": "https://www.countyofsb.org/1477/Information",
+      "access": "public web",
+      "status": "seed"
+    },
+    {
+      "source_id": "oxnard_open_data",
+      "publisher": "City of Oxnard",
+      "jurisdiction": "Oxnard, California",
+      "categories": [
+        "open financial data",
+        "budget",
+        "grant revenue"
+      ],
+      "url": "https://data.oxnard.org/",
+      "access": "public open-data portal",
+      "status": "seed"
+    },
+    {
+      "source_id": "california_post_training",
+      "publisher": "California Commission on Peace Officer Standards and Training",
+      "jurisdiction": "California",
+      "categories": [
+        "training",
+        "course certification",
+        "course catalog"
+      ],
+      "url": "https://post.ca.gov/Training",
+      "access": "public web",
+      "status": "seed"
+    },
+    {
+      "source_id": "usaspending_api",
+      "publisher": "U.S. Department of the Treasury",
+      "jurisdiction": "United States",
+      "categories": [
+        "federal awards",
+        "grants",
+        "contracts",
+        "subawards",
+        "funding flows"
+      ],
+      "url": "https://api.usaspending.gov/",
+      "access": "public API",
+      "status": "seed"
+    },
+    {
+      "source_id": "caloes_2024_jlbc_victim_services_report",
+      "publisher": "California Governor's Office of Emergency Services",
+      "jurisdiction": "California",
+      "categories": [
+        "grant subawards",
+        "fund sources",
+        "funded amounts",
+        "victim services",
+        "VAWA program reporting"
+      ],
+      "url": "https://www.caloes.ca.gov/wp-content/uploads/Grants/Documents/2024_JLBC_Report_Final.pdf",
+      "access": "public report PDF",
+      "status": "seed",
+      "scope_note": "Fiscal and programmatic report; individual award interpretation requires citation to the report page and, where available, the underlying award record."
+    },
+    {
+      "source_id": "caloes_2023_jlbc_victim_services_report",
+      "publisher": "California Governor's Office of Emergency Services",
+      "jurisdiction": "California",
+      "categories": [
+        "grant subawards",
+        "fund sources",
+        "funded amounts",
+        "victim services",
+        "VAWA program reporting"
+      ],
+      "url": "https://www.caloes.ca.gov/wp-content/uploads/Legislative-Affiars/Documents/2023-Grants-Management-Victim-Services-Annual-Joint-Legislative-Budget-Committee-Report.pdf",
+      "access": "public report PDF",
+      "status": "seed"
+    },
+    {
+      "source_id": "caloes_federal_fund_information_guide_2026",
+      "publisher": "California Governor's Office of Emergency Services",
+      "jurisdiction": "California",
+      "categories": [
+        "federal fund guidance",
+        "allowable costs",
+        "VOCA",
+        "VAWA"
+      ],
+      "url": "https://www.caloes.ca.gov/wp-content/uploads/Grants/Documents/Victim-Services-Branch-Federal-Fund-Information-Guide.pdf",
+      "access": "public report PDF",
+      "status": "seed"
+    },
+    {
+      "source_id": "california_post_data_warehouse",
+      "publisher": "California Commission on Peace Officer Standards and Training",
+      "jurisdiction": "California",
+      "categories": [
+        "annual reports",
+        "legislative reports",
+        "training reports",
+        "standards and accountability"
+      ],
+      "url": "https://post.ca.gov/Data-Warehouse",
+      "access": "public web",
+      "status": "seed"
+    },
+    {
+      "source_id": "california_post_posad_2025_report",
+      "publisher": "California Commission on Peace Officer Standards and Training",
+      "jurisdiction": "California",
+      "categories": [
+        "standards and accountability",
+        "annual report",
+        "funding and reporting context"
+      ],
+      "url": "https://post.ca.gov/Portals/0/post_docs/publications/2025_POSAD_Report.pdf",
+      "access": "public report PDF",
+      "status": "seed"
+    }
   ]
 }

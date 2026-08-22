@@ -27,7 +27,7 @@ def fetch(url, method="GET", payload=None):
         return response.status, response.headers.get_content_type(), response.read()
 def write_snapshot(snapshot_id, source, body, content_type, request=None):
     SNAPSHOTS.mkdir(parents=True, exist_ok=True)
-    extension = ".json" if "json" in content_type else ".html"
+    extension = ".json" if "json" in content_type else ".pdf" if "pdf" in content_type else ".html"
     raw = SNAPSHOTS / f"{snapshot_id}{extension}"
     raw.write_bytes(body)
     meta={"snapshot_id":snapshot_id,"source_id":source["source_id"],"publisher":source["publisher"],"url":source["url"],"retrieved_at":utcnow(),"content_type":content_type,"bytes":len(body),"sha256":digest(body),"request":request,"scope_note":"Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."}

@@ -3,10 +3,10 @@
   "source_id": "california_post_training",
   "publisher": "California Commission on Peace Officer Standards and Training",
   "url": "https://post.ca.gov/Training",
-  "retrieved_at": "2026-08-22T16:25:43Z",
+  "retrieved_at": "2026-08-22T16:27:11Z",
   "content_type": "text/html",
   "bytes": 24267,
-  "sha256": "1a7e8f20eee0e2738ca68894063e10cdb88844f914120a29cd8ec311ca596eab",
+  "sha256": "dad90071376db1057acf925ae8c162f1c9b47288492e23ae1fcddda94df12004",
   "request": null,
   "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
 }
