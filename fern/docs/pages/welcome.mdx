@@ -2,57 +2,108 @@
 title: California Family Law Research
 ---
 
-<div className="page-skeleton">
+<div className="research-landing">
 
-<div className="page-skeleton__hero">
-<div>
-<p className="page-skeleton__eyebrow">California · Family Law · Research</p>
-<h1 className="page-skeleton__title">California Family Law Research</h1>
-<p className="page-skeleton__lede">A unified research library for California family law, cases, legislation, institutions, and analysis.</p>
-</div>
-<div className="page-skeleton__actions">
-<a className="page-skeleton__action page-skeleton__action--primary" href="/research">Open research</a>
-<a className="page-skeleton__action" href="#sections">Explore</a>
-</div>
-</div>
+<section className="research-landing__hero" aria-labelledby="research-home-title">
+  <div className="research-landing__hero-copy">
+    <p className="research-landing__eyebrow">California family law · research library</p>
+    <h1 id="research-home-title">Research that holds up.</h1>
+    <p className="research-landing__lede">A structured, source-aware library for navigating California family law, court rules, legislation, institutions, and legal analysis.</p>
+    <div className="research-landing__actions">
+      <a className="research-button research-button--primary" href="/research">Open research</a>
+      <a className="research-button research-button--secondary" href="#library">Explore the library</a>
+    </div>
+  </div>
 
-<div id="sections" className="page-skeleton__grid">
-<a className="page-skeleton__card" href="/research">
-<span className="page-skeleton__card-index">01</span>
-<span className="page-skeleton__card-arrow">↗</span>
-<h2>Research</h2>
-<p>Cases, methods, evidence, and the research workbench.</p>
-</a>
-<a className="page-skeleton__card" href="/law">
-<span className="page-skeleton__card-index">02</span>
-<span className="page-skeleton__card-arrow">↗</span>
-<h2>California law</h2>
-<p>Family Code, court rules, authorities, and defense resources.</p>
-</a>
-<a className="page-skeleton__card" href="/legislation">
-<span className="page-skeleton__card-index">03</span>
-<span className="page-skeleton__card-arrow">↗</span>
-<h2>Legislation</h2>
-<p>Bills, measures, legislative history, and invitations to comment.</p>
-</a>
-<a className="page-skeleton__card" href="/people">
-<span className="page-skeleton__card-index">04</span>
-<span className="page-skeleton__card-arrow">↗</span>
-<h2>People & institutions</h2>
-<p>Courts, attorneys, scholars, agencies, organizations, and clinics.</p>
-</a>
-<a className="page-skeleton__card" href="/analysis">
-<span className="page-skeleton__card-index">05</span>
-<span className="page-skeleton__card-arrow">↗</span>
-<h2>Analysis</h2>
-<p>Argument, empirical, computational, and structured analysis.</p>
-</a>
-<a className="page-skeleton__card" href="/changelog">
-<span className="page-skeleton__card-index">06</span>
-<span className="page-skeleton__card-arrow">↗</span>
-<h2>Changelog</h2>
-<p>Recent changes to the research library and its sources.</p>
-</a>
-</div>
+  <div className="research-landing__instrument" aria-label="Research library index">
+    <div className="research-landing__instrument-bar">
+      <span>Research index</span>
+      <span aria-hidden="true">●</span>
+    </div>
+    <div className="research-landing__instrument-grid">
+      <div className="research-landing__instrument-cell research-landing__instrument-cell--focus">
+        <span>Primary sources</span>
+        <strong>Code &amp; rules</strong>
+      </div>
+      <div className="research-landing__instrument-cell">
+        <span>Current matters</span>
+        <strong>Legislation</strong>
+      </div>
+      <div className="research-landing__instrument-cell">
+        <span>Research methods</span>
+        <strong>Analysis</strong>
+      </div>
+      <div className="research-landing__instrument-cell research-landing__instrument-cell--wide">
+        <span>Purpose</span>
+        <p>Connect legal authorities, institutional context, and transparent research methods in one navigable system.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="library" className="research-landing__section" aria-labelledby="library-title">
+  <div className="research-landing__section-intro">
+    <p className="research-landing__eyebrow">The research library</p>
+    <h2 id="library-title">Start with the right source.</h2>
+    <p>Each path is organized around a distinct research question, with room to move from overview to primary authority.</p>
+  </div>
+
+  <div className="research-landing__card-grid">
+    <a className="research-library-card" href="/research">
+      <span className="research-library-card__number">01</span>
+      <div>
+        <h3>Research</h3>
+        <p>Cases, evidence, research methods, and the workbench.</p>
+      </div>
+      <span className="research-library-card__arrow" aria-hidden="true">↗</span>
+    </a>
+    <a className="research-library-card" href="/law">
+      <span className="research-library-card__number">02</span>
+      <div>
+        <h3>California law</h3>
+        <p>Family Code, court rules, authorities, and defense resources.</p>
+      </div>
+      <span className="research-library-card__arrow" aria-hidden="true">↗</span>
+    </a>
+    <a className="research-library-card" href="/legislation">
+      <span className="research-library-card__number">03</span>
+      <div>
+        <h3>Legislation</h3>
+        <p>Bills, measures, legislative history, and active proposals.</p>
+      </div>
+      <span className="research-library-card__arrow" aria-hidden="true">↗</span>
+    </a>
+    <a className="research-library-card" href="/people">
+      <span className="research-library-card__number">04</span>
+      <div>
+        <h3>People &amp; institutions</h3>
+        <p>Courts, agencies, advocates, scholars, organizations, and clinics.</p>
+      </div>
+      <span className="research-library-card__arrow" aria-hidden="true">↗</span>
+    </a>
+    <a className="research-library-card" href="/analysis">
+      <span className="research-library-card__number">05</span>
+      <div>
+        <h3>Analysis</h3>
+        <p>Argument, empirical, computational, and structured analysis.</p>
+      </div>
+      <span className="research-library-card__arrow" aria-hidden="true">↗</span>
+    </a>
+    <a className="research-library-card" href="/changelog">
+      <span className="research-library-card__number">06</span>
+      <div>
+        <h3>Changelog</h3>
+        <p>Recent updates to the library, sources, and research tools.</p>
+      </div>
+      <span className="research-library-card__arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>
+
+<section className="research-landing__closing" aria-labelledby="closing-title">
+  <p className="research-landing__eyebrow">A durable research practice</p>
+  <h2 id="closing-title">Move from question to authority with less friction.</h2>
+  <a className="research-button research-button--secondary" href="/support">Learn how to use the library <span aria-hidden="true">↗</span></a>
+</section>
 
 </div>

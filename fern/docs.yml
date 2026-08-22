@@ -20,23 +20,23 @@ css:
   - ./grid.css
 colors:
   accent-primary:
-    light: "#3B5F7A"
-    dark: "#8FB6D2"
+    light: "#0070F3"
+    dark: "#3291FF"
   background:
-    light: "#F8F7F4"
-    dark: "#17191C"
+    light: "#FAFAFA"
+    dark: "#000000"
   border:
-    light: "#D9D7D2"
-    dark: "#34383D"
+    light: "#EAEAEA"
+    dark: "#2B2B2B"
   sidebar-background:
-    light: "#F1F0EC"
-    dark: "#1D2024"
+    light: "#FFFFFF"
+    dark: "#0A0A0A"
   header-background:
-    light: "#F8F7F4"
-    dark: "#17191C"
+    light: "#FFFFFF"
+    dark: "#000000"
   card-background:
     light: "#FFFFFF"
-    dark: "#202328"
+    dark: "#0A0A0A"
 tabs:
   home:
     display-name: Home
