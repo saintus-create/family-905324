@@ -3,7 +3,7 @@
   "source_id": "usaspending_vawa_keyword_discovery_santa_barbara",
   "publisher": "U.S. Department of the Treasury",
   "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
-  "retrieved_at": "2026-08-22T16:25:20Z",
+  "retrieved_at": "2026-08-22T16:25:44Z",
   "content_type": "application/json",
   "bytes": 482,
   "sha256": "fc757405485bafe627208795a5010df673f1db91aef27d86e0699fc9879b142a",

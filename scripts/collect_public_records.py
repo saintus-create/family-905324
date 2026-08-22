@@ -40,29 +40,37 @@ def main():
     parser.add_argument("--vawa-santa-barbara", action="store_true", help="retrieve a keyword discovery result; never treats keyword matching as program verification")
     args=parser.parse_args()
     if not (args.sources or args.usaspending_santa_barbara or args.vawa_santa_barbara): parser.error("select at least one collection option")
-    manifest=[]
+    existing = []
+    manifest_path = SNAPSHOTS / "collection-manifest.json"
+    if manifest_path.exists():
+        try: existing = json.loads(manifest_path.read_text()).get("entries", [])
+        except (OSError, json.JSONDecodeError): existing = []
+    replacements = []
     if args.sources:
         for source in json.loads(REGISTRY.read_text())["sources"]:
             try:
                 status, ct, body=fetch(source["url"])
                 if status != 200: raise RuntimeError(f"HTTP {status}")
-                manifest.append(write_snapshot(f"{source['source_id']}-landing", source, body, ct))
+                replacements.append(write_snapshot(f"{source['source_id']}-landing", source, body, ct))
             except Exception as exc:
-                manifest.append({"source_id":source["source_id"],"url":source["url"],"retrieved_at":utcnow(),"collection_error":str(exc)})
+                replacements.append({"source_id":source["source_id"],"url":source["url"],"retrieved_at":utcnow(),"collection_error":str(exc)})
     if args.usaspending_santa_barbara:
         source={"source_id":"usaspending_santa_barbara_grant_discovery","publisher":"U.S. Department of the Treasury","url":"https://api.usaspending.gov/api/v2/search/spending_by_award/"}
         payload={"filters":{"time_period":[{"start_date":"2020-01-01","end_date":"2026-08-22"}],"place_of_performance_locations":[{"country":"USA","state":"CA","county":"083"}],"award_type_codes":["02","03","04","05"]},"fields":["Award ID","Recipient Name","Awarding Agency","Award Amount","Description","Start Date","End Date","Place of Performance City Code","Place of Performance State Code"],"page":1,"limit":100,"sort":"Award Amount","order":"desc","subawards":False}
         status, ct, body=fetch(source["url"], "POST", json.dumps(payload).encode())
         if status != 200: raise RuntimeError(f"USAspending HTTP {status}")
-        manifest.append(write_snapshot("usaspending-santa-barbara-grants-2020-2026", source, body, ct, request={"method":"POST","payload":payload}))
+        replacements.append(write_snapshot("usaspending-santa-barbara-grants-2020-2026", source, body, ct, request={"method":"POST","payload":payload}))
     if args.vawa_santa_barbara:
         source={"source_id":"usaspending_vawa_keyword_discovery_santa_barbara","publisher":"U.S. Department of the Treasury","url":"https://api.usaspending.gov/api/v2/search/spending_by_award/"}
         payload={"filters":{"time_period":[{"start_date":"2020-01-01","end_date":"2026-08-22"}],"place_of_performance_locations":[{"country":"USA","state":"CA","county":"083"}],"award_type_codes":["02","03","04","05"],"keywords":["violence against women"]},"fields":["Award ID","Recipient Name","Awarding Agency","Award Amount","Description","Start Date","End Date"],"page":1,"limit":100,"sort":"Award Amount","order":"desc","subawards":False}
         status, ct, body=fetch(source["url"], "POST", json.dumps(payload).encode())
         if status != 200: raise RuntimeError(f"USAspending HTTP {status}")
-        manifest.append(write_snapshot("usaspending-santa-barbara-vawa-keyword-discovery-2020-2026", source, body, ct, request={"method":"POST","payload":payload,"interpretation":"Keyword discovery only. A zero result is limited to this API query and is not evidence that no VAWA-related funding exists. A nonzero result would require award-by-award primary-source verification before any VAWA classification."}))
-    (SNAPSHOTS / "collection-manifest.json").write_text(json.dumps({"schema_version":"1.0","updated_at":utcnow(),"entries":manifest},indent=2)+"\n")
-    print(f"Wrote {len(manifest)} snapshot metadata records to {SNAPSHOTS}")
+        replacements.append(write_snapshot("usaspending-santa-barbara-vawa-keyword-discovery-2020-2026", source, body, ct, request={"method":"POST","payload":payload,"interpretation":"Keyword discovery only. A zero result is limited to this API query and is not evidence that no VAWA-related funding exists. A nonzero result would require award-by-award primary-source verification before any VAWA classification."}))
+    replacement_keys = {entry.get("snapshot_id", entry.get("source_id")) for entry in replacements}
+    retained = [entry for entry in existing if entry.get("snapshot_id", entry.get("source_id")) not in replacement_keys]
+    manifest = retained + replacements
+    manifest_path.write_text(json.dumps({"schema_version":"1.0","updated_at":utcnow(),"entries":manifest},indent=2)+"\n")
+    print(f"Wrote {len(replacements)} snapshot metadata records; manifest retains {len(manifest)} entries")
 if __name__ == '__main__':
     try: main()
     except Exception as exc: print(f"collection failed: {exc}", file=sys.stderr); raise SystemExit(1)

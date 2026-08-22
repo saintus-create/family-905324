@@ -3,7 +3,7 @@
   "source_id": "usaspending_santa_barbara_grant_discovery",
   "publisher": "U.S. Department of the Treasury",
   "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
-  "retrieved_at": "2026-08-22T16:23:43Z",
+  "retrieved_at": "2026-08-22T16:25:44Z",
   "content_type": "application/json",
   "bytes": 96583,
   "sha256": "1c8829ed4ee199a8e466ef54b725b9730a72c64e6cbc2e7e70fe1d0048315a1f",
