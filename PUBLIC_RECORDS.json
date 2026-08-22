@@ -1,0 +1,553 @@
+{
+  "agencies": [
+    {
+      "id": "agency_garden_grove_pd",
+      "name": "Garden Grove Police Department",
+      "type": "Municipal Police",
+      "county": "Orange",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [
+        {
+          "vendor": "Performa Labs Inc.",
+          "purpose": "Subscription-based training course software",
+          "amount": 94600,
+          "year": 2024,
+          "citation": "https://gardengrove.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=4796&MeetingID=892"
+        }
+      ],
+      "settlements": []
+    },
+    {
+      "id": "agency_baldwin_park_pd",
+      "name": "Baldwin Park Police Department",
+      "type": "Municipal Police",
+      "county": "Los Angeles",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [
+        {
+          "vendor": "Performa Labs Inc.",
+          "purpose": "Mobile app for law enforcement agencies with POST-approved, self-paced training",
+          "amount": null,
+          "year": 2024,
+          "citation": "https://baldwinpark.granicus.com/MetaViewer.php?view_id=10&clip_id=3578&meta_id=283289"
+        }
+      ],
+      "settlements": []
+    },
+    {
+      "id": "agency_pasadena_pd",
+      "name": "Pasadena Police Department",
+      "type": "Municipal Police",
+      "county": "Los Angeles",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [
+        {
+          "vendor": "Performa Labs Inc.",
+          "purpose": "Pilot program for technology-based de-escalation training tool",
+          "amount": null,
+          "year": 2020,
+          "citation": "https://pasadenanow.com/main/pasadena-police-partner-with-tech-startup-to-develop-new-de-escalation-training-tool"
+        }
+      ],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_corrections_and_rehabilitation",
+      "name": "California Department of Corrections and Rehabilitation",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_alcoholic_beverage_control",
+      "name": "California Department of Alcoholic Beverage Control",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_consumer_affairs_division_of_investigation",
+      "name": "California Department of Consumer Affairs Division of Investigation",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_resources_agency_california_department_of_fish_and_wildlife",
+      "name": "California Resources Agency\nCalifornia Department of Fish and Wildlife",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_fish_and_wildlife",
+      "name": "California Department of Fish and Wildlife",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_environmental_protection_agency_california_department_of_toxic_substances_control",
+      "name": "California Environmental Protection Agency\nCalifornia Department of Toxic Substances Control",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_toxic_substances_control",
+      "name": "California Department of Toxic Substances Control",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_motor_vehicles_investigations_division",
+      "name": "California Department of Motor Vehicles Investigations Division",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_insurance_fraud_division",
+      "name": "California Department of Insurance Fraud Division",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_health_care_services",
+      "name": "California Department of Health Care Services",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_public_health",
+      "name": "California Department of Public Health",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_california_department_of_developmental_services_office_of_protective_services",
+      "name": "California Department of Developmental Services Office of Protective Services",
+      "type": "State Agency",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_alameda_county_sheriff_s_office",
+      "name": "Alameda County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_alpine_county_sheriff_s_office",
+      "name": "Alpine County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_amador_county_sheriff_s_office",
+      "name": "Amador County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_butte_county_sheriff_s_department",
+      "name": "Butte County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_calaveras_county_sheriff_s_department",
+      "name": "Calaveras County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_colusa_county_sheriff_s_office",
+      "name": "Colusa County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_contra_costa_county_sheriff_s_office",
+      "name": "Contra Costa County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_del_norte_county_sheriff_s_office",
+      "name": "Del Norte County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_el_dorado_county_sheriff_s_office",
+      "name": "El Dorado County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_fresno_county_sheriff_s_office",
+      "name": "Fresno County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_glenn_county_sheriff_s_office",
+      "name": "Glenn County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_humboldt_county_sheriff_s_office",
+      "name": "Humboldt County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_imperial_county_sheriff_s_office",
+      "name": "Imperial County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_inyo_county_sheriff_s_office",
+      "name": "Inyo County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_kern_county_sheriff_s_office",
+      "name": "Kern County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_kings_county_sheriff_s_office",
+      "name": "Kings County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_lake_county_sheriff_s_department",
+      "name": "Lake County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_lassen_county_sheriff_s_office",
+      "name": "Lassen County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_los_angeles_county_sheriff_s_department_lasd",
+      "name": "Los Angeles County Sheriff's Department (LASD)",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_madera_county_sheriff_s_department",
+      "name": "Madera County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_marin_county_sheriff_s_office",
+      "name": "Marin County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_mariposa_county_sheriff_s_department",
+      "name": "Mariposa County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_mendocino_county_sheriff_s_office",
+      "name": "Mendocino County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_merced_county_sheriff_s_office",
+      "name": "Merced County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_modoc_county_sheriff_s_office",
+      "name": "Modoc County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_mono_county_sheriff_s_department",
+      "name": "Mono County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_monterey_county_sheriff_s_office",
+      "name": "Monterey County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_napa_county_sheriff_s_department",
+      "name": "Napa County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_nevada_county_sheriff_s_office",
+      "name": "Nevada County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_orange_county_sheriff_s_department",
+      "name": "Orange County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_placer_county_sheriff_s_office",
+      "name": "Placer County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_plumas_county_sheriff_s_office",
+      "name": "Plumas County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_riverside_county_sheriff_s_department",
+      "name": "Riverside County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_sacramento_county_sheriff_s_department",
+      "name": "Sacramento County Sheriff's Department",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    },
+    {
+      "id": "agency_san_benito_county_sheriff_s_office",
+      "name": "San Benito County Sheriff's Office",
+      "type": "County Sheriff",
+      "county": "Unknown",
+      "post_certified": true,
+      "funding": [],
+      "contracts": [],
+      "settlements": []
+    }
+  ],
+  "vendors": [
+    {
+      "id": "vendor_performa_labs",
+      "name": "Performa Labs Inc.",
+      "services": [
+        "POST-approved mobile training app",
+        "De-escalation training tools",
+        "Subscription-based training course software"
+      ],
+      "known_contracts": [
+        "agency_garden_grove_pd",
+        "agency_baldwin_park_pd",
+        "agency_pasadena_pd"
+      ]
+    },
+    {
+      "id": "vendor_northpointe",
+      "name": "Northpointe Inc. (Equivant)",
+      "services": [
+        "Risk assessment software",
+        "Case management systems"
+      ],
+      "known_contracts": []
+    }
+  ]
+}

@@ -1,0 +1,5022 @@
+[
+  {
+    "id": "agency_california_department_of_corrections_and_rehabilitation",
+    "name": "California Department of Corrections and Rehabilitation",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_alcoholic_beverage_control",
+    "name": "California Department of Alcoholic Beverage Control",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_consumer_affairs_division_of_investigation",
+    "name": "California Department of Consumer Affairs Division of Investigation",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_resources_agency_california_department_of_fish_and_wildlife",
+    "name": "California Resources Agency\nCalifornia Department of Fish and Wildlife",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_fish_and_wildlife",
+    "name": "California Department of Fish and Wildlife",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_environmental_protection_agency_california_department_of_toxic_substances_control",
+    "name": "California Environmental Protection Agency\nCalifornia Department of Toxic Substances Control",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_toxic_substances_control",
+    "name": "California Department of Toxic Substances Control",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_motor_vehicles_investigations_division",
+    "name": "California Department of Motor Vehicles Investigations Division",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_insurance_fraud_division",
+    "name": "California Department of Insurance Fraud Division",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_health_care_services",
+    "name": "California Department of Health Care Services",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_public_health",
+    "name": "California Department of Public Health",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_department_of_developmental_services_office_of_protective_services",
+    "name": "California Department of Developmental Services Office of Protective Services",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_alameda_county_sheriff_s_office",
+    "name": "Alameda County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_alpine_county_sheriff_s_office",
+    "name": "Alpine County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_amador_county_sheriff_s_office",
+    "name": "Amador County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_butte_county_sheriff_s_department",
+    "name": "Butte County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_calaveras_county_sheriff_s_department",
+    "name": "Calaveras County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_colusa_county_sheriff_s_office",
+    "name": "Colusa County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_contra_costa_county_sheriff_s_office",
+    "name": "Contra Costa County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_del_norte_county_sheriff_s_office",
+    "name": "Del Norte County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_el_dorado_county_sheriff_s_office",
+    "name": "El Dorado County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fresno_county_sheriff_s_office",
+    "name": "Fresno County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_glenn_county_sheriff_s_office",
+    "name": "Glenn County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_humboldt_county_sheriff_s_office",
+    "name": "Humboldt County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_imperial_county_sheriff_s_office",
+    "name": "Imperial County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_inyo_county_sheriff_s_office",
+    "name": "Inyo County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_kern_county_sheriff_s_office",
+    "name": "Kern County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_kings_county_sheriff_s_office",
+    "name": "Kings County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lake_county_sheriff_s_department",
+    "name": "Lake County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lassen_county_sheriff_s_office",
+    "name": "Lassen County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_los_angeles_county_sheriff_s_department_lasd",
+    "name": "Los Angeles County Sheriff's Department (LASD)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_madera_county_sheriff_s_department",
+    "name": "Madera County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_marin_county_sheriff_s_office",
+    "name": "Marin County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mariposa_county_sheriff_s_department",
+    "name": "Mariposa County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mendocino_county_sheriff_s_office",
+    "name": "Mendocino County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_merced_county_sheriff_s_office",
+    "name": "Merced County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_modoc_county_sheriff_s_office",
+    "name": "Modoc County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mono_county_sheriff_s_department",
+    "name": "Mono County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_monterey_county_sheriff_s_office",
+    "name": "Monterey County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_napa_county_sheriff_s_department",
+    "name": "Napa County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_nevada_county_sheriff_s_office",
+    "name": "Nevada County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_orange_county_sheriff_s_department",
+    "name": "Orange County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_placer_county_sheriff_s_office",
+    "name": "Placer County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_plumas_county_sheriff_s_office",
+    "name": "Plumas County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_riverside_county_sheriff_s_department",
+    "name": "Riverside County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sacramento_county_sheriff_s_department",
+    "name": "Sacramento County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_benito_county_sheriff_s_office",
+    "name": "San Benito County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_bernardino_county_sheriff_s_department",
+    "name": "San Bernardino County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_diego_county_sheriff_s_department",
+    "name": "San Diego County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_francisco_sheriff_s_department",
+    "name": "San Francisco Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_joaquin_county_sheriff_s_department",
+    "name": "San Joaquin County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_luis_obispo_county_sheriff_s_department",
+    "name": "San Luis Obispo County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_mateo_county_sheriff_s_office",
+    "name": "San Mateo County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_barbara_county_sheriff_s_office",
+    "name": "Santa Barbara County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_clara_county_sheriff_s_office",
+    "name": "Santa Clara County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_clara_county_department_of_correction",
+    "name": "Santa Clara County Department of Correction",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_cruz_county_sheriff_s_office",
+    "name": "Santa Cruz County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_shasta_county_sheriff_s_office",
+    "name": "Shasta County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sierra_county_sheriff_s_office",
+    "name": "Sierra County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_siskiyou_county_sheriff_s_department",
+    "name": "Siskiyou County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_solano_county_sheriff_s_office",
+    "name": "Solano County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sonoma_county_sheriff_s_department",
+    "name": "Sonoma County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_stanislaus_county_sheriff_s_department",
+    "name": "Stanislaus County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sutter_county_sheriff_s_department",
+    "name": "Sutter County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tehama_county_sheriff_s_office",
+    "name": "Tehama County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_trinity_county_sheriff_s_department",
+    "name": "Trinity County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tulare_county_sheriff_s_office",
+    "name": "Tulare County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tuolumne_county_sheriff_s_office",
+    "name": "Tuolumne County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ventura_county_sheriff_s_office",
+    "name": "Ventura County Sheriff's Office",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_yolo_county_sheriff_s_department",
+    "name": "Yolo County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_yuba_county_sheriff_s_department",
+    "name": "Yuba County Sheriff's Department",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_alameda_police_department",
+    "name": "Alameda Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_albany_police_department",
+    "name": "Albany Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_alhambra_police_department",
+    "name": "Alhambra Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_alturas_police_department",
+    "name": "Alturas Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_anaheim_police_department",
+    "name": "Anaheim Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_anderson_police_department",
+    "name": "Anderson Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_angels_camp_police_department",
+    "name": "Angels Camp Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_antioch_police_department",
+    "name": "Antioch Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_arcadia_police_department",
+    "name": "Arcadia Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_arcata_police_department",
+    "name": "Arcata Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_arroyo_grande_police_department",
+    "name": "Arroyo Grande Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_arvin_police_department",
+    "name": "Arvin Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_atascadero_police_department",
+    "name": "Atascadero Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_atherton_police_department",
+    "name": "Atherton Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_atwater_police_department",
+    "name": "Atwater Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_auburn_police_department",
+    "name": "Auburn Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_avenal_police_department",
+    "name": "Avenal Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_azusa_police_department",
+    "name": "Azusa Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_bakersfield_police_department",
+    "name": "Bakersfield Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_baldwin_park_police_department",
+    "name": "Baldwin Park Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_banning_police_department",
+    "name": "Banning Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_barstow_police_department",
+    "name": "Barstow Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_bear_valley_police_department",
+    "name": "Bear Valley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_beaumont_police_department",
+    "name": "Beaumont Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_bell_police_department",
+    "name": "Bell Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_bell_gardens_police_department",
+    "name": "Bell Gardens Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_belmont_police_department",
+    "name": "Belmont Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_belvedere_police_department",
+    "name": "Belvedere Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_benicia_police_department",
+    "name": "Benicia Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_berkeley_police_department",
+    "name": "Berkeley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_beverly_hills_police_department",
+    "name": "Beverly Hills Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_bishop_police_department",
+    "name": "Bishop Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_blythe_police_department",
+    "name": "Blythe Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_brawley_police_department",
+    "name": "Brawley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_brea_police_department",
+    "name": "Brea Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_brentwood_police_department",
+    "name": "Brentwood Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_brisbane_police_department",
+    "name": "Brisbane Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_buena_park_police_department",
+    "name": "Buena Park Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_burbank_police_department",
+    "name": "Burbank Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_burlingame_police_department",
+    "name": "Burlingame Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_calexico_police_department",
+    "name": "Calexico Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_california_city_police_department",
+    "name": "California City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_calipatria_police_department",
+    "name": "Calipatria Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_calistoga_police_department",
+    "name": "Calistoga Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_campbell_police_department",
+    "name": "Campbell Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_capitola_police_department",
+    "name": "Capitola Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_carlsbad_police_department",
+    "name": "Carlsbad Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_carmel_police_department",
+    "name": "Carmel Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_cathedral_city_police_department",
+    "name": "Cathedral City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ceres_police_department",
+    "name": "Ceres Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_chico_police_department",
+    "name": "Chico Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_chino_police_department",
+    "name": "Chino Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_chowchilla_police_department",
+    "name": "Chowchilla Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_chula_vista_police_department",
+    "name": "Chula Vista Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_citrus_heights_police_department",
+    "name": "Citrus Heights Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_claremont_police_department",
+    "name": "Claremont Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_clayton_police_department",
+    "name": "Clayton Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_clearlake_police_department",
+    "name": "Clearlake Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_cloverdale_police_department",
+    "name": "Cloverdale Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_clovis_police_department",
+    "name": "Clovis Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_coalinga_police_department",
+    "name": "Coalinga Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_colma_police_department",
+    "name": "Colma Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_colton_police_department",
+    "name": "Colton Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_colusa_police_department",
+    "name": "Colusa Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_concord_police_department",
+    "name": "Concord Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_corcoran_police_department",
+    "name": "Corcoran Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_corning_police_department",
+    "name": "Corning Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_corona_police_department",
+    "name": "Corona Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_coronado_police_department",
+    "name": "Coronado Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_costa_mesa_police_department",
+    "name": "Costa Mesa Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_cotati_police_department",
+    "name": "Cotati Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_covina_police_department",
+    "name": "Covina Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_crescent_city_police_department",
+    "name": "Crescent City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_culver_city_police_department",
+    "name": "Culver City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_cypress_police_department",
+    "name": "Cypress Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_daly_city_police_department",
+    "name": "Daly City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_davis_police_department",
+    "name": "Davis Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_del_rey_oaks_police_department",
+    "name": "Del Rey Oaks Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_delano_police_department",
+    "name": "Delano Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_desert_hot_springs_police_department",
+    "name": "Desert Hot Springs Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_dinuba_police_department",
+    "name": "Dinuba Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_dixon_police_department",
+    "name": "Dixon Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_dos_pablos_police_department",
+    "name": "Dos Pablos Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_downey_police_department",
+    "name": "Downey Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_east_palo_alto_police_department",
+    "name": "East Palo Alto Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_el_cajon_police_department",
+    "name": "El Cajon Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_el_centro_police_department",
+    "name": "El Centro Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_el_cerrito_police_department",
+    "name": "El Cerrito Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_el_monte_police_department",
+    "name": "El Monte Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_el_segundo_police_department",
+    "name": "El Segundo Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_elk_grove_police_department",
+    "name": "Elk Grove Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_emeryville_police_department",
+    "name": "Emeryville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_escalon_police_department",
+    "name": "Escalon Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_escondido_police_department",
+    "name": "Escondido Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_etna_police_department",
+    "name": "Etna Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_eureka_police_department",
+    "name": "Eureka Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_exeter_police_department",
+    "name": "Exeter Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fairfax_police_department",
+    "name": "Fairfax Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fairfield_police_department",
+    "name": "Fairfield Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_farmersville_police_department_citation_needed",
+    "name": "Farmersville Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ferndale_police_department_citation_needed",
+    "name": "Ferndale Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_firebaugh_police_department_citation_needed",
+    "name": "Firebaugh Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_folsom_police_department",
+    "name": "Folsom Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fontana_police_department",
+    "name": "Fontana Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fort_bragg_police_department_citation_needed",
+    "name": "Fort Bragg Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fortuna_police_department_citation_needed",
+    "name": "Fortuna Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_foster_city_police_department_citation_needed",
+    "name": "Foster City Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fountain_valley_police_department_citation_needed",
+    "name": "Fountain Valley Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fowler_police_department_citation_needed",
+    "name": "Fowler Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fremont_police_department_citation_needed",
+    "name": "Fremont Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fresno_police_department",
+    "name": "Fresno Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fullerton_police_department",
+    "name": "Fullerton Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_galt_police_department",
+    "name": "Galt Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_garden_grove_police_department",
+    "name": "Garden Grove Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_gardena_police_department",
+    "name": "Gardena Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_gilroy_police_department",
+    "name": "Gilroy Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_glendale_police_department",
+    "name": "Glendale Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_glendora_police_department",
+    "name": "Glendora Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_gonzales_police_department",
+    "name": "Gonzales Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_grass_valley_police_department",
+    "name": "Grass Valley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_greenfield_police_department",
+    "name": "Greenfield Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_gridley_police_department",
+    "name": "Gridley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_grover_beach_police_department",
+    "name": "Grover Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_guadlupe_police_department",
+    "name": "Guadlupe Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_gustine_police_department",
+    "name": "Gustine Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hanford_police_department",
+    "name": "Hanford Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hawthorne_police_department",
+    "name": "Hawthorne Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hayward_police_department",
+    "name": "Hayward Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_healdsburg_police_department",
+    "name": "Healdsburg Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hemet_police_department",
+    "name": "Hemet Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hercules_police_department",
+    "name": "Hercules Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hermosa_beach_police_department",
+    "name": "Hermosa Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hillsborough_police_department",
+    "name": "Hillsborough Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hollister_police_department",
+    "name": "Hollister Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_huntington_beach_police_department",
+    "name": "Huntington Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_huntington_park_police_department",
+    "name": "Huntington Park Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_huron_police_department",
+    "name": "Huron Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_imperial_police_department",
+    "name": "Imperial Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_indio_police_department",
+    "name": "Indio Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_inglewood_police_department",
+    "name": "Inglewood Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ione_police_department",
+    "name": "Ione Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_irvine_police_department",
+    "name": "Irvine Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_irwindale_police_department",
+    "name": "Irwindale Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_jackson_police_department",
+    "name": "Jackson Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_kensington_police_department",
+    "name": "Kensington Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_kerman_police_department",
+    "name": "Kerman Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_king_city_police_department",
+    "name": "King City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_kingsburg_police_department",
+    "name": "Kingsburg Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_la_habra_police_department",
+    "name": "La Habra Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_la_mesa_police_department",
+    "name": "La Mesa Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_la_palma_police_department",
+    "name": "La Palma Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_la_verne_police_department",
+    "name": "La Verne Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_laguna_beach_police_department",
+    "name": "Laguna Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lakeport_police_department",
+    "name": "Lakeport Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lathrop_police_department",
+    "name": "Lathrop Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lemoore_police_department",
+    "name": "Lemoore Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lincoln_police_department",
+    "name": "Lincoln Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lindsay_department_of_public_safety",
+    "name": "Lindsay Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_livermore_police_department",
+    "name": "Livermore Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_livingston_police_department",
+    "name": "Livingston Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lodi_police_department",
+    "name": "Lodi Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lompoc_police_department",
+    "name": "Lompoc Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_long_beach_police_department",
+    "name": "Long Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_los_alamitos_police_department",
+    "name": "Los Alamitos Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_los_altos_police_department",
+    "name": "Los Altos Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_los_angeles_police_department_citation_needed",
+    "name": "Los Angeles Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_los_banos_police_department_citation_needed",
+    "name": "Los Banos Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_los_gatos_monte_sereno_police_department_citation_needed",
+    "name": "Los Gatos/Monte Sereno Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_madera_police_department_citation_needed",
+    "name": "Madera Police Department[citation needed]",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mammoth_lakes_police_department",
+    "name": "Mammoth Lakes Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_manhattan_beach_police_department",
+    "name": "Manhattan Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_manteca_police_department",
+    "name": "Manteca Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_marina_police_department",
+    "name": "Marina Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_martinez_police_department",
+    "name": "Martinez Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_marysville_police_department",
+    "name": "Marysville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mcfarland_police_department",
+    "name": "McFarland Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mendota_police_department",
+    "name": "Mendota Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_menifee_police_department",
+    "name": "Menifee Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_menlo_park_police_department",
+    "name": "Menlo Park Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_maricopa_police_department",
+    "name": "Maricopa Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_merced_police_department",
+    "name": "Merced Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mill_valley_police_department",
+    "name": "Mill Valley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_milpitas_police_department",
+    "name": "Milpitas Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_modesto_police_department",
+    "name": "Modesto Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_monrovia_police_department",
+    "name": "Monrovia Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_montclair_police_department",
+    "name": "Montclair Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_montebello_police_department",
+    "name": "Montebello Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_monterey_police_department",
+    "name": "Monterey Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_monterey_park_police_department",
+    "name": "Monterey Park Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_moraga_police_department",
+    "name": "Moraga Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_morgan_hill_police_department",
+    "name": "Morgan Hill Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_morro_bay_police_department",
+    "name": "Morro Bay Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mount_shasta_police_department",
+    "name": "Mount Shasta Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_mountain_view_police_department",
+    "name": "Mountain View Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_murrieta_police_department",
+    "name": "Murrieta Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_napa_police_department",
+    "name": "Napa Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_national_city_police_department",
+    "name": "National City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_nevada_city_police_department",
+    "name": "Nevada City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_newark_police_department",
+    "name": "Newark Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_newman_police_department",
+    "name": "Newman Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_newport_beach_police_department",
+    "name": "Newport Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_novato_police_department",
+    "name": "Novato Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_oakdale_police_department",
+    "name": "Oakdale Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_oakland_police_department",
+    "name": "Oakland Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_oakland_housing_authority_police_department",
+    "name": "Oakland Housing Authority Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_oakley_police_department",
+    "name": "Oakley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_oceanside_police_department",
+    "name": "Oceanside Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ontario_police_department",
+    "name": "Ontario Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_orange_police_department",
+    "name": "Orange Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_orange_cove_police_department",
+    "name": "Orange Cove Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_orland_police_department",
+    "name": "Orland Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_oroville_police_department",
+    "name": "Oroville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_oxnard_police_department",
+    "name": "Oxnard Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pacific_grove_police_department",
+    "name": "Pacific Grove Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pacifica_police_department",
+    "name": "Pacifica Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_palm_springs_police_department",
+    "name": "Palm Springs Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_palo_alto_police_department",
+    "name": "Palo Alto Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_palos_verdes_estates_police_department",
+    "name": "Palos Verdes Estates Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_paradise_police_department",
+    "name": "Paradise Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_parlier_police_department",
+    "name": "Parlier Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pasadena_police_department",
+    "name": "Pasadena Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_paso_robles_police_department",
+    "name": "Paso Robles Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_petaluma_police_department",
+    "name": "Petaluma Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_piedmont_police_department",
+    "name": "Piedmont Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pinole_police_department",
+    "name": "Pinole Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pismo_beach_police_department",
+    "name": "Pismo Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pittsburg_police_department",
+    "name": "Pittsburg Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_placentia_police_department",
+    "name": "Placentia Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_placerville_police_department",
+    "name": "Placerville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pleasant_hill_police_department",
+    "name": "Pleasant Hill Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pleasanton_police_department",
+    "name": "Pleasanton Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pomona_police_department",
+    "name": "Pomona Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_port_hueneme_police_department",
+    "name": "Port Hueneme Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_porterville_police_department",
+    "name": "Porterville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_red_bluff_police_department",
+    "name": "Red Bluff Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_redding_police_department",
+    "name": "Redding Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_redlands_police_department",
+    "name": "Redlands Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_redondo_beach_police_department",
+    "name": "Redondo Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_redwood_city_police_department",
+    "name": "Redwood City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_reedley_police_department",
+    "name": "Reedley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_rialto_police_department",
+    "name": "Rialto Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_richmond_police_department",
+    "name": "Richmond Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ridgecrest_police_department",
+    "name": "Ridgecrest Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_rio_dell_police_department",
+    "name": "Rio Dell Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ripon_police_department",
+    "name": "Ripon Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_riverside_police_department",
+    "name": "Riverside Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_rocklin_police_department",
+    "name": "Rocklin Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_rohnert_park_department_of_public_safety",
+    "name": "Rohnert Park Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_roseville_police_department",
+    "name": "Roseville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ross_police_department",
+    "name": "Ross Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sacramento_police_department",
+    "name": "Sacramento Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_salinas_police_department",
+    "name": "Salinas Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_bernardino_police_department",
+    "name": "San Bernardino Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_bruno_police_department",
+    "name": "San Bruno Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_carlos_police_department",
+    "name": "San Carlos Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_diego_police_department",
+    "name": "San Diego Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_fernando_police_department",
+    "name": "San Fernando Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_francisco_police_department",
+    "name": "San Francisco Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_gabriel_police_department",
+    "name": "San Gabriel Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_jose_police_department",
+    "name": "San Jose Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_leandro_police_department",
+    "name": "San Leandro Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_luis_obispo_police_department",
+    "name": "San Luis Obispo Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_marino_police_department",
+    "name": "San Marino Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_mateo_police_department",
+    "name": "San Mateo Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_pablo_police_department",
+    "name": "San Pablo Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_rafael_police_department",
+    "name": "San Rafael Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_ramon_police_department",
+    "name": "San Ramon Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sand_city_police_department",
+    "name": "Sand City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sanger_police_department",
+    "name": "Sanger Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_ana_police_department",
+    "name": "Santa Ana Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_barbara_police_department",
+    "name": "Santa Barbara Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_clara_police_department",
+    "name": "Santa Clara Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_cruz_police_department",
+    "name": "Santa Cruz Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_maria_police_department",
+    "name": "Santa Maria Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_monica_police_department",
+    "name": "Santa Monica Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_paula_police_department",
+    "name": "Santa Paula Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_rosa_police_department",
+    "name": "Santa Rosa Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sausalito_police_department",
+    "name": "Sausalito Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_scotts_valley_police_department",
+    "name": "Scotts Valley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_seal_beach_police_department",
+    "name": "Seal Beach Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_seaside_police_department",
+    "name": "Seaside Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sebastopol_police_department",
+    "name": "Sebastopol Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_selma_police_department",
+    "name": "Selma Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_shafter_police_department",
+    "name": "Shafter Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sierra_madre_police_department",
+    "name": "Sierra Madre Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_signal_hill_police_department",
+    "name": "Signal Hill Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_simi_valley_police_department",
+    "name": "Simi Valley Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_soledad_police_department",
+    "name": "Soledad Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sonora_police_department",
+    "name": "Sonora Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_south_gate_police_department",
+    "name": "South Gate Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_south_lake_tahoe_police_department",
+    "name": "South Lake Tahoe Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_south_pasadena_police_department",
+    "name": "South Pasadena Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_south_san_francisco_police_department",
+    "name": "South San Francisco Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_st_helena_police_department",
+    "name": "St. Helena Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_stockton_police_department",
+    "name": "Stockton Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_suisun_city_police_department",
+    "name": "Suisun City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sunnyvale_department_of_public_safety",
+    "name": "Sunnyvale Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_susanville_police_department",
+    "name": "Susanville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_sutter_creek_police_department",
+    "name": "Sutter Creek Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_taft_police_department",
+    "name": "Taft Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tehachapi_police_department",
+    "name": "Tehachapi Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tiburon_police_department",
+    "name": "Tiburon Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_torrance_police_department",
+    "name": "Torrance Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tracy_police_department",
+    "name": "Tracy Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_truckee_police_department",
+    "name": "Truckee Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tulare_police_department",
+    "name": "Tulare Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tulelake_police_department",
+    "name": "Tulelake Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_turlock_police_department",
+    "name": "Turlock Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_tustin_police_department",
+    "name": "Tustin Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ukiah_police_department",
+    "name": "Ukiah Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_union_city_police_department",
+    "name": "Union City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_upland_police_department",
+    "name": "Upland Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_vacaville_police_department",
+    "name": "Vacaville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_vallejo_police_department",
+    "name": "Vallejo Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ventura_police_department",
+    "name": "Ventura Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_vernon_police_department",
+    "name": "Vernon Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_visalia_police_department",
+    "name": "Visalia Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_walnut_creek_police_department",
+    "name": "Walnut Creek Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_watsonville_police_department",
+    "name": "Watsonville Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_weed_police_department",
+    "name": "Weed Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_west_covina_police_department",
+    "name": "West Covina Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_west_sacramento_police_department",
+    "name": "West Sacramento Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_westminster_police_department",
+    "name": "Westminster Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_westmoreland_police_department",
+    "name": "Westmoreland Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_wheatland_police_department",
+    "name": "Wheatland Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_whittier_police_department",
+    "name": "Whittier Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_williams_police_department",
+    "name": "Williams Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_willits_police_department",
+    "name": "Willits Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_winters_police_department",
+    "name": "Winters Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_woodlake_police_department",
+    "name": "Woodlake Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_woodland_police_department",
+    "name": "Woodland Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_yreka_police_department",
+    "name": "Yreka Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_yuba_city_police_department",
+    "name": "Yuba City Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_bear_river_police_department",
+    "name": "Bear River Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_blue_lake_rancheria_tribal_police_department",
+    "name": "Blue Lake Rancheria Tribal Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_cahto_tribal_police_department",
+    "name": "Cahto Tribal Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hoopa_valley_tribal_police_department",
+    "name": "Hoopa Valley Tribal Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_round_valley_tribal_police_department",
+    "name": "Round Valley Tribal Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_yurok_tribal_police_department",
+    "name": "Yurok Tribal Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_chapman_university_department_of_public_safety",
+    "name": "Chapman University Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_notre_dame_de_namur_university_department_of_public_safety_citation_needed",
+    "name": "Notre Dame de Namur University Department of Public Safety[citation needed]",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_saint_mary_s_college_of_california_department_of_public_safety",
+    "name": "Saint Mary's College of California Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_stanford_university_department_of_public_safety",
+    "name": "Stanford University Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_university_of_the_pacific_police_department",
+    "name": "University of the Pacific Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_university_of_san_diego_department_of_public_safety",
+    "name": "University of San Diego Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_university_of_san_francisco_department_of_public_safety",
+    "name": "University of San Francisco Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_university_of_southern_california_department_of_public_safety",
+    "name": "University of Southern California Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_allan_hancock_community_college_police_department",
+    "name": "Allan Hancock Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_cerritos_community_college_police_department",
+    "name": "Cerritos Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_chaffey_college_police_department",
+    "name": "Chaffey College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_coastline_community_college_district_police_department",
+    "name": "Coastline Community College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_college_of_the_sequoias_district_police_department",
+    "name": "College of the Sequoias District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_compton_college_police_department",
+    "name": "Compton College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_cuesta_college_police_department",
+    "name": "Cuesta College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_el_camino_college_police_department",
+    "name": "El Camino College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_foothill_de_anza_college_district_police_department",
+    "name": "Foothill-De Anza College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_glendale_community_college_district_police_department",
+    "name": "Glendale Community College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_irvine_valley_college_police_department",
+    "name": "Irvine Valley College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_los_rios_community_college_police_department",
+    "name": "Los Rios Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_marin_community_college_district_police_department",
+    "name": "Marin Community College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_merced_community_college_police_department",
+    "name": "Merced Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_miracosta_community_college_police_department",
+    "name": "MiraCosta Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_napa_valley_college_police_department_citation_needed",
+    "name": "Napa Valley College Police Department[citation needed]",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_palomar_college_police_department",
+    "name": "Palomar College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_pasadena_area_community_college_district_police_department_citation_needed",
+    "name": "Pasadena Area Community College District Police Department[citation needed]",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_saddleback_college_police_department",
+    "name": "Saddleback College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_bernardino_community_college_district_police_department",
+    "name": "San Bernardino Community College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_diego_community_college_district_police_department",
+    "name": "San Diego Community College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_francisco_community_college_police_department",
+    "name": "San Francisco Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_joaquin_delta_college_district_police_department",
+    "name": "San Joaquin Delta College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_jose_evergreen_college_district_police_department",
+    "name": "San Jose/Evergreen College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_mateo_community_college_district_department_of_public_safety",
+    "name": "San Mateo Community College District Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_rosa_junior_college_district_police_department",
+    "name": "Santa Rosa Junior College District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_monica_college_police_department",
+    "name": "Santa Monica College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_solano_community_college_police_department",
+    "name": "Solano Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_south_orange_county_community_college_district_department_of_campus_safety",
+    "name": "South Orange County Community College District Department of Campus Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_southwestern_community_college_police_department",
+    "name": "Southwestern Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_state_center_community_college_district_police_department",
+    "name": "State Center Community College District Police Department",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ventura_county_community_college_police_department",
+    "name": "Ventura County Community College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_victor_valley_college_police_department",
+    "name": "Victor Valley College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_yuba_college_police_department",
+    "name": "Yuba College Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_apple_valley_unified_school_district_police_department",
+    "name": "Apple Valley Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_clovis_unified_school_district_police_department",
+    "name": "Clovis Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_compton_unified_school_district_police_department",
+    "name": "Compton Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_el_rancho_unified_school_district_police_department",
+    "name": "El Rancho Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_elk_grove_unified_school_district_police_department",
+    "name": "Elk Grove Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fontana_unified_school_district_police_department",
+    "name": "Fontana Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hacienda_la_puente_unified_school_district_police_department",
+    "name": "Hacienda La Puente Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_hesperia_school_district_police_department",
+    "name": "Hesperia School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_huntington_beach_union_high_school_district_police_department",
+    "name": "Huntington Beach Union High School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_inglewood_unified_school_district_police_department",
+    "name": "Inglewood Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_kern_high_school_district_police_department",
+    "name": "Kern High School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_los_angeles_school_police_department",
+    "name": "Los Angeles School Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_montebello_unified_school_district_police_department",
+    "name": "Montebello Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_bernardino_city_unified_school_district_police_department",
+    "name": "San Bernardino City Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_diego_unified_school_district_police_department",
+    "name": "San Diego Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_jos_unified_school_district_police_department",
+    "name": "San Jos\u00e9 Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_santa_ana_unified_school_district_police_department",
+    "name": "Santa Ana Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_snowline_joint_unified_school_district_police_department",
+    "name": "Snowline Joint Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_stockton_unified_school_district_police_department",
+    "name": "Stockton Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_twin_rivers_unified_school_district_police_department",
+    "name": "Twin Rivers Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_val_verde_unified_school_police_department",
+    "name": "Val Verde Unified School Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_victor_valley_union_high_school_district_police_department",
+    "name": "Victor Valley Union High School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_west_contra_costa_unified_school_district_police_department",
+    "name": "West Contra Costa Unified School District Police Department",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_bear_valley_police_department_bear_valley_community_services_district",
+    "name": "Bear Valley Police Department (Bear Valley Community Services District)",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_capistrano_bay_police_department_capistrano_bay_community_services_district",
+    "name": "Capistrano Bay Police Department (Capistrano Bay Community Services District)",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_lake_shastina_police_department_lake_shastina_c_s_d",
+    "name": "Lake Shastina Police Department (Lake Shastina C.S.D.)",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_stallion_springs_police_department",
+    "name": "Stallion Springs Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_east_bay_regional_park_district_police_department",
+    "name": "East Bay Regional Park District Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_exposition_park_department_of_public_safety",
+    "name": "Exposition Park Department of Public Safety",
+    "type": "State Agency",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_fulton_el_camino_park_police_department",
+    "name": "Fulton\u2013El Camino Park Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_metropolitan_transit_system_police_department",
+    "name": "Metropolitan Transit System Police Department",
+    "type": "Transit/Airport Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_napa_valley_railroad_police_department",
+    "name": "Napa Valley Railroad Police Department",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_avalon_police_department_replaced_by_los_angeles_county_sheriff_s_department_in_1962",
+    "name": "Avalon Police Department (replaced by Los Angeles County Sheriff's Department in 1962)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_compton_police_department_disbanded_in_2000_replaced_by_los_angeles_county_sheriff_s_department",
+    "name": "Compton Police Department (disbanded in 2000, replaced by Los Angeles County Sheriff's Department)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_dorris_police_department_replaced_by_siskiyou_county_sheriff_s_office_in_1996",
+    "name": "Dorris Police Department (replaced by Siskiyou County Sheriff's Office in 1996)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_dunsmuir_police_department_replaced_by_siskiyou_county_sheriff_s_office_in_1992",
+    "name": "Dunsmuir Police Department (replaced by Siskiyou County Sheriff's Office in 1992)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_ft_jones_police_department_replaced_by_etna_police_department_in_december_12_2019",
+    "name": "Ft. Jones Police Department (replaced by Etna Police Department in December 12, 2019)",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_half_moon_bay_police_department_replaced_by_san_mateo_county_sheriff_s_office_in_2011",
+    "name": "Half Moon Bay Police Department (replaced by San Mateo County Sheriff's Office in 2011)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_holtville_police_department_merged_into_imperial_county_sheriffs_office_in_2010",
+    "name": "Holtville Police Department (merged into Imperial County Sheriffs' Office in 2010)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_imperial_beach_police_department_merged_into_san_diego_county_sheriff_s_department_1982",
+    "name": "Imperial Beach Police Department (merged into San Diego County Sheriff's Department, 1982)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_isleton_police_department_replaced_by_sacramento_county_sheriff_s_department_2012",
+    "name": "Isleton Police Department (replaced by Sacramento County Sheriff's Department, 2012)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_maricopa_police_department_merged_into_kern_county_sheriff_s_office_in_2011",
+    "name": "Maricopa Police Department (merged into Kern County Sheriff's Office in 2011)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_maywood_cudahy_police_department_disbanded_june_30_2010_replaced_by_lasd",
+    "name": "Maywood-Cudahy Police Department (disbanded, June 30, 2010; replaced by LASD)",
+    "type": "Municipal Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_millbrae_police_department_replaced_by_san_mateo_county_sheriff_s_office_in_2012",
+    "name": "Millbrae Police Department (replaced by San Mateo County Sheriff's Office in 2012)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_montague_police_department_replaced_by_siskiyou_county_sheriff_s_office_in_1983",
+    "name": "Montague Police Department (replaced by Siskiyou County Sheriff's Office in 1983)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_oakland_unified_school_district_police_department_disbanded_in_2020",
+    "name": "Oakland Unified School District Police Department (disbanded in 2020)",
+    "type": "Campus Police",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_carlos_police_department_replaced_by_san_mateo_county_sheriff_s_office_in_2010",
+    "name": "San Carlos Police Department (replaced by San Mateo County Sheriff's Office in 2010)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_san_juan_bautista_police_department_replaced_by_san_benito_county_sheriff_s_office_in_1993",
+    "name": "San Juan Bautista Police Department (replaced by San Benito County Sheriff\u2019s Office in 1993)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_stanton_police_department_merged_into_orange_county_sheriff_s_department_ocsd_february_1988",
+    "name": "Stanton Police Department (merged into Orange County Sheriff's Department (OCSD), February 1988)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  },
+  {
+    "id": "agency_willows_police_department_replaced_by_glenn_county_sheriff_s_office_july_1_2017",
+    "name": "Willows Police Department  (replaced by Glenn County Sheriff's Office, July 1, 2017)",
+    "type": "County Sheriff",
+    "county": "Unknown",
+    "post_certified": true,
+    "funding": [],
+    "contracts": [],
+    "settlements": []
+  }
+]

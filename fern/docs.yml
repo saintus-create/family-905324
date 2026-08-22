@@ -56,6 +56,9 @@ tabs:
   analysis:
     display-name: Analysis
     icon: fa-regular fa-diagram-project
+  public_records:
+    display-name: Public Records
+    icon: fa-regular fa-building
   changelog:
     display-name: Changelog
     icon: fa-regular fa-clock
@@ -228,6 +231,35 @@ navigation:
   - page: Empirical Research & Statistics
     path: ./docs/pages/empirical-analysis.mdx
     icon: fa-regular fa-chart-line
+- tab: public_records
+  layout:
+  - page: Public Records Overview
+    path: ./docs/pages/public-records.mdx
+    icon: fa-regular fa-building
+  - section: Law Enforcement
+    collapsed: false
+    contents:
+    - page: Police & Sheriff Agencies
+      path: ./docs/pages/police-agencies.mdx
+      icon: fa-regular fa-building-shield
+    - page: POST Training & Certification
+      path: ./docs/pages/post-training.mdx
+      icon: fa-regular fa-graduation-cap
+  - section: Contractors & Vendors
+    collapsed: false
+    contents:
+    - page: Public Safety Contractors
+      path: ./docs/pages/contractors.mdx
+      icon: fa-regular fa-handshake
+  - section: Funding & Payouts
+    collapsed: false
+    contents:
+    - page: Grants & Allocations (VAWA, etc.)
+      path: ./docs/pages/funding-grants.mdx
+      icon: fa-regular fa-money-bill-wave
+    - page: Civil Settlements & Judgments
+      path: ./docs/pages/civil-payouts.mdx
+      icon: fa-regular fa-gavel
 - tab: changelog
   layout:
   - changelog: ./changelog
