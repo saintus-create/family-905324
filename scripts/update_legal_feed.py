@@ -1,0 +1,153 @@
+import html
+import json
+import re
+import urllib.parse
+import urllib.request
+from html.parser import HTMLParser
+from pathlib import Path
+from datetime import datetime, timezone
+
+SOURCES = [
+    ("California Courts", "https://newsroom.courts.ca.gov/news", ("/news/", "/news/releases/")),
+    ("Judicial Council", "https://courts.ca.gov/policy-administration/governmental-affairs/court-related-legislation", ("/news/",)),
+    ("California Legislature", "https://leginfo.legislature.ca.gov/", ("/faces/billInfo/", "/faces/billResultsClient.xhtml")),
+]
+
+BAD_TITLES = {
+    "home", "search", "subscribe", "contact", "resources", "calendar",
+    "news", "news and features", "all news", "more news", "skip to main content",
+    "public records request", "branch facts", "judicial branch of california",
+}
+
+class LinkParser(HTMLParser):
+    def __init__(self, base, allowed_paths):
+        super().__init__(convert_charrefs=True)
+        self.base = base
+        self.allowed_paths = allowed_paths
+        self.items = []
+        self.current = None
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag != "a" or not attrs.get("href"):
+            return
+        href = urllib.parse.urljoin(self.base, attrs["href"])
+        parsed = urllib.parse.urlparse(href)
+        if parsed.scheme != "https" or not parsed.netloc:
+            return
+        if self.allowed_paths and not any(parsed.path.startswith(path) for path in self.allowed_paths):
+            return
+        if href.rstrip("/") == self.base.rstrip("/"):
+            return
+        self.current = {"url": href, "title": ""}
+
+    def handle_data(self, data):
+        if self.current:
+            text = data.strip()
+            if text:
+                self.current["title"] += " " + text
+
+    def handle_endtag(self, tag):
+        if tag != "a" or not self.current:
+            return
+        title = re.sub(r"\s+", " ", self.current["title"]).strip()
+        normalized = title.lower().strip(" .:")
+        if 18 <= len(title) <= 180 and normalized not in BAD_TITLES:
+            self.items.append({"url": self.current["url"], "title": html.unescape(title)})
+        self.current = None
+
+class ImageParser(HTMLParser):
+    def __init__(self, base):
+        super().__init__(convert_charrefs=True)
+        self.base = base
+        self.image = None
+
+    def handle_starttag(self, tag, attrs):
+        if self.image or tag not in ("meta", "img"):
+            return
+        attrs = dict(attrs)
+        if tag == "meta":
+            prop = (attrs.get("property") or attrs.get("name") or "").lower()
+            content = attrs.get("content")
+            if prop in ("og:image", "twitter:image") and content:
+                self.image = urllib.parse.urljoin(self.base, content)
+        elif tag == "img":
+            src = attrs.get("src") or attrs.get("data-src") or attrs.get("data-lazy-src")
+            if src:
+                self.image = urllib.parse.urljoin(self.base, src)
+
+def fetch(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "family-law-site-feed/1.1"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return r.read().decode("utf-8", "replace")
+
+def article_image(url):
+    try:
+        parser = ImageParser(url)
+        parser.feed(fetch(url))
+        if parser.image and parser.image.startswith("https://"):
+            return parser.image
+    except Exception as exc:
+        print(f"image warning: {url}: {exc}")
+    return None
+
+feed = []
+seen = set()
+for source, url, allowed_paths in SOURCES:
+    try:
+        parser = LinkParser(url, allowed_paths)
+        parser.feed(fetch(url))
+        count = 0
+        for item in parser.items:
+            if item["url"] in seen:
+                continue
+            seen.add(item["url"])
+            item["source"] = source
+            item["image"] = article_image(item["url"])
+            feed.append(item)
+            count += 1
+            if count >= 6:
+                break
+    except Exception as exc:
+        print(f"feed warning: {source}: {exc}")
+
+feed = feed[:18]
+feed_path = Path("fern/data/live-legal-feed.json")
+page_path = Path("fern/docs/pages/latest.mdx")
+previous = {}
+if feed_path.exists():
+    try:
+        previous = json.loads(feed_path.read_text())
+    except Exception:
+        previous = {}
+
+previous_items = previous.get("items", [])
+if feed == previous_items and page_path.exists():
+    print("feed unchanged; no commit required")
+    raise SystemExit(0)
+
+updated = datetime.now(timezone.utc).isoformat()
+feed_path.parent.mkdir(parents=True, exist_ok=True)
+feed_path.write_text(json.dumps({"updated": updated, "items": feed}, indent=2, ensure_ascii=False) + "\n")
+
+lines = [
+    "---", "title: Latest California Legal News", "slug: latest", "layout: custom", "hide-page-actions: true", "hide-feedback: true", "---", "",
+    '<div className="legal-feed">',
+    '<div className="legal-feed__top"><h1>Latest</h1><a href="https://newsroom.courts.ca.gov/news" target="_blank" rel="noreferrer">California Courts</a></div>',
+    '<div className="legal-feed__grid">'
+]
+for item in feed:
+    image = item.get("image")
+    media = (
+        f'<img src="{html.escape(image, quote=True)}" alt="" loading="lazy" decoding="async" />'
+        if image else
+        '<div className="legal-feed__image--empty" aria-hidden="true"></div>'
+    )
+    lines.extend([
+        '<article className="legal-feed__card">',
+        f'<a href="{html.escape(item["url"], quote=True)}" target="_blank" rel="noreferrer">{media}<div className="legal-feed__body"><div className="legal-feed__source">{html.escape(item["source"])}</div><h2>{html.escape(item["title"])}</h2></div></a>',
+        '</article>'
+    ])
+lines.extend(['</div>', f'<p className="legal-feed__updated">Updated {updated}</p>', '</div>', ''])
+page_path.write_text("\n".join(lines))
+print(f"wrote {len(feed)} feed items")
