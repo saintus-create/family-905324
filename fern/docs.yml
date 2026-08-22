@@ -86,6 +86,9 @@ navigation:
   - page: Research Data Model
     path: ./docs/pages/research-data-model.mdx
     icon: fa-regular fa-diagram-project
+  - page: Public Records Accountability
+    path: ./docs/pages/public-records-accountability.mdx
+    icon: fa-regular fa-shield-halved
   - section: Research foundations
     collapsed: false
     contents:
