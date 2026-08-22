@@ -1,70 +1,16 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-22T16:23:43Z",
+  "updated_at": "2026-08-22T16:25:20Z",
   "entries": [
     {
-      "source_id": "city_santa_maria_public_resources",
-      "url": "https://www.cityofsantamaria.org/services/departments/police-department/community-resources",
-      "retrieved_at": "2026-08-22T16:23:40Z",
-      "collection_error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "snapshot_id": "santa_barbara_county_information-landing",
-      "source_id": "santa_barbara_county_information",
-      "publisher": "County of Santa Barbara",
-      "url": "https://www.countyofsb.org/1477/Information",
-      "retrieved_at": "2026-08-22T16:23:41Z",
-      "content_type": "text/html",
-      "bytes": 281830,
-      "sha256": "1addf8d722d2366ee2261db052d389be86cbab8531c2670540a39720d7801e33",
-      "request": null,
-      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
-    },
-    {
-      "snapshot_id": "oxnard_open_data-landing",
-      "source_id": "oxnard_open_data",
-      "publisher": "City of Oxnard",
-      "url": "https://data.oxnard.org/",
-      "retrieved_at": "2026-08-22T16:23:42Z",
-      "content_type": "text/html",
-      "bytes": 60618,
-      "sha256": "f8326cb14c6890e9c951131b99385313080d127d09c73496d68e12d9e964b722",
-      "request": null,
-      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
-    },
-    {
-      "snapshot_id": "california_post_training-landing",
-      "source_id": "california_post_training",
-      "publisher": "California Commission on Peace Officer Standards and Training",
-      "url": "https://post.ca.gov/Training",
-      "retrieved_at": "2026-08-22T16:23:43Z",
-      "content_type": "text/html",
-      "bytes": 24267,
-      "sha256": "e8786882bc1cbd05ae994fa3343fc4df89b115c2a28455dbcb4bd9f35bde3b88",
-      "request": null,
-      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
-    },
-    {
-      "snapshot_id": "usaspending_api-landing",
-      "source_id": "usaspending_api",
-      "publisher": "U.S. Department of the Treasury",
-      "url": "https://api.usaspending.gov/",
-      "retrieved_at": "2026-08-22T16:23:43Z",
-      "content_type": "text/html",
-      "bytes": 5162,
-      "sha256": "1f8f746442b8794fa351759628917f8bed3bc9f85913bc8d3caead02afe5a4f0",
-      "request": null,
-      "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
-    },
-    {
-      "snapshot_id": "usaspending-santa-barbara-grants-2020-2026",
-      "source_id": "usaspending_santa_barbara_grant_discovery",
+      "snapshot_id": "usaspending-santa-barbara-vawa-keyword-discovery-2020-2026",
+      "source_id": "usaspending_vawa_keyword_discovery_santa_barbara",
       "publisher": "U.S. Department of the Treasury",
       "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
-      "retrieved_at": "2026-08-22T16:23:43Z",
+      "retrieved_at": "2026-08-22T16:25:20Z",
       "content_type": "application/json",
-      "bytes": 96583,
-      "sha256": "1c8829ed4ee199a8e466ef54b725b9730a72c64e6cbc2e7e70fe1d0048315a1f",
+      "bytes": 482,
+      "sha256": "fc757405485bafe627208795a5010df673f1db91aef27d86e0699fc9879b142a",
       "request": {
         "method": "POST",
         "payload": {
@@ -87,6 +33,9 @@
               "03",
               "04",
               "05"
+            ],
+            "keywords": [
+              "violence against women"
             ]
           },
           "fields": [
@@ -96,16 +45,15 @@
             "Award Amount",
             "Description",
             "Start Date",
-            "End Date",
-            "Place of Performance City Code",
-            "Place of Performance State Code"
+            "End Date"
           ],
           "page": 1,
           "limit": 100,
           "sort": "Award Amount",
           "order": "desc",
           "subawards": false
-        }
+        },
+        "interpretation": "Keyword discovery only. A zero result is limited to this API query and is not evidence that no VAWA-related funding exists. A nonzero result would require award-by-award primary-source verification before any VAWA classification."
       },
       "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
     }
