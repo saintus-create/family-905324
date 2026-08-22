@@ -927,3 +927,28 @@ html.dark header {
 
 @media (max-width: 900px) { .section-gallery__grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
 @media (max-width: 640px) { .section-gallery { width: min(100% - 2.25rem, 76rem); } .section-gallery__intro { min-height: 18rem; padding: 1.55rem; } .section-gallery__intro h1 { margin-top: 4rem; font-size: clamp(2.65rem, 13.6vw, 4.4rem); } .section-gallery__intro > span { top: 1.6rem; right: 1.55rem; } .section-gallery__grid { grid-template-columns: 1fr; border-radius: 0 0 10px 10px; } .section-tile { min-height: 14.5rem; padding: 1.3rem; } }
+
+/* Deliberately spare mobile section gallery: color is the navigation, not decoration. */
+.section-gallery__intro { min-height: 17rem; }
+.section-gallery__intro::after, .section-gallery__intro p, .section-gallery__intro > span { display: none; }
+.section-gallery__intro h1 { margin: 0; align-self: center; }
+.section-gallery__intro { display: flex; align-items: center; }
+.section-tile { min-height: 17rem; padding: clamp(1.35rem, 3vw, 2rem); }
+.section-tile h2 { max-width: 10rem; font-size: clamp(2rem, 3.3vw, 3.35rem); }
+.section-tile__index, .section-tile p { display: none; }
+.section-tile--research { background: #151515; }
+.section-tile--law { background: #244d73; }
+.section-tile--legislation { background: #b95342; }
+.section-tile--records { background: #2f7058; }
+.section-tile--people { background: #55436b; }
+.section-tile--analysis { background: #276779; }
+
+@media (max-width: 640px) {
+  .section-gallery { width: 100%; padding: 0 0 3.5rem; }
+  .section-gallery__intro { min-height: 38vh; padding: 2rem 1.5rem; border-right: 0; border-left: 0; border-radius: 0; }
+  .section-gallery__intro h1 { font-size: clamp(3rem, 13vw, 4.6rem); }
+  .section-gallery__grid { border-right: 0; border-left: 0; border-radius: 0; }
+  .section-tile { min-height: 11.5rem; padding: 1.45rem; }
+  .section-tile h2 { font-size: clamp(2.2rem, 10vw, 3.2rem); }
+  .section-tile__arrow { top: 1.35rem; right: 1.45rem; }
+}
