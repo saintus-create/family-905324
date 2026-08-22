@@ -2,23 +2,19 @@
 title: California Bills and Measures
 subtitle: Search every measure in the 2025–2026 California legislative session
 slug: bills-and-measures
-layout: overview
+layout: reference
 hide-page-actions: true
 ---
 
+# California Bills and Measures
+
+Search bills, constitutional amendments, and resolutions by measure, subject, senator, assemblymember, chamber, type, or status.
+
+<Callout intent="info">
+You can search all measures directly through the [California Legislative Information portal](https://leginfo.legislature.ca.gov/faces/billSearchClient.xhtml?session_year=20252026).
+</Callout>
+
 <div className="bill-catalog" data-bill-catalog data-source="/assets/legislation/california-measures-20252026.json">
-  <header className="bill-catalog__header">
-    <div><span>2025–2026 session</span><h1>California bills and measures</h1><p>Search bills, constitutional amendments, and resolutions by measure, subject, senator, assemblymember, chamber, type, or status.</p></div>
-    <a href="https://leginfo.legislature.ca.gov/faces/billSearchClient.xhtml?session_year=20252026" target="_blank" rel="noreferrer">Official bill information ↗</a>
-  </header>
-
-  <section className="bill-catalog__stats" aria-label="Catalog statistics">
-    <div><strong data-bill-total>—</strong><span>Total measures</span></div>
-    <div><strong data-bill-assembly>—</strong><span>Assembly measures</span></div>
-    <div><strong data-bill-senate>—</strong><span>Senate measures</span></div>
-    <div><strong data-bill-family>—</strong><span>Family-law matches</span></div>
-  </section>
-
   <section className="bill-catalog__controls" aria-label="Filter legislation">
     <label className="bill-catalog__search"><span>Search</span><input type="search" data-bill-search placeholder="Bill number, subject, or author…" autoComplete="off" /></label>
     <label><span>Chamber</span><select data-bill-chamber><option value="">All chambers</option><option value="Assembly">Assembly</option><option value="Senate">Senate</option><option value="Executive">Executive</option></select></label>
@@ -32,10 +28,6 @@ hide-page-actions: true
   <div className="bill-catalog__error" data-bill-error hidden>Bill data could not be loaded. Use the official California Legislative Information link above.</div>
   <section className="bill-catalog__results" data-bill-results aria-label="Legislation results"></section>
   <button className="bill-catalog__more" type="button" data-bill-more hidden>Show more measures</button>
-
-  <noscript>
-    JavaScript is required for the searchable catalog. You can search all measures directly through <a href="https://leginfo.legislature.ca.gov/faces/billSearchClient.xhtml?session_year=20252026">California Legislative Information</a>.
-  </noscript>
-
-  <footer className="bill-catalog__source"><p>Source: California Office of Legislative Counsel. Family-law matches are automated keyword flags for discovery, not legal classifications. Confirm every measure’s current text and status on its official page.</p><span data-bill-updated></span></footer>
 </div>
+
+*Source: California Office of Legislative Counsel. Family-law matches are automated keyword flags for discovery, not legal classifications. Confirm every measure’s current text and status on its official page.*

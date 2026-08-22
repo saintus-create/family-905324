@@ -1,62 +1,51 @@
 ---
 title: Public Records Accountability
 slug: public-records-accountability
-layout: custom
+layout: reference
 hide-feedback: true
 hide-nav-links: true
 ---
 
-<div className="research-landing accountability-page">
+# Follow the public record.
 
-<section className="research-landing__hero">
-  <div className="research-landing__hero-copy">
-    <p className="research-landing__eyebrow">PUBLIC RECORDS · EVIDENCE INDEX</p>
-    <h1>Follow the public record.</h1>
-    <p className="research-landing__lede">A source-linked research collection for public funding, official reports, accountability actions, and case-status records. Every entry is designed to answer what happened, when, under which authority, and where the supporting record lives.</p>
-    <div className="research-landing__actions">
-      <a className="research-button research-button--primary" href="/research-workbench">Open research workbench</a>
-      <a className="research-button research-button--secondary" href="https://github.com/saintus-create/family-905324/tree/main/fern/data/public-records">Inspect source corpus <span>↗</span></a>
-    </div>
-  </div>
-  <div className="research-landing__instrument" aria-label="Corpus status">
-    <div className="research-landing__instrument-bar"><span>Corpus status</span><span>TRACEABLE</span></div>
-    <div className="research-landing__instrument-grid">
-      <div className="research-landing__instrument-cell research-landing__instrument-cell--focus"><span>Federal award discovery records</span><strong>100</strong></div>
-      <div className="research-landing__instrument-cell"><span>Local published CJP decisions indexed</span><strong>12</strong></div>
-      <div className="research-landing__instrument-cell"><span>Official source families</span><strong>17+</strong></div>
-      <div className="research-landing__instrument-cell"><span>Cal OES report pages text-indexed</span><strong>622</strong></div>
-      <div className="research-landing__instrument-cell research-landing__instrument-cell--wide"><p>Counts are scoped to the currently preserved corpus—not claims of complete coverage. Each source retains a retrieval date and integrity hash.</p></div>
-    </div>
-  </div>
-</section>
+A source-linked research collection for public funding, official reports, accountability actions, and case-status records. Every entry is designed to answer what happened, when, under which authority, and where the supporting record lives.
 
-<section className="research-landing__section">
-  <div className="research-landing__section-intro">
-    <p className="research-landing__eyebrow">BROWSE BY RECORD TYPE</p>
-    <div><h2>Evidence before conclusions.</h2><p>Use the collection to inspect public records, not to infer guilt from an allegation, filing, or arrest. Procedural status and source provenance are part of every accountable record.</p></div>
-  </div>
-  <div className="research-card-grid">
-    <a className="research-card research-card--medium" href="https://github.com/saintus-create/family-905324/tree/main/fern/data/public-records/federal-awards"><span className="research-card__number">01 · FUNDING</span><span className="research-card__arrow">↗</span><div><h3>Funding flows</h3><p>Federal awards, subaward research, appropriations, program purpose, amounts, and periods.</p></div></a>
-    <a className="research-card research-card--medium" href="https://github.com/saintus-create/family-905324/tree/main/fern/data/public-records/snapshots"><span className="research-card__number">02 · REPORTS</span><span className="research-card__arrow">↗</span><div><h3>Cal OES &amp; POST reports</h3><p>Preserved official reports with searchable text companions and controlling PDF hashes.</p></div></a>
-    <a className="research-card research-card--medium" href="https://github.com/saintus-create/family-905324/tree/main/fern/data/public-records/public-officials"><span className="research-card__number">03 · ACCOUNTABILITY</span><span className="research-card__arrow">↗</span><div><h3>Official actions</h3><p>Published judicial discipline and the structure for final public oversight and certification actions.</p></div></a>
-  </div>
-</section>
+<CardGroup cols={2}>
+  <Card title="Open research workbench" icon="magnifying-glass" href="/research-workbench" />
+  <Card title="Inspect source corpus" icon="arrow-up-right-from-square" href="https://github.com/saintus-create/family-905324/tree/main/fern/data/public-records" />
+</CardGroup>
 
-<section className="accountability-page__facts" aria-label="Corpus details">
-  <div className="accountability-page__facts-title"><span>Corpus profile</span><span>Version 1.0</span></div>
-  <dl>
-    <div><dt>Coverage</dt><dd>California · local-first</dd></div>
-    <div><dt>Primary sources</dt><dd>Cal OES · POST · CJP · Treasury</dd></div>
-    <div><dt>Record focus</dt><dd>Funding · reports · final actions</dd></div>
-    <div><dt>Evidence model</dt><dd>Source link · date · hash · status</dd></div>
-  </dl>
-  <p>Public records are preserved with their provenance. The interface does not create scores, labels, or conclusions beyond the cited official record.</p>
-</section>
+## Browse by Record Type
 
-<section className="research-landing__closing">
-  <p className="research-landing__eyebrow">READ THE STATUS</p>
-  <h2>Arrest, allegation, filing, settlement, discipline, and final disposition are not the same record.</h2>
-  <p className="research-landing__lede">The index keeps those distinctions visible. It publishes the official source, date, status, and stated outcome instead of a score or reputation label.</p>
-</section>
+<Callout intent="info">
+**Evidence before conclusions.** Use the collection to inspect public records, not to infer guilt from an allegation, filing, or arrest. Procedural status and source provenance are part of every accountable record.
+</Callout>
 
-</div>
+<CardGroup cols={3}>
+  <Card title="Funding flows" icon="money-bill-wave" href="https://github.com/saintus-create/family-905324/tree/main/fern/data/public-records/federal-awards">
+    Federal awards, subaward research, appropriations, program purpose, amounts, and periods.
+  </Card>
+  <Card title="Cal OES & POST reports" icon="file-pdf" href="https://github.com/saintus-create/family-905324/tree/main/fern/data/public-records/snapshots">
+    Preserved official reports with searchable text companions and controlling PDF hashes.
+  </Card>
+  <Card title="Official actions" icon="gavel" href="https://github.com/saintus-create/family-905324/tree/main/fern/data/public-records/public-officials">
+    Published judicial discipline and the structure for final public oversight and certification actions.
+  </Card>
+</CardGroup>
+
+## Corpus Profile (Version 1.0)
+
+| Feature | Description |
+| :--- | :--- |
+| **Coverage** | California · local-first |
+| **Primary sources** | Cal OES · POST · CJP · Treasury |
+| **Record focus** | Funding · reports · final actions |
+| **Evidence model** | Source link · date · hash · status |
+
+Public records are preserved with their provenance. The interface does not create scores, labels, or conclusions beyond the cited official record.
+
+## Read the Status
+
+**Arrest, allegation, filing, settlement, discipline, and final disposition are not the same record.**
+
+The index keeps those distinctions visible. It publishes the official source, date, status, and stated outcome instead of a score or reputation label.

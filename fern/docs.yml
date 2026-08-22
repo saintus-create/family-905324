@@ -17,26 +17,13 @@ layout:
   tabs-placement: header
 css:
   - ./styles.css
-  - ./grid.css
 colors:
-  accent-primary:
-    light: "#0070F3"
-    dark: "#3291FF"
-  background:
-    light: "#FAFAFA"
-    dark: "#000000"
-  border:
-    light: "#EAEAEA"
-    dark: "#2B2B2B"
-  sidebar-background:
-    light: "#FFFFFF"
-    dark: "#0A0A0A"
-  header-background:
-    light: "#FFFFFF"
-    dark: "#000000"
-  card-background:
-    light: "#FFFFFF"
-    dark: "#0A0A0A"
+  accent-primary: "#3291FF"
+  background: "#000000"
+  border: "#2B2B2B"
+  sidebar-background: "#0A0A0A"
+  header-background: "#000000"
+  card-background: "#0A0A0A"
 tabs:
   home:
     display-name: Home
