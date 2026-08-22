@@ -3,16 +3,33 @@
   "created_at": "2026-08-22",
   "program": "Public-records research",
   "geographic_priority": [
-    {"priority": 1, "area": "Santa Maria, California", "scope": "City agencies and city-controlled public records."},
-    {"priority": 2, "area": "Santa Barbara County, California", "scope": "County agencies and county-controlled public records relevant to the local study area."},
-    {"priority": 3, "area": "Central Coast to Oxnard/Ventura, California", "scope": "Public entities in the adjacent regional corridor; individual agencies are added only after source verification."},
-    {"priority": 4, "area": "California and federal", "scope": "Statewide and federal records only where they identify, fund, regulate, or otherwise directly document the local/regional entities or programs under review."}
+    {
+      "priority": 1,
+      "area": "Santa Maria, California",
+      "scope": "City agencies and city-controlled public records."
+    },
+    {
+      "priority": 2,
+      "area": "Santa Barbara County, California",
+      "scope": "County agencies and county-controlled public records relevant to the local study area."
+    },
+    {
+      "priority": 3,
+      "area": "Central Coast to Oxnard/Ventura, California",
+      "scope": "Public entities in the adjacent regional corridor; individual agencies are added only after source verification."
+    },
+    {
+      "priority": 4,
+      "area": "California and federal",
+      "scope": "Statewide and federal records only where they identify, fund, regulate, or otherwise directly document the local/regional entities or programs under review."
+    }
   ],
   "collection_tracks": [
     "agency training, policies, and publicly released curricula",
     "public-agency procurement, contractors, and contract amendments",
     "publicly disclosed claims, settlements, judgments, and payouts",
-    "federal, state, and local grants, awards, appropriations, and funding flows, including VAWA-related programs when the official record supports that classification"
+    "federal, state, and local grants, awards, appropriations, and funding flows, including VAWA-related programs when the official record supports that classification",
+    "public-office and justice-system accountability records: judges, law-enforcement agencies and officers, prosecutors, public defenders, court staff, and other public officials, limited to official role records and final/publicly released oversight, discipline, ethics, licensing, court, or administrative outcomes"
   ],
   "evidence_rules": [
     "Use primary public records or official government datasets as the record of fact whenever available.",
@@ -21,13 +38,20 @@
     "Do not infer a relationship, misconduct, funding purpose, contractor role, or payment outcome from shared names, locations, or timing alone.",
     "Do not collect private personal information, victim information, protected personnel information, sealed material, or content unavailable to the general public.",
     "Mark unverified leads as leads; they are not evidence records and must not be presented as findings.",
-    "Record explicit scope limits, missing periods, and known source limitations with each dataset."
+    "Record explicit scope limits, missing periods, and known source limitations with each dataset.",
+    "For an individual public official, record only role-relevant information from an official government, court, licensing, or disciplinary source; do not publish home addresses, personal contact details, family information, protected identifiers, or other private information.",
+    "Do not assign a score, grade, risk label, or \u201creport card\u201d conclusion. Present dated, cited records and their official disposition; a reader may inspect the sources without the corpus implying character, competence, or culpability.",
+    "A complaint, allegation, lawsuit, investigation, charge, or news report must be labeled by procedural status and must not be presented as substantiated unless a cited official final disposition says so.",
+    "For judicial officers, lawyers, and law-enforcement personnel, distinguish an agency action, licensing/disciplinary action, judicial decision, settlement, dismissal, and pending matter. Never collapse them into one outcome."
   ],
   "out_of_scope": [
     "Unverified allegations and unsupported connections",
     "Private, sensitive, sealed, or otherwise nonpublic personal data",
     "Attempts to obtain nonpublic systems, credentials, or restricted records",
-    "Conclusions about individual or organizational liability absent a cited public record establishing that conclusion"
+    "Conclusions about individual or organizational liability absent a cited public record establishing that conclusion",
+    "Doxxing or publishing personal contact, household, family, protected, sealed, juvenile, victim, or otherwise nonpublic information",
+    "Subjective ratings, rankings, or \u201creport cards\u201d about identifiable people",
+    "Unadjudicated allegations presented as facts"
   ],
   "collection_status": "foundation-only; no public-record claim dataset has been populated by this file"
 }

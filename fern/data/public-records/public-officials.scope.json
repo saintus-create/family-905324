@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-22",
+  "title": "Public-office and justice-system accountability scope",
+  "covered_roles": [
+    "judicial officers",
+    "law-enforcement agencies and officers",
+    "district attorneys and prosecution staff acting in public roles",
+    "public defenders and appointed public-defense offices",
+    "court staff and court administrators",
+    "other local public officials when an official oversight record is in scope"
+  ],
+  "source_priority": [
+    "official appointing/employing agency roster or government directory",
+    "court or oversight body decision/order",
+    "state licensing or discipline authority",
+    "official inspector general, auditor, commission, or government report",
+    "officially released public record"
+  ],
+  "minimum_fields_for_person_specific_record": [
+    "public role or agency",
+    "jurisdiction",
+    "record date or period",
+    "official source URL",
+    "procedural status",
+    "neutral official outcome when one exists"
+  ],
+  "publication_rules": [
+    "Use titles and role-relevant identifying information only to the degree needed to distinguish public officials in official records.",
+    "Do not use scores or reputational labels.",
+    "Show source date and procedural status prominently.",
+    "Link to the primary official record whenever feasible.",
+    "Allow corrections, updates, supersession, and appeal-status changes through a dated record history."
+  ],
+  "not_a_scorecard": "This collection is a source index and accountability record, not a rating system. It does not make character, fitness, guilt, or competence conclusions about identifiable people."
+}

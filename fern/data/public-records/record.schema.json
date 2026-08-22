@@ -30,7 +30,15 @@
         "judgment",
         "claim_payment",
         "source_index",
-        "lead"
+        "lead",
+        "public_office_role",
+        "judicial_discipline",
+        "law_enforcement_discipline",
+        "attorney_discipline",
+        "professional_discipline",
+        "ethics_disclosure",
+        "official_oversight_report",
+        "court_administrative_disposition"
       ]
     },
     "subject_entity": {
@@ -89,6 +97,9 @@
           "type": "string"
         },
         "content_sha256": {
+          "type": "string"
+        },
+        "source_page_or_section": {
           "type": "string"
         }
       }
@@ -149,6 +160,25 @@
           "type": "string"
         }
       }
+    },
+    "procedural_status": {
+      "enum": [
+        "not_applicable",
+        "allegation_or_complaint",
+        "investigation_open",
+        "pending",
+        "dismissed_or_closed",
+        "settled_without_admission",
+        "sustained_or_substantiated",
+        "final_administrative_action",
+        "final_court_disposition",
+        "appeal_pending",
+        "unknown"
+      ]
+    },
+    "official_outcome": {
+      "type": "string",
+      "description": "Neutral summary of the stated result in the cited official source. It must not add conclusions not present in that source."
     }
   },
   "additionalProperties": false
