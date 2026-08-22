@@ -7,30 +7,39 @@ hide-page-actions: true
 hide-toc: true
 ---
 
-<div className="research-landing">
+<div className="section-gallery">
 
-<section className="research-home__hero" aria-labelledby="research-home-title">
-  <h1 id="research-home-title">California family law.</h1>
-  <p className="research-home__lede">A structured, source-aware library for navigating California family law, court rules, legislation, institutions, and legal analysis.</p>
-  <div className="research-home__actions">
-    <a className="research-button research-button--primary" href="/research">Open research</a>
-    <a className="research-button research-button--secondary" href="/law">Browse the code</a>
-  </div>
+<section className="section-gallery__intro" aria-labelledby="section-gallery-title">
+  <p>CALIFORNIA FAMILY LAW RESEARCH</p>
+  <h1 id="section-gallery-title">A research library,<br />organized by the question.</h1>
+  <span>01—06</span>
 </section>
 
-<section className="research-home__links" aria-label="Library sections">
-  <div className="research-home__link-group">
-    <h2>Primary sources</h2>
-    <a href="/law">Family Code &amp; Rules <span>↗</span></a>
-    <a href="/legislation">Legislation &amp; Proposals <span>↗</span></a>
-  </div>
-  
-  <div className="research-home__link-group">
-    <h2>Context &amp; analysis</h2>
-    <a href="/research">Research methods <span>↗</span></a>
-    <a href="/analysis">Computational analysis <span>↗</span></a>
-    <a href="/people">People &amp; institutions <span>↗</span></a>
-  </div>
-</section>
+<nav className="section-gallery__grid" aria-label="Research library sections">
+  <a className="section-tile section-tile--research" href="/research">
+    <span className="section-tile__index">01</span><span className="section-tile__arrow">↗</span>
+    <div><h2>Research</h2><p>Methods, workbench, sources, and research tools.</p></div>
+  </a>
+  <a className="section-tile section-tile--law" href="/law">
+    <span className="section-tile__index">02</span><span className="section-tile__arrow">↗</span>
+    <div><h2>Law</h2><p>Family Code, Rules of Court, and legal authority.</p></div>
+  </a>
+  <a className="section-tile section-tile--legislation" href="/legislation">
+    <span className="section-tile__index">03</span><span className="section-tile__arrow">↗</span>
+    <div><h2>Legislation</h2><p>Bills, measures, histories, and proposals.</p></div>
+  </a>
+  <a className="section-tile section-tile--records" href="/public-records-accountability">
+    <span className="section-tile__index">04</span><span className="section-tile__arrow">↗</span>
+    <div><h2>Public records</h2><p>Funding, reports, official actions, and evidence.</p></div>
+  </a>
+  <a className="section-tile section-tile--people" href="/people">
+    <span className="section-tile__index">05</span><span className="section-tile__arrow">↗</span>
+    <div><h2>People</h2><p>Institutions, courts, agencies, and public roles.</p></div>
+  </a>
+  <a className="section-tile section-tile--analysis" href="/analysis">
+    <span className="section-tile__index">06</span><span className="section-tile__arrow">↗</span>
+    <div><h2>Analysis</h2><p>Arguments, evidence, and structured legal inquiry.</p></div>
+  </a>
+</nav>
 
 </div>
