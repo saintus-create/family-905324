@@ -142,6 +142,79 @@
       "url": "https://post.ca.gov/Portals/0/post_docs/publications/2025_POSAD_Report.pdf",
       "access": "public report PDF",
       "status": "seed"
+    },
+    {
+      "source_id": "cjp_public_decisions_database",
+      "publisher": "California Commission on Judicial Performance",
+      "jurisdiction": "California",
+      "categories": [
+        "judicial discipline",
+        "public decisions",
+        "final dispositions"
+      ],
+      "url": "https://cjp.ca.gov/discipline-decisions-database-results/",
+      "access": "public web database",
+      "status": "seed",
+      "scope_note": "Only published Commission dispositions are in scope. A result must retain its stated disposition and decision date."
+    },
+    {
+      "source_id": "calbar_public_discipline",
+      "publisher": "State Bar of California",
+      "jurisdiction": "California",
+      "categories": [
+        "attorney discipline",
+        "public discipline",
+        "discipline statistics"
+      ],
+      "url": "https://www.calbar.ca.gov/Public/Discipline",
+      "access": "public web database",
+      "status": "seed",
+      "scope_note": "Public discipline is distinct from a complaint, malpractice claim, or a case result. Retain the State Bar status and source date."
+    },
+    {
+      "source_id": "post_decertification_actions",
+      "publisher": "California Commission on Peace Officer Standards and Training",
+      "jurisdiction": "California",
+      "categories": [
+        "peace officer certification actions",
+        "suspension",
+        "revocation",
+        "decertification"
+      ],
+      "url": "https://post.ca.gov/Decertification-Process",
+      "access": "public web",
+      "status": "seed",
+      "scope_note": "Only POST-published certification actions and stated bases are in scope. Do not treat a complaint, report, or investigation as a final action."
+    },
+    {
+      "source_id": "santa_maria_claims_and_records",
+      "publisher": "City of Santa Maria",
+      "jurisdiction": "Santa Maria, California",
+      "categories": [
+        "claims for damages",
+        "public records",
+        "city clerk records",
+        "agenda materials"
+      ],
+      "url": "https://www.cityofsantamaria.org/services/departments/city-clerk-records/forms-filings",
+      "access": "public web",
+      "status": "seed",
+      "scope_note": "A claim form or an agenda reference does not establish liability, payment, or settlement; collect the resulting official action only when public."
+    },
+    {
+      "source_id": "ventura_county_clerk_records",
+      "publisher": "County of Ventura",
+      "jurisdiction": "Ventura County, California",
+      "categories": [
+        "claims for damages",
+        "public records",
+        "agendas",
+        "meeting archives",
+        "ethics records"
+      ],
+      "url": "https://www.ventura.org/county-executive-office/clerk-of-the-board/ordinances/",
+      "access": "public web",
+      "status": "seed"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "ventura_county_clerk_records-landing",
+  "source_id": "ventura_county_clerk_records",
+  "publisher": "County of Ventura",
+  "url": "https://www.ventura.org/county-executive-office/clerk-of-the-board/ordinances/",
+  "retrieved_at": "2026-08-22T16:34:23Z",
+  "content_type": "text/html",
+  "bytes": 269,
+  "sha256": "afe7247a526e64e833848fd98d2f29868f827f876e91ccb2bd6dfadc26eb276c",
+  "request": null,
+  "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+}

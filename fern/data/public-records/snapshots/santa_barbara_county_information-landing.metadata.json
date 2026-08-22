@@ -3,10 +3,10 @@
   "source_id": "santa_barbara_county_information",
   "publisher": "County of Santa Barbara",
   "url": "https://www.countyofsb.org/1477/Information",
-  "retrieved_at": "2026-08-22T16:27:09Z",
+  "retrieved_at": "2026-08-22T16:34:16Z",
   "content_type": "text/html",
   "bytes": 281830,
-  "sha256": "1addf8d722d2366ee2261db052d389be86cbab8531c2670540a39720d7801e33",
+  "sha256": "612dbe9ab0f03a1e52c4a223064d6833bdadb274734ba45d875110d6f5ef6a60",
   "request": null,
   "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
 }

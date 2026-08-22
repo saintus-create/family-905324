@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "cjp_public_decisions_database-landing",
+  "source_id": "cjp_public_decisions_database",
+  "publisher": "California Commission on Judicial Performance",
+  "url": "https://cjp.ca.gov/discipline-decisions-database-results/",
+  "retrieved_at": "2026-08-22T16:34:21Z",
+  "content_type": "text/html",
+  "bytes": 101388,
+  "sha256": "2cf7fd8be9243267a27f1c857920ae96dcbd9271777b6036ebfb9f83e1db4808",
+  "request": null,
+  "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+}
