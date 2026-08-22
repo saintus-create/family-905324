@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-22",
+  "purpose": "Verified starting points for public-record collection. Registry inclusion means only that the publisher or endpoint is official and relevant; it does not establish any allegation, funding relationship, payment, contract, or finding.",
+  "sources": [
+    {"source_id": "city_santa_maria_public_resources", "publisher": "City of Santa Maria", "jurisdiction": "Santa Maria, California", "categories": ["public records", "budget", "bids", "police policies and training"], "url": "https://www.cityofsantamaria.org/services/departments/police-department/community-resources", "access": "public web", "status": "seed"},
+    {"source_id": "santa_barbara_county_information", "publisher": "County of Santa Barbara", "jurisdiction": "Santa Barbara County, California", "categories": ["budget documents", "annual reports", "public-record requests"], "url": "https://www.countyofsb.org/1477/Information", "access": "public web", "status": "seed"},
+    {"source_id": "oxnard_open_data", "publisher": "City of Oxnard", "jurisdiction": "Oxnard, California", "categories": ["open financial data", "budget", "grant revenue"], "url": "https://data.oxnard.org/", "access": "public open-data portal", "status": "seed"},
+    {"source_id": "california_post_training", "publisher": "California Commission on Peace Officer Standards and Training", "jurisdiction": "California", "categories": ["training", "course certification", "course catalog"], "url": "https://post.ca.gov/Training", "access": "public web", "status": "seed"},
+    {"source_id": "usaspending_api", "publisher": "U.S. Department of the Treasury", "jurisdiction": "United States", "categories": ["federal awards", "grants", "contracts", "subawards", "funding flows"], "url": "https://api.usaspending.gov/", "access": "public API", "status": "seed"}
+  ]
+}

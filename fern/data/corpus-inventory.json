@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-22",
+  "purpose": "Immutable inventory of the pre-existing Fern data corpus before public-records expansion. Hashes identify the exact input files; this inventory makes no assertion about legal authority, completeness, or currentness of individual records.",
+  "root": "fern/data",
+  "file_count": 38,
+  "total_bytes": 83374,
+  "format_counts": {
+    "json": 38
+  },
+  "files": [
+    {
+      "path": "ai/analytical-status-contract.json",
+      "bytes": 1774,
+      "sha256": "e79be312e8644756bccd087a07899056ea6af541fa9fe686b79f8166ac46bd1a",
+      "format": "json"
+    },
+    {
+      "path": "ai/assistant-contract.json",
+      "bytes": 1623,
+      "sha256": "99285af3080b342704d19cd846de624c0eb78bbe4a5008d9d35f59ec38d16b74",
+      "format": "json"
+    },
+    {
+      "path": "ai/case-analysis-contract.json",
+      "bytes": 1528,
+      "sha256": "cd165a237249712695bf11a68cf521feab5343df752bf0117687e89124c1e78a",
+      "format": "json"
+    },
+    {
+      "path": "ai/citation-grounding-contract.json",
+      "bytes": 1844,
+      "sha256": "95d0d1e00e495c63edeaea5453313ae269001257b34388778cbafb2779951aff",
+      "format": "json"
+    },
+    {
+      "path": "ai/conversation-contract.json",
+      "bytes": 1859,
+      "sha256": "c4a377b7f45178b2c4577baa6ebec47c5d73d34496465f829a63090ff9a31604",
+      "format": "json"
+    },
+    {
+      "path": "ai/legal-answer-contract.json",
+      "bytes": 2327,
+      "sha256": "7e4521e97bdbc3be8c2a89aeab6cb1dce0c13a36b748f9548ffc467940215602",
+      "format": "json"
+    },
+    {
+      "path": "ai/procedure-graph.json",
+      "bytes": 1538,
+      "sha256": "f665c12200ea028d75d57c0163644eaeef98735f0977fd7cfd647906cbb6997e",
+      "format": "json"
+    },
+    {
+      "path": "ai/retrieval-pipeline.json",
+      "bytes": 1412,
+      "sha256": "fc41eb985722d0d3e6c2650bf6f0c976106605c9b25a57416b6841e0562b5c0a",
+      "format": "json"
+    },
+    {
+      "path": "ai/search-result-contract.json",
+      "bytes": 1358,
+      "sha256": "1ff134ffaff2bc085677e96acc736a8139910d504e0c8459947543abe519f6db",
+      "format": "json"
+    },
+    {
+      "path": "ai/treatment-contract.json",
+      "bytes": 799,
+      "sha256": "9f9b309fba5ad9ec252ab085f3c6bad288c986fec570f89de7e328abf5b17d9f",
+      "format": "json"
+    },
+    {
+      "path": "analysis/ai-analysis-policy.json",
+      "bytes": 1289,
+      "sha256": "41c89e3766b4763f4a1c14c6c5457e3c0b52391e3fe63e8dec9fa62ba1f99acf",
+      "format": "json"
+    },
+    {
+      "path": "analysis/argument-record.schema.json",
+      "bytes": 1121,
+      "sha256": "89415c4ae9a5d4db5a2fd1469b09f6c5cb7edbc4b675dec27665073d18cc4495",
+      "format": "json"
+    },
+    {
+      "path": "authorities/family-code-core.json",
+      "bytes": 3151,
+      "sha256": "2081eb85f5d2a94bd95042d764802a2a014871d146c39db05a43fdd8d15a5537",
+      "format": "json"
+    },
+    {
+      "path": "authorities/family-code-priority-sections.json",
+      "bytes": 3894,
+      "sha256": "dfeb8cd14b3123b08b24256bf751f007777f0eaa211e2c2b8c3fb2d481640ec6",
+      "format": "json"
+    },
+    {
+      "path": "authorities/family-code.json",
+      "bytes": 2032,
+      "sha256": "566dd24d9b849bb7f2c39d11dee4cd0db80ddbc6effe865778bb1e02ef828bfa",
+      "format": "json"
+    },
+    {
+      "path": "authorities/family-rules-priority.json",
+      "bytes": 2420,
+      "sha256": "4d77bcdf3269417f68e92ec9ebead1119928b6283ba63ac1a4937e57512c0bb1",
+      "format": "json"
+    },
+    {
+      "path": "authorities/rules-of-court.json",
+      "bytes": 1404,
+      "sha256": "7521ab7109c1a07d618ceb44991209268ab3197c10fcb3b0956ea0400e9c2627",
+      "format": "json"
+    },
+    {
+      "path": "authority-ingestion-plan.json",
+      "bytes": 2517,
+      "sha256": "dfcf1f545ca6f3f3a47a4620fa4286c1467d0cd40411b96133b654f8a93632d3",
+      "format": "json"
+    },
+    {
+      "path": "case-record.schema.json",
+      "bytes": 1494,
+      "sha256": "95cefa889b7f902b7eec423e346101669b583c7a3c2c489bb2916d47daeecb52",
+      "format": "json"
+    },
+    {
+      "path": "cases/case-index.json",
+      "bytes": 2707,
+      "sha256": "50702c48bd95b26169a47930bea587cec7b7897cede3abe4949f92d674c2f0c9",
+      "format": "json"
+    },
+    {
+      "path": "cases/case-ingestion-schema.json",
+      "bytes": 2204,
+      "sha256": "be9b05bbddaec9b4a2303c14d3926ed53a77ab536a56ca7770736a557e9f7af3",
+      "format": "json"
+    },
+    {
+      "path": "cases/initial-case-corpus.json",
+      "bytes": 1219,
+      "sha256": "2ff96095f4acf0764b4babbda4e0f71dd8c644a5e37c33f1f20e7e0dffbc7f3e",
+      "format": "json"
+    },
+    {
+      "path": "cross-reference-matrix.json",
+      "bytes": 1823,
+      "sha256": "db9cf7ba4df3b1783fdebc1fd35c0c39db02b7c3374d3ef423b8b75ba169574b",
+      "format": "json"
+    },
+    {
+      "path": "family-code/priority-sections.json",
+      "bytes": 2517,
+      "sha256": "1f9f9fdc6ed4a0fa3e3efc8efbb2ae2819bb02fe8c80e6c9bbbf105403373463",
+      "format": "json"
+    },
+    {
+      "path": "forms/family-law-core-2026.json",
+      "bytes": 2603,
+      "sha256": "e2f7ecc31a4b7a9556ec71ae51e11916906db99fea9b8cd8b49a8b4f246e49f0",
+      "format": "json"
+    },
+    {
+      "path": "forms/family-law-forms.json",
+      "bytes": 1973,
+      "sha256": "3e082f3846893df228cdfe8496a913f180bc64834b9ee2e18c094b06b02d51fc",
+      "format": "json"
+    },
+    {
+      "path": "import-manifest.json",
+      "bytes": 1607,
+      "sha256": "e0ff51cd4d3d1e2dfff93a0087de5ac53f58ee4ebac2b44b6534bec46a1a42c8",
+      "format": "json"
+    },
+    {
+      "path": "judicial/invitations-to-comment.json",
+      "bytes": 3640,
+      "sha256": "2c7dc8eea7906716dff19c550f6be23dd05a783178149a3d304e11fd10e53e8a",
+      "format": "json"
+    },
+    {
+      "path": "legal/authority-relationship.schema.json",
+      "bytes": 644,
+      "sha256": "173ae3d85e511b8f3f606f335ce2957e4e2b27920355b10a892e801a23c6ddb7",
+      "format": "json"
+    },
+    {
+      "path": "legal/defense-toolkit.records.json",
+      "bytes": 11894,
+      "sha256": "33598a462dc85e3e9f57a7ae13d9452396e0582791c62119085171a3034a2d1e",
+      "format": "json"
+    },
+    {
+      "path": "legal/defense-toolkit.relationships.json",
+      "bytes": 2032,
+      "sha256": "1fa7eedfea73d9ba8a690353cc7eed72f1e2e3902f964805a20471d2278d04b2",
+      "format": "json"
+    },
+    {
+      "path": "legal/defense-toolkit.schema.json",
+      "bytes": 1837,
+      "sha256": "d0c8fed63e4152e17ccfee8d8cf3e2118c438d5a457e6398848dd4b08b2466d3",
+      "format": "json"
+    },
+    {
+      "path": "legislative_history.schema.json",
+      "bytes": 1338,
+      "sha256": "dbc5260680ae7015da8f9df8f78014ab707a0c2ce56f4ad3a136b1e724304dff",
+      "format": "json"
+    },
+    {
+      "path": "live-legal-feed.json",
+      "bytes": 3679,
+      "sha256": "a005382a1aef5007a2535eaf03c97a4f259ef4561e9463fd2ed8c017130a23dc",
+      "format": "json"
+    },
+    {
+      "path": "relationships.json",
+      "bytes": 1264,
+      "sha256": "6dfdd6eeb8bb01d139598c11c3e549ed5677988cdaf027e1095a4363998a8d98",
+      "format": "json"
+    },
+    {
+      "path": "research-manifest.schema.json",
+      "bytes": 1287,
+      "sha256": "e87e04869e0ed8ae0e7e6b90ec5e93a30640a9d3db748363c28fb300393c9427",
+      "format": "json"
+    },
+    {
+      "path": "source-catalog.json",
+      "bytes": 2063,
+      "sha256": "05e62e4d5d1a89e5eab68ca9aa1fa68282a924adb91ac06750f182d9961174ab",
+      "format": "json"
+    },
+    {
+      "path": "source-registry.json",
+      "bytes": 1659,
+      "sha256": "f91b72b65fe02825a1a87b46748ea3fc9e7d31a719b1ff8fe171298f94100d23",
+      "format": "json"
+    }
+  ]
+}

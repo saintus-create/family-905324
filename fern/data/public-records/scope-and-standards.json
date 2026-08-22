@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-22",
+  "program": "Public-records research",
+  "geographic_priority": [
+    {"priority": 1, "area": "Santa Maria, California", "scope": "City agencies and city-controlled public records."},
+    {"priority": 2, "area": "Santa Barbara County, California", "scope": "County agencies and county-controlled public records relevant to the local study area."},
+    {"priority": 3, "area": "Central Coast to Oxnard/Ventura, California", "scope": "Public entities in the adjacent regional corridor; individual agencies are added only after source verification."},
+    {"priority": 4, "area": "California and federal", "scope": "Statewide and federal records only where they identify, fund, regulate, or otherwise directly document the local/regional entities or programs under review."}
+  ],
+  "collection_tracks": [
+    "agency training, policies, and publicly released curricula",
+    "public-agency procurement, contractors, and contract amendments",
+    "publicly disclosed claims, settlements, judgments, and payouts",
+    "federal, state, and local grants, awards, appropriations, and funding flows, including VAWA-related programs when the official record supports that classification"
+  ],
+  "evidence_rules": [
+    "Use primary public records or official government datasets as the record of fact whenever available.",
+    "Retain the source URL, publisher, retrieval time, record identifier, and a content hash or archived file reference when lawfully obtainable.",
+    "Separate an agency's statement, an award record, a contract record, and an independently verified payment record; do not treat one as proof of another.",
+    "Do not infer a relationship, misconduct, funding purpose, contractor role, or payment outcome from shared names, locations, or timing alone.",
+    "Do not collect private personal information, victim information, protected personnel information, sealed material, or content unavailable to the general public.",
+    "Mark unverified leads as leads; they are not evidence records and must not be presented as findings.",
+    "Record explicit scope limits, missing periods, and known source limitations with each dataset."
+  ],
+  "out_of_scope": [
+    "Unverified allegations and unsupported connections",
+    "Private, sensitive, sealed, or otherwise nonpublic personal data",
+    "Attempts to obtain nonpublic systems, credentials, or restricted records",
+    "Conclusions about individual or organizational liability absent a cited public record establishing that conclusion"
+  ],
+  "collection_status": "foundation-only; no public-record claim dataset has been populated by this file"
+}
