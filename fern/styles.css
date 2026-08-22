@@ -205,7 +205,7 @@ body,
   color: var(--research-muted);
 }
 
-.fern-page-content a:not(.research-button):not(.research-library-card) {
+.fern-page-content a:not(.research-button):not(.research-card) {
   color: var(--research-blue);
 }
 
@@ -441,93 +441,75 @@ body,
   line-height: 1.55;
 }
 
-.research-landing__card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
+/* Strict three-size card scale. Use only these variants for authored card groups. */
+:root {
+  --research-card-small: 12rem;
+  --research-card-medium: 17rem;
+  --research-card-large: 24rem;
+  --research-card-padding: 1.5rem;
 }
 
-.research-library-card {
+.research-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 1.5rem;
+  overflow: hidden;
+  border: 1px solid var(--research-rule);
+  border-radius: 12px;
+  background: var(--research-rule);
+}
+
+.research-card {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 17.25rem;
-  padding: 1.5rem;
-  overflow: hidden;
-  border: 1px solid var(--research-rule);
-  border-radius: 14px;
+  min-height: var(--research-card-medium);
+  padding: var(--research-card-padding);
   background: var(--research-surface);
   color: var(--research-ink) !important;
   text-decoration: none !important;
-  transition: border-color 160ms ease, background-color 160ms ease, transform 200ms var(--page-ease);
+  transition: background-color 160ms ease, color 160ms ease;
 }
 
-.research-library-card::after {
-  position: absolute;
-  right: -18%;
-  bottom: -56%;
-  width: 120%;
-  height: 62%;
-  border: 1px solid rgba(255,255,255,.12);
-  border-radius: 50% 50% 0 0;
-  content: "";
-  opacity: .6;
-  transform: rotate(-7deg);
-  transition: border-color 180ms ease, transform 300ms var(--page-ease);
-}
-
-.research-library-card:hover {
-  border-color: #4a4a4a;
+.research-card:hover {
   background: var(--research-surface-raised);
-  transform: translateY(-2px);
 }
 
-.research-library-card:hover::after {
-  border-color: rgba(50,145,255,.7);
-  transform: translate(-2%, -3%) rotate(-7deg);
-}
+.research-card--small { min-height: var(--research-card-small); }
+.research-card--medium { min-height: var(--research-card-medium); }
+.research-card--large { min-height: var(--research-card-large); }
 
-.research-library-card__number {
+.research-card__number {
   color: var(--research-faint);
   font-size: .72rem;
   font-variant-numeric: tabular-nums;
 }
 
-.research-library-card h3 {
-  position: relative;
-  z-index: 1;
-  max-width: 15rem;
-  font-size: clamp(1.28rem, 1.85vw, 1.65rem);
-  font-weight: 500;
+.research-card h3 {
+  max-width: 17rem;
+  font-size: 1.38rem;
+  font-weight: 510;
   letter-spacing: -.045em !important;
   line-height: 1.08;
 }
 
-.research-library-card p {
-  position: relative;
-  z-index: 1;
-  max-width: 17rem;
-  margin: .75rem 0 0;
+.research-card p {
+  max-width: 18rem;
+  margin: .72rem 0 0;
   color: var(--research-muted);
-  font-size: .88rem;
+  font-size: .9rem;
   letter-spacing: -.018em;
   line-height: 1.48;
 }
 
-.research-library-card__arrow {
+.research-card__arrow {
   position: absolute;
-  z-index: 1;
+  top: 1.3rem;
   right: 1.4rem;
-  top: 1.25rem;
   color: var(--research-blue);
   font-size: 1.1rem;
-  transition: transform 180ms var(--page-ease);
-}
-
-.research-library-card:hover .research-library-card__arrow {
-  transform: translate(3px, -3px);
 }
 
 .research-landing__closing {
@@ -626,7 +608,7 @@ body,
     padding: 0 1.45rem;
   }
 
-  .research-library-card {
+  .fern-card {
     min-height: 15.5rem;
   }
 
@@ -637,9 +619,179 @@ body,
 
 @media (prefers-reduced-motion: reduce) {
   .research-button,
-  .research-library-card,
-  .research-library-card::after,
-  .research-library-card__arrow {
+  .research-card {
     transition: none;
   }
+}
+
+
+
+/* Visual stability patch: one dark shell, one grid system, and no duplicate homepage chrome. */
+html.dark,
+html.dark body,
+html.dark #fern-docs,
+html.dark header,
+html.dark .fern-main,
+html.dark .fern-layout-guide,
+html.dark .fern-layout-reference {
+  background-color: #000 !important;
+  color: var(--research-ink);
+}
+
+html.dark header {
+  border-bottom: 1px solid var(--research-rule);
+  background-image: none !important;
+}
+
+/* Homepage owns its title; hide Fern's generated title row only on this page. */
+.fern-layout-guide:has(.research-landing) .fern-page-heading,
+.fern-layout-reference:has(.research-landing) .fern-page-heading {
+  display: none;
+}
+
+.fern-layout-guide:has(.research-landing) article,
+.fern-layout-reference:has(.research-landing) article {
+  width: 100%;
+  max-width: none;
+}
+
+.fern-layout-guide:has(.research-landing) .fern-prose,
+.fern-layout-reference:has(.research-landing) .fern-prose {
+  max-width: none;
+}
+
+.research-landing {
+  width: min(100% - 3rem, 76rem);
+  margin: 0 auto;
+}
+
+.research-home__hero {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1rem;
+  padding: clamp(4.5rem, 10vw, 9rem) 0 clamp(4rem, 8vw, 7rem);
+  border-bottom: 1px solid var(--research-rule);
+}
+
+.research-home__eyebrow {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--research-muted);
+  font-size: .75rem;
+  font-weight: 500;
+  letter-spacing: -.01em;
+}
+
+.research-home__hero h1 {
+  grid-column: 1 / span 9;
+  max-width: 58rem;
+  font-size: clamp(3.5rem, 8.1vw, 7.4rem);
+  font-weight: 520;
+  letter-spacing: -.085em !important;
+  line-height: .89;
+}
+
+.research-home__lede {
+  grid-column: 1 / span 6;
+  max-width: 34rem;
+  margin: .15rem 0 0;
+  color: var(--research-muted);
+  font-size: 1.05rem;
+  letter-spacing: -.025em;
+  line-height: 1.55;
+}
+
+.research-home__actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: .9rem;
+}
+
+.research-home__library {
+  padding: clamp(4rem, 9vw, 8rem) 0 0;
+}
+
+.research-home__section-heading {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: end;
+  padding-bottom: 2rem;
+}
+
+.research-home__section-heading .research-home__eyebrow {
+  grid-column: 1 / -1;
+}
+
+.research-home__section-heading h2 {
+  grid-column: 1 / span 6;
+  max-width: 38rem;
+  font-size: clamp(2.35rem, 5vw, 4.75rem);
+  font-weight: 520;
+  letter-spacing: -.075em !important;
+  line-height: .94;
+}
+
+.research-home__section-heading > p:last-child {
+  grid-column: 8 / span 5;
+  max-width: 28rem;
+  margin: 0;
+  color: var(--research-muted);
+  font-size: 1rem;
+  letter-spacing: -.02em;
+  line-height: 1.55;
+}
+
+/* Preserve only three predictable card footprints across shared grids. */
+.page-grid,
+.research-card-grid {
+  --grid-gap: 1px;
+  gap: var(--grid-gap);
+  border-color: var(--research-rule);
+  border-radius: 12px;
+  background: var(--research-rule);
+}
+
+.page-grid > *,
+.research-card {
+  border: 0;
+  border-radius: 0;
+  background: var(--research-surface);
+}
+
+.page-grid > *,
+.research-card--medium {
+  min-height: var(--research-card-medium);
+}
+
+.page-grid--callouts > *,
+.research-card--small {
+  min-height: var(--research-card-small);
+}
+
+.research-card--large {
+  min-height: var(--research-card-large);
+}
+
+@media (max-width: 900px) {
+  .research-home__hero h1 { grid-column: 1 / -1; }
+  .research-home__lede { grid-column: 1 / span 8; }
+  .research-home__section-heading h2 { grid-column: 1 / span 8; }
+  .research-home__section-heading > p:last-child { grid-column: 1 / span 8; margin-top: .4rem; }
+  .research-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  .research-landing { width: min(100% - 2.25rem, 76rem); }
+  .research-home__hero { padding: 4.25rem 0 4rem; }
+  .research-home__hero h1 { font-size: clamp(3.15rem, 15vw, 4.9rem); }
+  .research-home__lede,
+  .research-home__section-heading h2,
+  .research-home__section-heading > p:last-child { grid-column: 1 / -1; }
+  .research-home__section-heading h2 { font-size: clamp(2.45rem, 12vw, 3.8rem); }
+  .research-home__section-heading > p:last-child { margin-top: .25rem; }
+  .research-card-grid { grid-template-columns: 1fr; }
+  .research-card--medium { min-height: var(--research-card-medium); }
 }

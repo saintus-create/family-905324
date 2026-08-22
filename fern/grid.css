@@ -1,6 +1,6 @@
 :root {
   --grid-gap: 1px;
-  --grid-card-min-height: 12rem;
+  --grid-card-min-height: var(--research-card-medium, 17rem);
   --grid-card-padding: 1.35rem;
   --grid-max-copy: 34rem;
 }
@@ -73,7 +73,7 @@
 
 /* Keep callouts visually identical when authored as a grid row. */
 .page-grid--callouts > * {
-  min-height: 10.5rem;
+  min-height: var(--research-card-small, 12rem);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -92,7 +92,8 @@
 }
 
 .page-grid__card[data-balance="strict"] {
-  max-height: 22rem;
+  min-height: var(--research-card-medium, 17rem);
+  max-height: var(--research-card-medium, 17rem);
   overflow: hidden;
 }
 
@@ -123,7 +124,7 @@
   }
 
   .page-grid > * {
-    min-height: 0;
+    min-height: var(--grid-card-min-height);
   }
 }
 

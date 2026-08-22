@@ -1,4 +1,10 @@
 (() => {
+  // This project uses one deliberate dark visual mode; avoid Fern rendering a light shell around dark content.
+  const documentRoot = document.documentElement;
+  documentRoot.classList.remove('light');
+  documentRoot.classList.add('dark');
+  documentRoot.style.colorScheme = 'dark';
+
   const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
 
   const initNews = () => {
@@ -9,7 +15,6 @@
     const feed = 'https://raw.githubusercontent.com/saintus-create/family-905324/main/fern/data/live-legal-feed.json';
     const fallback = [
       { title: 'California Courts', source: 'Courts', url: 'https://courts.ca.gov/' },
-      { title: 'California Legislative Information', source: 'Legislation', url: 'https://leginfo.legislature.ca.gov/' },
       { title: 'California Family Code', source: 'Family law', url: '/family-code-overview' },
       { title: 'Research Workbench', source: 'Research', url: '/research-workbench' }
     ];
