@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "california_post_training-landing",
+  "source_id": "california_post_training",
+  "publisher": "California Commission on Peace Officer Standards and Training",
+  "url": "https://post.ca.gov/Training",
+  "retrieved_at": "2026-08-22T16:23:43Z",
+  "content_type": "text/html",
+  "bytes": 24267,
+  "sha256": "e8786882bc1cbd05ae994fa3343fc4df89b115c2a28455dbcb4bd9f35bde3b88",
+  "request": null,
+  "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+}

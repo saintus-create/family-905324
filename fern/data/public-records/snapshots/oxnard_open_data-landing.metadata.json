@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "oxnard_open_data-landing",
+  "source_id": "oxnard_open_data",
+  "publisher": "City of Oxnard",
+  "url": "https://data.oxnard.org/",
+  "retrieved_at": "2026-08-22T16:23:42Z",
+  "content_type": "text/html",
+  "bytes": 60618,
+  "sha256": "f8326cb14c6890e9c951131b99385313080d127d09c73496d68e12d9e964b722",
+  "request": null,
+  "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+}

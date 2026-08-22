@@ -1,0 +1,53 @@
+{
+  "snapshot_id": "usaspending-santa-barbara-grants-2020-2026",
+  "source_id": "usaspending_santa_barbara_grant_discovery",
+  "publisher": "U.S. Department of the Treasury",
+  "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+  "retrieved_at": "2026-08-22T16:23:43Z",
+  "content_type": "application/json",
+  "bytes": 96583,
+  "sha256": "1c8829ed4ee199a8e466ef54b725b9730a72c64e6cbc2e7e70fe1d0048315a1f",
+  "request": {
+    "method": "POST",
+    "payload": {
+      "filters": {
+        "time_period": [
+          {
+            "start_date": "2020-01-01",
+            "end_date": "2026-08-22"
+          }
+        ],
+        "place_of_performance_locations": [
+          {
+            "country": "USA",
+            "state": "CA",
+            "county": "083"
+          }
+        ],
+        "award_type_codes": [
+          "02",
+          "03",
+          "04",
+          "05"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Awarding Agency",
+        "Award Amount",
+        "Description",
+        "Start Date",
+        "End Date",
+        "Place of Performance City Code",
+        "Place of Performance State Code"
+      ],
+      "page": 1,
+      "limit": 100,
+      "sort": "Award Amount",
+      "order": "desc",
+      "subawards": false
+    }
+  },
+  "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+}

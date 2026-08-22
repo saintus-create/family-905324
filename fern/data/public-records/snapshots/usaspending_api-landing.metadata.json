@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "usaspending_api-landing",
+  "source_id": "usaspending_api",
+  "publisher": "U.S. Department of the Treasury",
+  "url": "https://api.usaspending.gov/",
+  "retrieved_at": "2026-08-22T16:23:43Z",
+  "content_type": "text/html",
+  "bytes": 5162,
+  "sha256": "1f8f746442b8794fa351759628917f8bed3bc9f85913bc8d3caead02afe5a4f0",
+  "request": null,
+  "scope_note": "Raw public-source snapshot. Presence is not a finding and does not establish a relationship, award, payment, or allegation."
+}
