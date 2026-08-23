@@ -1087,3 +1087,30 @@ html:not(.dark) .accountability-page .research-landing__instrument { color-schem
 .itc-resources { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.25rem 0 2rem; }
 .fern-page-content .itc-resources a { display: inline-flex; align-items: center; min-height: 2.35rem; padding: 0 .8rem; border: 1px solid var(--border); border-radius: 999px; background: var(--card-background); color: var(--accent-11); font-size: .75rem; font-weight: 600; line-height: 1; text-decoration: none; }
 .fern-page-content .itc-resources a:hover { border-color: var(--accent); background: var(--accent-a3); }
+
+/* Dark mode depth: an ink-black surface with restrained ambient color, not flat pure black. */
+html.dark,
+html.dark body,
+html.dark #fern-docs,
+html.dark .fern-layout-page,
+html.dark .fern-main {
+  background-color: #09090c !important;
+  background-image:
+    radial-gradient(60rem 42rem at 96% -12%, rgba(88, 40, 92, .20), transparent 58%),
+    radial-gradient(46rem 36rem at -12% 38%, rgba(18, 59, 91, .15), transparent 59%);
+  background-attachment: fixed;
+}
+
+html.dark header {
+  background: rgba(9, 9, 12, .78) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(125%);
+  backdrop-filter: blur(18px) saturate(125%);
+}
+
+html.dark .fern-page-content,
+html.dark .fern-layout-reference,
+html.dark .fern-layout-guide { background: transparent; }
+
+@media (prefers-reduced-transparency: reduce) {
+  html.dark header { background: #09090c !important; -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
