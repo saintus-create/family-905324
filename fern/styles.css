@@ -1114,3 +1114,11 @@ html.dark .fern-layout-guide { background: transparent; }
 @media (prefers-reduced-transparency: reduce) {
   html.dark header { background: #09090c !important; -webkit-backdrop-filter: none; backdrop-filter: none; }
 }
+
+/* USWDS component integration: Base typography supplies roles; USWDS supplies
+   the official alert, tag, and action component semantics. */
+.fern-page-content .itc-uswds-alert { margin: 2rem 0 3rem; }
+.fern-page-content .itc-uswds-alert .usa-alert__heading { margin: 0 0 .5rem; font: 700 var(--base-heading-xsmall) var(--base-font-display); }
+.fern-page-content .itc-uswds-alert .usa-alert__text { margin: 0; font: 400 var(--base-paragraph-medium) var(--base-font-text); }
+.fern-page-content .itc-badges .usa-tag { display: inline-flex; align-items: center; margin: 0; text-transform: none; }
+.fern-page-content .itc-actions .usa-button { margin: 0; }
