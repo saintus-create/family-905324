@@ -987,3 +987,33 @@ html:not(.dark) .accountability-page .research-landing__instrument { color-schem
   outline: .25rem solid #2491ff;
   outline-offset: .2rem;
 }
+
+/* Header search and AI entry point: clearer hierarchy, larger touch targets. */
+.fern-header-content .fern-header-search-bar {
+  min-height: 2.9rem;
+  border-color: var(--border) !important;
+  border-radius: .7rem;
+  font-size: .9rem;
+}
+
+#fern-ask-ai-button {
+  min-height: 2.9rem;
+  padding: 0 1rem;
+  border: 1px solid var(--accent) !important;
+  border-radius: .7rem;
+  background: var(--accent) !important;
+  color: #fff !important;
+  font-size: .86rem;
+  font-weight: 650;
+}
+
+#fern-ask-ai-button:hover { filter: brightness(1.08); }
+#fern-ask-ai-button svg { fill: currentColor !important; }
+
+@media (max-width: 640px) {
+  .fern-header-content .fern-header-search-bar { min-height: 2.75rem; }
+  #fern-ask-ai-button { width: 2.75rem; min-width: 2.75rem; padding: 0; justify-content: center; }
+  #fern-ask-ai-button .fern-button-text { display: none; }
+  #fern-ask-ai-button::after { content: 'AI'; color: #fff; font-size: .68rem; font-weight: 750; letter-spacing: -.04em; }
+  #fern-ask-ai-button svg { display: none; }
+}
