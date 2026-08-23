@@ -1017,3 +1017,19 @@ html:not(.dark) .accountability-page .research-landing__instrument { color-schem
   #fern-ask-ai-button::after { content: 'AI'; color: #fff; font-size: .68rem; font-weight: 750; letter-spacing: -.04em; }
   #fern-ask-ai-button svg { display: none; }
 }
+
+/* AI is an initialism: use AI, not Ai or A.I. Keep mobile controls on one scale. */
+@media (max-width: 640px) {
+  .fern-header-mobile-menu-button > button {
+    width: 2.75rem !important;
+    height: 2.75rem !important;
+    min-width: 2.75rem !important;
+    min-height: 2.75rem !important;
+    border: 1px solid var(--border);
+    border-radius: .7rem !important;
+  }
+
+  .fern-header-content {
+    gap: .5rem;
+  }
+}
