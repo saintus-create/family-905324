@@ -1068,3 +1068,11 @@ html:not(.dark) .accountability-page .research-landing__instrument { color-schem
   }
   .fern-header-mobile-menu-button > button svg { width: 1.3rem; height: 1.3rem; }
 }
+
+/* Invitations-to-comment actions use compact badges, not underlined link runs. */
+.itc-actions { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.5rem 0 2.25rem; }
+.fern-page-content .itc-actions a { display: inline-flex; align-items: center; min-height: 2.35rem; padding: 0 .8rem; border: 1px solid var(--border); border-radius: 999px; background: var(--card-background); color: var(--grayscale-a11); font-size: .75rem; font-weight: 600; line-height: 1; text-decoration: none; }
+.fern-page-content .itc-actions a:hover { border-color: var(--accent); background: var(--accent-a3); color: var(--accent-11); }
+.fern-page-content .itc-actions .itc-actions__primary { border-color: var(--accent); background: var(--accent); color: #fff; }
+.fern-page-content .itc-actions .itc-actions__primary:hover { filter: brightness(1.08); color: #fff; }
+@media (max-width: 640px) { .itc-actions { gap: .5rem; } .fern-page-content .itc-actions a { min-height: 2.55rem; padding: 0 .9rem; } }
