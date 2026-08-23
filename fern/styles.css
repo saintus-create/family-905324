@@ -1160,3 +1160,8 @@ html.dark .fern-layout-guide { background: transparent; }
 
 /* Standalone actions are pills, not body links. */
 .fern-page-content .proposal-actions a { border-radius: 999px; padding-inline: 1rem; }
+
+/* Links do not underline in any state. Action links communicate through pill shape. */
+.fern-page-content a:hover,
+.fern-page-content p a:hover,
+.fern-page-content li a:hover { text-decoration: none; }
