@@ -1,0 +1,3 @@
+[submodule "vendor/baseweb"]
+	path = vendor/baseweb
+	url = https://github.com/uber/baseweb.git
