@@ -1,0 +1,18 @@
+{
+  "system": "Uber Base",
+  "source": "User-provided Base Typography documentation",
+  "principles": ["Go big", "Less is more", "Simple semantics"],
+  "roles": ["Display", "Heading", "Label", "Paragraph"],
+  "base_font_size_px": 14,
+  "modular_scale_ratio": 1.125,
+  "baseline_grid_px": 4,
+  "line_height_rule": "font size multiplied by 1.45, rounded to the nearest 4px interval",
+  "fonts": {"display": "Uber Move (700)", "text_regular": "Uber Move Text (400)", "text_label": "Uber Move Text (500)", "mono": "Uber Move Mono"},
+  "display": {"xsmall": [36, 44], "small": [44, 52], "medium": [52, 64], "large": [96, 112]},
+  "heading": {"xsmall": [20, 28], "small": [24, 32], "medium": [28, 36], "large": [32, 40], "xlarge": [36, 44], "xxlarge": [40, 52]},
+  "label": {"xsmall": [12, 16], "small": [14, 16], "medium": [16, 20], "large": [18, 24]},
+  "paragraph": {"xsmall": [12, 20], "small": [14, 20], "medium": [16, 24], "large": [18, 28]},
+  "mono_use": "Use for isolated numeric metrics, amounts, codes, and data-intensive views; do not use for nominal identifiers such as addresses or phone numbers.",
+  "link_rule": "Embedded links in body text retain an underline; standalone actions use a link or button below the paragraph.",
+  "accessibility": "Text used as a heading must expose the appropriate heading role/trait for screen-reader navigation."
+}
