@@ -1140,3 +1140,13 @@ html.dark .fern-layout-guide { background: transparent; }
 .site-breadcrumbs b { color: var(--grayscale-a7); font-weight: 400; }
 .site-breadcrumbs span[aria-current="page"] { color: var(--grayscale-a10); }
 @media (max-width: 640px) { .site-breadcrumbs { margin-bottom: 1rem; } .fern-page-heading h1 { font-size: var(--base-heading-xlarge) !important; line-height: 1.22 !important; } }
+
+/* Proposal records: source fields and actions, without prose callouts or body-link styling. */
+.proposal-record { display: grid; gap: 1rem; margin: 1.5rem 0 2.5rem; padding: 1.25rem 0; border-block: 1px solid var(--border); }
+.proposal-record > div:not(.proposal-actions) { display: grid; gap: .25rem; }
+.proposal-record span { color: var(--grayscale-a9); font: 500 var(--base-label-small) var(--base-font-text); }
+.proposal-record strong { color: var(--grayscale-a12); font: 500 var(--base-paragraph-medium) var(--base-font-text); }
+.proposal-actions { display: flex; flex-wrap: wrap; gap: .5rem; padding-top: .25rem; }
+.fern-page-content .proposal-actions a { display: inline-flex; align-items: center; min-height: 2.5rem; padding: 0 .9rem; border: 1px solid var(--border); border-radius: .5rem; background: var(--card-background); color: var(--grayscale-a12); font: 500 var(--base-label-small) var(--base-font-text); text-decoration: none; }
+.fern-page-content .proposal-actions a:hover { border-color: var(--accent); background: var(--accent-a3); }
+.proposal-actions .external-link-icon { display: none; }
