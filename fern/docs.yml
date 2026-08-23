@@ -28,66 +28,22 @@ colors:
   card-background: "#0A0A0A"
 tabs:
   home:
-    display-name: Home
+    display-name: Library
     icon: home
-  law:
-    display-name: Law
-    icon: fa-regular fa-scale-balanced
-  legislation:
-    display-name: Legislation
-    icon: fa-regular fa-landmark
-  people:
-    display-name: People & Institutions
-    icon: fa-regular fa-users
-  public_records:
-    display-name: Public Records
-    icon: fa-regular fa-building
-  changelog:
-    display-name: Changelog
-    icon: fa-regular fa-clock
 navigation:
 - tab: home
   layout:
   - page: Home
     path: ./docs/pages/welcome.mdx
     icon: home
-  - page: Family Code
-    path: ./docs/pages/family-code-overview.mdx
-    icon: fa-regular fa-book-open
-  - page: Court Rules
-    path: ./docs/pages/court-rules-overview.mdx
-    icon: fa-regular fa-scale-balanced
   - page: Case Law
     path: ./docs/pages/case-law.mdx
     icon: fa-regular fa-gavel
-  - page: California Bills and Measures
-    path: ./docs/pages/bills-and-measures.mdx
-    icon: fa-regular fa-file-lines
-  - page: Invitations to Comment
-    path: ./docs/pages/invitations-to-comment.mdx
-    icon: fa-regular fa-comments
-  - page: Public Records
-    path: ./docs/pages/public-records.mdx
-    icon: fa-regular fa-building
-- tab: law
-  layout:
-  - page: Family Code Overview
-    path: ./docs/pages/family-code-overview.mdx
-    icon: fa-regular fa-book-open
-  - page: Court Rules Overview
-    path: ./docs/pages/court-rules-overview.mdx
-    icon: fa-regular fa-scale-balanced
-  - page: Defense Toolkit
-    path: ./docs/pages/defense-toolkit.mdx
-    slug: defense-toolkit
-    icon: fa-regular fa-shield-halved
-  - page: Defense Authority Graph
-    path: ./docs/pages/defense-toolkit-relationships.mdx
-    slug: defense-toolkit-relationships
-    icon: fa-regular fa-diagram-project
   - section: Family Code
     collapsed: true
     contents:
+    - page: Family Code Overview
+      path: ./docs/pages/family-code-overview.mdx
     - page: Division 1
       path: ./docs/pages/division-1.mdx
     - page: Division 2
@@ -122,9 +78,11 @@ navigation:
       path: ./docs/pages/division-17.mdx
     - page: Division 20
       path: ./docs/pages/division-20.mdx
-  - section: California Rules of Court
+  - section: Court Rules
     collapsed: true
     contents:
+    - page: Court Rules Overview
+      path: ./docs/pages/court-rules-overview.mdx
     - page: Title One
       path: ./docs/pages/title-1.mdx
     - page: Title Two
@@ -145,60 +103,29 @@ navigation:
       path: ./docs/pages/title-9.mdx
     - page: Title Ten
       path: ./docs/pages/title-10.mdx
-- tab: legislation
-  layout:
-  - page: Legislation & Legislative History
-    path: ./docs/pages/legislation.mdx
-    icon: fa-regular fa-landmark
-  - page: California Bills and Measures
-    path: ./docs/pages/bills-and-measures.mdx
-    icon: fa-regular fa-file-lines
-  - section: Invitations to Comment
-    collapsed: false
+  - section: Legislation
+    collapsed: true
     contents:
-    - page: Active proposals
+    - page: California Bills and Measures
+      path: ./docs/pages/bills-and-measures.mdx
+    - page: Invitations to Comment
       path: ./docs/pages/invitations-to-comment.mdx
-      icon: fa-regular fa-comments
     - page: SP26-05 — Court interpreters
       path: ./docs/pages/invitations-to-comment/sp26-05.mdx
-      icon: fa-regular fa-file-lines
     - page: CACI26-02 — Civil jury instructions
       path: ./docs/pages/invitations-to-comment/caci26-02.mdx
-      icon: fa-regular fa-file-lines
-- tab: people
-  layout:
-  - page: People & Institutions
-    path: ./docs/pages/people-institutions.mdx
-    icon: fa-regular fa-users
-- tab: public_records
-  layout:
-  - page: Public Records Overview
-    path: ./docs/pages/public-records.mdx
-    icon: fa-regular fa-building
-  - section: Law Enforcement
-    collapsed: false
+  - section: Public Records
+    collapsed: true
     contents:
+    - page: Public Records
+      path: ./docs/pages/public-records.mdx
     - page: Police & Sheriff Agencies
       path: ./docs/pages/police-agencies.mdx
-      icon: fa-regular fa-building-shield
     - page: POST Training & Certification
       path: ./docs/pages/post-training.mdx
-      icon: fa-regular fa-graduation-cap
-  - section: Contractors & Vendors
-    collapsed: false
-    contents:
     - page: Public Safety Contractors
       path: ./docs/pages/contractors.mdx
-      icon: fa-regular fa-handshake
-  - section: Funding & Payouts
-    collapsed: false
-    contents:
-    - page: Grants & Allocations (VAWA, etc.)
+    - page: Grants & Allocations
       path: ./docs/pages/funding-grants.mdx
-      icon: fa-regular fa-money-bill-wave
     - page: Civil Settlements & Judgments
       path: ./docs/pages/civil-payouts.mdx
-      icon: fa-regular fa-gavel
-- tab: changelog
-  layout:
-  - changelog: ./changelog
