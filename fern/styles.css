@@ -1122,3 +1122,11 @@ html.dark .fern-layout-guide { background: transparent; }
 .fern-page-content .itc-uswds-alert .usa-alert__text { margin: 0; font: 400 var(--base-paragraph-medium) var(--base-font-text); }
 .fern-page-content .itc-badges .usa-tag { display: inline-flex; align-items: center; margin: 0; text-transform: none; }
 .fern-page-content .itc-actions .usa-button { margin: 0; }
+
+/* USWDS-style site-status banner. It deliberately states the site's status
+   instead of suggesting a government affiliation. */
+.research-site-banner { position: relative; z-index: 60; border-bottom: 1px solid var(--border); background: var(--background-secondary, #1b1b1b); color: var(--content-primary, #fff); }
+.research-site-banner .usa-banner__inner { display: flex; max-width: 76rem; min-height: 2rem; margin: 0 auto; padding: .35rem 1.5rem; align-items: center; }
+.research-site-banner .usa-banner__header-text p { margin: 0; color: inherit; font: 400 var(--base-label-xsmall) var(--base-font-text); }
+.research-site-banner .usa-banner__header-text strong { font-weight: 600; }
+@media (max-width: 640px) { .research-site-banner .usa-banner__inner { min-height: 2.5rem; padding: .45rem 1.25rem; } }

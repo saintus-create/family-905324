@@ -42,8 +42,20 @@
     fetch(root.dataset.source, { headers: { Accept: 'application/json' } }).then((response) => response.ok ? response.json() : Promise.reject(new Error(`HTTP ${response.status}`))).then((data) => { records = Array.isArray(data.records) ? data.records : []; addOptions(type, records.map((record) => record.measure_type)); addOptions(author, records.map((record) => record.author)); const setStat = (selector, value) => { const element = root.querySelector(selector); if (element) element.textContent = Number(value || 0).toLocaleString(); }; setStat('[data-bill-total]', data.counts?.total); setStat('[data-bill-assembly]', data.counts?.assembly); setStat('[data-bill-senate]', data.counts?.senate); setStat('[data-bill-family]', data.counts?.family_law_matches); if (updated && data.retrieved_at) updated.textContent = `Official index retrieved ${new Date(data.retrieved_at).toLocaleString()}`; render(); }).catch(() => { if (count) count.textContent = 'Bill catalog unavailable'; if (error) error.hidden = false; });
   };
 
-  const start = () => { initBillCatalog(); };
+  const initSiteBanner = () => {
+    if (document.getElementById('site-status-banner')) return;
+    const header = document.querySelector('header');
+    if (!header) return;
+    const banner = document.createElement('section');
+    banner.id = 'site-status-banner';
+    banner.className = 'usa-banner research-site-banner';
+    banner.setAttribute('aria-label', 'Site status');
+    banner.innerHTML = '<div class="usa-banner__inner"><div class="usa-banner__header-text"><p><strong>Independent public-interest research site.</strong> Not an official website of the United States government.</p></div></div>';
+    header.parentNode?.insertBefore(banner, header);
+  };
+
+  const start = () => { initSiteBanner(); initBillCatalog(); };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true }); else start();
   let refreshQueued = false;
-  new MutationObserver(() => { if (refreshQueued) return; refreshQueued = true; requestAnimationFrame(() => { refreshQueued = false; initBillCatalog(); }); }).observe(document.documentElement, { childList: true, subtree: true });
+  new MutationObserver(() => { if (refreshQueued) return; refreshQueued = true; requestAnimationFrame(() => { refreshQueued = false; initSiteBanner(); initBillCatalog(); }); }).observe(document.documentElement, { childList: true, subtree: true });
 })();
