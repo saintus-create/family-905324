@@ -1033,3 +1033,19 @@ html:not(.dark) .accountability-page .research-landing__instrument { color-schem
     gap: .5rem;
   }
 }
+
+/* Search opens a dialog; present it as the matching icon control, not a faux input. */
+.fern-header-content .fern-header-search-bar {
+  width: 2.9rem;
+  min-width: 2.9rem;
+  flex: 0 0 2.9rem;
+  padding: 0;
+  justify-content: center;
+}
+
+.fern-header-content .fern-header-search-bar > :not(svg) { display: none; }
+.fern-header-content .fern-header-search-bar svg { width: 1.1rem; height: 1.1rem; }
+
+@media (max-width: 640px) {
+  .fern-header-content .fern-header-search-bar { width: 2.75rem; min-width: 2.75rem; flex-basis: 2.75rem; }
+}
