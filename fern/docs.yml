@@ -51,15 +51,24 @@ navigation:
   - page: Home
     path: ./docs/pages/welcome.mdx
     icon: home
-  - page: Case Law
-    path: ./docs/pages/case-law.mdx
-    icon: fa-regular fa-gavel
   - page: Family Code
     path: ./docs/pages/family-code-overview.mdx
     icon: fa-regular fa-book-open
   - page: Court Rules
     path: ./docs/pages/court-rules-overview.mdx
     icon: fa-regular fa-scale-balanced
+  - page: Case Law
+    path: ./docs/pages/case-law.mdx
+    icon: fa-regular fa-gavel
+  - page: California Bills and Measures
+    path: ./docs/pages/bills-and-measures.mdx
+    icon: fa-regular fa-file-lines
+  - page: Invitations to Comment
+    path: ./docs/pages/invitations-to-comment.mdx
+    icon: fa-regular fa-comments
+  - page: Public Records
+    path: ./docs/pages/public-records.mdx
+    icon: fa-regular fa-building
 - tab: law
   layout:
   - page: Family Code Overview
