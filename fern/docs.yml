@@ -54,6 +54,12 @@ navigation:
   - page: Case Law
     path: ./docs/pages/case-law.mdx
     icon: fa-regular fa-gavel
+  - page: Family Code
+    path: ./docs/pages/family-code-overview.mdx
+    icon: fa-regular fa-book-open
+  - page: Court Rules
+    path: ./docs/pages/court-rules-overview.mdx
+    icon: fa-regular fa-scale-balanced
 - tab: law
   layout:
   - page: Family Code Overview
