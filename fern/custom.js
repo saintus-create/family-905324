@@ -42,6 +42,29 @@
     fetch(root.dataset.source, { headers: { Accept: 'application/json' } }).then((response) => response.ok ? response.json() : Promise.reject(new Error(`HTTP ${response.status}`))).then((data) => { records = Array.isArray(data.records) ? data.records : []; addOptions(type, records.map((record) => record.measure_type)); addOptions(author, records.map((record) => record.author)); const setStat = (selector, value) => { const element = root.querySelector(selector); if (element) element.textContent = Number(value || 0).toLocaleString(); }; setStat('[data-bill-total]', data.counts?.total); setStat('[data-bill-assembly]', data.counts?.assembly); setStat('[data-bill-senate]', data.counts?.senate); setStat('[data-bill-family]', data.counts?.family_law_matches); if (updated && data.retrieved_at) updated.textContent = `Official index retrieved ${new Date(data.retrieved_at).toLocaleString()}`; render(); }).catch(() => { if (count) count.textContent = 'Bill catalog unavailable'; if (error) error.hidden = false; });
   };
 
+  const breadcrumbItems = () => {
+    const path = window.location.pathname.replace(/\/$/, '') || '/';
+    const library = { label: 'Library', href: '/' };
+    if (path === '/') return [library];
+    if (path === '/case-law') return [library, { label: 'Case Law' }];
+    if (path === '/family-code-overview' || path.startsWith('/division-')) return [library, { label: 'Family Code', href: '/family-code-overview' }, { label: path === '/family-code-overview' ? 'Overview' : path.slice(1).replaceAll('-', ' ') }];
+    if (path === '/court-rules-overview' || path.startsWith('/title-')) return [library, { label: 'Court Rules', href: '/court-rules-overview' }, { label: path === '/court-rules-overview' ? 'Overview' : path.slice(1).replaceAll('-', ' ') }];
+    if (path === '/bills-and-measures') return [library, { label: 'Legislation' }, { label: 'Bills and Measures' }];
+    if (path.startsWith('/invitations-to-comment')) return [library, { label: 'Legislation', href: '/bills-and-measures' }, { label: 'Invitations to Comment', href: '/invitations-to-comment' }, ...(path.split('/').filter(Boolean).length > 1 ? [{ label: path.split('/').pop().toUpperCase() }] : [])];
+    if (path.startsWith('/library/public-records')) return [library, { label: 'Public Records', href: '/library/public-records/public-records' }, { label: path.split('/').pop().replaceAll('-', ' ') }];
+    return [library, { label: document.querySelector('.fern-page-heading h1')?.textContent?.trim() || path.slice(1).replaceAll('-', ' ') }];
+  };
+
+  const initBreadcrumbs = () => {
+    const heading = document.querySelector('.fern-page-heading');
+    if (!heading || heading.querySelector('.site-breadcrumbs')) return;
+    const nav = document.createElement('nav');
+    nav.className = 'site-breadcrumbs';
+    nav.setAttribute('aria-label', 'Breadcrumb');
+    nav.innerHTML = breadcrumbItems().map((item, index, items) => item.href && index < items.length - 1 ? `<a href="${item.href}">${item.label}</a>` : `<span${index === items.length - 1 ? ' aria-current="page"' : ''}>${item.label}</span>`).join('<b aria-hidden="true">/</b>');
+    heading.prepend(nav);
+  };
+
   const initSiteBanner = () => {
     if (document.getElementById('site-status-banner')) return;
     const header = document.querySelector('header');
@@ -54,8 +77,8 @@
     header.parentNode?.insertBefore(banner, header);
   };
 
-  const start = () => { initSiteBanner(); initBillCatalog(); };
+  const start = () => { initSiteBanner(); initBreadcrumbs(); initBillCatalog(); };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true }); else start();
   let refreshQueued = false;
-  new MutationObserver(() => { if (refreshQueued) return; refreshQueued = true; requestAnimationFrame(() => { refreshQueued = false; initSiteBanner(); initBillCatalog(); }); }).observe(document.documentElement, { childList: true, subtree: true });
+  new MutationObserver(() => { if (refreshQueued) return; refreshQueued = true; requestAnimationFrame(() => { refreshQueued = false; initSiteBanner(); initBreadcrumbs(); initBillCatalog(); }); }).observe(document.documentElement, { childList: true, subtree: true });
 })();

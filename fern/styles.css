@@ -1132,3 +1132,11 @@ html.dark .fern-layout-guide { background: transparent; }
 .research-site-banner .usa-banner__header-text p { margin: 0; color: inherit; font: 400 var(--base-label-xsmall) var(--base-font-text); }
 .research-site-banner .usa-banner__header-text strong { font-weight: 600; }
 @media (max-width: 640px) { .research-site-banner .usa-banner__inner { min-height: 2.5rem; padding: .45rem 1.25rem; } }
+
+/* Persistent location trail: every document begins with a route back into the library. */
+.site-breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: 0 0 1.25rem; color: var(--grayscale-a9); font: 500 var(--base-label-small) var(--base-font-text); }
+.site-breadcrumbs a { color: var(--accent-11); text-decoration: none; }
+.site-breadcrumbs a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.site-breadcrumbs b { color: var(--grayscale-a7); font-weight: 400; }
+.site-breadcrumbs span[aria-current="page"] { color: var(--grayscale-a10); }
+@media (max-width: 640px) { .site-breadcrumbs { margin-bottom: 1rem; } .fern-page-heading h1 { font-size: var(--base-heading-xlarge) !important; line-height: 1.22 !important; } }
