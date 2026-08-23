@@ -16,6 +16,7 @@ layout:
   page-width: full
   tabs-placement: header
 css:
+  - ./docs/assets/uswds/css/uswds-3.14.0.min.css
   - ./styles.css
 colors:
   accent-primary: "#3291FF"
