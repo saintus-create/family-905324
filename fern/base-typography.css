@@ -2,8 +2,8 @@
    Source: fern/data/design-systems/base-web/typography-spec.json */
 :root {
   --base-grid: 4px;
-  --base-font-display: "Uber Move", "Geist Sans", "Public Sans", system-ui, sans-serif;
-  --base-font-text: "Uber Move Text", "Geist Sans", "Public Sans", system-ui, sans-serif;
+  --base-font-display: "Satoshi", system-ui, sans-serif;
+  --base-font-text: "Satoshi", system-ui, sans-serif;
   --base-font-mono: "Uber Move Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --base-display-xsmall: 36px/44px;
   --base-display-small: 44px/52px;
