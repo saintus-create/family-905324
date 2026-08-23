@@ -38,7 +38,7 @@ navigation:
     icon: home
   - page: Case Law
     path: ./docs/pages/case-law.mdx
-    icon: fa-regular fa-gavel
+    icon: gavel
   - section: Family Code
     collapsed: true
     contents:
