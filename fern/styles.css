@@ -1081,3 +1081,9 @@ html:not(.dark) .accountability-page .research-landing__instrument { color-schem
 .itc-badges { display: flex; flex-wrap: wrap; gap: .45rem; margin: .9rem 0 1.25rem; }
 .itc-badges span { display: inline-flex; align-items: center; min-height: 1.8rem; padding: 0 .65rem; border: 1px solid var(--border); border-radius: 999px; background: var(--grayscale-a2); color: var(--grayscale-a11); font-size: .7rem; font-weight: 650; line-height: 1; }
 .itc-badges .itc-badges__deadline { border-color: var(--accent); background: var(--accent-a3); color: var(--accent-11); }
+
+/* Invitation titles and resources retain link meaning without editorial underlines. */
+.fern-page-content h3:has(+ .itc-badges) a { text-decoration: none; }
+.itc-resources { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.25rem 0 2rem; }
+.fern-page-content .itc-resources a { display: inline-flex; align-items: center; min-height: 2.35rem; padding: 0 .8rem; border: 1px solid var(--border); border-radius: 999px; background: var(--card-background); color: var(--accent-11); font-size: .75rem; font-weight: 600; line-height: 1; text-decoration: none; }
+.fern-page-content .itc-resources a:hover { border-color: var(--accent); background: var(--accent-a3); }
