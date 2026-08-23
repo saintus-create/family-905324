@@ -1049,3 +1049,22 @@ html:not(.dark) .accountability-page .research-landing__instrument { color-schem
 @media (max-width: 640px) {
   .fern-header-content .fern-header-search-bar { width: 2.75rem; min-width: 2.75rem; flex-basis: 2.75rem; }
 }
+
+/* Repair compact search trigger: hide its text node without hiding the button's behavior. */
+.fern-header-content .fern-header-search-bar { font-size: 0 !important; }
+.fern-header-content .fern-header-search-bar > div { display: none; }
+
+/* Give the mobile menu a calmer, roomier control group. */
+@media (max-width: 640px) {
+  .fern-header-content { gap: .75rem; }
+  .fern-header-content .fern-header-search-bar,
+  #fern-ask-ai-button,
+  .fern-header-mobile-menu-button > button {
+    width: 3rem !important;
+    height: 3rem !important;
+    min-width: 3rem !important;
+    min-height: 3rem !important;
+    flex-basis: 3rem;
+  }
+  .fern-header-mobile-menu-button > button svg { width: 1.3rem; height: 1.3rem; }
+}
