@@ -1150,3 +1150,10 @@ html.dark .fern-layout-guide { background: transparent; }
 .fern-page-content .proposal-actions a { display: inline-flex; align-items: center; min-height: 2.5rem; padding: 0 .9rem; border: 1px solid var(--border); border-radius: .5rem; background: var(--card-background); color: var(--grayscale-a12); font: 500 var(--base-label-small) var(--base-font-text); text-decoration: none; }
 .fern-page-content .proposal-actions a:hover { border-color: var(--accent); background: var(--accent-a3); }
 .proposal-actions .external-link-icon { display: none; }
+
+/* One link signal: color. Do not stack color, underline, weight, and an external icon. */
+.fern-page-content a,
+.fern-page-content p a,
+.fern-page-content li a { text-decoration: none; }
+.fern-page-content a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.fern-page-content .external-link-icon { display: none; }
