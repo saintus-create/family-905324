@@ -1076,3 +1076,8 @@ html:not(.dark) .accountability-page .research-landing__instrument { color-schem
 .fern-page-content .itc-actions .itc-actions__primary { border-color: var(--accent); background: var(--accent); color: #fff; }
 .fern-page-content .itc-actions .itc-actions__primary:hover { filter: brightness(1.08); color: #fff; }
 @media (max-width: 640px) { .itc-actions { gap: .5rem; } .fern-page-content .itc-actions a { min-height: 2.55rem; padding: 0 .9rem; } }
+
+/* Proposal identity and deadlines are visible pills, not inline prose. */
+.itc-badges { display: flex; flex-wrap: wrap; gap: .45rem; margin: .9rem 0 1.25rem; }
+.itc-badges span { display: inline-flex; align-items: center; min-height: 1.8rem; padding: 0 .65rem; border: 1px solid var(--border); border-radius: 999px; background: var(--grayscale-a2); color: var(--grayscale-a11); font-size: .7rem; font-weight: 650; line-height: 1; }
+.itc-badges .itc-badges__deadline { border-color: var(--accent); background: var(--accent-a3); color: var(--accent-11); }
