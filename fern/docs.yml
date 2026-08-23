@@ -30,9 +30,6 @@ tabs:
   home:
     display-name: Home
     icon: home
-  research:
-    display-name: Research
-    icon: fa-regular fa-magnifying-glass
   law:
     display-name: Law
     icon: fa-regular fa-scale-balanced
@@ -42,9 +39,6 @@ tabs:
   people:
     display-name: People & Institutions
     icon: fa-regular fa-users
-  analysis:
-    display-name: Analysis
-    icon: fa-regular fa-diagram-project
   public_records:
     display-name: Public Records
     icon: fa-regular fa-building
@@ -57,54 +51,9 @@ navigation:
   - page: Home
     path: ./docs/pages/welcome.mdx
     icon: home
-  - page: Explore the Legal Landscape
-    path: ./docs/pages/visual-research-guide.mdx
-    icon: fa-regular fa-compass
-  - page: Research Workbench
-    path: ./docs/pages/research-workbench.mdx
-    icon: fa-regular fa-magnifying-glass
-  - page: Research Help
-    path: ./docs/pages/support.mdx
-    icon: fa-regular fa-circle-question
-    slug: support
-- tab: research
-  layout:
-  - page: Research Workbench
-    path: ./docs/pages/research-workbench.mdx
-    icon: fa-regular fa-magnifying-glass
-  - page: Explore the Legal Landscape
-    path: ./docs/pages/visual-research-guide.mdx
-    icon: fa-regular fa-compass
-  - page: Research Data Model
-    path: ./docs/pages/research-data-model.mdx
-    icon: fa-regular fa-diagram-project
-  - page: Public Records Accountability
-    path: ./docs/pages/public-records-accountability.mdx
-    icon: fa-regular fa-shield-halved
-  - section: Research foundations
-    collapsed: false
-    contents:
-    - page: Case law
-      path: ./docs/pages/case-law.mdx
-      icon: fa-regular fa-gavel
-    - page: Civil rights & legal change
-      path: ./docs/pages/civil-rights-history.mdx
-      icon: fa-regular fa-landmark
-    - page: Research Help
-      path: ./docs/pages/support.mdx
-      icon: fa-regular fa-circle-question
-  - section: Research methods
-    collapsed: true
-    contents:
-    - page: Computational dialectics
-      path: ./docs/pages/computational-dialectics.mdx
-      icon: fa-regular fa-diagram-project
-    - page: Argument & rhetoric
-      path: ./docs/pages/argument-analysis.mdx
-      icon: fa-regular fa-comment-dots
-    - page: Empirical research
-      path: ./docs/pages/empirical-analysis.mdx
-      icon: fa-regular fa-chart-line
+  - page: Case Law
+    path: ./docs/pages/case-law.mdx
+    icon: fa-regular fa-gavel
 - tab: law
   layout:
   - page: Family Code Overview
@@ -206,20 +155,6 @@ navigation:
   - page: People & Institutions
     path: ./docs/pages/people-institutions.mdx
     icon: fa-regular fa-users
-- tab: analysis
-  layout:
-  - page: Research Workbench
-    path: ./docs/pages/research-workbench.mdx
-    icon: fa-regular fa-diagram-project
-  - page: Computational Dialectics
-    path: ./docs/pages/computational-dialectics.mdx
-    icon: fa-regular fa-diagram-project
-  - page: Argument & Rhetorical Analysis
-    path: ./docs/pages/argument-analysis.mdx
-    icon: fa-regular fa-comment-dots
-  - page: Empirical Research & Statistics
-    path: ./docs/pages/empirical-analysis.mdx
-    icon: fa-regular fa-chart-line
 - tab: public_records
   layout:
   - page: Public Records Overview
