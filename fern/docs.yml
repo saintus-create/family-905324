@@ -18,6 +18,7 @@ layout:
 css:
   - ./docs/assets/uswds/css/uswds-3.14.0.min.css
   - ./styles.css
+  - ./base-typography.css
 colors:
   accent-primary: "#3291FF"
   background: "#000000"
