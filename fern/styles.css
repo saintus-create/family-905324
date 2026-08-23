@@ -1157,3 +1157,6 @@ html.dark .fern-layout-guide { background: transparent; }
 .fern-page-content li a { text-decoration: none; }
 .fern-page-content a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .fern-page-content .external-link-icon { display: none; }
+
+/* Standalone actions are pills, not body links. */
+.fern-page-content .proposal-actions a { border-radius: 999px; padding-inline: 1rem; }
