@@ -18,14 +18,13 @@ layout:
 css:
   - ./docs/assets/uswds/css/uswds-3.14.0.min.css
   - ./styles.css
-  - ./base-typography.css
 colors:
-  accent-primary: "#3291FF"
-  background: "#000000"
-  border: "#2B2B2B"
-  sidebar-background: "#0A0A0A"
-  header-background: "#000000"
-  card-background: "#0A0A0A"
+  accent-primary: "#005ea2"
+  background: "#ffffff"
+  border: "#dfe1e2"
+  sidebar-background: "#ffffff"
+  header-background: "#ffffff"
+  card-background: "#ffffff"
 tabs:
   home:
     display-name: Library
