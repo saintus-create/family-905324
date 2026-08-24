@@ -89,3 +89,43 @@ body,
 @media (max-width: 640px) {
   .fern-page-content { padding-inline: 1rem; }
 }
+
+/* USWDS layout primitives in Fern's content shell. */
+.fern-page-content > .usa-card-group {
+  margin: 2rem -1rem;
+}
+
+.fern-page-content .usa-card {
+  margin-bottom: 1.5rem;
+}
+
+.fern-page-content .usa-card__container {
+  min-height: 9rem;
+  border-color: #a9aeb1;
+  border-radius: 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,.16), 0 1px 2px rgba(0,0,0,.08);
+}
+
+.fern-page-content .usa-card__header {
+  display: flex;
+  height: 100%;
+  align-items: end;
+  padding: 1.5rem;
+}
+
+.fern-page-content .usa-card__heading {
+  margin: 0;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
+
+.fern-page-content .usa-card__heading a {
+  color: #005ea2;
+  text-decoration: none;
+}
+
+.fern-page-content .usa-card__heading a:hover {
+  color: #1a4480;
+  text-decoration: underline;
+}
