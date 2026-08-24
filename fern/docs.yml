@@ -38,6 +38,9 @@ navigation:
   - page: Case Law
     path: ./docs/pages/case-law.mdx
     icon: gavel
+  - page: Judge Friendly
+    path: ./docs/pages/judge-friendly.md
+    icon: scale
   - section: Family Code
     collapsed: true
     contents:
