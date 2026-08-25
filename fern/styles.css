@@ -143,3 +143,16 @@ body,
 .bill-catalog__item .usa-card__body p { color: #454545; }
 .bill-catalog__item .usa-card__footer { display: flex; gap: .5rem; flex-wrap: wrap; }
 .bill-catalog [data-bill-more] { margin-top: 1rem; }
+
+/* Card destinations are identified by the card itself, never blue underlined text. */
+.fern-page-content .usa-card__container,
+.fern-page-content .usa-card__container:hover,
+.fern-page-content .bill-catalog__item,
+.fern-page-content .bill-catalog__item:hover {
+  color: #1b1b1b;
+  text-decoration: none !important;
+}
+
+.fern-page-content .bill-catalog__item .usa-card__heading {
+  color: #1b1b1b;
+}
