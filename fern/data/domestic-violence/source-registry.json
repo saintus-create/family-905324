@@ -1,0 +1,96 @@
+{
+  "collection": "California domestic violence",
+  "records": [
+    {
+      "id": "fam-division-10",
+      "title": "Family Code — Division 10. Prevention of Domestic Violence",
+      "publisher": "California Legislative Information",
+      "type": "statute",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=FAM&division=10.&title=&part=&chapter=&article="
+    },
+    {
+      "id": "fam-6200",
+      "title": "Family Code § 6200",
+      "publisher": "California Legislative Information",
+      "type": "statute",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6200."
+    },
+    {
+      "id": "fam-6203",
+      "title": "Family Code § 6203",
+      "publisher": "California Legislative Information",
+      "type": "statute",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6203."
+    },
+    {
+      "id": "fam-6211",
+      "title": "Family Code § 6211",
+      "publisher": "California Legislative Information",
+      "type": "statute",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=6211."
+    },
+    {
+      "id": "fvap-compendium-2025",
+      "title": "Case-Annotated Compendium of California Domestic Violence Laws 2025",
+      "publisher": "Family Violence Appellate Project",
+      "type": "organization literature",
+      "url": "https://fvaplaw.org/wp-content/uploads/2025/07/2025.07.31-Case-Annotated-.pdf"
+    },
+    {
+      "id": "fvap-restraining-orders",
+      "title": "Restraining Order Case Law",
+      "publisher": "Family Violence Appellate Project",
+      "type": "case index",
+      "url": "https://fvaplaw.org/restraining-orders/"
+    },
+    {
+      "id": "fvap-renewal",
+      "title": "Restraining Order Renewal Case Law",
+      "publisher": "Family Violence Appellate Project",
+      "type": "case index",
+      "url": "https://fvaplaw.org/renewing-restraining-orders/"
+    },
+    {
+      "id": "ca-doj-dv-calls",
+      "title": "Domestic Violence-Related Calls for Assistance",
+      "publisher": "California Department of Justice OpenJustice",
+      "type": "dataset",
+      "url": "https://openjustice.doj.ca.gov/exploration/crime-statistics/crime-statistics/domestic-violence-related-calls-assistance"
+    },
+    {
+      "id": "caloes-jlbc-2024",
+      "title": "2024 Joint Legislative Budget Committee Report",
+      "publisher": "California Governor's Office of Emergency Services",
+      "type": "report",
+      "url": "https://www.caloes.ca.gov/wp-content/uploads/Grants/Documents/2024_JLBC_Report_Final.pdf"
+    },
+    {
+      "id": "caloes-victim-services-forms",
+      "title": "Victim Services Forms",
+      "publisher": "California Governor's Office of Emergency Services",
+      "type": "forms",
+      "url": "https://www.caloes.ca.gov/office-of-the-director/policy-administration/finance-administration/grants-management/victim-services/forms/"
+    },
+    {
+      "id": "ca-courts-dv-forms",
+      "title": "Domestic Violence Prevention Forms",
+      "publisher": "Judicial Council of California",
+      "type": "forms",
+      "url": "https://courts.ca.gov/"
+    },
+    {
+      "id": "friendly-some-kind-of-hearing",
+      "title": "Some Kind of Hearing",
+      "publisher": "University of Pennsylvania Law Review",
+      "type": "article",
+      "url": "https://scholarship.law.upenn.edu/penn_law_review/vol123/iss6/2/"
+    },
+    {
+      "id": "dialectical-due-process",
+      "title": "Dialectical Due Process",
+      "publisher": "Harvard Law Review",
+      "type": "article",
+      "url": "https://harvardlawreview.org/print/vol-136/dialectal-due-process/"
+    }
+  ]
+}
