@@ -156,3 +156,10 @@ body,
 .fern-page-content .bill-catalog__item .usa-card__heading {
   color: #1b1b1b;
 }
+
+/* USWDS card structure: header and body remain separate regions. */
+.fern-page-content .usa-card__container { display: flex; flex-direction: column; }
+.fern-page-content .usa-card__header { display: block; height: auto; padding: 1.5rem 1.5rem 0; }
+.fern-page-content .usa-card__body { padding: .75rem 1.5rem 1.5rem; }
+.fern-page-content .usa-card__body p { margin: 0; }
+.fern-page-content .usa-card__header:only-child { margin-top: auto; padding-bottom: 1.5rem; }
