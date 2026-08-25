@@ -41,6 +41,9 @@ navigation:
   - page: Judge Friendly
     path: ./docs/pages/judge-friendly.md
     icon: scale
+  - page: Dialectical Due Process
+    path: ./docs/pages/dialectical-due-process.md
+    icon: file-text
   - section: Family Code
     collapsed: true
     contents:
