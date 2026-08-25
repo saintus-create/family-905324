@@ -129,3 +129,17 @@ body,
   color: #1a4480;
   text-decoration: underline;
 }
+
+/* USWDS bills catalog layout. */
+.bill-catalog { margin-top: 2rem; }
+.bill-catalog .usa-select,
+.bill-catalog .usa-input { max-width: none; }
+.bill-catalog__toolbar { display: flex; align-items: center; justify-content: space-between; margin-block: 2rem 1rem; padding-block: 1rem; border-block: 1px solid #dfe1e2; }
+.bill-catalog__toolbar p { margin: 0; }
+.bill-catalog__results { margin-top: 0; }
+.bill-catalog__item { display: block; height: 100%; color: inherit; text-decoration: none; }
+.bill-catalog__item:hover { background: #f0f0f0; }
+.bill-catalog__item .usa-card__heading { color: #005ea2; font-family: "Merriweather", Georgia, serif; font-size: 1rem; line-height: 1.4; }
+.bill-catalog__item .usa-card__body p { color: #454545; }
+.bill-catalog__item .usa-card__footer { display: flex; gap: .5rem; flex-wrap: wrap; }
+.bill-catalog [data-bill-more] { margin-top: 1rem; }
