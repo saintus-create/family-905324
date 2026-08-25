@@ -163,3 +163,7 @@ body,
 .fern-page-content .usa-card__body { padding: .75rem 1.5rem 1.5rem; }
 .fern-page-content .usa-card__body p { margin: 0; }
 .fern-page-content .usa-card__header:only-child { margin-top: auto; padding-bottom: 1.5rem; }
+
+/* USWDS card media. */
+.fern-page-content .usa-card__media { aspect-ratio: 16 / 8; overflow: hidden; }
+.fern-page-content .usa-card__media img { display: block; width: 100%; height: 100%; object-fit: cover; }
