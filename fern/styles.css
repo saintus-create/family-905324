@@ -225,3 +225,17 @@ body:has(.landing-hero) { background: #000000; overflow: hidden; }
   background: rgba(255,255,255,0.08);
   border-color: rgba(255,255,255,0.16);
 }
+
+body:has(.landing-hero),
+body:has(.landing-hero) html,
+body:has(.landing-hero) .fern-layout-page,
+body:has(.landing-hero) .fern-main,
+body:has(.landing-hero) .fern-page-content {
+  background: #000000 !important;
+}
+
+body:has(.landing-hero) .fern-page-content {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
