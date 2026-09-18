@@ -180,3 +180,48 @@ body,
 .library-card-art--records { background: linear-gradient(135deg, #e1f3ef, #ffffff 50%, #b9ddd4); }
 .library-card-art--records::before { width: 17%; height: 17%; left: 22%; top: 25%; border-radius: 50%; background: #216e61; box-shadow: 160% 160% 0 #216e61; }
 .library-card-art--records::after { width: 46%; height: 2px; right: 16%; top: 50%; background: #216e61; box-shadow: 0 18px 0 #216e61, 0 -18px 0 #216e61; }
+
+/* Landing page: full-viewport gradient hero. Hide site chrome so the
+   fixed background shows edge to edge. */
+body:has(.landing-hero) #fern-header,
+body:has(.landing-hero) #fern-sidebar,
+body:has(.landing-hero) #fern-toc,
+body:has(.landing-hero) #fern-footer { display: none !important; }
+body:has(.landing-hero) { background: #000000; overflow: hidden; }
+
+.landing-hero__title {
+  color: #F0F4F8;
+  font-weight: 500;
+  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  letter-spacing: -0.025em;
+  margin: 0 0 2.5rem;
+  opacity: 0.92;
+}
+
+.landing-hero__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+.landing-hero__card {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 0.5rem;
+  color: #E8EDF2 !important;
+  text-decoration: none !important;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: background 0.15s, border-color 0.15s;
+}
+.landing-hero__card:hover,
+.landing-hero__card:focus-visible {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.16);
+}
