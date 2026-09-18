@@ -110,7 +110,103 @@ navigation:
       path: ./docs/pages/title-10.mdx
   - section: Legislation
     collapsed: true
-    contents:
+    contents:      - page: California Codes Overview
+        path: ./docs/pages/legislation/index.mdx
+        icon: book
+      - section: California Codes
+        collapsed: true
+        contents:
+        - page: Business and Professions Code
+          path: ./docs/pages/legislation/bpc/index.mdx
+          icon: file-text
+        - page: Code of Civil Procedure
+          path: ./docs/pages/legislation/ccp/index.mdx
+          icon: file-text
+        - page: Civil Code
+          path: ./docs/pages/legislation/civ/index.mdx
+          icon: file-text
+        - page: Commercial Code
+          path: ./docs/pages/legislation/com/index.mdx
+          icon: file-text
+        - page: California Constitution
+          path: ./docs/pages/legislation/cons/index.mdx
+          icon: file-text
+        - page: Corporations Code
+          path: ./docs/pages/legislation/corp/index.mdx
+          icon: file-text
+        - page: Education Code
+          path: ./docs/pages/legislation/edc/index.mdx
+          icon: file-text
+        - page: Elections Code
+          path: ./docs/pages/legislation/elec/index.mdx
+          icon: file-text
+        - page: Evidence Code
+          path: ./docs/pages/legislation/evid/index.mdx
+          icon: file-text
+        - page: Financial Code
+          path: ./docs/pages/legislation/fac/index.mdx
+          icon: file-text
+        - page: Family Code
+          path: ./docs/pages/legislation/fam/index.mdx
+          icon: file-text
+        - page: Food and Agricultural Code
+          path: ./docs/pages/legislation/fgc/index.mdx
+          icon: file-text
+        - page: Financial Code
+          path: ./docs/pages/legislation/fin/index.mdx
+          icon: file-text
+        - page: Government Code
+          path: ./docs/pages/legislation/gov/index.mdx
+          icon: file-text
+        - page: Harbors and Navigation Code
+          path: ./docs/pages/legislation/hnc/index.mdx
+          icon: file-text
+        - page: Health and Safety Code
+          path: ./docs/pages/legislation/hsc/index.mdx
+          icon: file-text
+        - page: Insurance Code
+          path: ./docs/pages/legislation/ins/index.mdx
+          icon: file-text
+        - page: Labor Code
+          path: ./docs/pages/legislation/lab/index.mdx
+          icon: file-text
+        - page: Military and Veterans Code
+          path: ./docs/pages/legislation/mvc/index.mdx
+          icon: file-text
+        - page: Penal Code
+          path: ./docs/pages/legislation/pcc/index.mdx
+          icon: file-text
+        - page: Penal Code
+          path: ./docs/pages/legislation/pen/index.mdx
+          icon: file-text
+        - page: Public Resources Code
+          path: ./docs/pages/legislation/prc/index.mdx
+          icon: file-text
+        - page: Probate Code
+          path: ./docs/pages/legislation/prob/index.mdx
+          icon: file-text
+        - page: Public Utilities Code
+          path: ./docs/pages/legislation/puc/index.mdx
+          icon: file-text
+        - page: Revenue and Taxation Code
+          path: ./docs/pages/legislation/rtc/index.mdx
+          icon: file-text
+        - page: Strengthening Health Code
+          path: ./docs/pages/legislation/shc/index.mdx
+          icon: file-text
+        - page: Unemployment Insurance Code
+          path: ./docs/pages/legislation/uic/index.mdx
+          icon: file-text
+        - page: Vehicle Code
+          path: ./docs/pages/legislation/veh/index.mdx
+          icon: file-text
+        - page: Water Code
+          path: ./docs/pages/legislation/wat/index.mdx
+          icon: file-text
+        - page: Welfare and Institutions Code
+          path: ./docs/pages/legislation/wic/index.mdx
+          icon: file-text
+
     - page: California Bills and Measures
       path: ./docs/pages/bills-and-measures.mdx
     - page: Invitations to Comment
