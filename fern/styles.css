@@ -239,3 +239,30 @@ body:has(.landing-hero) .fern-page-content {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+.landing-hero__search {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 36rem;
+  padding: 0.875rem 1.25rem;
+  margin-bottom: 2.5rem;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 9999px;
+  color: #E8EDF2;
+  font-size: 0.9375rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  text-align: left;
+}
+.landing-hero__search:hover,
+.landing-hero__search:focus-visible {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.18);
+  outline: none;
+}
