@@ -51,6 +51,7 @@
     if (path === '/court-rules-overview' || path.startsWith('/title-')) return [library, { label: 'Court Rules', href: '/court-rules-overview' }, { label: path === '/court-rules-overview' ? 'Overview' : path.slice(1).replaceAll('-', ' ') }];
     if (path === '/bills-and-measures') return [library, { label: 'Legislation' }, { label: 'Bills and Measures' }];
     if (path.startsWith('/invitations-to-comment')) return [library, { label: 'Legislation', href: '/bills-and-measures' }, { label: 'Invitations to Comment', href: '/invitations-to-comment' }, ...(path.split('/').filter(Boolean).length > 1 ? [{ label: path.split('/').pop().toUpperCase() }] : [])];
+    if (path.startsWith('/legislation/')) return [library, { label: 'Legislation', href: '/bills-and-measures' }, { label: path.split('/')[2].toUpperCase().replace('-', ' '), href: `/legislation/${path.split('/')[2]}` }, ...(path.split('/').filter(Boolean).length > 3 ? [{ label: `Section ${path.split('/').pop().replace('section_', '').replace('.mdx', '')}` }] : [])];
     if (path.startsWith('/library/public-records')) return [library, { label: 'Public Records', href: '/library/public-records/public-records' }, { label: path.split('/').pop().replaceAll('-', ' ') }];
     return [library, { label: document.querySelector('.fern-page-heading h1')?.textContent?.trim() || path.slice(1).replaceAll('-', ' ') }];
   };
