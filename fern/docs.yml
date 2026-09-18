@@ -18,6 +18,8 @@ layout:
 css:
   - ./docs/assets/uswds/css/uswds-3.14.0.min.css
   - ./styles.css
+js:
+  - ./landing-hero.js
 colors:
   accent-primary: "#005ea2"
   background: "#ffffff"

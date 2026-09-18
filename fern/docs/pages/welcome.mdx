@@ -1,29 +1,38 @@
 ---
-title: California Family Law
-layout: reference
+title: CA. Leg. Info
+layout: custom
 hide-feedback: true
 hide-nav-links: true
 hide-page-actions: true
 hide-toc: true
 ---
 
-<ul className="usa-card-group">
-  <li className="usa-card tablet:grid-col-6 desktop:grid-col-4">
-    <div className="usa-card__container"><div className="usa-card__header"><h2 className="usa-card__heading"><a href="/family-code-overview">Family Code</a></h2></div></div>
-  </li>
-  <li className="usa-card tablet:grid-col-6 desktop:grid-col-4">
-    <div className="usa-card__container"><div className="usa-card__header"><h2 className="usa-card__heading"><a href="/court-rules-overview">Court Rules</a></h2></div></div>
-  </li>
-  <li className="usa-card tablet:grid-col-6 desktop:grid-col-4">
-    <div className="usa-card__container"><div className="usa-card__header"><h2 className="usa-card__heading"><a href="/case-law">Case Law</a></h2></div></div>
-  </li>
-  <li className="usa-card tablet:grid-col-6 desktop:grid-col-4">
-    <div className="usa-card__container"><div className="usa-card__header"><h2 className="usa-card__heading"><a href="/bills-and-measures">California Bills and Measures</a></h2></div></div>
-  </li>
-  <li className="usa-card tablet:grid-col-6 desktop:grid-col-4">
-    <div className="usa-card__container"><div className="usa-card__header"><h2 className="usa-card__heading"><a href="/invitations-to-comment">Invitations to Comment</a></h2></div></div>
-  </li>
-  <li className="usa-card tablet:grid-col-6 desktop:grid-col-4">
-    <div className="usa-card__container"><div className="usa-card__header"><h2 className="usa-card__heading"><a href="/library/public-records/public-records">Public Records</a></h2></div></div>
-  </li>
-</ul>
+<div className="landing-hero" />
+
+<div className="landing-hero__overlay">
+  <div className="landing-hero__inner">
+    <h1 className="landing-hero__title">CA. Leg. Info</h1>
+
+    <button type="button" className="landing-hero__search" aria-label="Open Ask AI" onClick={() => document.getElementById('fern-ask-ai-button')?.click()}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" className="landing-hero__search-icon">
+        <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M10.5 10.5L14 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </svg>
+      <span className="landing-hero__search-placeholder">Ask AI or search…</span>
+      <kbd className="landing-hero__search-kbd">⌘ K</kbd>
+    </button>
+
+    <div className="landing-hero__badges">
+      <div className="landing-hero__badge-row">
+        <a className="landing-hero__badge badge--5" href="/invitations-to-comment">Invitations to Comment</a>
+        <a className="landing-hero__badge badge--4" href="/bills-and-measures">Bills and Measures</a>
+        <a className="landing-hero__badge badge--6" href="/library/public-records/public-records">Public Records</a>
+      </div>
+      <div className="landing-hero__badge-row">
+        <a className="landing-hero__badge badge--1" href="/family-code-overview">Family Code</a>
+        <a className="landing-hero__badge badge--2" href="/court-rules-overview">Court Rules</a>
+        <a className="landing-hero__badge badge--3" href="/case-law">Case Law</a>
+      </div>
+    </div>
+  </div>
+</div>
