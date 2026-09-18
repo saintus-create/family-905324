@@ -274,25 +274,54 @@ body:has(.landing-hero) .fern-page-content {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
   width: 100%;
+  max-width: 36rem;
+  padding: 0.875rem 1.25rem;
+  margin-bottom: 2.5rem;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 9999px;
+  color: #E8EDF2;
+  font-size: 0.9375rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  text-align: left;
+}
+.landing-hero__search:hover,
+.landing-hero__search:focus-visible {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.18);
+  outline: none;
 }
 
-.landing-hero__card {
-  display: block;
-  padding: 1.25rem 1.5rem;
-  background: rgba(255,255,255,0.04);
+.landing-hero__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.landing-hero__badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.375rem 0.875rem;
+  background: rgba(255,255,255,0.08);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 0.5rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 9999px;
   color: #E8EDF2 !important;
   text-decoration: none !important;
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
   font-weight: 500;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.01em;
   transition: background 0.15s, border-color 0.15s;
+  white-space: nowrap;
 }
-.landing-hero__card:hover,
-.landing-hero__card:focus-visible {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.16);
+.landing-hero__badge:hover,
+.landing-hero__badge:focus-visible {
+  background: rgba(255,255,255,0.13);
+  border-color: rgba(255,255,255,0.22);
+  outline: none;
 }
