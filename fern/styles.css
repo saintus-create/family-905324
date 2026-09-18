@@ -269,3 +269,30 @@ body:has(.landing-hero) .fern-page-content {
   border-color: rgba(255,255,255,0.18);
   outline: none;
 }
+.landing-hero__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+.landing-hero__card {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 0.5rem;
+  color: #E8EDF2 !important;
+  text-decoration: none !important;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: background 0.15s, border-color 0.15s;
+}
+.landing-hero__card:hover,
+.landing-hero__card:focus-visible {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.16);
+}
