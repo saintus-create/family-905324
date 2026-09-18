@@ -1,5 +1,5 @@
 ---
-title: California Family Law
+title: CA. Leg. Info
 layout: custom
 hide-feedback: true
 hide-nav-links: true
@@ -7,71 +7,32 @@ hide-page-actions: true
 hide-toc: true
 ---
 
-<div className="landing-hero" style={{
-  position: "fixed",
-  inset: 0,
-  zIndex: 0,
-  background: "linear-gradient(135deg, #060d18 0%, #080f1c 30%, #050a12 60%, #000000 100%)",
-  overflow: "hidden",
-}}>
-  <div aria-hidden="true" style={{
-    position: "absolute",
-    inset: 0,
-    backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E\")",
-    opacity: 0.04,
-    mixBlendMode: "overlay",
-    pointerEvents: "none",
-  }} />
-  <div aria-hidden="true" style={{
-    position: "absolute",
-    top: "-10%",
-    left: "-5%",
-    width: "55%",
-    height: "70%",
-    background: "radial-gradient(ellipse at 30% 30%, rgba(0, 94, 162, 0.10) 0%, rgba(0, 94, 162, 0.03) 50%, transparent 75%)",
-    pointerEvents: "none",
-  }} />
-  <div aria-hidden="true" style={{
-    position: "absolute",
-    top: "30%",
-    right: "-10%",
-    width: "40%",
-    height: "50%",
-    background: "radial-gradient(ellipse at 70% 50%, rgba(0, 60, 120, 0.06) 0%, transparent 70%)",
-    pointerEvents: "none",
-  }} />
-</div>
+<div className="landing-hero" />
 
-<div style={{
-  position: "fixed",
-  inset: 0,
-  zIndex: 10,
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "center",
-  alignItems: "flex-start",
-  padding: "0 clamp(2rem, 8vw, 6rem)",
-  pointerEvents: "none",
-}}>
-  <div style={{ pointerEvents: "auto", width: "min(100%, 72rem)" }}>
-    <h1 className="landing-hero__title">California Family Law</h1>
+<div className="landing-hero__overlay">
+  <div className="landing-hero__inner">
+    <h1 className="landing-hero__title">CA. Leg. Info</h1>
 
-    <button type="button" className="landing-hero__search" onClick={() => document.getElementById('fern-ask-ai-button')?.click()} aria-label="Open Ask AI">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style={{ opacity: 0.5 }}>
+    <button type="button" className="landing-hero__search" aria-label="Open Ask AI" onClick={() => document.getElementById('fern-ask-ai-button')?.click()}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" className="landing-hero__search-icon">
         <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" strokeWidth="1.5" />
         <path d="M10.5 10.5L14 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
-      <span style={{ opacity: 0.45 }}>Ask AI or search…</span>
-      <kbd style={{ marginLeft: "auto", opacity: 0.3, fontSize: "0.75rem", fontFamily: "inherit" }}>⌘ K</kbd>
+      <span className="landing-hero__search-placeholder">Ask AI or search…</span>
+      <kbd className="landing-hero__search-kbd">⌘ K</kbd>
     </button>
 
     <div className="landing-hero__badges">
-      <a className="landing-hero__badge" href="/family-code-overview">Family Code</a>
-      <a className="landing-hero__badge" href="/court-rules-overview">Court Rules</a>
-      <a className="landing-hero__badge" href="/case-law">Case Law</a>
-      <a className="landing-hero__badge" href="/bills-and-measures">Bills and Measures</a>
-      <a className="landing-hero__badge" href="/invitations-to-comment">Invitations to Comment</a>
-      <a className="landing-hero__badge" href="/library/public-records/public-records">Public Records</a>
+      <div className="landing-hero__badge-row">
+        <a className="landing-hero__badge badge--5" href="/invitations-to-comment">Invitations to Comment</a>
+        <a className="landing-hero__badge badge--4" href="/bills-and-measures">Bills and Measures</a>
+        <a className="landing-hero__badge badge--6" href="/library/public-records/public-records">Public Records</a>
+      </div>
+      <div className="landing-hero__badge-row">
+        <a className="landing-hero__badge badge--1" href="/family-code-overview">Family Code</a>
+        <a className="landing-hero__badge badge--2" href="/court-rules-overview">Court Rules</a>
+        <a className="landing-hero__badge badge--3" href="/case-law">Case Law</a>
+      </div>
     </div>
   </div>
 </div>
