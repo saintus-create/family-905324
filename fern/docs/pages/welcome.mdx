@@ -12,10 +12,8 @@ hide-toc: true
   inset: 0,
   zIndex: 0,
   background: "linear-gradient(135deg, #060d18 0%, #080f1c 30%, #050a12 60%, #000000 100%)",
-  background: "linear-gradient(135deg, #0a1628 0%, #0d2347 20%, #0a1f3d 40%, #060e1a 65%, #000000 100%)",
   overflow: "hidden",
 }}>
-  {/* Blue texture noise layer */}
   <div aria-hidden="true" style={{
     position: "absolute",
     inset: 0,
@@ -24,7 +22,6 @@ hide-toc: true
     mixBlendMode: "overlay",
     pointerEvents: "none",
   }} />
-  {/* Asymmetric blue glow — upper left */}
   <div aria-hidden="true" style={{
     position: "absolute",
     top: "-10%",
@@ -32,10 +29,8 @@ hide-toc: true
     width: "55%",
     height: "70%",
     background: "radial-gradient(ellipse at 30% 30%, rgba(0, 94, 162, 0.10) 0%, rgba(0, 94, 162, 0.03) 50%, transparent 75%)",
-    background: "radial-gradient(ellipse at 30% 30%, rgba(0, 94, 162, 0.35) 0%, rgba(0, 94, 162, 0.08) 50%, transparent 75%)",
     pointerEvents: "none",
   }} />
-  {/* Secondary glow — mid right */}
   <div aria-hidden="true" style={{
     position: "absolute",
     top: "30%",
@@ -43,7 +38,6 @@ hide-toc: true
     width: "40%",
     height: "50%",
     background: "radial-gradient(ellipse at 70% 50%, rgba(0, 60, 120, 0.06) 0%, transparent 70%)",
-    background: "radial-gradient(ellipse at 70% 50%, rgba(0, 60, 120, 0.2) 0%, transparent 70%)",
     pointerEvents: "none",
   }} />
 </div>
@@ -62,7 +56,7 @@ hide-toc: true
   <div style={{ pointerEvents: "auto", width: "min(100%, 72rem)" }}>
     <h1 className="landing-hero__title">California Family Law</h1>
 
-    <button type="button" className="landing-hero__search" aria-label="Open Ask AI">
+    <button type="button" className="landing-hero__search" onClick={() => document.getElementById('fern-ask-ai-button')?.click()} aria-label="Open Ask AI">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style={{ opacity: 0.5 }}>
         <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" strokeWidth="1.5" />
         <path d="M10.5 10.5L14 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
@@ -78,16 +72,6 @@ hide-toc: true
       <a className="landing-hero__badge" href="/bills-and-measures">Bills and Measures</a>
       <a className="landing-hero__badge" href="/invitations-to-comment">Invitations to Comment</a>
       <a className="landing-hero__badge" href="/library/public-records/public-records">Public Records</a>
-    </div>
-  </div>
-</div>
-    <div className="landing-hero__grid">
-      <a className="landing-hero__card" href="/family-code-overview">Family Code</a>
-      <a className="landing-hero__card" href="/court-rules-overview">Court Rules</a>
-      <a className="landing-hero__card" href="/case-law">Case Law</a>
-      <a className="landing-hero__card" href="/bills-and-measures">Bills and Measures</a>
-      <a className="landing-hero__card" href="/invitations-to-comment">Invitations to Comment</a>
-      <a className="landing-hero__card" href="/library/public-records/public-records">Public Records</a>
     </div>
   </div>
 </div>
