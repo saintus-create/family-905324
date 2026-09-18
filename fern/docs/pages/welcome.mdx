@@ -59,13 +59,22 @@ hide-toc: true
   <div style={{ pointerEvents: "auto", width: "min(100%, 72rem)" }}>
     <h1 className="landing-hero__title">California Family Law</h1>
 
-    <div className="landing-hero__grid">
-      <a className="landing-hero__card" href="/family-code-overview">Family Code</a>
-      <a className="landing-hero__card" href="/court-rules-overview">Court Rules</a>
-      <a className="landing-hero__card" href="/case-law">Case Law</a>
-      <a className="landing-hero__card" href="/bills-and-measures">Bills and Measures</a>
-      <a className="landing-hero__card" href="/invitations-to-comment">Invitations to Comment</a>
-      <a className="landing-hero__card" href="/library/public-records/public-records">Public Records</a>
+    <button type="button" className="landing-hero__search" aria-label="Open Ask AI">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style={{ opacity: 0.5 }}>
+        <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" strokeWidth="1.5" />
+        <path d="M10.5 10.5L14 14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </svg>
+      <span style={{ opacity: 0.45 }}>Ask AI or search…</span>
+      <kbd style={{ marginLeft: "auto", opacity: 0.3, fontSize: "0.75rem", fontFamily: "inherit" }}>⌘ K</kbd>
+    </button>
+
+    <div className="landing-hero__badges">
+      <a className="landing-hero__badge" href="/family-code-overview">Family Code</a>
+      <a className="landing-hero__badge" href="/court-rules-overview">Court Rules</a>
+      <a className="landing-hero__badge" href="/case-law">Case Law</a>
+      <a className="landing-hero__badge" href="/bills-and-measures">Bills and Measures</a>
+      <a className="landing-hero__badge" href="/invitations-to-comment">Invitations to Comment</a>
+      <a className="landing-hero__badge" href="/library/public-records/public-records">Public Records</a>
     </div>
   </div>
 </div>
